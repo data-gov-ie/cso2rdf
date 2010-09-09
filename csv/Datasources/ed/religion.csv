@@ -1,0 +1,3451 @@
+"Theme 2 - 5 : Number of persons by religion, 2006";;;;;
+"Religion";"Catholic";"Other stated religion";"No religion";"Not stated";"Total"
+"Geographic Area";;;;;
+"Leinster";1949269;184688;117248;43918;2295123
+"Carlow County";44717;3560;1384;688;50349
+"001 Carlow Urban";3951;336;239;79;4605
+"002 Graigue Urban";1331;91;69;33;1524
+"003 Clonmore";458;63;4;5;530
+"004 Hacketstown";982;59;15;9;1065
+"005 Haroldstown";222;39;3;3;267
+"006 Kineagh";269;38;2;0;309
+"007 Rahill";515;62;6;2;585
+"008 Rathvilly";760;30;8;4;802
+"009 Tiknock";306;9;12;4;331
+"010 Williamstown";223;40;8;2;273
+"011 Agha";303;12;4;3;322
+"012 Ballinacarrig";849;63;17;8;937
+"013 Ballintemple";393;64;15;8;480
+"014 Ballon";596;33;13;4;646
+"015 Ballyellin";339;33;2;1;375
+"016 Ballymoon";209;48;2;1;260
+"017 Borris";923;58;20;7;1008
+"018 Burton Hall";325;25;11;7;368
+"019 Carlow Rural";10947;911;447;243;12548
+"020 Clogrenan";733;49;10;4;796
+"021 Clonegall";804;65;25;11;905
+"022 Corries";447;45;6;6;504
+"023 Cranemore";714;149;25;5;893
+"024 Fennagh";464;45;6;1;516
+"025 Garryhill";534;29;10;5;578
+"026 Grangeford";282;35;5;2;324
+"027 Johnstown";475;45;5;7;532
+"028 Kellistown";960;58;10;7;1035
+"029 Kilbride";325;36;21;3;385
+"030 Killedmond";352;48;7;2;409
+"031 Killerrig";319;11;3;3;336
+"032 Leighlinbridge";1355;80;47;15;1497
+"033 Muinebeag (Bagenalstown) Rural";611;34;11;3;659
+"034 Muinebeag (Bagenalstown) Urban";2375;92;40;25;2532
+"035 Myshall";436;15;5;9;465
+"036 Nurney";800;48;10;8;866
+"037 Oldleighlin";408;18;16;3;445
+"038 Rathanna";101;17;8;0;126
+"039 Rathornan";307;46;6;6;365
+"040 Rathrush";872;65;27;19;983
+"041 Ridge";169;51;6;1;227
+"042 Shangarry";409;46;12;5;472
+"043 Sliguff";416;68;10;1;495
+"044 Tankardstown";371;43;18;2;434
+"045 Templepeter";351;49;8;1;409
+"046 Tullowbeg";427;38;1;7;473
+"047 Tullow Rural";442;39;13;6;500
+"048 Tullow Urban";2587;130;73;91;2881
+"049 Ballymurphy";245;1;3;0;249
+"050 Coonogue";185;5;4;1;195
+"051 Glynn";326;16;4;1;347
+"052 Kyle";283;6;5;1;295
+"053 Marley";295;9;4;1;309
+"054 Tinnahinch";636;15;23;3;677
+"Dublin City";404403;42857;43177;15774;506211
+"001 Arran Quay A";1074;179;184;65;1502
+"002 Arran Quay B";2116;705;695;176;3692
+"003 Arran Quay C";2236;661;685;132;3714
+"004 Arran Quay D";2730;349;410;111;3600
+"005 Arran Quay E";2153;238;405;93;2889
+"006 Ashtown A";6725;467;431;92;7715
+"007 Ashtown B";2196;100;190;51;2537
+"008 Ayrfield";4840;218;196;90;5344
+"009 Ballybough A";2924;236;329;135;3624
+"010 Ballybough B";2256;413;410;136;3215
+"011 Ballygall A";2985;121;140;96;3342
+"012 Ballygall B";1638;65;87;19;1809
+"013 Ballygall C";3142;163;191;79;3575
+"014 Ballygall D";2262;84;117;25;2488
+"015 Ballymun A";1985;36;30;50;2101
+"016 Ballymun B";3561;151;80;157;3949
+"017 Ballymun C";5324;272;182;143;5921
+"018 Ballymun D";3051;190;151;130;3522
+"019 Ballymun E";1400;60;53;37;1550
+"020 Ballymun F";2298;71;97;8;2474
+"021 Beaumont A";2337;118;111;51;2617
+"022 Beaumont B";4276;347;195;244;5062
+"023 Beaumont C";2713;145;129;57;3044
+"024 Beaumont D";2129;120;117;9;2375
+"025 Beaumont E";1872;89;125;13;2099
+"026 Beaumont F";3127;188;238;44;3597
+"027 Botanic A";2589;192;279;31;3091
+"028 Botanic B";2609;214;318;73;3214
+"029 Botanic C";1602;157;269;70;2098
+"030 Cabra East A";4026;521;599;220;5366
+"031 Cabra East B";3103;113;256;70;3542
+"032 Cabra East C";2576;301;366;109;3352
+"033 Cabra West A";1449;41;60;14;1564
+"034 Cabra West B";2466;52;70;56;2644
+"035 Cabra West C";2529;146;150;40;2865
+"036 Cabra West D";2373;210;194;38;2815
+"037 Clontarf East A";2904;162;153;18;3237
+"038 Clontarf East B";5632;471;461;73;6637
+"039 Clontarf East C";2571;193;187;42;2993
+"040 Clontarf East D";2327;190;175;28;2720
+"041 Clontarf East E";1403;108;120;3;1634
+"042 Clontarf West A";2989;214;220;23;3446
+"043 Clontarf West B";2118;104;140;36;2398
+"044 Clontarf West C";2676;373;423;31;3503
+"045 Clontarf West D";1551;194;295;47;2087
+"046 Clontarf West E";1987;134;191;24;2336
+"047 Drumcondra South A";3159;286;385;115;3945
+"048 Drumcondra South B";1130;85;107;47;1369
+"049 Drumcondra South C";2819;178;259;67;3323
+"050 Edenmore";2537;87;99;35;2758
+"051 Finglas North A";3315;76;41;40;3472
+"052 Finglas North B";2738;58;87;72;2955
+"053 Finglas North C";2790;101;130;36;3057
+"054 Finglas South A";2447;77;71;39;2634
+"055 Finglas South B";3007;143;102;70;3322
+"056 Finglas South C";2463;62;41;34;2600
+"057 Finglas South D";2030;81;54;21;2186
+"058 Grace Park";5243;302;317;65;5927
+"059 Grange A";6278;392;278;102;7050
+"060 Grange B";2534;149;136;51;2870
+"061 Grange C";3083;87;108;27;3305
+"062 Grange D";3731;228;209;46;4214
+"063 Grange E";2426;111;105;20;2662
+"064 Harmonstown A";2615;83;99;26;2823
+"065 Harmonstown B";2395;82;110;49;2636
+"066 Inns Quay A";2247;345;579;544;3715
+"067 Inns Quay B";1971;366;465;311;3113
+"068 Inns Quay C";1770;389;346;167;2672
+"069 Kilmore A";3053;209;119;121;3502
+"070 Kilmore B";2415;91;50;245;2801
+"071 Kilmore C";1391;31;19;17;1458
+"072 Kilmore D";2056;69;74;59;2258
+"073 Mountjoy A";2377;554;446;383;3760
+"074 Mountjoy B";1962;620;588;276;3446
+"075 North City";1794;1061;786;226;3867
+"076 North Dock A";892;95;173;40;1200
+"077 North Dock B";2981;294;326;89;3690
+"078 North Dock C";2667;642;498;372;4179
+"079 Phoenix Park";1194;166;174;34;1568
+"080 Priorswood A";1469;32;30;50;1581
+"081 Priorswood B";2654;94;51;83;2882
+"082 Priorswood C";3203;170;78;106;3557
+"083 Priorswood D";2563;77;74;46;2760
+"084 Priorswood E";2560;69;45;57;2731
+"085 Raheny-Foxfield";2318;104;93;32;2547
+"086 Raheny-Greendale";2033;127;97;26;2283
+"087 Raheny-St. Assam";2939;161;170;31;3301
+"088 Rotunda A";2550;943;827;352;4672
+"089 Rotunda B";1105;453;357;222;2137
+"090 Whitehall A";3200;237;339;183;3959
+"091 Whitehall B";3535;241;286;58;4120
+"092 Whitehall C";1900;112;119;48;2179
+"093 Whitehall D";2193;159;166;66;2584
+"094 Chapelizod";2510;209;284;31;3034
+"095 Cherry Orchard A";2475;233;91;62;2861
+"096 Carna";2499;80;68;47;2694
+"097 Cherry Orchard C";3468;165;92;69;3794
+"098 Crumlin A";3394;177;148;65;3784
+"099 Crumlin B";2770;129;187;44;3130
+"100 Crumlin C";2099;136;144;24;2403
+"101 Crumlin D";3452;241;261;40;3994
+"102 Crumlin E";2530;122;123;31;2806
+"103 Crumlin F";2629;219;192;62;3102
+"104 Decies";2633;81;67;59;2840
+"105 Drumfinn";3271;112;100;55;3538
+"106 Inchicore A";1654;120;149;54;1977
+"107 Inchicore B";1627;64;66;74;1831
+"108 Kilmainham A";2191;118;87;26;2422
+"109 Kilmainham B";1225;175;262;20;1682
+"110 Kilmainham C";3416;380;370;84;4250
+"111 Kimmage A";1795;95;88;46;2024
+"112 Kimmage B";3364;117;164;35;3680
+"113 Kimmage C";2273;223;288;114;2898
+"114 Kimmage D";2290;111;156;42;2599
+"115 Kimmage E";2961;213;190;35;3399
+"116 Kylemore";2551;84;37;15;2687
+"117 Mansion House A";2913;532;655;362;4462
+"118 Mansion House B";392;190;147;140;869
+"119 Merchants Quay A";1368;266;320;108;2062
+"120 Merchants Quay B";2226;764;736;175;3901
+"121 Merchants Quay C";2046;331;382;91;2850
+"122 Merchants Quay D";1523;180;327;29;2059
+"123 Merchants Quay E";1384;539;389;57;2369
+"124 Merchants Quay F";1788;399;208;64;2459
+"125 Pembroke East A";4115;228;293;118;4754
+"126 Pembroke East B";2631;403;346;100;3480
+"127 Pembroke East C";2808;493;414;46;3761
+"128 Pembroke East D";3448;410;289;222;4369
+"129 Pembroke East E";2384;452;569;214;3619
+"130 Pembroke West A";3157;478;451;176;4262
+"131 Pembroke West B";2006;575;359;366;3306
+"132 Pembroke West C";2489;648;633;509;4279
+"133 Rathfarnham";3540;655;605;47;4847
+"134 Rathmines East A";2918;557;638;128;4241
+"135 Rathmines East B";4199;541;536;100;5376
+"136 Rathmines East C";2452;503;410;35;3400
+"137 Rathmines East D";1892;315;472;59;2738
+"138 Rathmines West A";3306;798;809;167;5080
+"139 Rathmines West B";2122;474;568;111;3275
+"140 Rathmines West C";1801;399;361;72;2633
+"141 Rathmines West D";2243;432;460;96;3231
+"142 Rathmines West E";2290;444;459;80;3273
+"143 Rathmines West F";1917;381;502;49;2849
+"144 Royal Exchange A";1747;620;719;516;3602
+"145 Royal Exchange B";1003;423;301;293;2020
+"146 St. Kevin's";2631;1141;827;607;5206
+"147 South Dock";3427;642;826;228;5123
+"148 Terenure A";2602;288;413;54;3357
+"149 Terenure B";2705;230;315;43;3293
+"150 Terenure C";1557;134;82;7;1780
+"151 Terenure D";685;71;41;10;807
+"152 Ushers A";1200;417;249;62;1928
+"153 Ushers B";784;260;145;66;1255
+"154 Ushers C";2510;250;269;60;3089
+"155 Ushers D";1187;220;186;65;1658
+"156 Ushers E";1587;174;153;20;1934
+"157 Ushers F";2390;295;478;74;3237
+"158 Walkinstown A";1775;97;81;15;1968
+"159 Walkinstown B";1616;71;105;12;1804
+"160 Walkinstown C";1976;53;93;16;2138
+"161 Wood Quay A";2024;292;270;157;2743
+"162 Wood Quay B";2000;733;655;119;3507
+"Dún Laoghaire-Rathdown";156066;21591;14038;2343;194038
+"001 Ballinteer-Broadford";2691;251;182;28;3152
+"002 Ballinteer-Ludford";1851;141;113;13;2118
+"003 Ballinteer-Marley";2026;260;148;9;2443
+"004 Ballinteer-Meadowbroads";1242;226;106;13;1587
+"005 Ballinteer-Meadowmount";1710;168;89;17;1984
+"006 Ballinteer-Woodpark";3451;572;251;31;4305
+"007 Ballybrack";2794;228;141;27;3190
+"008 Blackrock-Booterstown";2305;319;279;72;2975
+"009 Blackrock-Carysfort";4401;627;473;76;5577
+"010 Blackrock-Central";2867;415;324;31;3637
+"011 Blackrock-Glenomena";1523;186;153;15;1877
+"012 Blackrock-Monkstown";2375;364;286;37;3062
+"013 Blackrock-Newpark";1713;224;173;11;2121
+"014 Blackrock-Seapoint";985;151;173;23;1332
+"015 Blackrock-Stradbrook";1958;204;175;23;2360
+"016 Blackrock-Templehill";2166;212;240;57;2675
+"017 Blackrock-Williamstown";1931;304;184;35;2454
+"018 Cabinteely-Granitefield";2001;282;130;19;2432
+"019 Cabinteely-Kilbogget";2631;196;131;19;2977
+"020 Cabinteely-Loughlinstown";1934;358;216;38;2546
+"021 Cabinteely-Pottery";4044;407;262;147;4860
+"022 Churchtown-Castle";998;134;79;33;1244
+"023 Churchtown-Landscape";964;165;64;5;1198
+"024 Churchtown-Nutgrove";2625;246;199;30;3100
+"025 Churchtown-Orwell";1390;245;166;70;1871
+"026 Churchtown-Woodlawn";981;192;133;17;1323
+"027 Clonskeagh-Belfield";1799;326;282;35;2442
+"028 Clonskeagh-Farranboley";1211;117;140;15;1483
+"029 Clonskeagh-Milltown";1460;291;151;13;1915
+"030 Clonskeagh-Roebuck";1619;236;170;12;2037
+"031 Clonskeagh-Windy Arbour";1955;319;203;33;2510
+"032 Dalkey-Avondale";1100;225;81;5;1411
+"033 Dalkey-Bullock";1337;191;155;11;1694
+"034 Dalkey-Coliemore";1035;224;133;11;1403
+"035 Dalkey Hill";1057;212;162;8;1439
+"036 Dalkey Upper";1675;287;167;7;2136
+"037 Dundrum-Balally";4038;539;289;28;4894
+"038 Dundrum-Kilmacud";2278;450;239;14;2981
+"039 Dundrum-Sandyford";4553;837;404;50;5844
+"040 Dundrum-Sweetmount";1563;195;110;22;1890
+"041 Dundrum-Taney";2094;254;202;33;2583
+"042 Dún Laoghaire-East Central";1264;231;294;66;1855
+"043 Dún Laoghaire-Glasthule";1898;426;262;48;2634
+"044 Dún Laoghaire-Glenageary";1395;271;250;76;1992
+"045 Dún Laoghaire-Monkstown Farm";1680;130;136;29;1975
+"046 Dún Laoghaire-Mount Town";1378;103;94;33;1608
+"047 Dún Laoghaire-Sallynoggin East";2422;280;185;30;2917
+"048 Dún Laoghaire-Sallynoggin South";1204;97;62;21;1384
+"049 Dún Laoghaire-Sallynoggin West";1743;104;110;25;1982
+"050 Dún Laoghaire-Sandycove";2705;599;389;41;3734
+"051 Dún Laoghaire-Salthill";1148;308;225;27;1708
+"052 Dún Laoghaire-West Central";1563;219;222;25;2029
+"053 Foxrock-Beechpark";1423;194;86;8;1711
+"054 Foxrock-Carrickmines";4889;702;343;48;5982
+"055 Foxrock-Deans Grange";2117;212;126;15;2470
+"056 Foxrock-Torquay";1160;136;75;8;1379
+"057 Glencullen";11240;1663;793;229;13925
+"058 Killiney North";2487;469;244;37;3237
+"059 Killiney South";5436;454;363;98;6351
+"060 Shankill-Rathmichael";3621;596;326;58;4601
+"061 Shankill-Rathsallagh";2791;344;180;47;3362
+"062 Shankill-Shanganagh";4184;631;420;60;5295
+"063 Stillorgan-Deerpark";2493;157;164;14;2828
+"064 Stillorgan-Kilmacud";3214;375;225;28;3842
+"065 Stillorgan-Leopardstown";1760;175;124;8;2067
+"066 Stillorgan-Merville";2285;375;178;21;2859
+"067 Stillorgan-Mount Merrion";2007;190;174;15;2386
+"068 Stillorgan-Priory";1682;170;158;26;2036
+"069 Tibradden";546;200;72;9;827
+"Fingal";196007;25329;13026;5630;239992
+"001 Airport";1186;241;152;32;1611
+"002 Balbriggan Rural";7674;1151;477;313;9615
+"003 Balbriggan Urban";5821;478;309;123;6731
+"004 Baldoyle";5255;294;308;85;5942
+"005 Balgriffin";816;47;29;19;911
+"006 Ballyboghil";858;46;28;18;950
+"007 Balscadden";608;18;25;2;653
+"008 Blanchardstown-Abbotstown";3007;730;280;105;4122
+"009 Blanchardstown-Blakestown";24117;5413;1564;1194;32288
+"010 Blanchardstown-Coolmine";8477;1494;529;274;10774
+"011 Blanchardstown-Corduff";4056;459;161;130;4806
+"012 Blanchardstown-Delwood";4046;561;300;48;4955
+"013 Blanchardstown-Mulhuddart";1916;562;185;122;2785
+"014 Blanchardstown-Roselawn";1596;126;92;17;1831
+"015 Blanchardstown-Tyrrelstown";1127;214;49;169;1559
+"016 Castleknock-Knockmaroon";13407;2352;1087;269;17115
+"017 Castleknock-Park";3965;218;161;51;4395
+"018 Clonmethan";591;9;16;9;625
+"019 Donabate";6420;628;432;120;7600
+"020 Dubber";2972;260;217;298;3747
+"021 Garristown";1077;50;40;15;1182
+"022 Hollywood";927;33;25;13;998
+"023 Holmpatrick";2839;136;151;28;3154
+"024 Howth";6646;780;635;135;8196
+"025 Kilsallaghan";1929;84;52;16;2081
+"026 Kinsaley";4707;443;273;103;5526
+" 027 Lucan North";1016;82;52;13;1163
+"028 Lusk";6088;494;340;126;7048
+"029 Malahide East";5053;647;447;66;6213
+"030 Malahide West";5435;492;276;68;6271
+"031 Portmarnock North";4099;242;187;60;4588
+"032 Portmarnock South";3096;201;169;56;3522
+"033 Rush";7138;492;453;197;8280
+"034 Skerries";6817;721;523;114;8175
+"035 Sutton";4996;403;439;76;5914
+"036 Swords-Forrest";10360;1186;660;237;12443
+"037 Swords-Glasmore";6763;563;300;173;7799
+"038 Swords-Lissenhall";7175;944;633;320;9072
+"039 Swords-Seatown";4984;508;340;102;5934
+"040 Swords Village";1997;258;170;89;2514
+"041 The Ward";3414;1190;385;192;5181
+"042 Turnapin";1536;79;75;33;1723
+"South Dublin";210160;21372;10496;4907;246935
+"001 Ballinascorney";597;87;33;25;742
+"002 Ballyboden";4548;370;234;48;5200
+"003 Bohernabreena";3760;266;165;81;4272
+"004 Clondalkin-Ballymount";1706;135;105;101;2047
+"005 Clondalkin-Cappaghmore";1747;91;51;36;1925
+"006 Clondalkin-Dunawley";9179;1070;363;261;10873
+"007 Clondalkin-Monastery";8528;1083;541;210;10362
+"008 Clondalkin-Moorfield";5458;252;118;138;5966
+"009 Clondalkin-Rowlagh";3914;137;70;66;4187
+"010 Clondalkin Village";7232;769;506;211;8718
+"011 Edmondstown";4720;507;331;98;5656
+"012 Firhouse-Ballycullen";5639;585;312;74;6610
+"013 Firhouse-Knocklyon";3561;237;182;34;4014
+"014 Firhouse Village";8609;1405;541;196;10751
+"015 Lucan-Esker";19370;4547;1356;555;25828
+"016 Lucan Heights";4551;431;203;75;5260
+"017 Lucan-St. Helen's";5641;519;304;128;6592
+"018 Newcastle";2336;177;77;41;2631
+"019 Palmerston Village";3465;150;139;21;3775
+"020 Palmerston West";6643;501;257;318;7719
+"021 Rathcoole";3249;176;132;57;3614
+"022 Rathfarnham-Ballyroan";2155;204;112;23;2494
+"023 Rathfarnham-Butterfield";2795;309;160;22;3286
+"024 Rathfarnham-Hermitage";3818;462;304;26;4610
+"025 Rathfarnham-St. Enda's";3238;361;288;37;3924
+"026 Rathfarnham Village";2401;355;247;35;3038
+"027 Saggart";1597;157;91;175;2020
+"028 Tallaght-Avonbeg";1442;69;34;21;1566
+"029 Tallaght-Belgard";1672;99;52;27;1850
+"030 Tallaght-Fettercairn";5742;451;171;236;6600
+"031 Tallaght-Glenview";1044;99;64;35;1242
+"032 Tallaght-Jobstown";11152;1623;467;275;13517
+"033 Tallaght-Killinardan";3727;116;71;221;4135
+"034 Tallaght-Kilnamanagh";4605;146;132;62;4945
+"035 Tallaght-Kiltipper";5577;456;178;215;6426
+"036 Tallaght-Kingswood";3547;185;161;66;3959
+"037 Tallaght-Millbrook";3233;144;115;59;3551
+"038 Tallaght-Oldbawn";3847;293;181;46;4367
+"039 Tallaght-Springfield";6317;959;337;263;7876
+"040 Tallaght-Tymon";4675;206;172;80;5133
+"041 Templeogue-Cypress";2663;130;136;20;2949
+"042 Templeogue-Kimmage Manor";3723;263;235;46;4267
+"043 Templeogue-Limekiln";3389;114;127;28;3658
+"044 Templeogue-Orwell";2157;70;70;11;2308
+"045 Templeogue-Osprey";2336;82;122;20;2560
+"046 Templeogue Village";1603;191;143;20;1957
+"047 Terenure-Cherryfield";1995;115;103;34;2247
+"048 Terenure-Greentrees";2595;137;141;13;2886
+"049 Terenure-St. James";2662;81;62;17;2822
+"Kildare County";164301;12557;6899;2578;186335
+"001 Athy East Urban";2824;273;104;41;3242
+"002 Athy West Urban";2642;257;71;76;3046
+"003 Naas Urban";17381;1371;776;516;20044
+"004 Athy Rural";2092;259;78;66;2495
+"005 Ballaghmoon";192;19;4;2;217
+"006 Ballitore";696;58;11;15;780
+"007 Ballybrackan";429;21;8;10;468
+"008 Ballyshannon";1439;119;55;13;1626
+"009 Belan";183;23;12;1;219
+"010 Bert";132;18;1;3;154
+"011 Burtown";257;49;10;3;319
+"012 Carrigeen";516;41;21;5;583
+"013 Castledermot";1178;75;23;24;1300
+"014 Churchtown";442;28;4;8;482
+"015 Dunmanoge";425;25;8;2;460
+"016 Fontstown";342;31;8;2;383
+"017 Graney";561;38;18;3;620
+"018 Grangemellon";494;51;13;13;571
+"019 Harristown";362;11;3;6;382
+"020 Inchaquire";164;16;2;3;185
+"021 Johnstown";148;13;1;5;167
+"022 Kilberry";547;19;6;8;580
+"023 Kildangan";492;19;23;1;535
+"024 Kilkea";293;24;8;7;332
+"025 Kilrush";522;25;16;21;584
+"026 Lackagh";598;44;30;11;683
+"027 Monasterevin";3374;159;74;42;3649
+"028 Moone";366;50;9;4;429
+"029 Narraghmore";621;70;18;4;713
+"030 Nurney";837;25;15;17;894
+"031 Quinsborough";125;8;3;1;137
+"032 Skerries";440;22;13;8;483
+"033 Balraheen";1506;78;50;21;1655
+"034 Celbridge";12658;1400;781;94;14933
+"035 Cloncurry";1318;40;31;4;1393
+"036 Donadea";600;53;23;3;679
+"037 Donaghcumper";3572;398;226;37;4233
+"038 Kilcock";4171;267;192;67;4697
+"039 Leixlip";12985;1037;676;135;14833
+"040 Maynooth";9549;958;865;128;11500
+"041 Straffan";1206;172;41;30;1449
+"042 Ballynadrumny";481;16;26;8;531
+"043 Cadamstown";1044;40;17;7;1108
+"044 Carbury";1582;103;19;17;1721
+"045 Carrick";217;21;8;0;246
+"046 Cloncurry";319;25;4;3;351
+"047 Drehid";200;25;2;1;228
+"048 Dunfierth";649;30;9;2;690
+"049 Killinthomas";418;11;10;2;441
+"050 Kilpatrick";806;14;7;14;841
+"051 Kilrainy";592;14;19;1;626
+"052 Lullymore";174;4;3;0;181
+"053 Rathangan";1382;57;19;32;1490
+"054 Thomastown";666;30;16;11;723
+"055 Windmill Cross";825;32;16;9;882
+"056 Ballymore Eustace";1365;86;55;18;1524
+"057 Ballysax East";1951;81;65;26;2123
+"058 Ballysax West";971;38;17;16;1042
+"059 Bodenstown";3280;269;129;56;3734
+"060 Carnalway";1432;158;73;40;1703
+"061 Carragh";1416;39;24;8;1487
+"062 Clane";5468;326;232;80;6106
+"063 Donore";698;19;33;6;756
+"064 Downings";2351;119;68;35;2573
+"065 Droichead Nua (Newbridge) Rural";1705;81;50;12;1848
+"066 Droichead Nua (Newbridge) Urban";6961;511;276;140;7888
+"067 Dunmurry";367;26;7;1;401
+"068 Feighcullen";490;27;9;0;526
+"069 Gilltown";785;76;31;4;896
+"070 Kilcullen";2625;201;141;55;3022
+"071 Kildare";7704;711;253;123;8791
+"072 Kill";3381;177;104;72;3734
+"073 Killashee";222;39;28;6;295
+"074 Kilmeage North";1662;51;44;24;1781
+"075 Kilmeage South";1520;85;45;18;1668
+"076 Kilteel";499;43;10;0;552
+"077 Ladytown";757;56;39;10;862
+"078 Morristownbiller";9946;656;397;128;11127
+"079 Naas Rural";1504;142;51;20;1717
+"080 Newtown";412;41;15;5;473
+"081 Oldconnell";805;29;14;16;864
+"082 Oughterard";615;49;16;10;690
+"083 Pollardstown";273;50;10;7;340
+"084 Rathernan";455;23;23;4;505
+"085 Rathmore";897;60;45;23;1025
+"086 Robertstown";1759;72;40;26;1897
+"087 Timahoe North";896;55;29;8;988
+"088 Timahoe South";662;39;11;10;722
+"089 Usk";433;36;9;4;482
+"Kilkenny County";79103;4810;2509;1136;87558
+"001 Kilkenny No. 1 Urban";4417;362;202;173;5154
+"002 Kilkenny No. 2 Urban";3004;272;158;73;3507
+"003 Burnchurch";435;15;16;2;468
+"004 Callan Rural";1189;34;34;64;1321
+"005 Callan Urban";1326;64;54;45;1489
+"006 Coolaghmore";331;30;24;2;387
+"007 Dunamaggan";328;17;11;2;358
+"008 Earlstown";189;14;1;1;205
+"009 Kells";542;36;33;1;612
+"010 Killamery";187;11;10;1;209
+"011 Kilmaganny";640;21;25;2;688
+"012 Kilmanagh";403;35;8;13;459
+"013 Mallardstown";175;33;19;2;229
+"014 Scotsborough";142;9;3;2;156
+"015 Tullaghanbrogue";381;28;8;3;420
+"016 Boolyglass";126;10;0;0;136
+"017 Fiddown";701;41;24;3;769
+"018 Muckalee";150;11;2;0;163
+"019 Pilltown";1432;59;67;16;1574
+"020 Templeorum";333;45;28;1;407
+"021 Tubbrid";345;22;3;2;372
+"022 Tullahought";149;6;9;0;164
+"023 Whitechurch";404;24;14;0;442
+"024 Attanagh";354;8;5;1;368
+"025 Ballyragget";1357;49;30;15;1451
+"026 Castlecomer";2216;120;50;21;2407
+"027 Clogh";1171;66;9;9;1255
+"028 Clogharinka";216;5;3;0;224
+"029 Kilmacar";396;15;14;1;426
+"030 Moneenroe";1047;188;14;14;1263
+"031 Mothell";381;40;2;7;430
+"032 Muckalee";434;14;7;1;456
+"033 Brownsford";120;1;0;1;122
+"034 Dysartmoon";234;11;9;1;255
+"035 Jerpoint West";170;3;12;1;186
+"036 Listerlin";297;7;3;5;312
+"037 Rosbercon Rural";523;22;11;6;562
+"038 Shanbogh";464;5;4;2;475
+"039 The Rower";712;20;20;2;754
+"040 Ballinamara";278;48;1;1;328
+"041 Ballybeagh";257;11;9;0;277
+"042 Ballycallan";415;15;6;4;440
+"043 Clara";571;22;16;4;613
+"044 Coolcraheen";448;31;16;4;499
+"045 Dunbell";470;28;16;4;518
+"046 Dunmore";385;64;7;2;458
+"047 Freshford";1006;39;22;21;1088
+"048 Gowran";1070;23;20;2;1115
+"049 Grange";730;53;22;5;810
+"050 Kilkenny Rural";13215;1279;500;278;15272
+"051 Kilkieran";505;43;10;10;568
+"052 Odagh";399;26;19;3;447
+"053 Outrath";671;46;15;4;736
+"054 Paulstown";821;30;17;5;873
+"055 Rathcoole";372;26;15;8;421
+"056 Rathealy";165;0;1;0;166
+"057 St. Canice";503;45;10;6;564
+"058 Shankill";580;44;18;1;643
+"059 Tiscoffin";325;18;18;1;362
+"060 Tullaroan";298;4;5;0;307
+"061 Aghaviller";381;8;4;0;393
+"062 Ballyhale";309;12;8;0;329
+"063 Ballyvool";154;10;2;1;167
+"064 Bennettsbridge";849;22;35;8;914
+"065 Bramblestown";205;6;1;2;214
+"066 Castlebanny";147;3;4;0;154
+"067 Castlegannon";112;2;0;1;115
+"068 Coolhill";257;11;3;7;278
+"069 Danesfort";436;38;15;2;491
+"070 Ennisnag";475;62;26;5;568
+"071 Famma";240;26;22;0;288
+"072 Freaghana";179;9;3;3;194
+"073 Goresbridge";557;26;13;1;597
+"074 Graiguenamanagh";1503;40;30;13;1586
+"075 Inistioge";675;38;32;8;753
+"076 Jerpoint Church";724;28;31;10;793
+"077 Kilfane";237;3;10;2;252
+"078 Kilkeasy";292;7;3;1;303
+"079 Kiltorcan";144;4;3;0;151
+"080 Knocktopher";418;12;16;0;446
+"081 Pleberstown";151;7;9;4;171
+"082 Powerstown";443;22;9;2;476
+"083 Stonyford";451;47;35;4;537
+"084 Thomastown";1702;85;99;24;1910
+"085 Tullaherin";163;17;6;3;189
+"086 Ullard";238;14;4;0;256
+"087 Woolengrange";253;9;5;0;267
+"088 Balleen";387;6;7;4;404
+"089 Ballyconra";256;8;2;1;267
+"090 Baunmore";142;4;3;1;150
+"091 Clomantagh";254;13;10;0;277
+"092 Galmoy";280;6;0;0;286
+"093 Glashare";283;13;4;1;301
+"094 Johnstown";833;30;4;4;871
+"095 Lisdowney";208;6;0;0;214
+"096 Rathbeagh";215;11;5;2;233
+"097 Tubbridbrittain";254;21;1;2;278
+"098 Urlingford";1023;43;18;12;1096
+"099 Aglish";878;14;22;6;920
+"100 Ballincrea";289;8;12;0;309
+"101 Dunkitt";975;19;11;6;1011
+"102 Farnoge";268;2;7;2;279
+"103 Kilbeacon";171;4;3;2;180
+"104 Kilbride";333;3;10;2;348
+"105 Kilcolumb";519;10;13;3;545
+"106 Kilculliheen (part)";3101;220;110;62;3493
+"107 Killahy";689;6;7;1;703
+"108 Kilmakevoge";405;10;8;2;425
+"109 Pollrone";1108;31;13;27;1179
+"110 Portnascully";936;36;42;21;1035
+"111 Rathpatrick";1121;19;25;8;1173
+"112 Rossinan";706;15;9;1;731
+"113 Ullid";869;16;26;7;918
+"Laoighis County";59964;4703;1508;884;67059
+"001 Abbeyleix";2284;204;56;25;2569
+"002 Aghmacart";268;20;7;5;300
+"003 Ballinakill";726;35;16;5;782
+"004 Ballyroan";641;36;18;5;700
+"005 Blandsfort";259;12;5;5;281
+"006 Caher";71;10;2;0;83
+"007 Castletown";575;45;12;3;635
+"008 Clash";282;18;8;2;310
+"009 Clonkeen";610;16;4;11;641
+"010 Colt";181;28;1;0;210
+"011 Cuffsborough";208;24;4;0;236
+"012 Cullahill";322;15;1;3;341
+"013 Cullenagh";87;20;5;0;112
+"014 Donaghmore";214;28;8;0;250
+"015 Donore";380;18;10;8;416
+"016 Dunmore";187;26;6;1;220
+"017 Durrow";1080;118;41;23;1262
+"018 Dysartgallen";235;6;2;0;243
+"019 Fossy";119;4;5;2;130
+"020 Grantstown";257;48;9;0;314
+"021 Kilcoke";121;34;1;0;156
+"022 Kildellig";213;15;1;4;233
+"023 Killermogh";298;28;10;2;338
+"024 Kilnaseer";275;26;8;2;311
+"025 Raheen";349;29;11;5;394
+"026 Rathdowney";1186;65;35;6;1292
+"027 Timahoe";508;12;3;4;527
+"028 Ballyadams";324;22;4;6;356
+"029 Ballylynan";1016;53;19;11;1099
+"030 Barrowhouse";419;21;3;2;445
+"031 Curraclone";174;23;6;3;206
+"032 Killabban";276;22;1;3;302
+"033 Luggacurren";266;48;9;4;327
+"034 Moyanna";256;9;6;1;272
+"035 Rathaspick";208;3;19;1;231
+"036 Stradbally";1442;65;22;25;1554
+"037 Tankardstown";281;23;8;4;316
+"038 Timogue";307;27;7;2;343
+"039 Vicarstown";171;7;2;5;185
+"040 Arderin";187;22;0;3;212
+"041 Ballybrittas";696;47;19;6;768
+"042 Ballycarroll";222;14;5;2;243
+"043 Ballyfin";497;72;12;2;583
+"044 Borris";743;99;36;9;887
+"045/046 Brisha/Cappard";258;34;13;4;309
+"047 Cappalough";281;21;12;6;320
+"048 Cardtown";136;25;0;1;162
+"049 Castlecuffe";380;2;0;7;389
+"050 Clonaslee";810;32;8;12;862
+"051 Clondarrig";495;31;2;3;531
+"052 Clonin";176;24;2;1;203
+"053 Coolrain";228;33;6;4;271
+"054 Dangans";924;62;12;14;1012
+"055 Emo";913;103;16;6;1038
+"056 Garrymore";160;16;2;2;180
+"057 Graigue";194;7;3;2;206
+"058 Jamestown";380;29;4;5;418
+"059 Kilcolmanbane";509;42;2;7;560
+"060 Kilmullen";451;41;20;9;521
+"061 Kilmurry";202;4;3;2;211
+"062 Lacka";244;20;12;3;279
+"063 Marymount";105;14;9;1;129
+"064 Meelick";249;31;6;8;294
+"065 Mountmellick Rural";923;56;8;10;997
+"066 Mountmellick Urban";2592;167;57;56;2872
+"067 Mountrath";1696;146;22;21;1885
+"068 Nealstown";77;1;0;1;79
+"069 O'More's Forest";404;22;8;2;436
+"070 Portarlington South";4509;291;183;66;5049
+"071 Portlaoighise (Maryborough) Rural";9569;972;325;209;11075
+"072 Portlaoighise (Maryborough) Urban";2953;190;94;44;3281
+"073 Rearymore";239;10;4;6;259
+"074 Rosenallis";382;44;2;0;428
+"075 Sallyford";470;21;8;8;507
+"076 Shaen";822;30;14;9;875
+"077 Tinnahinch";145;5;0;1;151
+"078 Trumra";218;21;1;9;249
+"079 Ballybrophy";155;4;0;3;162
+"080 Borris-in-Ossory";736;45;5;14;800
+"081 Clonmore";123;66;6;4;199
+"082 Errill";346;16;13;2;377
+"083 Kyle";217;27;2;2;248
+"084 Kyle South";271;6;3;2;282
+"085 Moneenalassa";128;10;0;3;141
+"086 Moneymore";115;7;0;0;122
+"087 Rathsaran";425;55;9;4;493
+"088 Ardough";262;26;3;4;295
+"089 Arless";329;13;20;4;366
+"090 Ballickmoyler";517;22;4;1;544
+"091 Ballylehane";165;2;5;0;172
+"092 Doonane";519;13;7;11;550
+"093 Farnans";145;14;1;3;163
+"094 Graigue Rural";2795;189;69;67;3120
+"095 Newtown";234;56;13;8;311
+"096 Rossmore";376;36;10;1;423
+"097 Shrule";270;13;7;0;290
+"098 Turra";321;19;6;2;348
+"Longford County";30925;2204;674;588;34391
+"001 Longford No. 1 Urban";2643;312;81;98;3134
+"002 Longford No. 2 Urban";663;72;29;30;794
+"003 Agharra";291;57;4;5;357
+"004 Ballymahon";1682;76;28;16;1802
+"005 Cashel East";296;1;6;9;312
+"006 Cashel West";520;16;9;2;547
+"007 Doory";385;19;8;4;416
+"008 Forgney";397;28;14;7;446
+"009 Foxhall";456;36;12;6;510
+"010 Kilcommock";506;71;7;11;595
+"011 Kilglass";544;54;14;5;617
+"012 Ledwithstown";270;10;4;1;285
+"013 Abbeylara";304;2;6;2;314
+"014 Ballinalee";414;26;11;2;453
+"015 Ballymuigh";233;7;1;5;246
+"016 Bunlahy";167;0;0;0;167
+"017 Columbkille";544;48;3;10;605
+"018 Coolamber";308;5;2;6;321
+"019 Creevy";333;6;1;4;344
+"020 Crosagstown";198;14;1;4;217
+"021 Currygrane";109;13;2;1;125
+"022 Dalystown";169;0;6;0;175
+"023 Drummeel";116;10;1;0;127
+"024/035 Firry/Newgrove";207;7;3;4;221
+"025 Gelshagh";305;11;3;0;319
+"026 Granard Rural";276;16;7;1;300
+"027 Granard Urban";855;61;14;3;933
+"028 Knockanbaun";136;8;1;1;146
+"029 Lislea";130;14;8;0;152
+"030 Meathas Truim";1331;138;44;31;1544
+"031 Milltown";309;29;7;6;351
+"032 Moatfarrell";175;7;5;0;187
+"033 Moyne";298;5;1;1;305
+"034 Mullanalaghta";278;7;4;6;295
+"036 Sonnagh";277;1;6;2;286
+"037 Aghaboy";548;15;11;22;596
+"038 Ardagh East";536;16;9;7;568
+"039 Ardagh West";398;24;15;2;439
+"040 Ballinamuck East";447;17;7;3;474
+"041 Ballinamuck West";425;7;3;6;441
+"042 Breanrisk";678;18;10;5;711
+"043 Caldragh";1445;109;22;20;1596
+"044 Cloondara";514;42;8;11;575
+"045 Cloonee";634;31;9;5;679
+"046 Corboy";335;35;9;2;381
+"047 Drumgort";408;10;8;9;435
+"048 Drumlish";859;44;25;7;935
+"049 Killashee";253;21;10;0;284
+"050 Killoe";292;4;6;0;302
+"051 Longford Rural";4331;430;106;186;5053
+"052 Mountdavis";198;3;2;1;204
+"053 Moydow";535;42;8;4;589
+"054 Newtown Forbes";773;87;22;10;892
+"055 Rathcline";1191;62;31;5;1289
+"Louth County";99678;6482;3338;1769;111267
+"001 Fair Gate";8563;620;436;164;9783
+"002 St. Laurence Gate";3280;311;168;42;3801
+"003 West Gate";5297;330;203;69;5899
+"047 St. Mary's (part)";5127;526;214;163;6030
+"004 Dundalk Urban No. 1";1866;220;67;37;2190
+"005 Dundalk Urban No. 2";1040;74;55;42;1211
+"006 Dundalk Urban No. 3";1152;108;70;17;1347
+"007 Dundalk Urban No. 4";5822;416;261;178;6677
+"008 Ardee Rural";2509;68;31;18;2626
+"009 Ardee Urban";3946;174;117;64;4301
+"010 Castlebellingham";1287;40;23;21;1371
+"011 Clonkeen";519;19;6;1;545
+"012 Collon";1281;60;32;7;1380
+"013 Dromin";512;12;8;3;535
+"014 Dromiskin";1794;82;41;18;1935
+"015 Drumcar";1290;50;30;15;1385
+"016 Dunleer";2200;94;29;17;2340
+"017 Stabannan";568;9;10;3;590
+"018 Tallanstown";909;29;16;14;968
+"019 Ballymascanlan";1919;49;34;14;2016
+"020 Barronstown";634;7;6;0;647
+"021 Carlingford";1230;74;70;10;1384
+"022 Castlering";896;20;10;9;935
+"023 Castletown";3602;233;63;41;3939
+"024 Creggan Upper";663;13;3;5;684
+"025 Darver";522;25;9;6;562
+"026 Drummullagh";1051;29;37;3;1120
+"027 Dundalk Rural";13406;1209;526;393;15534
+"028 Faughart";865;11;22;7;905
+"029 Greenore";885;62;17;15;979
+"030 Haggardstown";5364;263;152;85;5864
+"031 Jenkinstown";896;31;18;3;948
+"032 Killanny";653;12;10;8;683
+"033 Louth";1243;29;25;11;1308
+"034 Mansfieldstown";572;23;17;28;640
+"035 Rathcor";1141;23;26;13;1203
+"036 Ravensdale";880;66;30;6;982
+"037 Clogher";2315;103;62;14;2494
+"038 Dysart";714;36;18;9;777
+"039 Monasterboice";1066;54;33;11;1164
+"040 Mullary";1409;72;33;14;1528
+"041 St. Peter's";6428;688;242;124;7482
+"042 Termonfeckin";2362;108;58;47;2575
+"Meath County";146135;9453;5194;2049;162831
+"001 Ceannanus Mór (Kells) Urban";1864;89;55;38;2046
+"002 Navan Urban";2658;275;157;76;3166
+"003 Trim Urban";1060;44;39;27;1170
+"004 Drumcondra";1218;45;18;10;1291
+"005 Grangegeeth";519;15;5;2;541
+"006 Killary";1113;35;19;18;1185
+"007 Culmullin";954;45;26;10;1035
+"008 Donaghmore";7470;473;326;139;8408
+"009 Dunboyne";7761;498;312;131;8702
+"010 Dunshaughlin";4728;280;186;51;5245
+"011 Kilbrew";2282;211;137;40;2670
+"012 Killeen";976;54;37;5;1072
+"013 Kilmessan";1103;36;20;3;1162
+"014 Kilmore";1316;53;49;9;1427
+"015 Rathfeigh";837;45;24;6;912
+"016 Ratoath";7921;502;316;66;8805
+"017 Rodanstown";979;62;24;3;1068
+"018 Skreen";1309;51;36;7;1403
+"019 Ardagh";605;27;7;5;644
+"020 Ballinlough";171;1;2;1;175
+"021 Balrathboyne";399;6;17;1;423
+"022 Boherboy";272;23;4;3;302
+"023 Burry";208;21;1;1;231
+"024 Carrickleck";427;24;2;3;456
+"025 Castlekeeran";367;12;9;2;390
+"026 Ceannanus Mór (Kells) Rural";3475;213;106;82;3876
+"027 Cruicetown";340;12;5;5;362
+"028 Girley";297;30;11;8;346
+"029 Kilmainham";691;20;19;11;741
+"030 Kilskeer";324;18;9;4;355
+"031 Loughan";380;25;7;1;413
+"032 Maperath";430;14;11;3;458
+"033 Martry";598;31;11;2;642
+"034 Moybolgue";196;17;0;0;213
+"035 Moynalty";556;34;7;3;600
+"036 Newcastle";383;20;3;1;407
+"037 Newtown";565;27;15;2;609
+"038 Nobber";609;29;10;4;652
+"039 Posseckstown";153;9;2;8;172
+"040 Staholmog";368;19;6;3;396
+"041 Tailtin";852;36;31;19;938
+"042 Trohanny";321;28;11;0;360
+"043 Ardcath";1737;74;41;21;1873
+"044 Duleek";3973;232;110;51;4366
+"045 Julianstown";6971;884;330;104;8289
+"046 Mellifont";484;26;11;2;523
+"047 St. Mary's (part)";7822;703;429;90;9044
+"048 Stamullin";3444;214;145;41;3844
+"049 Ardbraccan";1785;52;43;29;1909
+"050 Ardmulchan";875;20;16;6;917
+"051 Bective";957;33;31;10;1031
+"052 Castletown";927;58;20;2;1007
+"053 Domhnach Phádraig";1577;28;16;19;1640
+"054 Kentstown";1576;80;51;20;1727
+"055 Navan Rural";20729;1816;783;355;23683
+"056 Painestown";1071;22;16;9;1118
+"057 Rathkenny";522;16;17;1;556
+"058 Slane";1456;71;44;16;1587
+"059 Stackallan";544;15;17;6;582
+"060 Tara";1075;42;11;7;1135
+"061 Crossakeel";320;12;4;5;341
+"062 Crosskeys";273;5;7;3;288
+"063 Killallon";215;9;3;0;227
+"064 Killeagh";330;15;12;2;359
+"065 Knocklough";154;17;15;2;188
+"066 Moylagh";387;15;10;2;414
+"067 Oldcastle";2028;117;53;32;2230
+"068 Stonefield";222;2;8;0;232
+"069 Ardnamullan";758;20;17;1;796
+"070 Baile Átha Buí";2182;132;75;29;2418
+"071 Ballyboggan";461;36;8;2;507
+"072 Ballyconnell";661;30;20;1;712
+"073 Castlejordan";452;15;13;1;481
+"074 Castlerickard";1241;60;42;18;1361
+"075 Cloghbrack";409;10;15;9;443
+"076 Clonmacduff";418;7;5;3;433
+"077 Gallow";791;45;20;8;864
+"078 Galtrim";547;45;21;3;616
+"079 Grennanstown";1040;33;26;3;1102
+"080 Hill of Down";436;24;6;3;469
+"081 Innfield";2794;234;110;37;3175
+"082 Cill Bhríde";379;3;12;1;395
+"083 Kilcooly";286;19;3;3;311
+"084 Kildalky";903;79;37;6;1025
+"085 Killaconnigan";1437;98;51;19;1605
+"086 Killyon";528;12;16;2;558
+"087 Laracor";494;13;19;0;526
+"088 Rahinstown";451;23;3;5;482
+"089 Rathmolyon";1061;85;25;10;1181
+"090 An Ráth Mhór";796;42;15;7;860
+"091 Summerhill";1117;32;47;9;1205
+"092 Trim Rural (part)";5984;269;253;221;6727
+"Offaly County";64737;3704;1407;1020;70868
+"001 Birr Urban";3687;210;140;54;4091
+"002 Tullamore Urban";9608;612;316;364;10900
+"003 Ballycumber";650;28;5;5;688
+"004 Banagher";1782;64;60;44;1950
+"005 Birr Rural";1156;71;21;20;1268
+"006 Broughal";121;5;1;0;127
+"007 Cloghan";835;8;7;4;854
+"008 Clonmacnoise";313;8;0;0;321
+"009 Derrinboy";261;0;0;0;261
+"010 Derryad";229;16;9;1;255
+"011 Doon";415;4;4;0;423
+"012 Dromoyle";263;38;2;6;309
+"013 Drumcullen";299;17;16;1;333
+"014 Eglish";129;23;10;3;165
+"015 Ferbane";1132;17;9;12;1170
+"016 Gallen";576;11;7;3;597
+"017 Hinds";282;5;2;2;291
+"018 Huntston";354;11;1;3;369
+"019 Kilcolman";341;11;1;3;356
+"020 Kilcormac";1225;35;16;12;1288
+"021 Killyon";243;10;1;1;255
+"022 Kinnitty";461;37;19;1;518
+"023 Knockbarron";148;2;2;2;154
+"024 Lea";331;3;6;1;341
+"025 Letter";152;2;1;1;156
+"026 Lumcloon";340;15;10;3;368
+"027 Lusmagh";466;29;7;4;506
+"028 Mounterin";179;20;7;5;211
+"029 Moyclare";581;6;2;2;591
+"030 Seirkieran";413;38;6;3;460
+"031 Shannonbridge";316;11;5;0;332
+"032 Shannonharbour";295;16;9;1;321
+"033 Srah";719;7;6;5;737
+"035 Ballyburly";1198;46;30;17;1291
+"036 Ballymacwilliam";535;22;6;2;565
+"037 Bracknagh";826;92;21;3;942
+"038 Clonbulloge";594;83;17;15;709
+"039 Clonmore";375;27;13;4;419
+"040 Croghan";442;5;3;7;457
+"041 Edenderry Rural";684;19;7;5;715
+"042 Edenderry Urban";5078;293;145;101;5617
+"043/034 Esker/Ballaghassaan";391;8;3;3;405
+"044 Knockdrin";142;11;2;2;157
+"045 Monasteroris";600;58;10;7;675
+"046 Aghancon";275;95;10;0;380
+"047 Ballincor";116;20;3;0;139
+"048 Barna";134;34;1;2;171
+"049 Cangort";128;41;11;2;182
+"050 Cullenwaine";605;46;12;1;664
+"051 Dunkerrin";329;14;4;4;351
+"052 Ettagh";393;32;6;2;433
+"053 Gorteen";245;38;1;2;286
+"054 Mountheaton";677;45;4;4;730
+"055 Roscomroe";145;3;0;0;148
+"056 Shinrone";823;81;12;5;921
+"057 Templeharry";110;35;12;1;158
+"058 Tulla";109;1;0;0;110
+"059 Ballycommon";497;19;10;6;532
+"060 Ballyshear";340;21;3;1;365
+"061 Bawn";317;18;10;1;346
+"062 Cappancur";1137;109;19;7;1272
+"063 Clara";3421;69;41;56;3587
+"064 Clonygowan";389;15;15;5;424
+"065 Daingean";1375;47;30;8;1460
+"066 Derrycooley";235;8;3;6;252
+"067 Durrow";685;27;7;4;723
+"068 Geashill";1295;103;34;17;1449
+"069 Gorteen";290;18;0;1;309
+"070 Hammerlane";524;31;4;2;561
+"071 Kilclonfert";311;6;1;1;319
+"072 Kilcumreragh";460;30;4;3;497
+"073 Killeigh";1114;69;16;10;1209
+"074 Killooly";224;20;5;0;249
+"075 Killoughy";583;27;4;14;628
+"076 Mountbriscoe";190;3;3;3;199
+"077 O'Dempsey";99;21;5;1;126
+"078 Portarlington North";1897;75;47;20;2039
+"079 Rahan";663;15;8;10;696
+"080 Raheenakeeran";357;18;7;6;388
+"081 Rathfeston";361;11;3;6;381
+"082 Rathrobin";393;18;2;8;421
+"083 Screggan";1258;45;11;25;1339
+"084 Silverbrook";619;28;7;2;656
+"085 Tinamuck";208;6;3;2;219
+"086 Tinnycross";415;23;7;5;450
+"087 Tullamore Rural";1824;265;57;35;2181
+"Westmeath County";71501;4579;2119;1147;79346
+"001 Athlone East Urban";3538;308;170;59;4075
+"002 Athlone West Urban";2590;154;86;53;2883
+"003 Athlone East Rural";5872;483;276;123;6754
+"004 Auburn";593;29;12;4;638
+"005 Ballybroder";242;6;6;0;254
+"006 Bellanalack";429;18;2;5;454
+"007 Carn";683;29;4;13;729
+"008 Castledaly";623;28;12;1;664
+"009 Glassan";746;23;23;13;805
+"010 Kilcumreragh";406;1;4;0;411
+"011 Killinure";333;13;4;4;354
+"012 Moate";2200;87;46;28;2361
+"013 Mount Temple";500;11;11;3;525
+"014 Moydrum";2255;127;61;39;2482
+"015 Muckanagh";164;6;1;2;173
+"016 Tubbrit";633;20;9;7;669
+"017 Umma";253;10;2;3;268
+"018 Ardnagragh";403;12;9;1;425
+"019 Ballymore";464;10;9;3;486
+"020 Doonis";171;23;9;3;206
+"021 Drumraney";234;5;4;0;243
+"022 Noughaval";312;16;17;1;346
+"023 Piercetown";107;8;1;0;116
+"024 Templepatrick";204;5;1;3;213
+"025 Winetown";130;3;1;0;134
+"026 Boherquill";117;4;6;2;129
+"027 Coole";251;17;8;1;277
+"028 Coolure";233;38;11;4;286
+"029 Finnea";281;25;5;5;316
+"030 Glore";124;16;3;1;144
+"031 Knockarrow";87;4;7;0;98
+"032 Rathowen";263;41;6;7;317
+"033 Street";270;52;9;3;334
+"034 Ballinlough";129;14;2;2;147
+"035 Ballyhealy";266;6;2;7;281
+"036 Ballynaskeagh";230;7;3;2;242
+"037 Bracklin";215;13;6;4;238
+"038 Clonarney";411;15;4;5;435
+"039 Collinstown";373;41;15;2;431
+"040 Copperalley";183;9;2;4;198
+"041 Delvin";681;33;21;16;751
+"042 Faughalstown";215;11;7;3;236
+"043 Fore East";365;11;5;7;388
+"044 Fore West";314;16;25;7;362
+"045 Hilltown";225;13;3;4;245
+"046 Kilcumny";145;6;7;0;158
+"047 Killua";831;36;30;19;916
+"048 Killulagh";363;12;7;6;388
+"049 Kilpatrick";166;7;4;2;179
+"050 Kinturk";1129;57;30;12;1228
+"051 Riverdale";333;14;5;8;360
+"052 Rosmead";323;9;10;1;343
+"053 Ardnaglew";244;5;5;1;255
+"054/085 Ballinalack/Lackan";451;168;28;3;650
+"055 Ballykilmore";661;22;6;3;692
+"056 Ballymorin";222;21;4;0;247
+"057 Ballynagore";476;14;16;4;510
+"058 Belvidere";711;18;13;7;749
+"059 Carrick";305;15;4;2;326
+"060 Castle";739;38;24;2;803
+"061 Castlelost";1573;59;35;23;1690
+"062 Castletown";668;15;7;3;693
+"063 Churchtown";272;9;3;1;285
+"064 Cloghan";299;9;4;1;313
+"065 Clonfad";585;21;6;0;612
+"066 Clonlost";422;13;7;5;447
+"067 Derrymore";197;14;10;2;223
+"068 Dysart";228;3;3;0;234
+"069 Emper";179;8;3;1;191
+"070 Enniscoffey";337;33;5;4;379
+"071 Gaybrook";357;9;6;1;373
+"072 Glenlough";161;16;7;1;185
+"073 Greenpark";222;22;5;1;250
+"074 Griffinstown";468;20;6;4;498
+"075 Heathstown";632;19;14;7;672
+"076 Hopestown";517;27;12;1;557
+"077 Huntingdon";305;13;9;2;329
+"078 Jamestown";118;6;3;0;127
+"079 Kilbeggan";1161;32;31;8;1232
+"080 Kilbixy";579;16;2;2;599
+"081 Killare";328;11;13;1;353
+"082 Killucan";1146;59;21;21;1247
+"083 Kinnegad";2077;161;67;74;2379
+"084 Knockdrim";457;38;15;5;515
+"086 Lauree";195;11;1;0;207
+"087 Middleton";268;6;4;4;282
+"088 Milltown";303;14;1;1;319
+"089 Mullingar Rural";8317;846;327;162;9652
+"090 Mullingar North Urban";4622;383;160;143;5308
+"091 Mullingar South Urban";3230;198;110;94;3632
+"092 Multyfarnham";423;23;15;6;467
+"093 Newtown";226;12;1;0;239
+"094 Owel";407;15;9;5;436
+"095 Portloman";278;24;9;1;312
+"096 Raharney";496;22;4;11;533
+"097 Rahugh";283;16;0;1;300
+"098 Rathconrath";303;10;7;5;325
+"099 Russellstown";436;29;8;3;476
+"100 Skeagh";191;4;5;5;205
+"101 Sonna";270;11;9;6;296
+"102 Stonehall";205;8;4;1;218
+"103 Streamstown";348;10;6;1;365
+"104 Taghmon";347;15;11;5;378
+"105 Tullaghan";365;11;2;0;378
+"106 Woodland";283;15;9;1;308
+"Wexford County";118315;7836;4176;1422;131749
+"001 Enniscorthy Urban";2362;179;97;85;2723
+"002 New Ross Urban";3734;141;87;72;4034
+"003 Rosbercon Urban";518;25;24;76;643
+"004 Wexford No. 1 Urban";1486;100;84;29;1699
+"005 Wexford No. 2 Urban";4133;172;202;52;4559
+"006 Wexford No. 3 Urban";1088;131;108;45;1372
+"007 Ballindaggan";623;63;7;6;699
+"008 Ballycarney";305;52;10;6;373
+"009 Ballyhoge";984;47;21;11;1063
+"010 Ballyhuskard";1269;42;18;2;1331
+"011 Ballymore";286;94;19;5;404
+"012 Ballyvaldon";600;25;25;3;653
+"013 Bolaboy";933;35;12;10;990
+"014 Bree";1085;59;25;2;1171
+"015 Castleboro";753;56;12;1;822
+"016 Castledockrell";371;33;4;0;408
+"017 Castle Ellis";941;34;36;14;1025
+"018 Castle Talbot";596;27;6;9;638
+"019 Clonroche";1058;35;27;32;1152
+"020 Edermine";1267;59;30;6;1362
+"021 Enniscorthy Rural";7660;472;198;54;8384
+"022 Ferns";1112;66;16;7;1201
+"023 Kilbora";333;26;4;0;363
+"024 Kilcormick";451;50;6;10;517
+"025 Killann";906;74;19;0;999
+"026 Kilmallock";993;38;30;5;1066
+"027 Killoughrum";537;62;16;0;615
+"028 Kilrush";352;67;9;2;430
+"029 Kiltealy";417;31;4;3;455
+"030 Marshalstown";972;72;22;2;1068
+"031 Moyacomb";421;29;18;5;473
+"032 Newtownbarry";2114;136;70;6;2326
+"033 Rossard";345;27;14;5;391
+"034 St. Mary's";507;23;14;5;549
+"035 The Harrow";419;21;14;7;461
+"036 The Leap";799;75;8;4;886
+"037 Tinnacross";744;60;4;2;810
+"038 Tombrack";549;55;9;0;613
+"039 Ardamine";1921;242;104;73;2340
+"040 Balloughter";346;83;14;0;443
+"041 Ballybeg";373;33;16;2;424
+"042 Ballycanew";868;107;30;4;1009
+"043 Ballyellis";322;11;15;4;352
+"044 Ballygarrett";640;64;28;4;736
+"045 Ballylarkin";672;79;42;1;794
+"046 Ballynestragh";852;100;32;5;989
+"047 Cahore";312;35;27;0;374
+"048 Coolgreany";937;62;27;5;1031
+"049 Courtown";1700;245;122;54;2121
+"050 Ford";399;37;10;2;448
+"051 Gorey Rural";3720;390;165;46;4321
+"052 Gorey Urban";3042;244;148;45;3479
+"053 Huntingtown";167;68;22;0;257
+"054 Kilcomb";824;60;34;10;928
+"055 Kilgorman";630;44;19;1;694
+"056 Killenagh";401;70;8;5;484
+"057 Killincooly";406;32;17;9;464
+"058 Kilnahue";304;38;2;2;346
+"059 Limerick";534;69;31;1;635
+"060 Monamolin";604;26;21;7;658
+"061 Monaseed";490;43;16;5;554
+"062 Rossminoge";458;25;16;2;501
+"063 Wells";529;71;29;6;635
+"064 Wingfield";660;87;30;14;791
+"065 Adamstown";424;10;6;1;441
+"066 Ballyanne";691;7;14;4;716
+"067 Ballyhack";1132;39;49;12;1232
+"068 Barrack Village";91;4;0;0;95
+"069 Barronstown";487;20;9;6;522
+"070 Carnagh";435;14;9;1;459
+"071 Carrickbyrne";505;22;14;4;545
+"072 Clongeen";813;30;13;18;874
+"073 Clonleigh";353;14;4;0;371
+"074 Dunmain";217;10;5;6;238
+"075 Fethard";812;65;36;6;919
+"076 Horetown";446;51;18;1;516
+"077 Inch";401;18;11;1;431
+"078 Kilgarvan";285;15;2;0;302
+"079 Killesk";617;17;5;3;642
+"080 Kilmokea";689;23;13;3;728
+"081 Newbawn";538;9;16;2;565
+"082 New Ross Rural";3048;175;104;40;3367
+"083 Oldcourt";604;32;21;13;670
+"084 Old Ross";390;12;6;1;409
+"085 Rathroe";689;29;12;8;738
+"086 Rochestown";223;3;5;2;233
+"087 Templeludigan";328;20;12;0;360
+"088 Templetown";507;41;26;1;575
+"089 Tintern";1310;56;47;13;1426
+"090 Whitechurch";498;26;8;9;541
+"091 Whitemoor";481;14;9;3;507
+"092 Ardcavan";2356;106;84;29;2575
+"093 Ardcolm";810;35;21;3;869
+"094 Artramon";570;34;19;1;624
+"095 Aughwilliam";402;15;21;1;439
+"096 Ballymitty";404;17;15;1;437
+"097 Bannow";1003;42;36;5;1086
+"098 Bridgetown";705;27;7;8;747
+"099 Carrick";1366;80;55;13;1514
+"100 Drinagh";1093;55;29;14;1191
+"101 Duncormick";470;33;20;5;528
+"102 Forth";743;53;19;1;816
+"103 Glynn";431;39;10;4;484
+"104 Harperstown";370;35;11;7;423
+"105 Harristown";465;16;12;1;494
+"106 Kilbride";250;29;11;1;291
+"107 Kilcowan";420;25;24;3;472
+"108 Killag";367;18;13;0;398
+"109 Killinick";731;40;35;9;815
+"110 Killurin";525;30;16;12;583
+"111 Kilmore";1751;78;70;25;1924
+"112 Kilpatrick";662;51;34;6;753
+"113 Kilscoran";772;36;44;9;861
+"114 Lady's Island";499;25;33;12;569
+"115 Mayglass";447;14;18;5;484
+"116 Newcastle";416;3;20;9;448
+"117 Rathaspick";1567;64;42;5;1678
+"118 Rosslare";1614;77;77;23;1791
+"119 St. Helen's";1706;114;68;19;1907
+"120 Tacumshin";410;31;16;3;460
+"121 Taghmon";1046;55;17;6;1124
+"122 Tomhaggard";555;20;8;5;588
+"123 Wexford Rural";9838;602;429;124;10993
+"124 Whitechurch";403;3;14;5;425
+"Wicklow County";103257;13651;7303;1983;126194
+"001 Arklow No. 1 Urban";8083;560;330;155;9128
+"002 Arklow No. 2 Urban";2160;246;124;54;2584
+"003 Bray No. 1";1346;125;181;48;1700
+"004 Bray No. 2";4675;681;726;223;6305
+"005 Bray No. 3";5505;480;488;84;6557
+"006 Rathmichael (Bray)";2226;68;80;57;2431
+"007 Wicklow Urban";5988;536;343;63;6930
+"008 Ballinguile";83;40;21;0;144
+"009 Baltinglass";2076;179;65;72;2392
+"010 Blessington";3484;279;190;48;4001
+"011 Burgage";1333;105;91;13;1542
+"012 Donaghmore";226;104;31;12;373
+"013 Donard";401;60;15;7;483
+"014 Dunlavin";1103;121;44;32;1300
+"015 Eadestown";140;34;12;0;186
+"016 Hartstown";229;37;13;4;283
+"017 Hollywood";615;17;31;8;671
+"018 Humewood";201;74;18;8;301
+"019 Imael North";124;58;23;7;212
+"020 Imael South";232;100;12;5;349
+"021 Kilbride";815;98;54;15;982
+"022 Lackan";662;50;43;8;763
+"023 Lugglass";125;11;6;1;143
+"024 Rathdangan";321;58;11;9;399
+"025 Rathsallagh";208;57;15;3;283
+"026 Stratford";306;57;16;0;379
+"027 Talbotstown";273;93;21;17;404
+"028 The Grange";367;37;11;7;422
+"029 Tober";387;45;19;2;453
+"030 Togher";285;9;8;0;302
+"031 Tuckmill";200;17;3;5;225
+"032 Delgany";4016;756;321;65;5158
+"033 Enniskerry";2036;460;163;37;2696
+"034 Greystones";5236;1187;545;76;7044
+"035 Kilmacanoge";11394;1345;859;174;13772
+"036 Powerscourt";566;125;77;5;773
+"037 Altidore";238;45;14;6;303
+"038 Arklow Rural";907;107;40;13;1067
+"039 Aughrim";1258;80;49;53;1440
+"040 Avoca";679;94;43;22;838
+"041 Ballinaclash";483;74;30;5;592
+"042 Ballinacor";188;51;15;4;258
+"043 Ballinderry";324;68;26;0;418
+"044 Ballyarthur";676;166;30;15;887
+"045 Ballycullen";104;73;40;0;217
+"046 Brockagh";546;82;55;50;733
+"047 Calary";222;45;15;1;283
+"048 Cronebane";401;65;26;2;494
+"049 Dunganstown East";532;95;51;8;686
+"050 Dunganstown South";651;64;19;14;748
+"051 Dunganstown West";306;75;24;11;416
+"052 Ennereilly";286;84;12;11;393
+"053 Glendalough";188;33;34;2;257
+"054 Glenealy";1958;308;115;29;2410
+"055 Kilbride";601;159;46;19;825
+"056 Kilcoole";5353;890;498;91;6832
+"057 Killiskey";702;189;106;13;1010
+"058 Knockrath";194;7;7;1;209
+"059 Moneystown";193;37;15;2;247
+"060 Newcastle Lower";1529;409;109;51;2098
+"061 Newcastle Upper";2753;267;115;26;3161
+"062 Oldtown";450;48;40;6;544
+"063 Rathdrum";1925;179;107;26;2237
+"064 Togher";749;86;63;11;909
+"065 Trooperstown";256;18;28;1;303
+"066 Wicklow Rural";4969;563;263;77;5872
+"067 Aghowle";178;48;7;3;236
+"068 Ballingate";339;44;3;2;388
+"069 Ballinglen";189;38;4;0;231
+"070 Ballybeg";160;9;13;5;187
+"071 Carnew";1393;133;39;8;1573
+"072 Coolattin";212;42;10;0;264
+"073 Coolballintaggart";374;19;12;15;420
+"074 Coolboy";387;45;21;9;462
+"075 Cronelea";127;38;8;0;173
+"076 Kilballyowen";238;45;7;2;292
+"077 Killinure";298;39;10;5;352
+"078 Kilpipe";276;74;21;9;380
+"079 Money";104;27;7;0;138
+"080 Rath";227;33;4;7;271
+"081 Shillelagh";424;97;28;13;562
+"082 Tinahely";1283;150;64;11;1508
+"Munster";1047502;63994;44348;17496;1173340
+"Clare County";98189;6097;4680;1984;110950
+"001 Ennis No. 1 Urban";1517;109;73;15;1714
+"002 Ennis No. 2 Urban";1816;267;99;61;2243
+"003 Ennis No. 3 Urban";267;65;29;12;373
+"004 Ennis No. 4 Urban";1328;149;74;42;1593
+"005 Kilrush Urban";2456;86;45;70;2657
+"006 Abbey";376;17;42;7;442
+"007 Carran";75;6;26;8;115
+"009 Derreen";102;3;5;0;110
+"010 Drumcreehy";397;37;40;2;476
+"011 Gleninagh";116;4;11;1;132
+"012 Lisdoonvarna";584;119;45;152;900
+"013 Mountelva";80;0;17;1;98
+"014/008 Noughaval/Castletown";174;3;4;3;184
+"015 Oughtmama";126;2;0;1;129
+"016 Rathborney";72;15;16;1;104
+"018 Boston";240;17;23;7;287
+"019 Corrofin";1034;24;49;7;1114
+"020/017 Glenroe/Ballyeighter";159;11;8;1;179
+"021 Killinaboy";299;8;22;1;330
+"022 Kiltoraght";166;7;10;5;188
+"023 Muckanagh";249;9;9;16;283
+"024 Rath";203;10;23;4;240
+"025 Ruan";627;33;19;9;688
+"026 Clareabbey";2461;70;43;36;2610
+"027 Clenagh";8208;855;447;285;9795
+"028 Crusheen";656;18;23;23;720
+"029 Doora";1451;76;42;11;1580
+"030 Drumline";650;46;19;26;741
+"031 Dysert";301;6;12;5;324
+"032 Ennis Rural";14045;1384;642;233;16304
+"033 Furroor";249;2;10;1;262
+"034 Kilcloher";650;9;22;8;689
+"035 Killanniv";656;42;27;1;726
+"036 Killone";510;2;6;3;521
+"037 Kilnamona";704;18;11;5;738
+"038 Kilraghtis";389;10;13;5;417
+"039 Kinturk";261;5;10;0;276
+"040 Newmarket";1569;80;56;90;1795
+"041 Sixmilebridge";1887;70;60;17;2034
+"042 Spancelhill";717;41;20;17;795
+"043 Templemaley";1028;9;36;6;1079
+"044 Tomfinlough";531;31;22;7;591
+"045 Urlan";780;29;20;15;844
+"046 Annagh";485;15;19;3;522
+"047 Ballagh";173;7;8;0;188
+"048 Ballyea";615;21;17;8;661
+"049 Ballysteen";268;5;3;1;277
+"050 Ballyvaskin";340;6;13;5;364
+"051 Cloghaun";159;13;36;3;211
+"052 Cloonanaha";277;3;1;3;284
+"053 Clooney";223;1;8;1;233
+"054 Ennistimon";1875;87;104;35;2101
+"055 Formoyle";172;7;5;3;187
+"056 Kilfenora";368;18;17;6;409
+"057 Killaspuglonane";209;3;12;1;225
+"058 Killilagh";615;60;125;15;815
+"059 Kilshanny";103;4;15;3;125
+"060 Liscannor";261;6;15;0;282
+"061 Lurraga";220;19;24;0;263
+"062 Magherareagh";294;7;14;4;319
+"063 Milltown Malbay";1401;54;68;32;1555
+"064 Moy";550;21;37;17;625
+"065 Smithstown";123;1;20;2;146
+"066 Ballynacally";243;4;3;2;252
+"067 Clondagad";501;9;4;5;519
+"068 Coolmeen";227;2;2;3;234
+"069 Kilchreest";391;12;13;3;419
+"070 Kilfiddane";370;3;8;3;384
+"071 Killadysert";772;34;20;17;843
+"072 Killofin";304;15;11;5;335
+"073 Kilmurry";248;3;20;6;277
+"074 Liscasey";504;7;15;4;530
+"075 Lisheen";493;13;3;1;510
+"076 Rinealon";188;3;2;6;199
+"077 Cahermurphy";196;14;6;4;220
+"078 Cloonadrum";411;16;4;7;438
+"079 Clooncoorha";344;2;12;5;363
+"080 Cooraclare";523;13;4;8;548
+"081 Creegh";443;2;10;3;458
+"082 Doonbeg";648;16;26;11;701
+"083 Drumellihy";388;6;9;3;406
+"084 Einagh";280;7;10;2;299
+"085 Glenmore";318;15;13;0;346
+"086 Kilballyowen";258;21;16;2;297
+"087 Kilfearagh";300;15;9;4;328
+"088 Kilkee";1188;54;54;29;1325
+"089 Killard";254;20;8;0;282
+"090 Killimer";470;4;6;2;482
+"091 Kilmihil";555;11;9;4;579
+"092 Kilmurry";692;13;21;0;726
+"093 Kilrush Rural";583;18;11;9;621
+"094 Knock";209;8;9;2;228
+"095 Knocknaboley";293;6;18;2;319
+"096 Knocknagore";236;3;2;4;245
+"097 Moveen";78;0;5;0;83
+"098 Moyarta";239;9;9;9;266
+"099 Mullagh";234;3;2;3;242
+"100 Querrin";160;3;4;3;170
+"101 Rahona";351;8;16;4;379
+"102 St. Martin's";105;0;3;0;108
+"103 Tullig";139;4;1;0;144
+"104 Tullycreen";120;9;7;0;136
+"105 Ballycannan";962;185;17;26;1190
+"106 Ballyglass";4974;187;172;46;5379
+"107 Cappavilla";587;32;49;6;674
+"108 Castlecrine";327;11;13;4;355
+"109 Cloghera";503;21;18;15;557
+"110 Cloontra";185;9;2;5;201
+"111 Cratloe";1258;60;44;10;1372
+"112 Fahymore";274;6;15;5;300
+"113 Killeely";725;95;48;100;968
+"114 Killokennedy";123;2;9;1;135
+"115 Kilseily";621;12;13;11;657
+"116 Kiltenanlea";1537;53;61;16;1667
+"117 Lackareagh";102;7;5;0;114
+"118 Mountievers";827;39;28;11;905
+"119 O'Briensbridge";533;29;29;4;595
+"120 Ayle";230;18;56;5;309
+"121 Boherglass";184;20;13;1;218
+"122 Caherhurley";123;16;46;3;188
+"124 Cappaghabaun";129;5;2;5;141
+"125 Carrowbaun";83;31;19;19;152
+"126 Cloonusker";151;15;14;3;183
+"127 Coolreagh";135;5;12;0;152
+"128/123 Corlea/Cahermurphy";131;10;27;0;168
+"129 Derrynagittagh";140;7;16;2;165
+"130 Drummaan";469;54;51;4;578
+"131 Feakle";269;39;24;4;336
+"132/133 Inishcaltra North/Inishcaltra South";203;65;66;3;337
+"134 Killaloe";1378;133;61;15;1587
+"135 Mountshannon";272;22;35;3;332
+"136 Ogonnelloe";496;40;60;9;605
+"137 Scarriff";1136;57;89;14;1296
+"138 Ballyblood";103;2;5;1;111
+"139 Ballynahinch";225;12;25;3;265
+"140 Caher";169;8;18;5;200
+"141 Clooney";414;15;7;1;437
+"142 Dangan";174;5;14;16;209
+"143 Glendree";101;15;28;2;146
+"144 Kilkishen";796;19;36;7;858
+"145 Killanena";198;17;12;2;229
+"146 Killuran";356;14;21;4;395
+"147 Kiltannon";143;6;30;3;182
+"148 Kyle";234;3;19;5;261
+"149 Loughea";120;17;12;2;151
+"150 Newgrove";172;15;33;1;221
+"151 Quin";958;46;36;8;1048
+"152 Rathclooney";136;4;5;0;145
+"153 Rossroe";625;15;17;9;666
+"154 Toberbreeda";119;6;3;1;129
+"155 Tulla";926;26;49;27;1028
+"Cork City";103533;6125;6880;2880;119418
+"001 Ballinlough A";675;37;72;12;796
+"002 Ballinlough B";1699;76;71;11;1857
+"003 Ballinlough C";1450;46;77;12;1585
+"004 Ballyphehane A";668;8;16;8;700
+"005 Ballyphehane B";842;8;20;11;881
+"006 Bishopstown A";1353;137;184;20;1694
+"007 Bishopstown B";1899;87;96;34;2116
+"008 Bishopstown C";4401;143;176;268;4988
+"009 Bishopstown D";1444;46;60;6;1556
+"010 Bishopstown E";2775;280;152;20;3227
+"011 Blackpool A";597;29;47;0;673
+"012 Blackpool B";1101;88;162;88;1439
+"013 Browningstown";930;61;39;5;1035
+"014 Centre A";363;163;141;124;791
+"015 Centre B";1006;215;230;107;1558
+"016 Churchfield";1336;13;25;24;1398
+"017 City Hall A";691;60;88;30;869
+"018 City Hall B";872;70;133;27;1102
+"019 Commons";682;76;27;46;831
+"020 Evergreen";1050;97;166;27;1340
+"021 Fair Hill A";672;12;8;17;709
+"022 Fair Hill B";772;13;8;28;821
+"023 Fair Hill C";3842;59;58;51;4010
+"024 Farranferris A";1446;82;65;23;1616
+"025 Farranferris B";878;12;5;26;921
+"026 Farranferris C";569;18;8;24;619
+"027 Gillabbey A";1241;139;206;53;1639
+"028 Gillabbey B";841;65;73;79;1058
+"029 Gillabbey C";1385;99;112;24;1620
+"030 Glasheen A";579;57;66;6;708
+"031 Glasheen B";584;38;56;9;687
+"032 Glasheen C";2549;118;129;85;2881
+"033 Greenmount";1851;37;87;14;1989
+"034 Gurranebraher A";756;12;12;7;787
+"035 Gurranebraher B";534;35;19;8;596
+"036 Gurranebraher C";917;54;33;17;1021
+"037 Gurranebraher D";896;6;17;13;932
+"038 Gurranebraher E";1002;7;30;28;1067
+"039 Knocknaheeny";4320;120;68;50;4558
+"040 Knockrea A";863;57;78;15;1013
+"041 Knockrea B";1016;106;65;18;1205
+"042 Mahon A";3698;234;217;57;4206
+"043 Mahon B";3715;280;164;82;4241
+"044 Mahon C";3139;169;142;27;3477
+"045 Mardyke";536;78;118;36;768
+"046 Mayfield";2920;112;98;75;3205
+"047 Montenotte A";1460;100;174;18;1752
+"048 Montenotte B";2394;78;105;79;2656
+"049 Pouladuff A";769;20;28;9;826
+"050 Pouladuff B";1623;37;31;13;1704
+"051 St. Patrick's A";718;220;193;44;1175
+"052 St. Patrick's B";792;129;179;113;1213
+"053 St. Patrick's C";609;67;134;26;836
+"054 Shanakiel";2791;109;93;38;3031
+"055 Shandon A";914;113;160;77;1264
+"056 Shandon B";701;106;174;82;1063
+"057 South Gate A";1085;244;334;52;1715
+"058 South Gate B";667;73;136;8;884
+"059 Sundays Well A";496;45;82;39;662
+"060 Sundays Well B";507;63;106;19;695
+"061 The Glen A";2108;130;72;178;2488
+"062 The Glen B";3892;95;98;68;4153
+"063 The Lough";1310;57;128;20;1515
+"064 Tivoli A";1036;104;152;56;1348
+"065 Tivoli B";2453;79;74;18;2624
+"066 Togher A";1914;58;33;50;2055
+"067 Togher B";677;9;21;7;714
+"068 Tramore A";691;49;70;36;846
+"069 Tramore B";935;54;49;2;1040
+"070 Tramore C";2694;239;158;41;3132
+"071 Turners Cross A";744;34;92;17;887
+"072 Turners Cross B";1132;24;42;15;1213
+"073 Turners Cross C";615;20;22;2;659
+"074 Turners Cross D";451;10;16;1;478
+"Cork County";320634;22301;14679;4263;361877
+"001 Clonakilty Urban";3221;266;221;37;3745
+"002 Cobh Urban";5701;361;349;130;6541
+"003 Fermoy Urban";1984;139;112;40;2275
+"004 Kinsale Urban";1723;213;244;118;2298
+"005 Macroom Urban";3131;114;129;33;3407
+"006 Mallow North Urban";4421;259;135;84;4899
+"007 Mallow South Urban";2793;85;43;44;2965
+"008 Midleton Urban";3388;270;215;61;3934
+"009 Skibbereen Urban";1967;200;153;18;2338
+"010 Youghal Urban";5682;296;213;202;6393
+"011 Ballinadee";371;42;6;6;425
+"012 Ballygroman";1233;44;40;4;1321
+"013 Ballymodan";3652;436;126;36;4250
+"014 Ballymurphy";805;21;21;11;858
+"015 Bandon";1497;130;79;15;1721
+"016 Baurleigh";269;22;7;3;301
+"017 Bengour";211;40;5;0;256
+"018 Boulteen";441;76;31;2;550
+"019 Brinny";548;70;14;0;632
+"020 Cashel";259;71;15;2;347
+"021 Inishannon";1430;160;76;8;1674
+"022 Kilbonane";1010;59;47;5;1121
+"023 Kilbrittain";460;55;43;1;559
+"024 Kilbrogan";1321;171;30;7;1529
+"025 Knockavilly";351;20;12;1;384
+"026 Knockroe";479;83;26;3;591
+"027 Moviddy";1197;50;32;9;1288
+"028 Murragh";388;22;10;3;423
+"029 Rathclarin";492;77;19;9;597
+"030 Teadies";662;110;37;6;815
+"031 Templemartin";540;121;18;2;681
+"032 Ahil";151;10;30;4;195
+"033/046 Bantry Rural/Whiddy";878;89;61;5;1033
+"034 Bantry Urban";2769;296;198;44;3307
+"035 Douce";180;12;43;3;238
+"036 Durrus East";172;52;30;11;265
+"037 Durrus West";412;158;67;13;650
+"038 Glanlough";137;38;19;0;194
+"039 Glengarriff";789;77;114;39;1019
+"040 Kealkill";424;37;37;6;504
+"041 Kilcaskan";566;72;111;11;760
+"042 Mealagh";231;31;70;2;334
+"043 Scart";302;35;7;5;349
+"044 Seefin";181;31;22;0;234
+"045 Sheepshead";135;19;23;1;178
+"047 Adrigole";380;25;44;12;461
+"048 Bear";162;4;21;0;187
+"049 Coulagh";445;18;36;8;507
+"050 Curryglass";318;10;30;4;362
+"051 Kilcatherine";671;43;65;15;794
+"052 Killaconenagh";1271;74;89;29;1463
+"053 Kilnamanagh";299;47;23;3;372
+"054 Abbeymahon";530;35;27;2;594
+"055 Ardfield";579;33;57;1;670
+"056 Argideen";271;57;12;0;340
+"057 Butlerstown";371;13;16;1;401
+"058 Cahermore";323;13;29;1;366
+"059 Castleventry";184;47;25;2;258
+"060 Clonakilty Rural";1251;170;70;12;1503
+"061 Coolcraheen";530;78;18;12;638
+"062 Courtmacsherry";432;52;40;2;526
+"063 Derry";376;48;27;0;451
+"064 Kilkerranmore";421;32;10;0;463
+"065 Kilmaloda East";261;37;20;1;319
+"066 Kilmaloda West";190;6;6;0;202
+"067 Kilmoylerane";172;71;13;4;260
+"068 Kilnagross";512;52;16;0;580
+"069 Knocks";264;25;33;1;323
+"070 Rathbarry";380;25;57;4;466
+"071 Rosscarbery";766;95;62;6;929
+"072 Rossmore";218;37;19;0;274
+"073 Templeomalus";640;40;28;0;708
+"074 Timoleague";574;42;43;3;662
+"075 Ballincollig";14684;899;537;188;16308
+"076 Ballygarvan";1486;63;56;12;1617
+"077 Ballynaglogh";347;3;7;0;357
+"078 Bishopstown (part)";100;0;3;1;104
+"079 Blackpool";837;6;17;10;870
+"080 Blarney";4782;211;172;59;5224
+"081 Caherlag";5816;374;222;143;6555
+"082 Carrigaline";9723;720;432;94;10969
+"083 Carrignavar";1146;10;18;5;1179
+"084 Carrigrohane Beg";1380;84;86;13;1563
+"085 Cobh Rural";5741;278;251;69;6339
+"086 Douglas";15798;1357;853;174;18182
+"087 Dripsey";1312;31;24;10;1377
+"088 Dunderrow";1367;52;45;13;1477
+"089 Firmount";561;9;4;3;577
+"090 Glenville";454;5;17;4;480
+"091 Greenfort";642;30;8;9;689
+"092 Inishkenny";4497;459;269;89;5314
+"093 Killeagh";524;32;16;3;575
+"094 Knockantota";770;10;15;8;803
+"095 Knockraha";1062;44;22;4;1132
+"096 Lehenagh";8089;929;364;152;9534
+"097 Matehy";2422;66;72;19;2579
+"098 Monkstown Rural";685;78;40;29;832
+"099 Monkstown Urban";4149;386;232;51;4818
+"100 Ovens";1546;82;66;9;1703
+"101 Rathcooney (part)";6665;176;206;71;7118
+"102 Riverstown";4071;203;148;29;4451
+"103 St. Mary's (part)";4336;111;91;73;4611
+"104 Whitechurch";2113;27;31;12;2183
+"105 Aultagh";301;3;23;0;327
+"106 Ballingurteen";476;37;27;5;545
+"107 Ballymoney";681;49;50;5;785
+"108 Béal Átha an Ghaorthaidh";213;11;12;4;240
+"109 Bealock";240;12;16;2;270
+"110 Carrigboy";388;25;35;5;453
+"111 Castletown";315;60;24;5;404
+"112 Coolmountain";275;35;117;16;443
+"113 Drinagh";159;38;6;3;206
+"114 Dunmanway North";927;66;50;17;1060
+"115 Dunmanway South";1122;181;28;8;1339
+"116 Garrown";188;39;32;3;262
+"117 Kinneigh";347;13;19;2;381
+"118 Manch";495;29;19;4;547
+"119 Milane";87;77;14;0;178
+"120 Teerelton";444;21;30;2;497
+"121 Aghern";167;15;6;1;189
+"122 Ballyhooly";547;44;12;3;606
+"123 Ballynoe";520;48;16;6;590
+"124 Carrig";122;6;4;1;133
+"125 Castlecooke";151;9;5;2;167
+"126 Castle Hyde";684;48;13;6;751
+"127 Castlelyons";891;40;18;8;957
+"128 Castletownroche";754;30;30;8;822
+"129 Coole";703;31;29;5;768
+"130 Curraglass";317;26;6;6;355
+"131 Fermoy Rural";3915;167;143;51;4276
+"132 Glanworth East";382;7;10;9;408
+"133 Glanworth West";854;26;10;18;908
+"134 Gortnaskehy";272;6;13;4;295
+"135 Gortroe";601;23;21;5;650
+"136 Kilcor";299;23;6;2;330
+"137 Kilcummer";205;28;8;3;244
+"138 Kildinan";475;20;24;3;522
+"139 Killathy";348;17;9;2;376
+"140 Kilworth";1075;56;33;6;1170
+"141 Knockmourne";934;60;40;11;1045
+"142 Leitrim";293;9;3;1;306
+"143 Rathcormack";1475;100;47;16;1638
+"144 Watergrasshill";996;45;22;10;1073
+"145 Allow";405;2;1;3;411
+"146 Ballyhoolahan";263;4;9;2;278
+"147 Banteer";660;18;18;2;698
+"148 Barleyhill";527;22;11;0;560
+"149 Barnacurra";200;1;12;1;214
+"150 Bawncross";346;3;0;3;352
+"151 Boherboy";641;10;7;4;662
+"152 Castlecor";309;8;3;3;323
+"153 Castlemagner";368;7;2;1;378
+"154 Clonfert East";366;5;7;5;383
+"155 Clonfert West";170;2;2;0;174
+"156 Clonmeen";241;12;7;0;260
+"157 Coolclogh";353;7;4;3;367
+"158 Dromina";520;17;2;5;544
+"159 Glenlara";333;4;3;2;342
+"160 Gortmore";177;6;1;0;184
+"161 Greenane";1148;31;18;8;1205
+"162 Kanturk";1528;38;18;16;1600
+"163 Kilbrin";314;6;4;1;325
+"164 Kilmeen";297;8;4;0;309
+"165 Knockatooan";298;4;3;1;306
+"166 Knocktemple";352;31;9;7;399
+"167 Meens";459;15;9;1;484
+"168 Milford";577;14;9;3;603
+"169 Nad";80;3;3;0;86
+"170 Newmarket";1502;25;22;10;1559
+"171 Newtown";807;26;9;9;851
+"172 Roskeen";409;10;4;8;431
+"173 Rosnalee";363;8;6;0;377
+"174 Rowls";176;0;4;1;181
+"175 Tincoora";333;14;21;2;370
+"176 Tullylease";413;5;3;4;425
+"177 Williamstown";439;9;2;2;452
+"178 Ballinspittle";497;44;33;6;580
+"179 Ballyfeard";275;32;18;2;327
+"180 Ballyfoyle";218;32;19;5;274
+"181 Ballymackean";283;21;9;1;314
+"182 Ballymartle";869;74;15;10;968
+"183 Carrigaline";1431;177;89;11;1708
+"184 Coolmain";323;54;23;6;406
+"185 Cullen";433;33;10;5;481
+"186 Farranbrien";423;41;24;4;492
+"187 Kilmonoge";828;97;46;7;978
+"188 Kilpatrick";306;37;27;1;371
+"189 Kinsale Rural";3095;382;286;56;3819
+"190 Kinure";219;38;32;3;292
+"191 Laherne";345;22;17;1;385
+"192 Leighmoney";547;60;19;7;633
+"193 Liscleary";3158;311;111;34;3614
+"194 Nohaval";227;32;10;1;270
+"195 Templebreedy";2505;334;187;35;3061
+"196 Templemichael";599;45;24;2;670
+"197 Aghinagh";414;14;14;2;444
+"198 Aglish";1246;36;37;14;1333
+"199 Ballingeary";504;10;27;1;542
+"200 Candroma";259;14;18;1;292
+"201 Cannaway";475;19;23;6;523
+"202 Cleanrath";156;21;38;0;215
+"203 Clondrohid";770;31;27;7;835
+"204 Clonmoyle";438;17;18;1;474
+"205 Derryfineen";216;6;7;0;229
+"206 Gortnatubbrid";370;19;24;7;420
+"207 Gowlane";1026;15;17;16;1074
+"208 Greenville";195;13;13;3;224
+"209 Inchigeelagh";480;11;25;11;527
+"210 Kilberrihert";505;26;17;7;555
+"211 Kilcullen";717;7;11;6;741
+"212 Kilnamartery";615;14;33;7;669
+"213 Macloneigh";727;20;46;11;804
+"214 Magourney";975;32;41;11;1059
+"215 Mashanaglass";426;5;8;3;442
+"216 Mountrivers";569;17;20;4;610
+"217 Rahalisk";448;11;29;2;490
+"218 Slievereagh";733;45;31;7;816
+"219 Na hUláin";547;30;35;0;612
+"220 Warrenscourt";695;23;17;7;742
+"221 Ardskeagh";361;4;7;4;376
+"222 Ballyclogh";604;22;11;4;641
+"223 Ballynamona";849;33;10;3;895
+"224 Buttevant";1546;52;43;18;1659
+"225 Caherduggan";465;25;15;2;507
+"226 Carrig";225;1;4;2;232
+"227 Churchtown";799;27;24;4;854
+"228 Clenor";317;7;5;7;336
+"229 Doneraile";1280;46;50;14;1390
+"230 Dromore";1887;48;41;24;2000
+"231 Imphrick";268;20;7;5;300
+"232 Kilmaclenine";633;15;8;9;665
+"233 Kilshannig";925;25;25;8;983
+"234 Liscarroll";550;8;8;5;571
+"235 Mallow Rural";3038;173;102;34;3347
+"236 Milltown";340;7;7;2;356
+"237 Monanimy";617;23;19;10;669
+"238 Rahan";763;23;8;1;795
+"239 Rathluirc";2963;130;88;187;3368
+"240 Shanballymore";515;16;10;2;543
+"241 Skahanagh";111;13;9;2;135
+"242 Springfort";554;23;6;10;593
+"243 Streamhill";86;7;7;25;125
+"244 Templemary";316;10;4;1;331
+"245 Wallstown";182;8;5;4;199
+"246 Ballintemple";423;21;8;3;455
+"247 Ballycottin";1193;103;85;26;1407
+"248 Ballyspillane";277;26;9;5;317
+"249 Carrigtohill";4347;347;152;29;4875
+"250 Castlemartyr";757;73;35;7;872
+"251 Clonmult";173;6;2;0;181
+"252 Cloyne";2850;202;115;29;3196
+"253 Corkbeg";1864;159;88;95;2206
+"254 Dangan";192;8;1;2;203
+"255 Dungourney";484;15;18;19;536
+"256 Garryvoe";512;33;18;4;567
+"257 Ightermurragh";1607;130;73;19;1829
+"258 Inch";341;57;22;1;421
+"259 Lisgoold";720;16;19;7;762
+"260 Midleton Rural";5656;400;278;47;6381
+"261 Mogeely";425;16;9;7;457
+"262 Rostellan";814;74;41;14;943
+"263 Templebodan";421;27;21;21;490
+"264 Templenacarriga";458;44;27;6;535
+"265 Caherbarnagh";500;7;7;5;519
+"266 Coomlogane";807;9;12;3;831
+"267 Crinnaloo";196;2;0;2;200
+"268 Cullen";405;5;2;4;416
+"269 Derragh";214;4;2;3;223
+"270 Doonasleen";404;5;10;3;422
+"271 Drishane";1528;75;52;7;1662
+"272 Keale";303;7;6;1;317
+"273 Kilcorney";284;14;6;1;305
+"274 Knocknagree";605;15;9;1;630
+"275 Rathcool";409;11;4;2;426
+"276 Skagh";423;7;3;0;433
+"277 Ballyarthur";223;2;1;2;228
+"278 Derryvillane";435;15;20;3;473
+"279 Farahy";362;9;18;0;389
+"280 Kildorrery";480;14;14;2;510
+"281 Kilgullane";118;1;0;3;122
+"282 Kilphelan";491;17;4;5;517
+"283 Marshalstown";336;12;8;2;358
+"284 Mitchelstown";4518;165;87;51;4821
+"285 Templemolaga";276;8;0;2;286
+"286 Aghadown North";201;61;19;1;282
+"287 Aghadown South";486;64;66;8;624
+"288 Bredagh";518;86;29;4;637
+"289 Caheragh";280;12;2;4;298
+"290 Cléire";236;31;48;4;319
+"291 Carrigbaun";309;31;15;2;357
+"292 Castlehaven North";663;70;46;10;789
+"293 Castlehaven South";337;28;31;12;408
+"294 Cloghdonnell";271;44;23;7;345
+"295 Cloonkeen";308;27;30;2;367
+"296 Drinagh";271;57;15;1;344
+"297 Dromdaleague North";198;20;34;4;256
+"298 Dromdaleague South";445;78;39;4;566
+"299 Garranes";274;64;16;0;354
+"300 Gortnascreeny";350;48;39;3;440
+"301 Kilfaughnabeg";410;42;42;4;498
+"302 Killeenleagh";292;53;12;3;360
+"303 Knockskagh";474;66;30;0;570
+"304 Myross";542;59;32;1;634
+"305 Shreelane";270;33;12;0;315
+"306 Skibbereen Rural";988;132;74;6;1200
+"307 Tullagh";547;107;104;14;772
+"308 Woodfort";317;55;21;1;394
+"309 Ballybane";143;52;52;7;254
+"310 Ballydehob";573;129;98;12;812
+"311 Coolagh";100;31;45;0;176
+"312 Crookhaven";181;33;21;4;239
+"313 Dunbeacon";125;39;40;7;211
+"314 Dunmanus";162;47;28;3;240
+"315 Goleen";200;15;22;2;239
+"316 Kilcoe";301;78;62;5;446
+"317 Lowertown";163;49;10;0;222
+"318 Skull";777;119;117;20;1033
+"319 Toormore";113;58;33;1;205
+"320 Ardagh";461;32;26;9;528
+"321 Clonpriest";810;58;26;10;904
+"322 Kilcronat";117;4;9;1;131
+"323 Killeagh";1001;30;15;15;1061
+"324 Kilmacdonogh";727;23;22;9;781
+"325 Youghal Rural";719;28;23;4;774
+"Kerry County";123913;7737;5106;3079;139835
+"001 Killarney Urban";7715;1374;523;582;10194
+"002 Listowel Urban";3611;151;91;48;3901
+"003 Tralee Urban";4480;519;246;211;5456
+"004 Bahaghs";204;2;2;2;210
+"005 Ballinskelligs";320;13;18;4;355
+"006 Ballybrack";105;11;6;0;122
+"007 Caher";1900;60;83;84;2127
+"008 Caherdaniel";259;31;44;14;348
+"009/020 Ceannúig/Máistir Gaoithe";237;5;7;0;249
+"010 Castlequin";504;12;24;4;544
+"012 Curraghbeg";155;6;4;32;197
+"013 Darrynane";142;9;12;7;170
+"014/011 Cloon/Daoire Ianna";256;6;19;1;282
+"015 Emlagh";816;53;50;5;924
+"016 Glanbehy";988;52;44;32;1116
+"017 Killinane";235;18;18;2;273
+"018 Lickeen";90;4;12;12;118
+"019 Loughcurrane";281;21;15;7;324
+"021 Maum";246;7;10;3;266
+"022 Portmagee";330;16;20;10;376
+"023 St. Finan's";141;6;5;2;154
+"024 Teeranearagh";267;6;10;1;284
+"025 Valencia";622;32;37;22;713
+"026 Ballinvoher";435;37;34;3;509
+"027 Ballyduff";102;10;6;1;119
+"028 Ballynacourty";213;3;8;2;226
+"029 Brandon";145;7;13;3;168
+"030 Castlegregory";825;35;45;33;938
+"031 Cloghane";248;14;10;1;273
+"032 Deelis";249;20;19;0;288
+"033 An Daingean";1379;94;157;145;1775
+"034 Dunquin";128;7;15;9;159
+"035 Dunurlin";393;13;42;7;455
+"036 Glin";1226;86;127;57;1496
+"037 Inch";132;19;21;1;173
+"038 Kilmalkedar";465;14;25;4;508
+"039 Cill Chuáin";430;10;12;10;462
+"040 Kinard";319;16;41;5;381
+"041 Lack";266;8;8;1;283
+"042 Márthain";178;16;34;48;276
+"043 An Mhin Aird";351;10;18;8;387
+"044 An Sráidbhaile";170;7;27;3;207
+"045 Ceann Trá";331;17;63;2;413
+"046 Ardea";149;31;30;2;212
+"047 Banawn";189;11;14;0;214
+"048 Cappagh";275;20;35;3;333
+"049 Castlecove";234;19;38;2;293
+"050 Dawros";457;70;66;6;599
+"051 Dromore";168;27;49;4;248
+"052 Glanlee";197;7;9;1;214
+"053 Glanlough";125;19;13;1;158
+"054 Glanmore";218;10;21;6;255
+"055 Greenane";177;27;42;2;248
+"056 Kenmare";1943;204;274;41;2462
+"057 Kilgarvan";575;23;22;13;633
+"058 Loughbrin";159;5;2;4;170
+"059 Reen";146;27;5;0;178
+"060 Sneem";480;30;51;16;577
+"061 Tahilla";136;16;37;4;193
+"062 Aghadoe";761;53;32;31;877
+"063 Aglish";332;14;8;3;357
+"064 Ballyhar";161;10;8;1;180
+"065 Brewsterfield";642;14;15;5;676
+"066 Caragh";754;50;41;7;852
+"067 Churchtown";413;24;13;11;461
+"068 Clydagh";112;2;11;1;126
+"069 Coolies";659;39;23;11;732
+"070 Coom";1842;30;30;8;1910
+"071 Curraghmore";270;2;13;0;285
+"072 Currans";243;9;4;2;258
+"073 Doocarrig";547;11;10;1;569
+"074 Dromin";603;30;18;3;654
+"075 Dunloe";687;52;30;21;790
+"076 Flesk";354;13;8;2;377
+"077 Headfort";597;13;6;0;616
+"078 Kilbonane";464;23;14;3;504
+"079 Kilcummin";1555;76;26;20;1677
+"080 Kilfelim";228;3;6;1;238
+"081 Kilgobnet";754;39;14;10;817
+"082 Killarney Rural";5756;435;221;173;6585
+"083 Killeentierna";848;17;25;2;892
+"084 Killorglin";3464;188;146;70;3868
+"085 Kilnanare";808;32;23;9;872
+"086 Knocknahoe";252;18;13;0;283
+"087 Lahard";519;54;19;3;595
+"088 Milltown";1304;88;40;15;1447
+"089 Molahiffe";1289;50;33;12;1384
+"090 Muckross";646;88;54;61;849
+"091 Rathmore";1566;44;31;6;1647
+"092 Rockfield";304;5;25;4;338
+"093 Ardagh";668;11;1;11;691
+"094 Astee";487;13;2;1;503
+"095 Ballincloher";414;9;2;4;429
+"096 Ballyconry";414;10;4;7;435
+"097 Ballyduff";891;11;13;6;921
+"098 Ballyegan";112;1;1;2;116
+"099 Ballyhorgan";383;7;10;5;405
+"100 Beal";149;12;1;0;162
+"101 Carrig";389;11;4;5;409
+"102 Causeway";551;6;4;10;571
+"103 Cloontubbrid";308;6;2;2;318
+"104 Drommartin";444;4;5;8;461
+"105 Duagh";453;12;3;2;470
+"106 Ennismore";558;17;6;3;584
+"107 Gullane";202;13;1;4;220
+"108 Gunsborough";328;5;4;5;342
+"109 Kilfeighny";768;51;20;4;843
+"110 Killehenny";1654;47;47;47;1795
+"111 Killury";504;13;6;10;533
+"112 Kilmeany";628;17;12;9;666
+"113 Kilshenane";246;8;6;3;263
+"114 Kiltomy";393;3;8;7;411
+"115 Leitrim";481;11;5;2;499
+"116 Lislaughtin";619;14;7;6;646
+"117 Lisselton";324;3;9;6;342
+"118 Listowel Rural";1330;35;23;9;1397
+"119 Lixnaw";737;25;21;7;790
+"120 Moynsha";427;22;4;2;455
+"121 Newtownsandes";983;25;16;12;1036
+"122 Rathea";407;6;4;3;420
+"123 Shronowen";238;0;1;0;239
+"124 Tarbert";759;31;16;4;810
+"125 Tarmon";458;20;12;2;492
+"126 Trienearagh";392;11;8;0;411
+"127 Urlee";342;4;8;2;356
+"128 Abbeydorney";911;31;26;1;969
+"129 Arabela";1111;148;33;6;1298
+"130 Ardfert";868;35;26;6;935
+"131 Ballyegan";282;10;6;3;301
+"132 Ballyheige";1330;19;14;96;1459
+"133 Ballynahaglish";1310;46;43;7;1406
+"134 Ballynorig";456;13;3;4;476
+"135 Ballyseedy";1367;136;52;19;1574
+"136 Banna";697;19;4;12;732
+"137 Baurtregaum";391;16;11;1;419
+"138 Blennerville";653;19;36;3;711
+"139 Boolteens";407;1;9;5;422
+"140 Brosna";713;25;13;4;755
+"141 Carker";433;3;2;0;438
+"142 Castleisland";3078;120;60;27;3285
+"143 Clogherbrien";1467;56;25;16;1564
+"144 Cordal";270;4;3;1;278
+"145 Crinny";296;9;1;1;307
+"146 Derreen";168;6;6;1;181
+"147 Doon";576;22;15;6;619
+"148 Gneeves";328;10;2;0;340
+"149 Kerryhead";558;15;1;1;575
+"150 Kilflyn";261;10;5;4;280
+"151 Kilgarrylander";596;19;14;5;634
+"152 Kilgobban";217;34;16;3;270
+"153 Killahan";295;9;10;3;317
+"154 Kilmurry";291;6;5;3;305
+"155 Kiltallagh";500;77;12;8;597
+"156 Knockglass";283;26;8;3;320
+"157 Knocknagashel";689;17;15;0;721
+"158 Lackabaun";427;9;7;2;445
+"159 Millbrook";462;3;4;0;469
+"160 Mount Eagle";173;5;5;2;185
+"161 Nohaval";313;23;11;2;349
+"162 O'Brennan";437;17;8;1;463
+"163 Ratass";987;53;25;6;1071
+"164 Scartaglin";608;9;9;5;631
+"165 Tralee Rural";14263;1219;559;570;16611
+"166 Tubrid";749;15;13;3;780
+"Limerick City";47069;2613;2168;689;52539
+"001 Abbey A";4139;183;258;36;4616
+"002 Abbey B";1759;135;116;30;2040
+"003 Abbey C";480;76;37;9;602
+"004 Abbey D";1419;32;31;21;1503
+"005 Ballinacurra A";1751;77;110;17;1955
+"006 Ballinacurra B";1416;40;23;23;1502
+"007 Ballynanty";3327;67;50;24;3468
+"008 Castle A";1082;53;70;16;1221
+"009 Castle B";412;22;45;7;486
+"010 Castle C";861;48;64;0;973
+"011 Castle D";1951;144;101;11;2207
+"012 Coolraine";1661;57;51;5;1774
+"013 Custom House";369;81;56;29;535
+"014 Dock A";1397;465;228;48;2138
+"015 Dock B";644;96;88;17;845
+"016 Dock C";907;59;69;11;1046
+"017 Dock D";754;101;73;9;937
+"018 Farranshone";1049;28;30;4;1111
+"019 Galvone A";1474;34;25;9;1542
+"020 Galvone B";1499;24;23;28;1574
+"021 Glentworth A";541;27;23;3;594
+"022 Glentworth B";1197;6;27;11;1241
+"023 Glentworth C";527;4;3;15;549
+"024 John's A";1174;16;4;17;1211
+"025 John's B";964;40;31;18;1053
+"026 John's C";370;20;39;9;438
+"027 Killeely A";1507;37;20;15;1579
+"028 Killeely B";857;46;22;25;950
+"029 Market";1049;193;114;53;1409
+"030 Prospect A";931;31;36;16;1014
+"031 Prospect B";937;33;9;47;1026
+"032 Rathbane";1633;22;21;26;1702
+"033 St. Laurence";1046;21;34;5;1106
+"034 Shannon A";311;66;49;32;458
+"035 Shannon B";356;85;71;7;519
+"036 Singland A";1684;38;22;10;1754
+"037 Singland B";3634;106;95;26;3861
+"Limerick County";120903;5691;3538;1384;131516
+"001 Abbeyville";286;2;0;3;291
+"002 Adare North";515;67;7;4;593
+"003 Adare South";1529;207;103;21;1860
+"004 Ballingarry";788;34;10;6;838
+"005 Ballyagran";490;12;4;1;507
+"006 Ballygrennan";266;2;3;2;273
+"007 Ballynabanoge";295;13;4;1;313
+"008 Ballynoe";421;18;6;0;445
+"009 Castletown";362;10;5;0;377
+"010 Coolrus";410;4;1;2;417
+"011 Crean";404;8;2;5;419
+"012 Crecora";408;8;8;5;429
+"013 Croom";1508;43;25;21;1597
+"014 Dunnaman";582;27;14;5;628
+"015 Fedamore";1047;17;15;9;1088
+"016 Garrane";298;4;2;4;308
+"017 Grange";480;11;1;1;493
+"018 Kilfinny";252;6;4;3;265
+"019 Kilpeacon";451;37;7;3;498
+"020 Rathmore";268;12;6;2;288
+"021 Fleanmore";201;1;2;1;205
+"022 Glin";1118;39;42;12;1211
+"023 Kilfergus";496;1;6;0;503
+"024 Kilmoylan";442;10;6;3;461
+"025 Ardpatrick";382;3;9;7;401
+"026 Athlacca";353;2;4;1;360
+"027 Ballymacshaneboy";416;12;5;1;434
+"028 Bruff";1203;37;15;9;1264
+"029 Bruree";962;18;14;8;1002
+"030 Bulgaden";330;6;8;6;350
+"031 Cahercorney";579;6;17;0;602
+"032 Colmanswell";536;5;7;2;550
+"033 Darragh";305;5;5;1;316
+"034 Dromin";494;13;9;7;523
+"035 Emlygrennan";629;21;10;2;662
+"036 Glenbrohane";367;21;8;6;402
+"037 Griston";255;3;3;1;262
+"038 Hospital";1153;29;13;11;1206
+"039 Kilfinnane";1026;32;25;4;1087
+"040 Kilflyn";210;5;6;5;226
+"041 Kilmallock";2093;49;36;23;2201
+"042 Kilteely";535;14;3;1;553
+"043 Knockainy";648;7;14;3;672
+"044 Knocklong";839;16;10;3;868
+"045 Particles";174;7;5;4;190
+"046 Rockhill";305;9;2;2;318
+"047 Tobernea";597;16;8;2;623
+"048 Uregare";541;10;9;5;565
+"049 Abington";709;20;19;8;756
+"050 Ballybricken";1507;49;38;12;1606
+"051 Ballycummin";13865;1577;652;241;16335
+"052 Ballysimon";9791;703;717;110;11321
+"053 Ballyvarra";3728;169;172;41;4110
+"054 Caherconlish East";495;7;5;3;510
+"055 Caherconlish West";1305;46;29;13;1393
+"056 Caherelly";260;10;1;10;281
+"057 Cappamore";1370;21;10;6;1407
+"058 Carrig";560;8;17;5;590
+"059 Castleconnell";2355;169;85;25;2634
+"060 Clarina";1569;31;35;15;1650
+"061 Clonkeen";663;12;6;10;691
+"062 Doon West";212;1;6;1;220
+"063 Glenstal";859;27;40;5;931
+"064 Kilmurry";832;28;5;3;868
+"065 Limerick North Rural";6633;264;236;118;7251
+"066 Limerick South Rural";1334;53;29;8;1424
+"067 Patrickswell";1430;52;27;13;1522
+"068 Roxborough";1505;59;31;10;1605
+"069 Anglesborough";308;8;5;4;325
+"070 Ballylanders";557;23;6;25;611
+"071 Cullane";328;14;2;11;355
+"072 Duntryleague";288;27;4;2;321
+"073 Galbally";537;4;8;5;554
+"074 Kilbeheny";240;9;0;1;250
+"075 Kilglass";271;3;4;2;280
+"076 Knocknascrow";153;1;6;2;162
+"077 Riversdale";206;5;3;4;218
+"078 Abbeyfeale";2318;108;53;29;2508
+"079 Ardagh";930;11;12;24;977
+"080 Ballintober";347;6;6;3;362
+"081 Ballynoe West";310;1;2;3;316
+"082 Boola";141;0;1;0;142
+"083 Broadford";863;17;12;2;894
+"084 Caher";302;22;13;0;337
+"085 Cleanglass";305;2;3;1;311
+"086 Cloncagh";250;4;4;1;259
+"087 Danganbeg";376;6;1;1;384
+"088 Dromcolliher";958;13;6;6;983
+"089 Dromtrasna";774;28;28;11;841
+"090 Feenagh";299;6;6;3;314
+"091 Garryduff";271;13;9;2;295
+"092 Glenagower";497;6;4;4;511
+"093 Glengort";675;25;12;0;712
+"094 Glensharrold";411;12;9;5;437
+"095 Kilmeedy";334;1;6;3;344
+"096 Knockaderry";456;14;4;3;477
+"097 Mahoonagh";506;4;7;0;517
+"098 Monagay";1077;15;7;14;1113
+"099 Mountcollins";457;35;15;2;509
+"100 Mountplummer";308;1;4;2;315
+"101 Newcastle Rural";1793;89;56;23;1961
+"102 Newcastle Urban";3616;136;103;67;3922
+"103 Port";521;12;10;4;547
+"104 Rathronan";805;28;5;3;841
+"105 Rooskagh";270;20;2;0;292
+"106 Templeglentan";804;24;13;5;846
+"107 Askeaton East";638;24;14;11;687
+"108 Askeaton West";925;40;30;7;1002
+"109 Aughinish";220;11;10;23;264
+"110 Ballyallinan";372;8;4;3;387
+"111 Ballynacarriga";591;24;26;4;645
+"112 Castletown";368;33;8;6;415
+"113 Craggs";248;10;3;11;272
+"114 Croagh";639;44;5;5;693
+"115 Dromard";680;49;13;7;749
+"116 Dunmoylan East";441;10;6;3;460
+"117 Dunmoylan West";78;0;7;0;85
+"118 Iveruss";271;5;0;1;277
+"119 Kilcornan";596;47;21;7;671
+"120 Kildimo";539;31;24;4;598
+"121 Kilscannell";465;5;6;2;478
+"122 Lismakeery";409;11;4;3;427
+"123 Loghill";648;17;28;14;707
+"124 Mohernagh";134;3;0;0;137
+"125 Nantinan";666;70;23;10;769
+"126 Pallaskenry";947;34;31;4;1016
+"127 Rathkeale Rural";346;2;7;5;360
+"128 Rathkeale Urban";1371;39;16;19;1445
+"129 Riddlestown";458;11;6;10;485
+"130 Shanagolden";917;48;23;16;1004
+"131 Shanid";447;21;9;1;478
+"132 Bilboa";373;15;11;3;402
+"133 Doon South";1200;29;14;7;1250
+"134 Grean";1316;18;23;17;1374
+"135 Oola";1042;22;12;13;1089
+"136 Templebredon";465;12;15;6;498
+"North Tipperary";60401;3404;1515;703;66023
+"001 Nenagh East Urban";2358;165;91;66;2680
+"002 Nenagh West Urban";4341;250;99;45;4735
+"003 Templemore";2123;56;61;15;2255
+"004 Thurles Urban";6336;257;154;84;6831
+"005 Aglishcloghane";253;25;10;1;289
+"006 Ballingarry";466;87;15;6;574
+"007 Ballylusky";273;25;2;7;307
+"008 Borrisokane";1044;72;13;10;1139
+"009 Carrig";176;9;2;1;188
+"010 Cloghjordan";559;164;30;31;784
+"011 Cloghprior";251;14;4;1;270
+"012 Clohaskin";174;17;2;3;196
+"013 Finnoe";128;46;4;8;186
+"014 Graigue";247;21;5;3;276
+"015 Kilbarron";497;48;19;8;572
+"016 Lorrha East";307;21;3;7;338
+"017 Lorrha West";308;25;11;3;347
+"018 Mertonhall";79;60;7;3;149
+"019 Rathcabban";222;9;7;5;243
+"020 Redwood";124;1;4;2;131
+"021 Riverstown";476;28;11;7;522
+"022 Terryglass";423;16;9;3;451
+"023 Uskane";174;31;6;2;213
+"024 Abington";519;25;7;4;555
+"025 Aghnameadle";262;5;0;8;275
+"026 Ardcrony";459;13;11;5;488
+"027 Ballina";2117;187;146;9;2459
+"028 Ballygibbon";486;22;15;3;526
+"029 Ballymackey";470;21;12;3;506
+"030 Ballynaclogh";603;29;14;8;654
+"031 Birdhill";613;25;26;7;671
+"032 Burgesbeg";411;5;3;6;425
+"033 Carrigatogher";666;22;8;9;705
+"034 Castletown";1236;42;52;22;1352
+"035 Derrycastle";357;31;34;1;423
+"036 Dolla";203;9;4;1;217
+"037/045 Greenhall/Lackagh";278;7;13;1;299
+"038 Kilcomenty";628;7;11;2;648
+"039 Kilkeary";549;31;6;4;590
+"040 Killoscully";344;8;31;4;387
+"041 Kilmore";601;8;17;16;642
+"042 Kilnaneave";448;27;11;2;488
+"043 Kilnarath";297;7;4;3;311
+"044 Knigh";637;37;23;6;703
+"046 Latteragh";579;21;18;11;629
+"047 Monsea";569;50;18;11;648
+"048 Nenagh Rural";1681;67;34;14;1796
+"049 Newport";1974;68;70;9;2121
+"050 Templederry";136;14;7;0;157
+"051 Youghalarra";839;20;15;3;877
+"052 Borrisnafarney";246;21;10;2;279
+"053 Borrisnoe";97;7;0;1;105
+"054 Bourney East";260;13;1;1;275
+"055 Bourney West";326;37;6;2;371
+"056 Killavinoge";382;16;4;3;405
+"057 Killea";329;16;5;0;350
+"058 Rathnaveoge";218;29;4;1;252
+"059 Roscrea";5294;411;93;113;5911
+"060 Timoney";244;45;6;9;304
+"061 Ballycahill";375;6;7;2;390
+"062 Ballymurreen";204;25;0;2;231
+"063 Borrisoleigh";1095;52;20;17;1184
+"064 Drom";1000;33;11;3;1047
+"065 Foilnaman";264;19;6;1;290
+"066 Glenkeen";361;17;8;3;389
+"067 Gortkelly";463;4;5;4;476
+"068 Holycross";1368;42;8;5;1423
+"069 Inch";444;3;4;1;452
+"070 Kilrush";442;33;9;4;488
+"071 Littleton";1048;65;18;5;1136
+"072 Longfordpass";284;5;1;2;292
+"073 Loughmoe";571;19;8;1;599
+"074 Moyaliff";340;28;12;2;382
+"075 Moycarky";460;21;6;3;490
+"076 Moyne";475;14;0;5;494
+"077 Rahelty";642;17;8;5;672
+"078 Templetouhy";790;12;18;1;821
+"079 Thurles Rural";1996;103;38;5;2142
+"080 Twomileborris";789;21;17;4;831
+"081 Upperchurch";293;15;3;3;314
+"South Tipperary";76813;3601;2011;796;83221
+"082 Carrickbeg Urban";1339;47;23;6;1415
+"083 Carrick-on-Suir Urban";4093;198;98;52;4441
+"084 Cashel Urban";2209;139;38;27;2413
+"085 Clonmel East Urban";3527;186;152;55;3920
+"086 Clonmel West Urban";5741;196;124;65;6126
+"087 Tipperary East Urban";2446;142;54;32;2674
+"088 Tipperary West Urban";1606;78;46;11;1741
+"089 Carrick-on-Suir Rural";463;19;14;2;498
+"090 Garrangibbon";572;31;28;3;634
+"091 Kilmurry";291;17;9;1;318
+"092 Newtown";352;13;15;2;382
+"093 Ardmayle";518;28;16;5;567
+"094 Ardsallagh";402;42;13;6;463
+"095 Ballysheehan";450;13;12;5;480
+"096 Cashel Rural";1641;72;31;19;1763
+"097 Clogher";200;10;7;3;220
+"098 Cloneen";387;9;12;2;410
+"099 Clonoulty East";492;12;10;4;518
+"100 Clonoulty West";619;21;20;7;667
+"101 Colman";368;13;12;2;395
+"102 Cooleagh";487;22;7;3;519
+"103 Drangan";600;11;10;4;625
+"104 Fethard";734;24;17;13;788
+"105 Gaile";654;53;12;8;727
+"106 Graigue";125;11;6;2;144
+"107 Greystown";412;11;5;2;430
+"108 Killeenasteena";614;32;22;8;676
+"109 Killenaule";1106;35;25;14;1180
+"110 Kilpatrick";893;71;26;4;994
+"111 Knockgraffon";717;15;15;4;751
+"112 Magorban";498;20;11;5;534
+"113 Nodstown";447;11;10;5;473
+"114 Oughterleague";474;21;13;3;511
+"115 Peppardstown";1214;53;48;12;1327
+"116 Tullamain";611;51;24;6;692
+"117 Ardfinnan";948;22;15;5;990
+"118 Ballybacon";370;22;14;3;409
+"119 Ballyporeen";828;34;16;0;878
+"120 Burncourt";363;14;7;2;386
+"121 Caher";1062;94;32;17;1205
+"122 Clogheen";872;46;32;7;957
+"123 Coolagarranroe";474;12;9;6;501
+"124 Derrygrath";562;31;14;1;608
+"125 Kilcommon";1952;113;55;30;2150
+"126 Kilcoran";388;28;8;8;432
+"127 Mortlestown";1268;113;59;15;1455
+"128 Newcastle";549;16;7;11;583
+"129 Tubbrid";505;30;13;2;550
+"130 Tullaghmelan";885;42;27;10;964
+"131 Tullaghorton";225;21;15;1;262
+"132 Ballyclerahan";931;27;31;8;997
+"133 Clonmel Rural";4294;196;104;59;4653
+"134 Inishlounaght";2831;147;83;30;3091
+"135 Kilcash";638;12;20;1;671
+"137/136 Kilsheelan/Killaloan";1121;41;25;10;1197
+"138 Kiltinan";274;21;5;0;300
+"139 Lisronagh";731;34;21;7;793
+"140 Anner";334;15;16;1;366
+"141 Ballingarry";640;49;11;10;710
+"142 Ballyphilip";360;34;5;1;400
+"143 Buolick";562;11;7;8;588
+"144 Crohane";200;18;3;2;223
+"145 Farranrory";449;19;4;1;473
+"146 Fennor";525;22;6;1;554
+"147 Kilcooly";220;60;8;2;290
+"148 Kilvemnon";343;16;9;6;374
+"149 Modeshil";291;10;10;3;314
+"150 Mullinahone";777;19;11;6;813
+"151 New Birmingham";464;9;8;2;483
+"152 Poyntstown";182;6;1;2;191
+"153 Ballycarron";229;9;18;1;257
+"154 Ballygriffin";242;4;4;3;253
+"155 Ballykisteen";620;30;13;5;668
+"156 Bansha";763;31;14;11;819
+"157 Bruis";293;8;8;3;312
+"158 Cappagh";765;22;14;9;810
+"159 Clonbeg";569;49;21;8;647
+"160 Cullen";258;12;13;1;284
+"161 Curraheen";284;8;6;4;302
+"162 Donohill";585;19;21;4;629
+"163 Drumwood";464;21;9;3;497
+"164 Emly";556;27;8;11;602
+"165 Glengar";243;8;13;2;266
+"166 Golden";723;40;19;6;788
+"167 Kilfeakle";451;12;8;0;471
+"168 Killadriffe";499;13;7;2;521
+"169 Kilmucklin";468;21;14;7;510
+"170 Lattin";455;10;18;5;488
+"171 Rathlynin";305;5;8;0;318
+"172 Rodus";231;8;1;3;243
+"173 Shronell";375;7;6;1;389
+"174 Solloghodbeg";199;13;3;3;218
+"175 Templeneiry";366;16;13;11;406
+"176 Thomastown";350;20;21;0;391
+"177 Tipperary Rural";1800;57;35;13;1905
+"Waterford City";39483;3262;1781;1222;45748
+"001 Ballybeg North";2308;146;58;78;2590
+"002/006 Ballybeg South/Ballynaneashagh";251;22;7;25;305
+"003 Ballybricken West";134;10;6;5;155
+"004 Ballymaclode";1161;112;37;13;1323
+"005 Ballynakill";1933;138;91;40;2202
+"007 Ballytruckle";4473;334;123;118;5048
+"008 Bilberry";455;64;48;23;590
+"009 Centre A";406;196;39;28;669
+"010 Centre B";231;36;13;7;287
+"011 Cleaboy";2647;125;86;83;2941
+"012 Custom House A";261;47;26;33;367
+"013 Custom House B";151;75;23;52;301
+"014 Farranshoneen";4538;463;258;111;5370
+"015 Ferrybank";873;29;30;4;936
+"016 Gracedieu";342;14;7;19;382
+"017 Grange North";963;47;27;9;1046
+"018 Grange South";1642;95;55;40;1832
+"019 Grange Upper";2034;376;170;24;2604
+"020 Kilbarry";699;58;45;12;814
+"021 Kingsmeadow";1270;53;27;48;1398
+"022 Larchville";815;22;11;14;862
+"023 Lisduggan";1031;23;9;28;1091
+"024 Military Road";787;35;21;25;868
+"025 Morrisson's Avenue East";456;22;24;2;504
+"026 Morrisson's Avenue West";304;6;4;2;316
+"027 Morrisson's Road";507;42;14;13;576
+"028 Mount Sion";630;46;26;58;760
+"029 Newport's Square";497;22;20;22;561
+"030 Newtown";1000;121;52;13;1186
+"031 Park";1020;185;148;82;1435
+"032 Poleberry";1088;88;88;74;1338
+"033 Roanmore";815;46;27;6;894
+"034 Shortcourse";283;36;9;4;332
+"035 Slievekeale";597;17;22;13;649
+"036 The Glen";430;71;70;58;629
+"037 Ticor North";2049;39;49;34;2171
+"038 Ticor South";402;1;11;2;416
+"Waterford County";56564;3163;1990;496;62213
+"001 Dungarvan No. 1 Urban";4175;289;136;80;4680
+"002 Dungarvan No. 2 Urban";2894;92;109;38;3133
+"003 Ballydurn";159;2;6;1;168
+"004 Carrickbeg Rural";445;3;9;2;459
+"005 Clonea";384;8;10;4;406
+"006 Fenoagh";209;7;2;0;218
+"007 Glen";374;15;9;6;404
+"008 Kilmeadan";639;37;18;8;702
+"009 Mothel";430;7;5;3;445
+"010 Portlaw";1269;73;38;13;1393
+"011 Rathgormuck";166;5;5;0;176
+"012 Ross";250;12;2;1;265
+"013 Ballymacarbry";395;22;15;4;436
+"014 Graignagower";449;13;7;1;470
+"015 Gurteen";311;12;4;8;335
+"016 Kilmacomma";451;16;9;8;484
+"017 Kilronan";155;6;3;0;164
+"018 St. Mary's";596;20;15;4;635
+"019 Aird Mhór";155;12;1;3;171
+"020 Baile Mhac Airt";336;8;22;3;369
+"021 Bohadoon";230;1;4;1;236
+"022 Cappagh";342;23;4;1;370
+"023 Carriglea";516;21;21;4;562
+"024 Clonea";1674;57;31;17;1779
+"025 Colligan";569;17;21;4;611
+"026 Coumaraglin";215;7;8;0;230
+"027 Dromana";487;32;18;5;542
+"028 Dromore";156;17;18;0;191
+"029 Dungarvan Rural";1348;43;44;14;1449
+"030 Keereen";225;10;4;2;241
+"031 Knockaunbrandaun";147;2;6;0;155
+"032 Modelligo";251;16;6;1;274
+"033 Mountstuart";71;3;1;1;76
+"034 An Rinn";1129;28;28;6;1191
+"035 Seskinan";394;23;17;0;434
+"036 Whitechurch";201;4;2;2;209
+"037 Annestown";702;36;27;4;769
+"038 Ballylaneen";241;11;8;1;261
+"039 Carrigcastle";259;6;8;0;273
+"040 Comeragh";425;31;16;1;473
+"041 Dunhill";207;1;12;1;221
+"042 Fews";229;12;10;1;252
+"043 Fox's Castle";363;12;9;2;386
+"044 Gardenmorris";378;15;6;3;402
+"045 Georgestown";151;2;4;2;159
+"046 Kilbarrymeaden";258;14;7;1;280
+"047 Kilmacthomas";1233;46;26;11;1316
+"048 Knockmahon";381;31;11;0;423
+"049 Mountkennedy";391;7;7;2;407
+"050 Newtown";442;11;1;1;455
+"051 Stradbally";617;79;36;8;740
+"052 Tinnasaggart";83;0;4;1;88
+"053 Ballyduff";263;18;8;3;292
+"054 Ballyhane";384;19;11;0;414
+"055 Ballyin";409;22;14;3;448
+"056 Ballynamult";166;11;1;1;179
+"057 Ballysaggartmore";293;18;4;3;318
+"058 Cappoquin";1169;48;42;7;1266
+"059 Castlerichard";477;39;9;2;527
+"060 Drumroe";223;22;12;2;259
+"061 Gortnapeaky";153;7;10;1;171
+"062 Kilcockan";172;10;12;1;195
+"063 Kilwatermoy East";86;19;4;1;110
+"064 Kilwatermoy West";151;8;2;0;161
+"065 Lismore Rural";835;98;37;3;973
+"066 Lismore Urban";666;67;44;13;790
+"067 Mocollop";192;10;13;1;216
+"068 Modelligo";273;10;9;0;292
+"069 Tallow";1143;32;29;11;1215
+"070 Ballynakill (part)";335;19;9;3;366
+"071 Drumcannon";317;12;7;2;338
+"072 Faithlegg (part)";1745;85;58;17;1905
+"073 Islandikane";1793;120;77;10;2000
+"074 Kilbarry (part)";139;8;5;0;152
+"075 Killea";1147;184;98;24;1453
+"076 Killoteran";595;22;16;2;635
+"077 Kilmacleague";334;19;7;2;362
+"078 Kilmeadan";769;29;27;6;831
+"079 Newcastle";429;9;9;3;450
+"080 Pembrokestown";439;17;15;2;473
+"081 Rathmoylan";803;63;52;8;926
+"082 Reisk";890;33;21;5;949
+"083 Tramore";7795;620;330;52;8797
+"084 Woodstown";518;42;25;4;589
+"085 Ardmore";669;22;16;2;709
+"086 Ballyheeny";487;22;30;1;540
+"087 Clashmore";365;16;19;0;400
+"088 Glenwilliam";165;2;4;6;177
+"089 Grallagh";176;16;8;0;200
+"090 Grange";227;21;3;11;262
+"091 Kinsalebeg";429;29;23;0;481
+"092 Templemichael";386;18;20;0;424
+"Connacht";453086;25933;18852;6250;504121
+"Galway City";59083;6152;5439;1740;72414
+"001 Ballybaan";8218;1055;359;239;9871
+"002 Baile an Bhriotaihg";610;56;43;15;724
+"003 Bearna";10219;1503;906;164;12792
+"004 An Caisleán Gearr";2997;295;238;72;3602
+"005 Claddagh";2140;125;283;66;2614
+"006 Dangan";3594;273;291;48;4206
+"007 Eyre Square";2863;411;598;233;4105
+"008 An Cnocán Carrach";1257;72;87;12;1428
+"009 Lough Atalia";990;36;69;18;1113
+"010 Mionlach";4756;525;428;43;5752
+"011 Mervue";1855;118;98;59;2130
+"012 Murroogh";2039;119;111;113;2382
+"013 Newcastle";1783;131;70;15;1999
+"014 Nuns Island";1060;65;181;30;1336
+"015 Rahoon";2287;263;299;71;2920
+"016 Renmore";1256;47;75;48;1426
+"017 Rockbarton";1566;127;84;36;1813
+"018 Paróiste San Nicoláis";1989;193;318;177;2677
+"019 Salthill";2555;329;376;116;3376
+"020 Shantalla";1597;95;137;45;1874
+"021 Taylors Hill";2167;202;246;98;2713
+"022 Wellpark";1285;112;142;22;1561
+"Galway County";146143;5947;5286;1880;159256
+"001 Ballinasloe Urban";5460;389;105;95;6049
+"002 Abbeygormacan";396;6;11;2;415
+"003 Ahascragh";589;25;12;2;628
+"004 Aughrim";533;27;4;9;573
+"005 Ballinasloe Rural";527;35;6;3;571
+"006 Ballymacward";295;10;10;4;319
+"007 Clonfert";423;12;4;8;447
+"008 Clontuskert";217;5;1;3;226
+"009 Kellysgrove";298;35;8;2;343
+"010 Kilconnell";650;13;10;7;680
+"011 Killaan";495;15;8;2;520
+"012 Killallaghtan";417;12;1;2;432
+"013 Killoran";278;5;2;1;286
+"014 Killure";775;20;4;1;800
+"015 Kilmacshane";206;20;2;2;230
+"016 Kiltormer";550;11;5;8;574
+"017 Kylemore";160;10;2;0;172
+"018 Laurencetown";360;9;0;2;371
+"019 Lismanny";240;0;1;0;241
+"020 Oatfield";397;9;1;5;412
+"021 Ballynakill";418;42;61;6;527
+"022 Binn an Choire";161;31;19;39;250
+"023 Bunowen";394;25;9;7;435
+"024 Cleggan";246;16;20;5;287
+"025 Clifden";1713;178;118;109;2118
+"026 Cushkillary";146;9;21;1;177
+"027/028 Derrycunlagh/Derrylea";218;13;16;1;248
+"029 Doonloughan";79;8;10;6;103
+"030 Errislannan";192;20;15;3;230
+"031 An Uillinn";88;9;2;0;99
+"032 Inishbofin";175;8;8;8;199
+"033 An Cnoc Buí";741;15;26;16;798
+"034 Maíros";326;24;18;2;370
+"035 Abhainn Ghabhla";293;5;10;5;313
+"036 Rinvyle";1118;67;80;15;1280
+"037 Roundstone";361;13;13;6;393
+"038 Sillerna";401;13;28;4;446
+"039 Scainimh";600;5;7;7;619
+"040 Annaghdown";1597;48;47;18;1710
+"041 Aughrim";1041;21;8;2;1072
+"042 Baile an Teampaill (part)";1301;53;29;10;1393
+"043 Ballynacourty";971;31;73;1;1076
+"044 Bearna (part)";2724;101;176;23;3024
+"045 Belleville";463;25;12;2;502
+"046 Carnmore";2023;48;53;14;2138
+"047 Ceathrú an Bhrúnaigh (part)";821;21;33;6;881
+"048 Baile Chláir";1689;84;71;9;1853
+"049 Clarinbridge";2390;122;116;38;2666
+"050 Deerpark";1111;19;26;13;1169
+"051 Na Forbacha";1080;53;89;17;1239
+"052 Galway Rural (part)";117;7;2;3;129
+"053 Árainn";1083;48;67;27;1225
+"054 Cill Chuimin";1240;18;32;14;1304
+"055 Cill Aithnín";883;33;42;5;963
+"056 Leacach Beag";1157;23;38;18;1236
+"057 Liscananaun";1276;17;38;17;1348
+"058 Lisín an Bhealaigh";847;28;29;7;911
+"059 Maigh Cuilinn";1572;80;103;17;1772
+"060 Oranmore";3093;164;175;91;3523
+"061 Sailearna";1276;33;49;4;1362
+"062 Sliabh an Aonaigh";628;31;31;0;690
+"063 An Spidéal";1211;40;97;9;1357
+"064 Stradbally";991;12;25;17;1045
+"065 Tulaigh Mhic Aodháin";1507;93;132;23;1755
+"066 Ballinastack";316;6;0;5;327
+"067 Ballymoe";407;16;5;0;428
+"068 Ballynakill";432;6;12;1;451
+"069 Boyounagh";258;6;7;0;271
+"070 Creggs";374;9;4;5;392
+"071 Curraghmore";158;12;1;0;171
+"072 Glennamaddy";788;45;23;6;862
+"073 Island";273;5;3;4;285
+"074 Kilcroan";517;11;8;3;539
+"075 Kiltullagh";172;5;2;1;180
+"076 Raheen";476;4;2;8;490
+"077 Scregg";219;0;1;1;221
+"078 Shankill";293;11;2;0;306
+"079 Templetogher";399;2;3;4;408
+"080 Toberroe";298;5;7;6;316
+"081 Ardamullivan";503;23;43;7;576
+"082 Ardrahan";448;8;22;2;480
+"083 Ballycahalan";155;12;15;8;190
+"084 Beagh";565;15;17;6;603
+"085 Cahermore";419;9;24;2;454
+"086 Cappard";91;0;9;2;102
+"087 Castletaylor";446;23;13;4;486
+"088 Doorus";552;43;75;14;684
+"089 Drumacoo";876;63;52;6;997
+"090 Gort";2311;317;112;42;2782
+"091 Kilbeacanty";229;18;36;2;285
+"092 Killeely";1171;50;33;3;1257
+"093 Killeenavarra";570;20;56;5;651
+"094 Killinny";351;19;23;6;399
+"095 Kiltartan";636;14;10;10;670
+"096 Kilthomas";85;4;1;0;90
+"097 Kinvarra";971;69;114;6;1160
+"098 Rahasane";268;2;7;2;279
+"099 Skehanagh";381;5;7;2;395
+"100 Aille";394;10;6;2;412
+"101 Athenry";3605;212;171;54;4042
+"102 Ballynagar";188;4;6;4;202
+"103 Bracklagh";394;14;15;4;427
+"104 Bullaun";207;3;2;1;213
+"105 Cappalusk";335;12;6;4;357
+"106 Castleboy";457;3;27;4;491
+"107 Cloonkeen";334;4;3;7;348
+"108 Colmanstown";90;2;1;0;93
+"109 Craughwell";1262;41;35;25;1363
+"110 Derrylaur";99;4;9;1;113
+"111 Drumkeary";543;13;11;1;568
+"112 Graigabbey";272;11;9;2;294
+"113 Grange";667;17;10;2;696
+"114 Greethill";737;23;38;11;809
+"115 Kilchreest";308;6;2;0;316
+"116 Kilconickny";557;20;15;7;599
+"117 Kilconierin";350;21;15;12;398
+"118 Killimor";309;2;1;0;312
+"119 Killogilleen";597;18;24;1;640
+"120 Kilmeen";570;13;11;5;599
+"121 Kilreekill";255;9;6;11;281
+"122 Kilteskill";283;6;20;1;310
+"123 Kiltullagh";588;20;24;16;648
+"124 Lackalea";283;13;14;1;311
+"125 Leitrim";363;4;36;1;404
+"127 Loughrea Rural";856;20;5;4;885
+"128 Loughrea Urban";4013;276;195;48;4532
+"129/126 Marblehill/Loughatorick";337;17;45;6;405
+"130 Mountain";237;8;10;1;256
+"131 Movode";180;6;13;0;199
+"132 Raford";365;7;7;2;381
+"133 Tiaquin";463;7;4;5;479
+"134 Woodford";462;13;20;5;500
+"135 Annagh";331;7;2;3;343
+"136 Ballynakill";480;10;11;5;506
+"137 Caltra";339;5;3;4;351
+"138 Castleblakeney";443;15;12;5;475
+"139 Castleffrench";452;18;7;2;479
+"140 Clonbrock";472;13;13;7;505
+"141 Cloonkeen";276;1;1;2;280
+"142 Cooloo";508;2;2;3;515
+"143 Derryglassaun";757;19;13;3;792
+"144 Killeroran";1242;38;18;16;1314
+"145 Killian";298;6;6;1;311
+"146 Mount Bellew";1657;24;23;18;1722
+"147 Mounthazel";424;14;12;4;454
+"148 Taghboy";196;9;3;1;209
+"149 Camas";354;10;2;1;367
+"150 An Fhairche";915;51;30;10;1006
+"151 Conga";511;29;29;4;573
+"152 An Crompán";2146;48;60;40;2294
+"153 An Chorr";147;10;5;0;162
+"154 Garmna";1251;10;20;7;1288
+"155 Cill Chuimín";111;5;5;1;122
+"156 Leitir Breacáin";165;21;19;3;208
+"157 Letterfore";233;38;10;7;288
+"158 Leitir Móir";833;19;18;5;875
+"159 Oughterard";2249;138;138;38;2563
+"160 An Ros";100;1;2;1;104
+"161 An Turlach";526;12;13;6;557
+"162 Wormhole";1793;76;104;12;1985
+"163 Abbeyville";240;9;3;0;252
+"164 Ballyglass";158;8;2;1;169
+"165 Coos";125;0;11;0;136
+"166 Derrew";151;0;1;4;156
+"167 Drummin";343;8;15;3;369
+"168 Eyrecourt";449;17;8;3;477
+"169 Killimor";663;27;4;8;702
+"170 Kilmalinoge";212;6;1;17;236
+"171 Kilquain";266;9;10;6;291
+"172 Meelick";244;8;4;2;258
+"173 Moat";157;4;1;0;162
+"174 Pallas";405;12;3;0;420
+"175 Portumna";1855;91;61;23;2030
+"176 Tiranascragh";143;10;8;9;170
+"177 Tynagh";400;3;7;4;414
+"178 Abbey East";582;21;18;8;629
+"179 Abbey West";533;17;7;20;577
+"180 Addergoole";470;23;8;1;502
+"181 Annaghdown";1187;22;20;15;1244
+"182 Ballinderry";320;9;3;2;334
+"183 Ballinduff";538;36;41;6;621
+"184 Ballynapark";810;30;15;3;858
+"185 Beaghmore";265;14;9;0;288
+"186 Belclare";702;21;16;3;742
+"187 Carrownagur";365;7;6;1;379
+"188 Carrowrevagh";388;4;5;1;398
+"189 Claretuam";936;17;19;8;980
+"190 Clonbern";358;8;2;2;370
+"191 Cloonkeen";434;2;9;6;451
+"192 Cummer";866;33;33;4;936
+"193 Donaghpatrick";512;15;5;6;538
+"194 Doonbally";473;12;10;8;503
+"195 Dunmore North";522;12;8;6;548
+"196 Dunmore South";810;23;20;8;861
+"197 Foxhall";523;15;11;9;558
+"198 Headford";1260;34;47;8;1349
+"199 Hillsbrook";620;12;6;8;646
+"200 Kilbennan";349;6;6;0;361
+"201 Kilcoona";492;5;14;1;512
+"202 Killeany";466;33;30;5;534
+"203 Killeen";626;6;15;1;648
+"204 Killererin";663;25;12;14;714
+"205 Killower";700;16;10;3;729
+"206 Killursa";884;24;49;2;959
+"207 Kilmoylan";846;20;22;8;896
+"208 Kilshanvy";362;13;8;1;384
+"209 Levally";352;3;3;8;366
+"210 Milltown";513;11;9;5;538
+"211 Monivea";593;27;8;10;638
+"212 Moyne";627;8;1;4;640
+"213 Ryehill";506;26;34;3;569
+"214 Toberadosh";341;7;2;3;353
+"215 Tuam Rural";4183;226;117;96;4622
+"216 Tuam Urban";2750;105;72;70;2997
+"Leitrim County";25693;1844;1189;224;28950
+"001 Ballinamore";992;50;28;9;1079
+"002 Cloverhill";304;17;9;3;333
+"003 Corrala";178;44;3;1;226
+"004 Drumreilly North";146;3;6;2;157
+"005 Drumreilly South";111;13;1;1;126
+"006 Garadice";450;19;9;5;483
+"007/011 Greaghlass/Stralongford";310;10;17;8;345
+"008 Killygar";84;39;10;0;133
+"009 Newtowngore";125;69;2;0;196
+"010 Oughteragh";80;2;1;0;83
+"012 Aghacashel";73;8;6;0;87
+"013 Annaduff";191;8;7;0;206
+"014 Barnameenagh";130;7;13;4;154
+"015 Carrick-on-Shannon";3016;319;131;39;3505
+"017/016 Drumreilly West/Drumreilly East";159;15;12;0;186
+"018 Drumshanbo";971;46;35;9;1061
+"019 Drumsna";532;39;16;7;594
+"020 Gortnagullion";247;13;19;0;279
+"021 Gowel";295;6;10;6;317
+"022 Keshcarrigan";293;37;28;7;365
+"023 Kiltubbrid";133;8;8;0;149
+"024 Leitrim";781;48;38;3;870
+"025 Moher";180;6;12;1;199
+"026 Yugan";223;10;5;0;238
+"027/028 Aghalateeve/Aghanlish";217;2;8;8;235
+"029/032 Melvin/Aghavoghill";170;20;19;0;209
+"030 Gubacreeny";470;25;24;2;521
+"031 Kinlough";790;44;23;7;864
+"033 Tullaghan";521;38;28;7;594
+"035 Ballaghameehan";192;8;6;0;206
+"036 Belhavel";225;31;23;2;281
+"037 Cloonclare";180;1;12;0;193
+"038 Cloonlogher";195;31;38;8;272
+"039 Drumahaire";1066;86;83;9;1244
+"040 Drumkeeran";494;13;27;1;535
+"041/034 Garvagh/Arigna";114;8;18;0;140
+"042 Glenade";151;8;16;0;175
+"043 Glenaniff";139;10;8;1;158
+"044 Glenboy";199;36;8;1;244
+"045 Glencar";226;17;4;1;248
+"046 Glenfarn";123;4;4;0;131
+"047 Killanummery";322;18;27;0;367
+"048 Killarga";82;7;2;0;91
+"049 Kiltyclogher";230;10;12;2;254
+"050 Lurganboy";333;33;16;3;385
+"051 Mahanagh";253;8;26;3;290
+"052 Manorhamilton";1449;128;72;6;1655
+"053 Munakill";194;10;4;5;213
+"054 Sramore";265;12;26;4;307
+"055 St. Patrick's";132;10;4;0;146
+"056 Aghavas";272;22;2;0;296
+"057 Beihy";302;6;2;0;310
+"058 Breandrum";237;13;14;3;267
+"059 Bunnybeg";146;2;2;0;150
+"060 Carrigallen East";249;60;10;2;321
+"061 Carrigallen West";333;34;16;4;387
+"062 Cashel";133;18;5;3;159
+"063 Castlefore";228;7;17;0;252
+"064 Cattan";256;7;3;1;267
+"065 Cloone";310;11;4;2;327
+"066 Corriga";155;4;3;0;162
+"067 Drumard";207;0;2;0;209
+"068 Drumdoo";264;12;13;1;290
+"069 Drumod";529;34;20;3;586
+"070 Fenagh";297;12;31;4;344
+"071 Gortermone";296;3;1;0;300
+"072 Keeldra";202;1;1;1;205
+"073 Lisgillock";211;1;4;0;216
+"074 Mohill";1251;96;31;12;1390
+"075 Rinn";247;13;5;2;267
+"076 Riverstown";233;9;19;1;262
+"077 Roosky";391;14;10;8;423
+"078 Rowan";208;11;10;2;231
+"Mayo County";114215;5205;3267;1152;123839
+"001 Ardnaree South Urban";2380;108;62;32;2582
+"002 Ballina Urban";3990;151;92;47;4280
+"003 Castlebar Urban";5571;342;193;79;6185
+"004 Westport Urban";4490;361;245;67;5163
+"005 Ardagh";307;18;6;3;334
+"006 Ardnaree North";911;24;26;7;968
+"007 Ardnaree South Rural";2252;115;56;23;2446
+"008 Attymass East";354;23;20;8;405
+"009 Attymass West";210;8;11;0;229
+"010 Ballina Rural";2391;106;36;15;2548
+"011 Ballycastle";595;26;8;4;633
+"012 Ballysakeery";438;95;14;1;548
+"013 Béal Deirg Mór";176;1;2;0;179
+"014 Bunaveela";106;0;0;2;108
+"015 Carrowmore";818;19;5;8;850
+"016 Crossmolina North";920;27;7;6;960
+"017 Crossmolina South";773;17;16;4;810
+"018 Deel";498;8;3;2;511
+"019 Derry";201;6;6;3;216
+"020 Fortland";440;33;3;4;480
+"021 Kilfian East";208;8;1;2;219
+"022 Kilfian South";232;7;6;1;246
+"023 Kilfian West";127;5;0;1;133
+"024 Kilgarvan";737;12;19;5;773
+"025 Killala";1163;52;23;18;1256
+"026 Lackan North";327;14;5;8;354
+"027 Lackan South";415;7;9;4;435
+"028 Letterbrick";158;0;1;3;162
+"029 Mount Falcon";1139;48;18;13;1218
+"030 Rathoma";200;12;3;3;218
+"031 Sallymount";420;16;5;5;446
+"032 Sraheen";973;42;30;9;1054
+"033 Baile an Chalaidh";240;9;8;4;261
+"034 Ballinrobe";2815;222;84;34;3155
+"035 Baile Óbha";214;1;3;3;221
+"036 Burriscarra";423;9;5;5;442
+"037 An Cheapaigh Dhuibh";321;8;6;5;340
+"038 Cong";667;42;22;8;739
+"039 Coonard";264;6;0;0;270
+"040 Dalgan";1046;31;16;6;1099
+"041 Hollymount";720;19;13;14;766
+"042 Houndswood";561;21;18;1;601
+"043 Kilcommon";626;12;12;2;652
+"044 Kilmaine";887;30;26;21;964
+"045 Neale";654;15;12;4;685
+"046 Newbrook";498;3;16;1;518
+"047 Abhainn Bhrain";227;12;9;0;248
+"048 Partraí";461;14;18;0;493
+"049 Roslee";372;12;5;3;392
+"050 Shrule";1005;26;31;8;1070
+"051 An Geata Mór Thuaidh";823;5;11;4;843
+"052 An Geata Mór Theas";896;14;9;2;921
+"053 Bangor";459;12;5;2;478
+"054 Barr Rúscaí";103;6;0;0;109
+"055 Béal an Mhuirthead";1908;64;29;10;2011
+"056 Gleann na Muaidhe";245;6;0;0;251
+"057 Gleann Chaisil";503;7;10;0;520
+"058/065 Glenco/Sheskin";117;0;0;0;117
+"059 Guala Mhór";147;6;0;2;155
+"060 Cnoc an Daimh";350;2;4;0;356
+"061 Cnoc na Lobhar";830;12;11;4;857
+"062 Moing na Bó";315;6;4;1;326
+"063 Na Monga";225;2;7;3;237
+"064 Cnoc na Ráithe";718;12;11;1;742
+"066 Addergoole";731;30;9;2;772
+"067 Balla";1284;35;38;5;1362
+"068 Ballinafad";467;17;18;4;506
+"069 Ballyhean";511;12;7;2;532
+"070 Ballynagoraher";328;19;8;2;357
+"071 Bellavary";883;20;29;6;938
+"072 Breaghwy";1569;66;47;21;1703
+"073 Burren";269;6;17;0;292
+"074 Castlebar Rural";6145;431;187;78;6841
+"075 Clogher";467;13;11;4;495
+"076 Cloonkeen";716;40;8;2;766
+"077 Croaghmoyle";147;9;3;3;162
+"078 Killavally";412;14;27;1;454
+"079 Manulla";814;25;10;7;856
+"080 Pontoon";390;8;14;5;417
+"081 Strade";527;16;13;14;570
+"082 Tamhnaigh na Graí";350;8;2;0;360
+"083 Turlough";1138;59;24;8;1229
+"084 Ballindine";750;18;16;12;796
+"085 Ballyhaunis";2008;445;99;46;2598
+"086 Ballyhowly";472;11;7;4;494
+"087 Bekan";702;12;3;1;718
+"088 Caraun";330;8;7;1;346
+"089 Claremorris";2992;74;90;14;3170
+"090 Cloghermore";163;1;4;0;168
+"091 Course";408;17;9;9;443
+"092 Crossboyne";571;21;4;3;599
+"093 Culnacleha";461;14;6;3;484
+"094 Garrymore";441;8;4;2;455
+"095 Kilcolman";434;10;5;3;452
+"096 Kilvine";586;13;8;0;607
+"097 Knock North";658;19;14;8;699
+"098 Knock South";716;7;15;9;747
+"099 Loughanboy";338;5;9;2;354
+"100 Mayo";402;10;14;0;426
+"101 Murneen";400;8;8;4;420
+"102 Tagheen";198;0;3;0;201
+"103 Aghamore";585;16;12;7;620
+"104 Ballinamore";335;7;6;5;353
+"105 Bohola";216;3;4;2;225
+"106 Brackloon";550;33;14;6;603
+"107 Callow";330;14;31;3;378
+"108 Cloonmore";462;17;21;4;504
+"109 Coolnaha";474;14;7;1;496
+"110 Cuildoo";355;12;6;7;380
+"111 Doocastle";396;11;12;0;419
+"112 Kilbeagh";972;30;40;15;1057
+"113 Kilkelly";824;45;29;7;905
+"114 Killedan";660;31;15;1;707
+"115 Kilmovee";588;22;20;3;633
+"116 Kiltamagh";1400;69;52;13;1534
+"117 Meelick";531;21;7;6;565
+"118 Sonnagh";1201;42;37;7;1287
+"119 Swineford";2558;46;41;37;2682
+"120 Toocananagh";357;9;8;4;378
+"121 Toomore";1252;81;64;13;1410
+"122 Tumgesh";306;7;11;2;326
+"123 Urlaur";484;27;15;1;527
+"124 Acaill";881;19;20;12;932
+"125 Aghagower North";742;51;42;14;849
+"126 Aghagower South";119;9;2;1;131
+"127 Aillemore";335;8;10;0;353
+"128 Ballycroy North";293;8;4;1;306
+"129 Ballycroy South";361;7;4;1;373
+"131 Clare Island";183;3;7;1;194
+"132 Clogher";698;40;26;12;776
+"133 An Corrán";662;20;12;6;700
+"134 Croaghpatrick";486;28;37;12;563
+"135 Derryloughan";519;25;34;1;579
+"136 Dumha Éige";627;23;9;3;662
+"137 Drummin";170;6;9;5;190
+"138 Emlagh";227;8;15;5;255
+"139 Erriff";101;2;0;1;104
+"140 Glenhest";211;5;11;1;228
+"141 Islandeady";939;22;27;12;1000
+"142 Kilgeever";104;1;0;0;105
+"143 Kilmaclasser";485;32;16;1;534
+"144 Kilmeena";1278;70;86;11;1445
+"145 Kilsallagh";437;22;37;5;501
+"146 Knappagh";516;70;51;8;645
+"147 Louisburgh";707;43;51;10;811
+"148 Newport East";906;56;37;22;1021
+"149 Newport West";724;31;26;9;790
+"150/130 Owennadornaun/Bundorragha";122;16;10;3;151
+"151 Slievemahanagh";394;15;12;8;429
+"152 Slievemore";957;46;38;11;1052
+"153 Srahmore";116;4;11;0;131
+"154 Westport Rural";1341;72;38;12;1463
+"Roscommon County";54302;2502;1484;480;58768
+"001 Athlone West Rural";2761;263;85;13;3122
+"002 Ballydangan";628;14;2;9;653
+"003 Ballynamona";469;5;4;26;504
+"004 Caltragh";240;7;3;1;251
+"005 Carnagh";662;20;8;3;693
+"006 Carrowreagh";453;12;1;2;468
+"007 Castlesampson";332;2;5;3;342
+"008 Cloonburren";219;11;0;2;232
+"009 Cloonown";231;5;1;0;237
+"010 Crannagh";1101;28;14;5;1148
+"011 Creagh";1041;23;11;9;1084
+"012 Culliagh";186;1;1;3;191
+"013 Drumlosh";305;5;6;3;319
+"014 Dysart";210;7;12;0;229
+"015 Kilcar";318;9;4;3;334
+"016 Kiltoom";1500;66;35;13;1614
+"017 Lecarrow";272;18;21;0;311
+"018 Moore";275;1;2;0;278
+"019 Rockhill";316;11;6;0;333
+"020 Taghboy";402;0;0;0;402
+"021 Taghmaconnell";237;7;7;3;254
+"022 Thomastown";722;10;7;4;743
+"023 Turrock";306;4;7;0;317
+"024 Aghafin";118;1;11;0;130
+"026 Aughrim East";196;4;4;0;204
+"027 Aughrim West";170;11;2;4;187
+"028 Ballyfarnan";208;5;2;0;215
+"029 Ballyfermoyle";118;6;11;0;135
+"030 Boyle Rural";1211;85;57;13;1366
+"031 Boyle Urban";1466;57;49;27;1599
+"032 Breedoge";238;8;9;2;257
+"033 Cloonteen";260;13;10;1;284
+"034 Creeve";111;8;6;1;126
+"035 Croghan";245;17;6;1;269
+"036 Crossna";144;17;24;2;187
+"037 Danesfort";644;61;44;9;758
+"038 Estersnow";87;6;4;0;97
+"039 Keadew";447;10;20;4;481
+"040 Kilbryan";237;26;38;3;304
+"041 Kilcolagh";75;4;6;1;86
+"042 Killukin";233;7;15;1;256
+"043 Killummod";84;3;3;0;90
+"044 Kilmacumsy";233;11;7;2;253
+"045 Kilmore";149;7;3;0;159
+"046/048 Lisgarve/Mantua";205;6;8;1;220
+"047/025 Lough Allen/Altagowlan";297;6;5;1;309
+"049 Oakport";212;9;24;1;246
+"050 Rockingham";314;15;9;1;339
+"051 Rushfield";387;35;14;0;436
+"052 Tivannagh";228;13;10;2;253
+"053 Tumna North";133;20;26;2;181
+"054 Tumna South";166;13;13;0;192
+"055 Artagh North";727;27;24;21;799
+"056 Artagh South";420;15;9;0;444
+"057 Ballaghaderreen";2317;281;104;38;2740
+"058 Ballinlough";943;51;18;15;1027
+"059 Ballintober";665;10;6;5;686
+"060 Baslick";146;0;6;0;152
+"061 Bellanagare";534;21;17;3;575
+"062 Buckill";327;23;15;6;371
+"063 Carrowduff";201;9;6;0;216
+"064 Castleplunket";477;12;19;6;514
+"065 Castlereagh";2698;69;52;25;2844
+"066 Castleteheen";300;7;4;3;314
+"067 Cloonfower";293;5;7;1;306
+"068 Coolougher";469;20;12;5;506
+"069 Edmondstown";403;24;8;0;435
+"070 Fairymount";342;12;7;5;366
+"071 Frenchpark";832;33;15;6;886
+"072 Kiltullagh";955;46;25;2;1028
+"073 Loughglinn";661;22;10;6;699
+"074 Annaghmore";317;7;2;1;327
+"075 Athleague East";379;17;6;5;407
+"076 Athleague West";477;7;8;1;493
+"077 Ballygarden";190;11;6;0;207
+"078 Bumlin";341;7;9;2;359
+"079 Cams";458;7;4;2;471
+"080 Cloonfinlough";165;17;6;0;188
+"081 Cloontuskert";993;29;21;14;1057
+"082 Cloonygormican";395;13;4;1;413
+"083 Cloonyquin";267;12;10;0;289
+"084 Creeve";140;6;2;3;151
+"085 Cregga";160;4;8;0;172
+"086 Drumdaff";412;13;13;2;440
+"087 Dunamon";288;15;14;0;317
+"088 Elia";125;7;1;0;133
+"089 Elphin";720;21;25;3;769
+"090 Fuerty";643;30;19;1;693
+"091 Kilbride North";348;18;14;0;380
+"092 Kilbride South";328;3;4;1;336
+"093 Kilgefin";260;22;1;2;285
+"094 Kilglass North";357;25;12;3;397
+"095 Kilglass South";303;1;7;1;312
+"096 Killavackan";182;6;2;0;190
+"097 Killukin";219;2;1;2;224
+"098 Kilteevan";412;20;11;1;444
+"099 Lackan";312;6;1;1;320
+"100 Lismaha";333;5;2;2;342
+"101 Lissonuffy";172;1;1;0;174
+"102 Mote";684;45;15;4;748
+"103 Ogulla";210;8;5;4;227
+"104 Roosky";537;34;12;3;586
+"105 Roscommon Rural";3846;179;104;49;4178
+"106 Roscommon Urban";1446;166;46;19;1677
+"107 Rosmoylan";155;0;2;0;157
+"108 Rossmore";148;0;1;1;150
+"109 Scregg";389;4;3;4;400
+"110 Strokestown";942;17;17;8;984
+"111 Termonbarry";476;17;15;9;517
+"112 Tulsk";261;0;4;3;268
+"Sligo County";53650;4283;2187;774;60894
+"001 Sligo East";4688;347;216;83;5334
+"002 Sligo North";4360;443;253;290;5346
+"003 Sligo West";6349;473;309;81;7212
+"004 Aghanagh";261;36;15;3;315
+"005 Ballynashee";241;5;22;2;270
+"006 Coolavin";409;19;18;1;447
+"007 Cuilmore";457;15;17;1;490
+"008 Drumrat";397;23;16;4;440
+"009 Kilfree";442;6;27;4;479
+"010 Killadoon";272;12;11;1;296
+"011 Killaraght";363;14;15;0;392
+"012 Kilmactranny";297;30;9;2;338
+"013 Kilshalvy";269;9;17;4;299
+"014 Shancough";127;4;6;2;139
+"015 Templevanny";197;16;24;3;240
+"016 Toomour";207;17;12;3;239
+"017 Aughris";171;2;1;0;174
+"018 Buncrowey";302;11;12;4;329
+"019 Castleconor East";226;3;1;1;231
+"020 Castleconor West";833;46;11;1;891
+"021 Dromard East";140;20;2;1;163
+"022 Dromard West";166;11;1;0;178
+"023 Dromore";416;25;1;2;444
+"024 Easky East";519;40;26;3;588
+"025 Easky West";634;45;12;4;695
+"026 Kilglass";1246;62;32;7;1347
+"028 Rathmacurkey";531;15;8;2;556
+"029 Skreen";135;27;0;3;165
+"030 Templeboy North";244;37;3;1;285
+"031/027 Templeboy South/Mullagheruse";195;22;13;2;232
+"032 Toberpatrick East";232;15;8;8;263
+"033 Toberpatrick West";236;47;12;1;296
+"034 Ballintogher East";513;13;16;1;543
+"035 Ballintogher West";400;4;11;4;419
+"036 Ballymote";1609;54;37;17;1717
+"037 Ballynakill";326;33;8;3;370
+"038 Ballysadare East";1073;104;37;6;1220
+"039 Ballysadare West";281;44;11;0;336
+"040 Bricklieve";188;40;5;1;234
+"041 Calry";1627;134;40;7;1808
+"042 Carney";574;96;11;0;681
+"043 Carrickbanagher";535;45;15;3;598
+"044 Cliffony North";810;54;37;10;911
+"045 Cliffony South";564;15;22;6;607
+"046 Collooney";1540;143;50;21;1754
+"047 Drumcliff East";639;93;35;13;780
+"048 Drumcliff West";1624;199;68;36;1927
+"049 Drumcolumb";258;15;17;3;293
+"050 Drumfin";305;25;9;0;339
+"051 Glencar";198;13;11;0;222
+"052 Kilmacowen";1835;168;40;7;2050
+"053 Knockaree";2797;252;148;22;3219
+"054 Lakeview";337;39;14;1;391
+"055 Lisconny";337;49;12;3;401
+"056 Lissadill East";541;59;31;6;637
+"057 Lissadill North";971;82;68;7;1128
+"058 Lissadill West";401;26;48;0;475
+"059 Riverstown";526;91;16;5;638
+"060 Rossinver East";150;7;6;2;165
+"061 Rossinver West";206;25;1;1;233
+"062 Achonry East";488;15;23;2;528
+"063 Achonry West";649;21;7;6;683
+"064 Aclare";274;10;15;4;303
+"065 Annagh";131;35;14;2;182
+"066 Banada";525;26;25;3;579
+"067/069 Branchfield/Carrownaskeagh";128;12;5;0;145
+"068 Breencorragh";117;4;7;0;128
+"070 Cartron";154;24;1;0;179
+"072 Cloonoghill";293;12;2;1;308
+"073 Coolaney";424;99;25;2;550
+"074 Glendarragh";135;16;7;2;160
+"075 Kilmacteige";227;4;4;0;235
+"076 Kilturra";218;11;11;0;240
+"077 Leitrim";307;16;8;0;331
+"078/071 Loughill/Cloonacool";295;12;15;3;325
+"079 Owenmore";86;5;12;0;103
+"080 Streamstown";276;21;1;0;298
+"081 Temple";170;45;11;1;227
+"082 Tobercurry";2026;76;40;39;2181
+"Ulster";231589;27147;5870;2658;267264
+"Cavan County";55253;6357;1458;935;64003
+"001 Cavan Urban";3339;345;151;99;3934
+"002 Bailieborough";2666;418;44;62;3190
+"003 Carnagarve";475;101;6;3;585
+"004 Crossbane";463;17;8;1;489
+"005 Drumanespick";380;35;5;1;421
+"006 Enniskeen";357;28;4;2;391
+"007 Killinkere";277;75;16;0;368
+"008 Kingscourt";2279;183;58;60;2580
+"009 Lisagoan";315;5;2;5;327
+"010 Mullagh";1249;100;27;19;1395
+"011 Shercock";912;86;20;11;1029
+"012 Skeagh";270;113;5;6;394
+"013 Taghart";524;20;13;3;560
+"014 Termon";356;109;1;6;472
+"015 Ballyconnell";1058;116;49;6;1229
+"016 Ballymagauran";220;26;5;1;252
+"017 Bawnboy";467;49;17;11;544
+"019 Bilberry";107;37;1;1;146
+"020 Carn";179;39;8;0;226
+"021 Diamond";67;47;1;0;115
+"022 Doogary";112;32;5;1;150
+"023 Kinawley";117;1;3;0;121
+"024 Lissanover";256;10;5;0;271
+"025/028 Pedara Vohers/Tircahan";182;6;4;0;192
+"026 Swanlinbar";396;30;13;2;441
+"027/018 Templeport/Benbrack";342;7;26;6;381
+"029 Ballyjamesduff";1956;169;48;67;2240
+"030 Castlerahan";767;64;26;12;869
+"031 Kilbride";807;58;14;5;884
+"032 Lurgan";444;57;17;6;524
+"033 Munterconnaught";805;77;25;62;969
+"034 Virginia";2790;262;101;44;3197
+"035 Ardue";500;105;20;8;633
+"036 Arvagh";731;147;12;10;900
+"037 Ashfield";250;77;11;8;346
+"038 Ballintemple";399;56;4;0;459
+"039 Ballyhaise";905;55;16;6;982
+"040 Ballymachugh";546;118;17;32;713
+"041 Bellananagh";1113;89;28;12;1242
+"042 Belturbet Urban";1174;151;57;13;1395
+"043 Bruce Hall";196;23;0;0;219
+"044 Butler's Bridge";345;21;3;2;371
+"045 Canningstown";426;124;6;2;558
+"046 Carrafin";317;32;12;2;363
+"047 Castlesaunderson";91;125;2;5;223
+"048 Cavan Rural";4059;581;143;82;4865
+"049 Clonervy";741;34;10;5;790
+"050 Cootehill Rural";1046;109;17;9;1181
+"051 Cootehill Urban";1131;55;37;20;1243
+"052 Corr";210;42;2;1;255
+"053 Corraneary";318;78;8;2;406
+"054 Crossdoney";452;81;9;0;542
+"055 Crosskeys";623;8;6;6;643
+"056 Cuttragh";334;3;1;4;342
+"057 Denn";630;52;6;2;690
+"058 Derrin";350;31;3;0;384
+"059 Drumcarban";501;45;9;1;556
+"060 Drumcarn";478;39;1;4;522
+"061 Drung";454;85;0;7;546
+"062 Graddum";412;48;11;4;475
+"063 Grilly";339;51;12;0;402
+"064 Kilconny";343;22;13;1;379
+"065 Kill";342;2;6;2;352
+"066 Killashandra";953;152;20;5;1130
+"067 Killykeen";325;196;16;1;538
+"068 Kilnaleck";783;49;45;79;956
+"069 Knappagh";376;39;3;3;421
+"070 Larah North";421;12;9;2;444
+"071 Larah South";442;30;2;3;477
+"072 Milltown";272;48;15;3;338
+"073 Moynehall";1350;84;41;28;1503
+"074 Rakenny";317;86;6;4;413
+"075 Redhill";380;28;6;6;420
+"076 Springfield";77;92;4;2;175
+"077 Stradone";651;53;11;8;723
+"078 Tullyvin East";305;69;12;0;386
+"079 Tullyvin West";202;21;6;1;230
+"080 Waterloo";642;27;7;6;682
+"081 Derrylahan";119;0;1;0;120
+"083 Dowra";125;3;0;1;129
+"084/082 Dunmakeever/Derrynananta";159;0;9;0;168
+"085 Eskey";238;37;5;3;283
+"086/087 Kinninagh/Teebane";145;5;9;1;160
+"088 Tuam";328;17;3;1;349
+"089 Drumlumman";505;9;0;2;516
+"090 Kilcogy";354;7;0;4;365
+"091 Kilgolagh";273;29;6;11;319
+"092 Loughdawan";314;4;4;4;326
+"093 Scrabby";507;49;8;5;569
+"Donegal County";127258;15434;3474;1098;147264
+"001 Buncrana Urban";3152;119;109;31;3411
+"002 Bundoran Urban";1495;105;79;27;1706
+"003 Letterkenny Urban";1572;192;105;45;1914
+"004 Ballintra";481;171;25;17;694
+"005 Ballyshannon Rural";1364;136;39;21;1560
+"006 Ballyshannon Urban";1822;92;59;31;2004
+"007 Bundoran Rural";800;48;22;18;888
+"008 Carrickboy";425;8;6;5;444
+"009 Cavangarden";222;93;11;1;327
+"010 Cliff";184;15;12;0;211
+"011 Ballintra";322;202;35;5;564
+"012 An Bhinn Bhán";162;5;4;4;175
+"013 Bonnyglen";323;16;6;4;349
+"014 Clogher";651;88;11;7;757
+"015 Corkermore";210;59;7;2;278
+"016 Donegal";3135;473;115;30;3753
+"017 Dunkineely";659;178;30;11;878
+"018 Eanymore";476;28;22;3;529
+"019 Grousehall";77;1;1;0;79
+"020 Haugh";166;64;3;0;233
+"021 Inver";636;95;8;3;742
+"022 Laghy";556;112;26;8;702
+"023 Loch Iascaigh";86;21;11;1;119
+"024 Pettigoe";388;26;3;7;424
+"025 Tantallon";1271;239;36;9;1555
+"026 Tawnawully";241;5;6;3;255
+"027 Templecarn";123;3;1;0;127
+"028 Tullynaught";298;190;13;2;503
+"029 Ards";494;149;31;5;679
+"030 Críoch na Sméar";231;37;4;1;273
+"031 An Craoslach";627;46;12;6;691
+"032 Na Croisbhealaí";2038;49;64;17;2168
+"033 Caisleán na dTuath";177;35;5;2;219
+"034 Dún Fionnachaidh";519;317;24;5;865
+"035 Dún Lúiche";651;7;30;7;695
+"036 Gort an Choirce";1556;19;20;4;1599
+"037 Machaire Chlochair";2535;49;58;9;2651
+"038 Mín an Chladaigh";1292;9;13;12;1326
+"039 Anagaire";2111;57;53;14;2235
+"040 Árainn Mhór";514;4;8;3;529
+"041 Ard an Rátha";891;118;34;9;1052
+"042 Cró Bheithe";152;4;4;1;161
+"043 Cró Chaorach";116;4;0;1;121
+"044 Crownarad";325;6;8;2;341
+"045 Dawros";577;53;13;5;648
+"046 An Dúchoraidh";75;2;6;2;85
+"047 An Clochán Liath";1793;75;35;9;1912
+"048 Baile na Finne";305;2;7;2;316
+"049 Gleann Cholm Cille";690;21;14;1;726
+"050 Gleann Gheis";587;78;18;1;684
+"051 Gleann Léithín";180;3;8;0;191
+"052 Na Gleannta";1370;60;46;5;1481
+"053 An Ghrafaidh";194;5;10;0;209
+"054 Inis Caoil";100;2;2;0;104
+"055 Cill Charthaigh";638;8;12;1;659
+"056 Cill Ghabhlaigh";354;23;16;1;394
+"057 Killybegs";2187;72;45;21;2325
+"058 An Leargaidh Mhór";555;0;7;1;563
+"059 Leitir Mhic an Bhaird";615;36;21;7;679
+"060 Maas";293;22;3;0;318
+"061 An Machaire";643;24;35;8;710
+"062 Málainn Bhig";366;11;8;6;391
+"063 Maol Mosóg";184;25;14;2;225
+"064 Inis Mhic an Doirn";1339;35;45;10;1429
+"065 Tieveskeelta";96;2;3;1;102
+"066 Ardmalin";669;44;12;2;727
+"067 Ballyliffin";1218;38;30;13;1299
+"068 Birdstown";913;73;34;6;1026
+"069 Buncrana Rural";2719;116;83;31;2949
+"070 Burt";1124;108;22;10;1264
+"071 Carndonagh";1722;140;49;20;1931
+"072 Carthage";954;27;5;9;995
+"073 Castlecary";589;63;11;3;666
+"074 Castleforward";736;139;28;6;909
+"075 Culdaff";801;77;19;2;899
+"076 Desertegny";642;9;7;4;662
+"077 Dunaff";637;9;12;5;663
+"078 Fahan";1308;118;45;5;1476
+"079 Glennagannon";609;42;10;10;671
+"080 Gleneely";679;51;15;1;746
+"081 Glentogher";1059;49;15;10;1133
+"082 Greencastle";695;75;35;2;807
+"083 Illies";773;12;8;3;796
+"084 Inch Island";385;37;12;4;438
+"085 Kilderry";1554;122;57;11;1744
+"086 Killea";1250;252;23;22;1547
+"087 Malin";546;69;7;0;622
+"088 Mintiaghs";734;49;8;6;797
+"089 Moville";1957;147;60;10;2174
+"090 Newtown Cunningham";903;256;13;6;1178
+"091 Redcastle";718;44;23;6;791
+"092 Straid";1300;11;21;12;1344
+"093 Three Trees";559;62;20;5;646
+"094 Turmone";266;23;6;2;297
+"095 Whitecastle";754;107;16;6;883
+"096 Ballymacool";1331;231;46;2;1610
+"097 Castlewray";2808;418;82;26;3334
+"098 Mín an Lábáin";249;25;6;1;281
+"099 Corravaddy";906;190;28;8;1132
+"100 Edenacarnan";616;166;16;8;806
+"101 Gartán";136;37;6;1;180
+"102 Gortnavern";895;99;13;5;1012
+"103 Killymasny";391;25;1;0;417
+"104 Kincraigy";539;318;12;8;877
+"105 Letterkenny Rural";9154;1247;320;142;10863
+"106 Magheraboy";1264;276;19;6;1565
+"107 Manorcunningham";650;165;15;7;837
+"108 Suí Corr";91;3;1;0;95
+"109 Templedouglas";616;186;10;5;817
+"110 Ballyarr";392;56;9;0;457
+"111 Carraig Airt";871;35;13;1;920
+"112 An Cheathrú Chaol";758;104;12;1;875
+"113 Creamhghort";498;80;3;9;590
+"114 Fánaid Thuaidh";495;34;17;0;546
+"115 Fánaid Thiar";386;69;6;0;461
+"116 Glen";207;38;6;3;254
+"117 Glenalla";293;93;7;0;393
+"118 Grianfort";308;24;14;2;348
+"119 Killygarvan";87;1;0;1;89
+"120 Kilmacrenan";1034;134;23;14;1205
+"121 Cnoc Colbha";220;12;1;0;233
+"122 Loch Caol";159;106;10;1;276
+"123 Millford";1279;129;25;6;1439
+"124 Rathmelton";1585;429;95;3;2112
+"125 Rathmullan";700;124;30;11;865
+"126 Ros Goill";750;98;19;18;885
+"127 Rosnakill";198;47;3;1;249
+"128 An Tearmann";416;28;1;1;446
+"129 Allt na Péiste";312;76;4;1;393
+"130 Castlefinn";1064;244;19;8;1335
+"131 An Clochán";749;100;1;2;852
+"132 Cloghard";583;76;7;1;667
+"133 Clonleigh North";1179;140;14;6;1339
+"134 Clonleigh South";1852;169;24;5;2050
+"135 Convoy";1536;598;39;15;2188
+"136 Dooish";908;102;12;2;1024
+"137 Feddyglass";206;178;11;2;397
+"138 Figart";456;391;12;2;861
+"139 Gleneely";1267;103;6;8;1384
+"140 Goland";291;31;4;1;327
+"141 Killygordon";795;214;6;1;1016
+"142 Knock";1412;59;29;6;1506
+"143 Lettermore";336;27;3;3;369
+"144 Mín Charraigeach";87;0;3;0;90
+"145 Raphoe";1031;398;37;2;1468
+"146 St. Johnstown";1030;179;14;4;1227
+"147 Stranorlar";3652;380;95;22;4149
+"148 Treantaghmucklagh";337;282;16;2;637
+"149 Urney West";453;38;2;6;499
+"Monaghan County";49078;5356;938;625;55997
+"001 Carrickmacross Urban";1733;121;80;39;1973
+"002 Castleblayney Urban";790;66;41;23;920
+"003 Clones Urban";899;56;24;16;995
+"004 Monaghan Urban";1833;205;103;42;2183
+"005 Ballymackney";870;40;6;12;928
+"006 Bocks";565;23;10;1;599
+"007 Carrickmacross Rural";2801;149;95;46;3091
+"008 Corracharra";237;18;6;5;266
+"009 Crossalare";543;18;6;2;569
+"010 Donaghmoyne";608;21;6;6;641
+"011 Drumboory";433;19;10;4;466
+"012 Drumcarrow";356;14;8;3;381
+"013 Drumgurra";507;39;7;4;557
+"014 Enagh";654;37;11;2;704
+"015 Inishkeen";948;14;5;12;979
+"016 Kilmurry";521;14;1;1;537
+"017 Kiltybegs";557;13;1;1;572
+"018 Loughfea";512;43;6;10;571
+"019 Raferagh";424;24;5;4;457
+"020 Annayalla";567;22;4;0;593
+"021 Ballybay Rural";1131;201;23;24;1379
+"022 Ballybay Urban";335;48;7;11;401
+"023 Bellatrain";236;7;0;0;243
+"024 Broomfield";689;11;8;10;718
+"025 Carrickaslane";390;104;7;5;506
+"026 Carrickatee";271;39;1;2;313
+"027 Castleblayney Rural";2968;159;53;18;3198
+"028 Church Hill";465;93;9;5;572
+"029 Creeve";531;18;5;8;562
+"030 Cremartin";936;22;7;10;975
+"031 Greagh";391;18;4;4;417
+"032 Laragh";505;13;3;4;525
+"033 Mullyash";154;195;3;3;355
+"034 Aghabog";184;118;6;2;310
+"035 Anny";253;85;10;1;349
+"036 Clones Rural";1322;90;13;11;1436
+"037 Cormeen";381;63;4;9;457
+"038 Currin";489;52;8;10;559
+"039 Dawsongrove";522;134;11;5;672
+"040 Drum";58;130;1;1;190
+"041 Drummully";72;18;0;2;92
+"042 Killeevan";286;72;2;5;365
+"043 Killynenagh";56;111;0;3;170
+"044 Lisnaveane";347;77;4;0;428
+"045 Newbliss";616;103;20;2;741
+"046 St. Tierney";348;64;2;2;416
+"047 Anketell Grove";915;58;7;29;1009
+"048 Bellanode";1099;220;18;22;1359
+"049 Bragan";275;0;1;14;290
+"050 Caddagh";308;145;12;4;469
+"051 Castleshane";816;51;5;4;876
+"052 Clones";397;54;5;6;462
+"053 Clontibret";497;200;3;0;700
+"054 Derrygorry";259;11;2;1;273
+"055 Drumhillagh";516;99;6;9;630
+"056 Drumsnat";840;82;13;2;937
+"057 Emyvale";1116;77;2;28;1223
+"058 Enagh";398;77;10;2;487
+"059 Figullar";412;6;3;1;422
+"060 Glaslough";561;160;22;14;757
+"061 Killylough";546;1;2;5;554
+"062 Kilmore";513;20;1;2;536
+"063 Monaghan Rural";4861;562;137;51;5611
+"064 Rackwallace";562;220;6;6;794
+"065 Scotstown";1020;49;9;5;1083
+"066 Shanmullagh";223;0;0;3;226
+"067 Sheskin";542;7;1;9;559
+"068 Tedavnet";813;26;8;13;860
+"069 Tehallan";776;116;16;2;910
+"070 Tullycorbet";519;114;3;3;639
+"State";3681446;301762;186318;70322;4239848

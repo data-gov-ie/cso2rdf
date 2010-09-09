@@ -1,0 +1,148 @@
+@prefix rdf:                <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix sdmx:               <http://purl.org/linked-data/sdmx#> .
+@prefix skos:               <http://www.w3.org/2004/02/skos/core#> .
+
+# --- Own namespaces ------------------------
+
+@prefix code:               <http://stats.govdata.ie/codelist/> .
+@prefix code-age:           <http://stats.govdata.ie/codelist/age/> .
+
+# --- Code lists ----------------------------
+  
+code:age a sdmx:CodeList;
+    skos:prefLabel "Code list for years of age"@en;
+    skos:hasTopConcept code-age:1, code-age:2, code-age:3, code-age:4, code-age:5, code-age:6, code-age:7, code-age:8, code-age:9, code-age:10, code-age:11, code-age:12, code-age:13, code-age:14, code-age:15, code-age:16, code-age:17, code-age:18, code-age:19-and-more,
+    .
+    
+code-age:1 a skos:Concept;
+    skos:inScheme code:age;
+    skos:topConceptOf code:age;
+    skos:prefLabel "1";
+    skos:notation "1"
+    .
+    
+code-age:2 a skos:Concept;
+    skos:inScheme code:age;
+    skos:topConceptOf code:age;
+    skos:prefLabel "2";
+    skos:notation "2"
+    .
+    
+code-age:3 a skos:Concept;
+    skos:inScheme code:age;
+    skos:topConceptOf code:age;
+    skos:prefLabel "3";
+    skos:notation "3"
+    .
+    
+code-age:4 a skos:Concept;
+    skos:inScheme code:age;
+    skos:topConceptOf code:age;
+    skos:prefLabel "4";
+    skos:notation "4"
+    .
+    
+code-age:5 a skos:Concept;
+    skos:inScheme code:age;
+    skos:topConceptOf code:age;
+    skos:prefLabel "5";
+    skos:notation "5"
+    .
+    
+code-age:6 a skos:Concept;
+    skos:inScheme code:age;
+    skos:topConceptOf code:age;
+    skos:prefLabel "6";
+    skos:notation "6"
+    .
+    
+code-age:7 a skos:Concept;
+    skos:inScheme code:age;
+    skos:topConceptOf code:age;
+    skos:prefLabel "7";
+    skos:notation "7"
+    .
+    
+code-age:8 a skos:Concept;
+    skos:inScheme code:age;
+    skos:topConceptOf code:age;
+    skos:prefLabel "8";
+    skos:notation "8"
+    .
+    
+code-age:9 a skos:Concept;
+    skos:inScheme code:age;
+    skos:topConceptOf code:age;
+    skos:prefLabel "9";
+    skos:notation "9"
+    .
+
+code-age:10 a skos:Concept;
+    skos:inScheme code:age;
+    skos:topConceptOf code:age;
+    skos:prefLabel "10";
+    skos:notation "10"
+    .
+
+code-age:11 a skos:Concept;
+    skos:inScheme code:age;
+    skos:topConceptOf code:age;
+    skos:prefLabel "11";
+    skos:notation "11"
+    .
+
+code-age:12 a skos:Concept;
+    skos:inScheme code:age;
+    skos:topConceptOf code:age;
+    skos:prefLabel "12";
+    skos:notation "12"
+    .
+
+code-age:13 a skos:Concept;
+    skos:inScheme code:age;
+    skos:topConceptOf code:age;
+    skos:prefLabel "13";
+    skos:notation "13"
+    .
+
+code-age:14 a skos:Concept;
+    skos:inScheme code:age;
+    skos:topConceptOf code:age;
+    skos:prefLabel "14";
+    skos:notation "14"
+    .
+
+code-age:15 a skos:Concept;
+    skos:inScheme code:age;
+    skos:topConceptOf code:age;
+    skos:prefLabel "15";
+    skos:notation "15"
+    .
+
+code-age:16 a skos:Concept;
+    skos:inScheme code:age;
+    skos:topConceptOf code:age;
+    skos:prefLabel "16";
+    skos:notation "16"
+    .
+
+code-age:17 a skos:Concept;
+    skos:inScheme code:age;
+    skos:topConceptOf code:age;
+    skos:prefLabel "17";
+    skos:notation "17"
+    .
+
+code-age:18 a skos:Concept;
+    skos:inScheme code:age;
+    skos:topConceptOf code:age;
+    skos:prefLabel "18";
+    skos:notation "18"
+    .
+
+code-age:19-and-more a skos:Concept;
+    skos:inScheme code:age;
+    skos:topConceptOf code:age;
+    skos:prefLabel "19+";
+    skos:notation "19-and-more"
+    .

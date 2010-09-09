@@ -1,0 +1,64 @@
+@prefix rdf:                <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix sdmx:               <http://purl.org/linked-data/sdmx#> .
+@prefix skos:               <http://www.w3.org/2004/02/skos/core#> .
+
+# --- Own namespaces ------------------------
+
+@prefix code:               <http://stats.govdata.ie/codelist/> .
+@prefix code-ethicgroup:    <http://stats.govdata.ie/codelist/ethnic-group/> .
+
+# --- Code lists ----------------------------
+  
+code:ethnic-group a sdmx:CodeList;
+    skos:prefLabel "Code list for ethnic groups"@en;
+    skos:hasTopConcept code-ethicgroup:1, code-ethicgroup:2, code-ethicgroup:3, code-ethicgroup:4, code-ethicgroup:5, code-ethicgroup:6, code-ethicgroup:7
+    .
+    
+code-ethicgroup:1 a skos:Concept;
+    skos:inScheme code:ethnic-group;
+    skos:topConceptOf code:ethnic-group;
+    skos:prefLabel "White Irish"@en;
+    skos:notation "1";
+    .
+    
+code-ethicgroup:2 a skos:Concept;
+    skos:inScheme code:ethnic-group;
+    skos:topConceptOf code:ethnic-group;
+    skos:prefLabel "White Irish Traveller"@en;
+    skos:notation "2";
+    .
+    
+code-ethicgroup:3 a skos:Concept;
+    skos:inScheme code:ethnic-group;
+    skos:topConceptOf code:ethnic-group;
+    skos:prefLabel "Any other White background"@en;
+    skos:notation "3";
+    .
+    
+code-ethicgroup:4 a skos:Concept;
+    skos:inScheme code:ethnic-group;
+    skos:topConceptOf code:ethnic-group;
+    skos:prefLabel "Black or Black Irish"@en;
+    skos:notation "4";
+    .
+    
+code-ethicgroup:5 a skos:Concept;
+    skos:inScheme code:ethnic-group;
+    skos:topConceptOf code:ethnic-group;
+    skos:prefLabel "Asian or Asian Irish"@en;
+    skos:notation "5"
+    .
+    
+code-ethicgroup:6 a skos:Concept;
+    skos:inScheme code:ethnic-group;
+    skos:topConceptOf code:ethnic-group;
+    skos:prefLabel "Other"@en;
+    skos:notation "6"
+    .
+    
+code-ethicgroup:7 a skos:Concept;
+    skos:inScheme code:ethnic-group;
+    skos:topConceptOf code:ethnic-group;
+    skos:prefLabel "Not stated"@en;
+    skos:notation "7"
+    .

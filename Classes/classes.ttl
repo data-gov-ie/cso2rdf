@@ -1,0 +1,49 @@
+@prefix owl:            <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:            <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:           <http://www.w3.org/2000/01/rdf-schema#> .
+
+# --- Own namespaces -------------
+
+@prefix geo:            <http://geo.govdata.ie/> .
+
+# --- Classes --------------------
+
+geo:City a rdfs:Class;
+    rdfs:subClassOf <http://dbpedia.org/ontology/City>;
+    rdfs:label "City in the Republic of Ireland"@en;
+    rdfs:comment "geo:City is a relatively large and permanent urban settlement located in the Republic of Ireland."@en
+    .
+    
+geo:AdministrativeCounty a rdfs:Class;
+    rdfs:label "Administrative county in the Republic of Ireland"@en;
+    rdfs:comment "An administrative county is a land area of local government within the Republic of Ireland."@en;
+    rdfs:subClassOf <http://dbpedia.org/resource/County>
+    .
+    
+geo:TraditionalCounty a rdfs:Class;
+    rdfs:label "Traditional county in the Republic of Ireland"@en;
+    rdfs:comment "A traditional county in the Republic of Ireland is a land area involving one or more administrative counties or cities within the Republic of Ireland."@en
+    .
+    
+geo:ElectoralDivision a rdfs:Class;
+    rdfs:label "Electoral division in the Republic of Ireland"@en;
+    rdfs:comment "An electoral division in the Republic of Ireland is a distinct territorial subdivision of the Republic of Ireland for holding a separate election for one or more seats in a legislative body."@en
+    .
+    
+geo:EnumerationArea a rdfs:Class;
+    rdfs:label "Enumeration area in the Republic of Ireland"@en;
+    rdfs:comment "A census enumeration area in the Republic of Ireland (EA) represents the area/workload assigned to each enumerator within the Republic of Ireland."@en
+    .
+    
+geo:Province a rdfs:Class;
+    rdfs:label "Province in the Republic of Ireland"@en;
+    rdfs:comment "A province in the Republic of Ireland is a territorial unit, almost always an administrative division, within the Republic of Ireland."@en;
+    rdfs:subClassOf <http://dbpedia.org/resource/Province>
+    .
+
+geo:State a rdfs:Class;
+    rdfs:label "State"@en;
+    rdfs:comment "A state is an organised political community, living under a government."@en;
+    owl:sameAs <http://dbpedia.org/resource/State>
+    .
+

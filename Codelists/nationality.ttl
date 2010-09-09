@@ -1,0 +1,55 @@
+@prefix rdf:                <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix sdmx:               <http://purl.org/linked-data/sdmx#> .
+@prefix skos:               <http://www.w3.org/2004/02/skos/core#> .
+
+# --- Own namespaces ------------------------
+
+@prefix code:               <http://stats.govdata.ie/codelist/> .
+@prefix code-nationality:   <http://stats.govdata.ie/codelist/nationality/> .
+
+# --- Code lists ----------------------------
+  
+code:nationality a sdmx:CodeList;
+    skos:prefLabel "Code list for nationalities"@en;
+    skos:hasTopConcept code-nationality:1, code-nationality:2, code-nationality:3, code-nationality:4, code-nationality:5, code-nationality:6
+    .
+    
+code-nationality:1 a sdmx:Concept;
+    skos:topConceptOf code:nationality;
+    skos:prefLabel "Irish"@en;
+    skos:closeMatch <http://dbpedia.org/resource/Irish_people>;
+    skos:notation "1"
+    .
+    
+code-nationality:2 a sdmx:Concept;
+    skos:topConceptOf code:nationality;
+    skos:prefLabel "UK"@en;
+    skos:closeMatch <http://dbpedia.org/resource/British_people>;
+    skos:notation "2"
+    .
+    
+code-nationality:3 a sdmx:Concept;
+    skos:topConceptOf code:nationality;
+    skos:prefLabel "Polish"@en;
+    skos:closeMatch <http://dbpedia.org/resource/Poles>;
+    skos:notation "3"
+    .
+    
+code-nationality:4 a sdmx:Concept;
+    skos:topConceptOf code:nationality;
+    skos:prefLabel "Lithuanian"@en;
+    skos:closeMatch <http://dbpedia.org/resource/Lithuanian_people>;
+    skos:notation "4"
+    .
+    
+code-nationality:5 a sdmx:Concept;
+    skos:topConceptOf code:nationality;
+    skos:prefLabel "Other EU25"@en;
+    skos:notation "5"
+    .
+    
+code-nationality:6 a sdmx:Concept;
+    skos:topConceptOf code:nationality;
+    skos:prefLabel "Rest of World"@en;
+    skos:notation "6"
+    .

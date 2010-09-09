@@ -1,0 +1,62 @@
+@prefix rdf:                <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix sdmx:               <http://purl.org/linked-data/sdmx#> .
+@prefix skos:               <http://www.w3.org/2004/02/skos/core#> .
+
+# --- Own namespaces ------------------------
+
+@prefix code:               <http://stats.govdata.ie/codelist/> .
+@prefix code-birthplace:    <http://stats.govdata.ie/codelist/birthplace/> .
+
+# --- Code lists ----------------------------
+  
+code:birthplace a sdmx:CodeList;
+    skos:prefLabel "Code list for birthplaces"@en;
+    skos:hasTopConcept code-birthplace:1, code-birthplace:2, code-birthplace:3, code-birthplace:4, code-birthplace:5, code-birthplace:6
+    .
+    
+code-birthplace:1 a skos:Concept;
+    skos:inScheme code:birthplace;
+    skos:topConceptOf code:birthplace;
+    skos:prefLabel "Ireland"@en;
+    skos:notation "1";
+    skos:exactMatch <http://sws.geonames.org/2646052/>
+    .
+    
+code-birthplace:2 a skos:Concept;
+    skos:inScheme code:birthplace;
+    skos:topConceptOf code:birthplace;
+    skos:prefLabel "UK"@en;
+    skos:notation "2";
+    skos:exactMatch <http://sws.geonames.org/2648147/>
+    .
+    
+code-birthplace:3 a skos:Concept;
+    skos:inScheme code:birthplace;
+    skos:topConceptOf code:birthplace;
+    skos:prefLabel "Poland"@en;
+    skos:notation "3";
+    skos:exactMatch <http://sws.geonames.org/798544/>
+    .
+    
+code-birthplace:4 a skos:Concept;
+    skos:inScheme code:birthplace;
+    skos:topConceptOf code:birthplace;
+    skos:prefLabel "Lithuania"@en;
+    skos:notation "4";
+    skos:exactMatch <http://sws.geonames.org/597427/>
+    .
+    
+code-birthplace:5 a skos:Concept;
+    skos:inScheme code:birthplace;
+    skos:topConceptOf code:birthplace;
+    skos:prefLabel "Other EU25"@en;
+    rdfs:comment "This includes Belgium, France, Germany, Italy, Luxembourg, Netherlands, Denmark, Greece, Portugal, Spain, Austria, Finland, Sweden, Cyprus, Czech Republic, Estonia, Hungary, Latvia, Malta, Slovakia and Slovenia."@en;
+    skos:notation "5";
+    .
+    
+code-birthplace:6 a skos:Concept;
+    skos:inScheme code:birthplace;
+    skos:topConceptOf code:birthplace;
+    skos:prefLabel "Rest of World"@en;
+    skos:notation "6"
+    .

@@ -1,0 +1,50 @@
+@prefix rdf:            <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix sdmx:           <http://purl.org/linked-data/sdmx#> .
+@prefix skos:           <http://www.w3.org/2004/02/skos/core#> .
+
+# --- Own namespaces ------------------------
+
+@prefix code:           <http://stats.govdata.ie/codelist/> .
+@prefix code-marital:  <http://stats.govdata.ie/codelist/marital-status/> .
+
+# --- Code lists ----------------------------
+  
+code:marital-status a sdmx:CodeList;
+    skos:prefLabel "Code list for marital statuses"@en;
+    skos:hasTopConcept code-marital:1, code-marital:2, code-marital:3, code-marital:4, code:marital:5
+    .
+    
+code-marital:1 a skos:Concept;
+    skos:inScheme code:marital-status;
+    skos:topConceptOf code:marital-status;
+    skos:prefLabel "Single"@en;
+    skos:notation "1"
+    .
+    
+code-marital:2 a skos:Concept;
+    skos:inScheme code:marital-status;
+    skos:topConceptOf code:marital-status;
+    skos:prefLabel "Married"@en;
+    skos:notation "2"
+    .
+    
+code-marital:3 a skos:Concept;
+    skos:inScheme code:marital-status;
+    skos:topConceptOf code:marital-status;
+    skos:prefLabel "Separated"@en;
+    skos:notation "3"
+    .
+    
+code-marital:4 a skos:Concept;
+    skos:inScheme code:marital-status;
+    skos:topConceptOf code:marital-status;
+    skos:prefLabel "Divorced"@en;
+    skos:notation "4"
+    .
+    
+code-marital:5 a skos:Concept;
+    skos:inScheme code:marital-status;
+    skos:topConceptOf code:marital-status;
+    skos:prefLabel "Widowed"@en;
+    skos:notation "5"
+    .

@@ -1,0 +1,56 @@
+@prefix rdf:            <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix sdmx:           <http://purl.org/linked-data/sdmx#> .
+@prefix skos:           <http://www.w3.org/2004/02/skos/core#> .
+
+# --- Own namespaces ------------------------
+
+@prefix code:           <http://stats.govdata.ie/codelist/> .
+@prefix code-religion:  <http://stats.govdata.ie/codelist/religion/> .
+
+# --- Code lists ----------------------------
+  
+code:religion a sdmx:CodeList;
+    skos:prefLabel "Code list for religions"@en;
+    skos:hasTopConcept code-religion:1, code-religion:2, code-religion:3, code-religion:4, code-religion:5
+    .
+    
+code-religion:1 a skos:Concept;
+    skos:topConceptOf code:religion;
+    skos:inScheme code:religion;
+    skos:prefLabel "Catholic"@en;
+    skos:notation "1";
+    skos:broader code-religion:5;
+    skos:closeMatch <http://dbpedia.org/resource/Catholic_Church>;
+    .
+    
+code-religion:2 a skos:Concept;
+    skos:topConceptOf code:religion;
+    skos:inScheme code:religion;
+    skos:prefLabel "Other than catholic religion"@en;
+    skos:notation "2";
+    skos:broader code-religion:5
+    .
+    
+code-religion:non a skos:Concept;
+    skos:topConceptOf code:religion;
+    skos:inScheme code:religion;
+    skos:prefLabel "No religion"@en;
+    skos:notation "non";
+    skos:broader code-religion:5
+    .
+    
+code-religion:not-stated a skos:Concept;
+    skos:topConceptOf code:religion;
+    skos:inScheme code:religion;
+    skos:prefLabel "Not stated"@en;
+    skos:notation "4";
+    skos:broader code-religion:5
+    .
+    
+code-religion:total a skos:Concept;
+    skos:topConceptOf code:religion;
+    skos:inScheme code:religion;
+    skos:prefLabel "Total"@en;
+    skos:notation "5";
+    skos:narrower code-religion:1, code-religion:2, code-religion:3, code-religion:4
+    .
