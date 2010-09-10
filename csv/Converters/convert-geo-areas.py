@@ -92,8 +92,14 @@ class GeoAreasWriter (RDFModel):
         "type" : "TraditionalCounty",
       },
       "Limerick Suburbs 21" : {
-        "prefLabel" : "Limerick",
-        "type" : "TraditionalCounty",
+        "suburbs" : {
+          "prefLabel" : "Munster",
+          "type" : "Province",
+        },
+        "EnumerationArea" : {
+          "prefLabel" : "Limerick",
+          "type" : "TraditionalCounty",
+        },
       },
       "Limerick Suburbs in Clare 16" : {
         "prefLabel" : "Clare",
@@ -108,8 +114,14 @@ class GeoAreasWriter (RDFModel):
         "type" : "TraditionalCounty",
       },
       "Waterford Suburbs 07" : {
-        "prefLabel" : "Waterford",
-        "type" : "TraditionalCounty",
+        "suburbs" : {
+          "prefLabel" : "Republic of Ireland",
+          "type" : "State",
+        },
+        "EnumerationArea" : {
+          "prefLabel" : "Waterford",
+          "type" : "TraditionalCounty",
+        },
       },
       "Waterford Suburbs in Kilkenny 07" : {
         "prefLabel" : "Kilkenny",
@@ -137,14 +149,8 @@ class GeoAreasWriter (RDFModel):
       "South Dublin" : "Dublin",
     }
     self.buffers = {
-      "broader" : {
-        "notation" : "",
-        "prefLabel" : "",
-        "type" : "",
-        "uri" : "",
-      },
-      "addBroader" : {
-      },
+      "broader" : {},
+      "addBroader" : {},
     }
      
   def getConcept(self, conceptType, **kwargs):
@@ -337,7 +343,33 @@ class GeoAreasWriter (RDFModel):
           )
         ],
       }
-      
+    elif conceptType == "Province":
+      notation = self.stringForUri(kwargs["name"])
+      concept = {
+        "codeLists" : [
+          self.ns["code-geo"]["census-2006"],
+          self.ns["code-geo"]["roi"],
+          self.ns["code-geo"]["top-level"],
+        ],
+        "model" : self.models["topLevel"],
+        "notation" : notation,
+        "prefLabel" : kwargs["name"],
+        "type" : conceptType,
+        "uri" : self.ns["geo"]["province/{0}".format(notation)],
+      }
+    elif conceptType == "State":
+      concept = {
+        "codeLists" : [
+          self.ns["code-geo"]["census-2006"],
+          self.ns["code-geo"]["roi"],
+          self.ns["code-geo"]["top-level"],
+        ],
+        "model" : self.models["topLevel"],
+        "notation" : "roi",
+        "prefLabel" : "Republic of Ireland",
+        "type" : conceptType,
+        "uri" : self.ns["geo"]["roi"],
+      }
     else:
       raise ValueError("Wrong conceptType argument: {0}".format(conceptType))
     
@@ -512,55 +544,47 @@ class GeoAreasWriter (RDFModel):
           c1_part1 = match.group("c1_part1")
           c1_part2 = match.group("c1_part2")
           c2 = match.group("c2")
-          if name and not c1_part1 and "Suburbs" in name: # then it's a city + suburbs
-            broader = self.toBroader[geoArea]
-            notation = self.stringForUri(broader["prefLabel"])
-            self.buffers["broader"] = {
-              "notation" : "{0}-traditional".format(notation),
-              "type" : broader["type"],
-              "uri" : self.ns["geo"]["traditional-county/{0}".format(notation)],
-            }
-            self.buffers["addBroader"] = self.getConcept(
-              conceptType = "city plus suburbs",
-              name = name
-            )
-          elif name and not c1_part2: # then it's a broader area
-            # Overwrite default values
-            self.buffers["broader"]["prefLabel"] = self.toBroader[geoArea]["prefLabel"]
-            self.buffers["broader"]["notation"] = self.stringForUri(
-              self.buffers["broader"]["prefLabel"]
-            )
-            self.buffers["broader"]["uri"] = self.ns["geo"][
-              "province/{0}".format(
-                self.buffers["broader"]["notation"]
+          if not c1_part2: # then it's a broader area
+            if name and not c1_part1 and "Suburbs" in name: # then it's a city + suburbs
+              conceptType = "city plus suburbs"
+              self.buffers["addBroader"] = self.getConcept(
+                conceptType = conceptType,
+                name = name,
+                doNotAppend = True
               )
-            ]
-            if "Suburbs" in name: # then it is "suburb"
+            elif name and not c1_part2 and "Suburbs" in name: # then it's a suburbs
               conceptType = "suburbs"
             elif name in self.cityNames: # then it's a "city"
               conceptType = "City"
+            elif name in ["South Dublin", "Fingal", "Dún Laoghaire-Rathdown"]: # then it's an administrative county
+              conceptType = "AdministrativeCounty"
+            
+            if c1_part1:  
+              searchName = "{0} {1}".format(name, c1_part1)
             else:
-              if name in ["South Dublin", "Fingal", "Dún Laoghaire-Rathdown"]:
-                conceptType = "AdministrativeCounty"
-              else:
-                raise Exception("Wrong name: {0}".format(name))
+              searchName = name
+            broader = self.toBroader[searchName]
+            if conceptType == "suburbs" and broader.has_key("suburbs"):
+              broader = broader["suburbs"]
+            self.buffers["broader"] = self.getConcept(
+              conceptType = broader["type"],
+              name = broader["prefLabel"],
+              doNotAppend = True
+            )
             self.buffers["broader"] = self.getConcept(
               conceptType = conceptType,
               name = name
             )
+            
           elif c1_part2 and not c2: # then it's a normal EA
-            if not name in self.buffers["broader"]["prefLabel"]: # then we need to create the broader concept first
-              broader = self.toBroader["{0} {1}".format(name, c1_part1)]
-              self.buffers["broader"] = self.getConcept(
-                conceptType = broader["type"],
-                name = broader["prefLabel"],
-                doNotAppend = True
-              )
-              conceptType = "suburbs"
-              self.buffers["broader"] = self.getConcept(
-                conceptType = conceptType,
-                name = name
-              )
+            broader = self.toBroader["{0} {1}".format(name, c1_part1)]
+            if broader.has_key("EnumerationArea"):
+              broader = broader["EnumerationArea"]
+            self.buffers["addBroader"] = self.getConcept(
+              conceptType = broader["type"],
+              name = broader["prefLabel"],
+              doNotAppend = True
+            )
             self.getConcept(
               conceptType = "EnumerationArea",
               code = c1_part2
