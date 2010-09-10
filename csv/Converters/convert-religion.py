@@ -5,8 +5,13 @@
 # compute values for geographical entities that are not in out datasets (traditional counties, maybe even state) - in which step will we do that?
 # (a) afterwards with SPARQL queries
 
-import csv, os, RDF, re
+import csv, os, RDF, re, sys
+sys.path.append(os.path.join("..", "..", "RDFModel"))
 from RDFModel import RDFModel
+
+# Definition of the paths
+ED_FILE = os.path.join("..", "Datasources", "ed", "religion.csv")
+EA_FILE = os.path.join("..", "Datasources", "ea", "religion.csv")
 
 
 class ConvertReligion (RDFModel):
@@ -29,18 +34,19 @@ class ConvertReligion (RDFModel):
       "dsd" : "http://stats.govdata.ie/dsd/",
       "geo" : "http://geo.govdata.ie/",
       "prop" : "http://stats.govdata.ie/property/",
-      "religion-code" : "http://stats.govdata.ie/codelist/religion/",
+      "code-religion" : "http://stats.govdata.ie/codelist/religion/",
     }
     RDFModel.__init__(self, namespaces)
     
-    self._fileEDs = open(os.path.join("..", "datasources", "ed", "religion.csv"), "r")
+    self._fileEDs = open(ED_FILE, "r")
     self.fileEDs = csv.reader(self._fileEDs, delimiter=";")
-    self._fileEAs = open(os.path.join("..", "datasources", "ea", "religion.csv"), "r")
+    self._fileEAs = open(EA_FILE, "r")
     self.fileEAs = csv.reader(self._fileEAs, delimiter=";")
     
     self.regexp = {
       "EAs" : re.compile(
-        "^(?P<name>[\D\s]+)\s(?P<c1_part1>\d{2})(?:\/)?(?P<c1_part2>\d{3})?(?:,\s?\d{2}\/)?(?P<c2>\d{3})?$"
+        #"^(?P<name>[\D\s]+)\s(?P<c1_part1>\d{2})(?:\/)?(?P<c1_part2>\d{3})?(?:,\s?\d{2}\/)?(?P<c2>\d{3})?$"
+        "^(?P<name>[\D\s]+)(?=\s|$)\s?(?P<c1_part1>\d{2})?\/?(?P<c1_part2>\d{3})?(?:,\s?\d{2}\/)?(?P<c2>\d{3})?$"
       ),
       "EDs" : re.compile(
         "^(?P<code1>\d{3})?(?:\/)?(?P<code2>\d{3})?\s?(?P<name1>[^\/]+)(?:\/)?(?P<name2>[^\/]+)?$"
@@ -52,6 +58,28 @@ class ConvertReligion (RDFModel):
       "TraditionalCounty" : "traditional-county",
       "City" : "city",
     }
+    self.religionIndexToConcept = [
+      {
+        "notation" : "catholic",
+        "uri" : self.ns["code-religion"]["catholic"],
+      },
+      {
+        "notation" : "other",
+        "uri" : self.ns["code-religion"]["other"],
+      },
+      {
+        "notation" : "non",
+        "uri" : self.ns["code-religion"]["non"],
+      },
+      {
+        "notation" : "not-stated",
+        "uri" : self.ns["code-religion"]["not-stated"],
+      },
+      {
+        "notation" : "total",
+        "uri" : self.ns["code-religion"]["total"],
+      },
+    ]
     self.datasetID = datasetID
     self.buffers = {
       "areaURI" : "",
@@ -124,7 +152,7 @@ class ConvertReligion (RDFModel):
       countyName = self.clean("county", kwargs["name"])
       geo = {
         "notation" : self.stringForUri(countyName),
-        "type" : "AdministrativeCounty",
+        "type" : conceptType,
         "uri" : self.ns["geo"]["county/{0}".format(self.stringForUri(countyName))],
       }
       self.buffers["broader"] = geo
@@ -134,7 +162,7 @@ class ConvertReligion (RDFModel):
       cityName = self.clean("city", kwargs["name"])
       geo = {
         "notation" : self.stringForUri(kwargs["name"]),
-        "type" : "City",
+        "type" : conceptType,
         "uri" : self.ns["geo"]["city/{0}".format(self.stringForUri(cityName))],
       }
       self.buffers["broader"] = geo
@@ -143,7 +171,7 @@ class ConvertReligion (RDFModel):
     elif conceptType == "Province":
       geo = {
         "notation" : self.stringForUri(kwargs["name"]),
-        "type" : "Province",
+        "type" : conceptType,
         "uri" : self.ns["geo"]["province/{0}".format(self.stringForUri(kwargs["name"]))],
       }
       self.buffers["broader"] = geo
@@ -156,22 +184,22 @@ class ConvertReligion (RDFModel):
           kwargs["code1"],
           kwargs["code2"]
         ),
-        "type" : "paired ea",
+        "type" : conceptType,
       }
       if self.buffers["broader"]["type"] == "City":
-        geo["uri"] = self.ns["code"]["cso-specific/city/{0}/ea/{1}-{2}".format(
+        geo["uri"] = self.ns["code"]["census-2006/city/{0}/ea/{1}-{2}".format(
           self.clean("-city", self.buffers["broader"]["notation"]),
           kwargs["code1"],
           kwargs["code2"]
         )]
       elif self.buffers["broader"]["type"] == "suburbs":
-        geo["uri"] = self.ns["code"]["cso-specific/suburbs/{0}/ea/{1}-{2}".format(
+        geo["uri"] = self.ns["code"]["census-2006/suburbs/{0}/ea/{1}-{2}".format(
           self.clean("-suburbs", self.buffers["broader"]["notation"]),
           kwargs["code1"],
           kwargs["code2"]
         )]
       elif self.buffers["broader"]["type"] == "AdministrativeCounty":
-        geo["uri"] = self.ns["code"]["cso-specific/county/{0}/ea/{1}-{2}".format(
+        geo["uri"] = self.ns["code"]["census-2006/county/{0}/ea/{1}-{2}".format(
           self.clean("-county", self.buffers["broader"]["notation"]),
           kwargs["code1"],
           kwargs["code2"]
@@ -185,8 +213,8 @@ class ConvertReligion (RDFModel):
           kwargs["code1"],
           kwargs["code2"]
         ),
-        "type" : "paired ed",
-        "uri" : self.ns["code"]["cso-specific/{0}/{1}/ed/{2}-{3}".format(
+        "type" : conceptType,
+        "uri" : self.ns["code"]["census-2006/{0}/{1}/ed/{2}-{3}".format(
           self.typeToUri[self.buffers["broader"]["type"]],
           self.buffers["broader"]["notation"],
           kwargs["code1"],
@@ -196,8 +224,8 @@ class ConvertReligion (RDFModel):
     
     elif conceptType == "suburbs":
       geo["notation"] = self.stringForUri(kwargs["name"])
-      geo["type"] = "suburbs"
-      geo["uri"] = self.ns["code"]["cso-specific/suburbs/{0}".format(
+      geo["type"] = conceptType,
+      geo["uri"] = self.ns["code"]["census-2006/suburbs/{0}".format(
         self.clean("-suburbs", geo["notation"]))
       ]
       self.buffers["broader"] = geo
@@ -205,11 +233,17 @@ class ConvertReligion (RDFModel):
     elif conceptType == "State":
       geo = {
         "notation" : "roi",
-        "type" : "State",
+        "type" : conceptType,
         "uri" : self.ns["geo"]["roi"],
       }
       self.buffers["broader"] = geo
-        
+      
+    elif conceptType == "city plus suburbs":
+      geo["notation"] = self.stringForUri(kwargs["name"])
+      geo["type"] = conceptType
+      geo["uri"] = self.ns["code"]["census-2006/cities-suburbs/{0}".format(geo["notation"])]
+      # Do I need to add self.buffers["broader"] = geo ?
+          
     if not geo.has_key("notation") or not geo.has_key("uri"):
       raise Exception("Geographic concept lacks notation or URI.") # Add helpful information!
       
@@ -241,11 +275,11 @@ class ConvertReligion (RDFModel):
         ],
         [
           self.ns["prop"]["geoArea"],
-          dimensions[1]["uri"], # Original: self.buffers["areaURI"],
+          dimensions[1]["uri"],
         ],
         [
           self.ns["prop"]["religion"],
-          self.ns["religion-code"][dimensions[2]["notation"]],
+          dimensions[2]["uri"],
         ],
         [
           self.ns["prop"]["population"],
@@ -288,8 +322,7 @@ class ConvertReligion (RDFModel):
         dimensions.append(geo)
         
         for key, obsValue in enumerate(line[1:]):
-          key += 1 # Switching from zero offset
-          self.appendObservation(dimensions + [{"notation" : str(key),}], obsValue)
+          self.appendObservation(dimensions + [self.religionIndexToConcept[key]], obsValue)
             
   def addFromEAs(self):
     for line in self.fileEAs:
@@ -305,7 +338,9 @@ class ConvertReligion (RDFModel):
           c2 = match.group("c2")
           
           if name and not c1_part2: # then it's a broader area
-            if "Suburbs" in name: # then it is "suburbs" - an unspecified type
+            if name and not c1_part1 and "Suburbs" in name: # then it's a city + suburbs
+              geo = self.getGeo(conceptType = "city plus suburbs", name = name)
+            elif c1_part1 and "Suburbs" in name: # then it is "suburbs"
               geo = self.getGeo(conceptType = "suburbs", name = name)
             elif "City" in name: # then it's a "city"
               geo = self.getGeo(conceptType = "City", name = name)
@@ -321,8 +356,10 @@ class ConvertReligion (RDFModel):
           dimensions.append(geo)
           
           for key, obsValue in enumerate(line[1:]):
-            key += 1
-            self.appendObservation(dimensions + [{"notation" : str(key)}], obsValue)
+            self.appendObservation(dimensions + [self.religionIndexToConcept[key]], obsValue)
+        else:
+          print geoArea
+          raise SystemExit
   
   def initiateDataset(self, dsd, title):
     self.appendToSubject(
@@ -345,20 +382,20 @@ class ConvertReligion (RDFModel):
         ],
       ]
     )
-              
+  
+  def computeAggregates(self):
+    pass
+      
   def main(self):
     self.initiateDataset(dsd = "persons-by-religion", title = "Number of persons by religion, 2006")
-    self.addFromEDs()
     self.addFromEAs()
+    self.addFromEDs()
     self._fileEAs.close()
     self._fileEDs.close()
-    self.calculateAggregates()
+    self.computeAggregates()
         
   def write(self):
-    RDFModel.write(self, os.path.join("..", "converted-data", "{0}.ttl".format(self.datasetID)))
-
-  def calculateAggregates(self):
-    pass
+    RDFModel.write(self, os.path.join("..", "Datasets", "{0}.ttl".format(self.datasetID)))
     
      
 if __name__ == "__main__":

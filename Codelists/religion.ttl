@@ -14,21 +14,21 @@ code:religion a sdmx:CodeList;
     skos:hasTopConcept code-religion:1, code-religion:2, code-religion:3, code-religion:4, code-religion:5
     .
     
-code-religion:1 a skos:Concept;
+code-religion:catholic a skos:Concept;
     skos:topConceptOf code:religion;
     skos:inScheme code:religion;
     skos:prefLabel "Catholic"@en;
-    skos:notation "1";
-    skos:broader code-religion:5;
+    skos:notation "catholic";
+    skos:broader code-religion:total;
     skos:closeMatch <http://dbpedia.org/resource/Catholic_Church>;
     .
     
-code-religion:2 a skos:Concept;
+code-religion:other a skos:Concept;
     skos:topConceptOf code:religion;
     skos:inScheme code:religion;
     skos:prefLabel "Other than catholic religion"@en;
-    skos:notation "2";
-    skos:broader code-religion:5
+    skos:notation "other";
+    skos:broader code-religion:total
     .
     
 code-religion:non a skos:Concept;
@@ -36,21 +36,21 @@ code-religion:non a skos:Concept;
     skos:inScheme code:religion;
     skos:prefLabel "No religion"@en;
     skos:notation "non";
-    skos:broader code-religion:5
+    skos:broader code-religion:total
     .
     
 code-religion:not-stated a skos:Concept;
     skos:topConceptOf code:religion;
     skos:inScheme code:religion;
     skos:prefLabel "Not stated"@en;
-    skos:notation "4";
-    skos:broader code-religion:5
+    skos:notation "not-stated";
+    skos:broader code-religion:total
     .
     
 code-religion:total a skos:Concept;
     skos:topConceptOf code:religion;
     skos:inScheme code:religion;
     skos:prefLabel "Total"@en;
-    skos:notation "5";
-    skos:narrower code-religion:1, code-religion:2, code-religion:3, code-religion:4
+    skos:notation "total";
+    skos:narrower code-religion:catholic, code-religion:other, code-religion:non, code-religion:not-stated
     .

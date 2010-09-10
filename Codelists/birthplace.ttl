@@ -11,52 +11,53 @@
   
 code:birthplace a sdmx:CodeList;
     skos:prefLabel "Code list for birthplaces"@en;
-    skos:hasTopConcept code-birthplace:1, code-birthplace:2, code-birthplace:3, code-birthplace:4, code-birthplace:5, code-birthplace:6
+    skos:hasTopConcept code-birthplace:ireland, code-birthplace:uk, code-birthplace:poland, code-birthplace:lithuania, code-birthplace:other-eu-25, code-birthplace:rest
     .
     
-code-birthplace:1 a skos:Concept;
+code-birthplace:ireland a skos:Concept;
     skos:inScheme code:birthplace;
     skos:topConceptOf code:birthplace;
     skos:prefLabel "Ireland"@en;
-    skos:notation "1";
+    skos:notation "ireland";
     skos:exactMatch <http://sws.geonames.org/2646052/>
     .
     
-code-birthplace:2 a skos:Concept;
+code-birthplace:uk a skos:Concept;
     skos:inScheme code:birthplace;
     skos:topConceptOf code:birthplace;
-    skos:prefLabel "UK"@en;
-    skos:notation "2";
+    skos:prefLabel "United Kingdom of Great Britain and Northern Ireland"@en;
+    skos:notation "uk";
     skos:exactMatch <http://sws.geonames.org/2648147/>
     .
     
-code-birthplace:3 a skos:Concept;
+code-birthplace:poland a skos:Concept;
     skos:inScheme code:birthplace;
     skos:topConceptOf code:birthplace;
     skos:prefLabel "Poland"@en;
-    skos:notation "3";
+    skos:notation "poland";
     skos:exactMatch <http://sws.geonames.org/798544/>
     .
     
-code-birthplace:4 a skos:Concept;
+code-birthplace:lithuania a skos:Concept;
     skos:inScheme code:birthplace;
     skos:topConceptOf code:birthplace;
     skos:prefLabel "Lithuania"@en;
-    skos:notation "4";
+    skos:notation "lithuania";
     skos:exactMatch <http://sws.geonames.org/597427/>
     .
     
-code-birthplace:5 a skos:Concept;
+code-birthplace:other-eu-25 a skos:Concept;
     skos:inScheme code:birthplace;
     skos:topConceptOf code:birthplace;
     skos:prefLabel "Other EU25"@en;
     rdfs:comment "This includes Belgium, France, Germany, Italy, Luxembourg, Netherlands, Denmark, Greece, Portugal, Spain, Austria, Finland, Sweden, Cyprus, Czech Republic, Estonia, Hungary, Latvia, Malta, Slovakia and Slovenia."@en;
-    skos:notation "5";
+    skos:notation "other-eu-25";
     .
     
-code-birthplace:6 a skos:Concept;
+code-birthplace:rest a skos:Concept;
     skos:inScheme code:birthplace;
     skos:topConceptOf code:birthplace;
     skos:prefLabel "Rest of World"@en;
-    skos:notation "6"
+    rdfs:comment "This means the World without Ireland, United Kingdom, Poland, Lithuania, and other EU 25 countries"@en;
+    skos:notation "rest"
     .

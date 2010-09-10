@@ -8,7 +8,7 @@ from RDFModel import RDFModel
 # Definition of the paths
 ED_FILE = os.path.join("..", "Datasources", "ed", "religion.csv")
 EA_FILE = os.path.join("..", "Datasources", "ea", "religion.csv")
-OUTPUT_FILE = os.path.join("..", "Datasets", "geo")
+OUTPUT_FILE = os.path.join("..", "..", "Codelists", "geo")
 TOP_LEVEL_BOOTSTRAP_FILE = os.path.join("bootstrap", "top-level.ttl")
 
 
