@@ -9,7 +9,7 @@ class RDFModel (object):
     Helper class for interacting with RDF.Storage from librdf
   """
   
-  def __init__(self, namespaces):
+  def __init__(self, namespaces = {}):
     # Initialize variables
     self.db = RDF.MemoryStorage()
     self.model = RDF.Model(self.db)
@@ -42,7 +42,8 @@ class RDFModel (object):
       raise RDF.RedlandError("Error parsing bootstrapping file.")
     else:
       namespaces = parser.namespaces_seen()
-      self.addNamespaces(namespaces)        
+      self.addNamespaces(namespaces)
+    return self      
         
   def append(self, statements):
     for statement in statements: 
@@ -54,6 +55,7 @@ class RDFModel (object):
           statement[0],
           statement[1]
         )
+    return self
   
   def appendToSubject(self, subject, statements):
     for statement in statements:
@@ -65,6 +67,7 @@ class RDFModel (object):
           statement[0],
           statement[1]
         )
+    return self
         
   def write(self, filename):
     file = open(filename, "w")
@@ -84,3 +87,8 @@ class RDFModel (object):
     
   def clean(self, what, where):
     return re.compile("\s*{0}\s*".format(what), flags = re.IGNORECASE).sub("", where).strip()
+  
+  def sparql(self, query):
+    query = RDF.SPARQLQuery(query)
+    results = query.execute(self.model)
+    return results

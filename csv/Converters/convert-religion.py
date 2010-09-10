@@ -384,7 +384,15 @@ class ConvertReligion (RDFModel):
     )
   
   def computeAggregates(self):
-    pass
+    query = """PREFIX geo: <http://geo.govdata.ie/>
+    
+    SELECT ?trad WHERE {
+      ?trad a geo:TraditionalCounty .
+    }"""
+    results = self.sparql(query)
+    for result in results:
+      traditionalCounty = result["trad"]
+      pass
       
   def main(self):
     self.initiateDataset(dsd = "persons-by-religion", title = "Number of persons by religion, 2006")
