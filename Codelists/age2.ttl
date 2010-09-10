@@ -1,0 +1,160 @@
+@prefix rdf:                <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix sdmx:               <http://purl.org/linked-data/sdmx#> .
+@prefix skos:               <http://www.w3.org/2004/02/skos/core#> .
+
+# --- Own namespaces ------------------------
+
+@prefix code:               <http://stats.govdata.ie/codelist/> .
+@prefix code-age1:          <http://stats.govdata.ie/codelist/age1/> .
+@prefix code-age2:          <http://stats.govdata.ie/codelist/age2/> .
+
+# --- Code lists ----------------------------
+  
+code:age2 a sdmx:CodeList;
+    skos:prefLabel "Code list for years of age"@en;
+    skos:hasTopConcept code-age2:0-4, code-age2:5-9, code-age2:10-14, code-age2:15-19, code-age2:20-24, code-age2:25-29, code-age2:30-34, code-age2:35-39, code-age2:40-44, code-age2:45-49, code-age2:50-54, code-age2:55-59, code-age2:60-64, code-age2:65-69, code-age2:70-74, code-age2:75-79, code-age2:80-84, code-age2:85-and-more
+    .
+    
+code-age2:0-4 a skos:Concept;
+    skos:inScheme code:age2;
+    skos:topConceptOf code:age2;
+    skos:prefLabel "0-4 years";
+    skos:notation "0-4",
+    skos:narrower code-age1:1, code-age1:2, code-age1:3, code-age1:4
+    .
+    
+code-age2:5-9 a skos:Concept;
+    skos:inScheme code:age2;
+    skos:topConceptOf code:age2;
+    skos:prefLabel "5-9 years";
+    skos:notation "5-9";
+    skos:narrower code-age1:5, code-age1:6, code-age1:7, code-age1:8, code-age1:9
+    .
+    
+code-age2:10-14 a skos:Concept;
+    skos:inScheme code:age2;
+    skos:topConceptOf code:age2;
+    skos:prefLabel "10-14 years";
+    skos:notation "10-14";
+    skos:narrower code-age1:10, code-age1:11, code-age1:12, code-age1:13, code-age1:14
+    .
+    
+code-age2:15-19 a skos:Concept;
+    skos:inScheme code:age2;
+    skos:topConceptOf code:age2;
+    skos:prefLabel "15-19 years";
+    skos:notation "15-19";
+    skos:narrower code-age1:15, code-age1:16, code-age1:17, code-age1:18
+    .
+    
+code-age2:20-24 a skos:Concept;
+    skos:inScheme code:age2;
+    skos:topConceptOf code:age2;
+    skos:prefLabel "20-24 years";
+    skos:notation "20-24";
+    skos:broader code-age1:19-and-more
+    .
+    
+code-age2:25-29 a skos:Concept;
+    skos:inScheme code:age2;
+    skos:topConceptOf code:age2;
+    skos:prefLabel "25-29 years";
+    skos:notation "25-29";
+    skos:broader code-age1:19-and-more
+    .
+    
+code-age2:30-34 a skos:Concept;
+    skos:inScheme code:age2;
+    skos:topConceptOf code:age2;
+    skos:prefLabel "30-34 years";
+    skos:notation "30-34";
+    skos:broader code-age1:19-and-more
+    .
+    
+code-age2:35-39 a skos:Concept;
+    skos:inScheme code:age2;
+    skos:topConceptOf code:age2;
+    skos:prefLabel "35-39 years";
+    skos:notation "35-39";
+    skos:broader code-age1:19-and-more
+    .
+    
+code-age2:40-44 a skos:Concept;
+    skos:inScheme code:age2;
+    skos:topConceptOf code:age2;
+    skos:prefLabel "40-44 years";
+    skos:notation "40-44";
+    skos:broader code-age1:19-and-more
+    .
+
+code-age2:45-49 a skos:Concept;
+    skos:inScheme code:age2;
+    skos:topConceptOf code:age2;
+    skos:prefLabel "45-49 years";
+    skos:notation "45-49";
+    skos:broader code-age1:19-and-more
+    .
+
+code-age2:50-54 a skos:Concept;
+    skos:inScheme code:age2;
+    skos:topConceptOf code:age2;
+    skos:prefLabel "50-54 years";
+    skos:notation "50-54";
+    skos:broader code-age1:19-and-more
+    .
+
+code-age2:55-59 a skos:Concept;
+    skos:inScheme code:age2;
+    skos:topConceptOf code:age2;
+    skos:prefLabel "55-59 years";
+    skos:notation "55-59";
+    skos:broader code-age1:19-and-more
+    .
+
+code-age2:60-64 a skos:Concept;
+    skos:inScheme code:age2;
+    skos:topConceptOf code:age2;
+    skos:prefLabel "60-64 years";
+    skos:notation "60-64";
+    skos:broader code-age1:19-and-more
+    .
+
+code-age2:65-69 a skos:Concept;
+    skos:inScheme code:age2;
+    skos:topConceptOf code:age2;
+    skos:prefLabel "65-69 years";
+    skos:notation "65-69";
+    skos:broader code-age1:19-and-more
+    .
+
+code-age2:70-74 a skos:Concept;
+    skos:inScheme code:age2;
+    skos:topConceptOf code:age2;
+    skos:prefLabel "70-74 years";
+    skos:notation "70-74";
+    skos:broader code-age1:19-and-more
+    .
+
+code-age2:75-79 a skos:Concept;
+    skos:inScheme code:age2;
+    skos:topConceptOf code:age2;
+    skos:prefLabel "75-79 years";
+    skos:notation "75-79";
+    skos:broader code-age1:19-and-more
+    .
+
+code-age2:80-84 a skos:Concept;
+    skos:inScheme code:age2;
+    skos:topConceptOf code:age2;
+    skos:prefLabel "80-84 years";
+    skos:notation "80-84";
+    skos:broader code-age1:19-and-more
+    .
+
+code-age2:85-and-more a skos:Concept;
+    skos:inScheme code:age2;
+    skos:topConceptOf code:age2;
+    skos:prefLabel "85 years and over";
+    skos:notation "85-and-more";
+    skos:broader code-age1:19-and-more
+    .
