@@ -239,10 +239,6 @@ class GeoAreasWriter (RDFModel):
             self.stringForUri(self.getTraditionalCounty[countyName])
           )
         ]
-      else:
-        self.buffers["broader"]["uri"] = self.ns["geo"][
-          "traditional-county/{0}".format(self.stringForUri(countyName))
-        ]
     elif conceptType == "City":
       cityName = self.clean("city", kwargs["name"])
       concept = {
