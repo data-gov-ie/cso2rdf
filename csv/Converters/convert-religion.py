@@ -10,17 +10,19 @@ sys.path.append(os.path.join("..", "..", "RDFModel"))
 from RDFModel import RDFModel
 
 # Definition of the paths
+DSD = os.path.join("..", "..", "DSDs", "persons-by-religion.ttl")
 ED_FILE = os.path.join("..", "Datasources", "ed", "religion.csv")
 EA_FILE = os.path.join("..", "Datasources", "ea", "religion.csv")
-
+TOP_LEVEL_GEO = os.path.join("..", "..", "Codelists", "geo-topLevel.ttl")
 
 class ConvertReligion (RDFModel):
   """
     Class for converting CSO datasets about religion
   """
   
-  def __init__(self, datasetID):
-    self.datasetID = datasetID
+  def __init__(self, DSD, title):
+    self.datasetID = re.search("(.+)(?=\.\D+)", os.path.basename(DSD)).group()
+    self.title = title
     namespaces = {
       "qb" : "http://purl.org/linked-data/cube#",
       "sdmx" : "http://purl.org/linked-data/sdmx#",
@@ -30,6 +32,7 @@ class ConvertReligion (RDFModel):
       "year" : "http://reference.data.gov.uk/id/year/",
       # own namespaces
       "code" : "http://stats.govdata.ie/codelist/",
+      "code-geo" : "http://stats.govdata.ie/codelist/geo/",
       "data" : "http://stats.govdata.ie/data/",
       "dsd" : "http://stats.govdata.ie/dsd/",
       "geo" : "http://geo.govdata.ie/",
@@ -37,6 +40,7 @@ class ConvertReligion (RDFModel):
       "code-religion" : "http://stats.govdata.ie/codelist/religion/",
     }
     RDFModel.__init__(self, namespaces)
+    self.DSD = RDFModel(namespaces).bootstrap(DSD)
     
     self._fileEDs = open(ED_FILE, "r")
     self.fileEDs = csv.reader(self._fileEDs, delimiter=";")
@@ -45,7 +49,6 @@ class ConvertReligion (RDFModel):
     
     self.regexp = {
       "EAs" : re.compile(
-        #"^(?P<name>[\D\s]+)\s(?P<c1_part1>\d{2})(?:\/)?(?P<c1_part2>\d{3})?(?:,\s?\d{2}\/)?(?P<c2>\d{3})?$"
         "^(?P<name>[\D\s]+)(?=\s|$)\s?(?P<c1_part1>\d{2})?\/?(?P<c1_part2>\d{3})?(?:,\s?\d{2}\/)?(?P<c2>\d{3})?$"
       ),
       "EDs" : re.compile(
@@ -80,7 +83,6 @@ class ConvertReligion (RDFModel):
         "uri" : self.ns["code-religion"]["total"],
       },
     ]
-    self.datasetID = datasetID
     self.buffers = {
       "areaURI" : "",
       "broader" : {
@@ -116,7 +118,7 @@ class ConvertReligion (RDFModel):
           )
         ]
       elif self.buffers["broader"]["type"] == "suburbs":
-        geo["uri"] = self.ns["code"][
+        geo["uri"] = self.ns["code-geo"][
           "suburbs/{0}/ea/{1}".format(
             self.clean("-suburbs", self.buffers["broader"]["notation"]),
             kwargs["code"]
@@ -129,6 +131,8 @@ class ConvertReligion (RDFModel):
             kwargs["code"]
           )
         ]
+      else:
+        raise Exception("Wrong broader type: {0}".format(self.buffers["broader"]["type"]))
 
     ## Electoral division
     elif conceptType == "ElectoralDivision":
@@ -224,7 +228,7 @@ class ConvertReligion (RDFModel):
     
     elif conceptType == "suburbs":
       geo["notation"] = self.stringForUri(kwargs["name"])
-      geo["type"] = conceptType,
+      geo["type"] = conceptType
       geo["uri"] = self.ns["code"]["census-2006/suburbs/{0}".format(
         self.clean("-suburbs", geo["notation"]))
       ]
@@ -242,10 +246,6 @@ class ConvertReligion (RDFModel):
       geo["notation"] = self.stringForUri(kwargs["name"])
       geo["type"] = conceptType
       geo["uri"] = self.ns["code"]["census-2006/cities-suburbs/{0}".format(geo["notation"])]
-      # Do I need to add self.buffers["broader"] = geo ?
-          
-    if not geo.has_key("notation") or not geo.has_key("uri"):
-      raise Exception("Geographic concept lacks notation or URI.") # Add helpful information!
       
     return geo
   
@@ -261,7 +261,7 @@ class ConvertReligion (RDFModel):
     observationUri = self.ns["data"]["/".join(
       [self.datasetID] + [dimension["notation"] for dimension in dimensions]
     )]
-    print "Adding observation: <{0}>".format(observationUri)
+    print "Adding observation: <{0}>".format(observationUri.uri)
     self.appendToSubject(
       observationUri,
       [
@@ -361,7 +361,7 @@ class ConvertReligion (RDFModel):
           print geoArea
           raise SystemExit
   
-  def initiateDataset(self, dsd, title):
+  def initiateDataset(self):
     self.appendToSubject(
       self.ns["data"][self.datasetID],
       [
@@ -371,12 +371,12 @@ class ConvertReligion (RDFModel):
         ],
         [
           self.ns["qb"]["structure"],
-          self.ns["dsd"][dsd],
+          self.ns["dsd"][self.datasetID],
         ],
         [
           self.ns["sdmx-metadata"]["title"],
           RDF.Node(
-            literal = title,
+            literal = self.title,
             language = "en"
           )
         ],
@@ -384,29 +384,130 @@ class ConvertReligion (RDFModel):
     )
   
   def computeAggregates(self):
-    query = """PREFIX geo: <http://geo.govdata.ie/>
+    m = RDFModel()
+    m.bootstrap(TOP_LEVEL_GEO)
     
-    SELECT ?trad WHERE {
-      ?trad a geo:TraditionalCounty .
-    }"""
-    results = self.sparql(query)
-    for result in results:
-      traditionalCounty = result["trad"]
+    query = """PREFIX geo: <http://geo.govdata.ie/>
+      PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+
+      SELECT ?trad ?notation ?match WHERE {
+        ?trad a geo:TraditionalCounty .
+        ?match a geo:AdministrativeCounty .
+        ?trad skos:exactMatch ?match .
+        ?trad skos:notation ?notation .
+      }
+    """
+
+    output = {}
+    for result in m.sparql(query):
+      result["trad"] = str(result["trad"].uri)
+      output[result["trad"]] = {
+        "exactMatch" : str(result["match"].uri),
+        "notation" : str(result["notation"]),
+      }
+
+    query = """PREFIX geo: <http://geo.govdata.ie/>
+      PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+
+      SELECT ?trad ?notation ?narrower WHERE {
+        ?trad a geo:TraditionalCounty .
+        ?trad skos:narrower ?narrower .
+        ?trad skos:notation ?notation .
+      }
+    """
+    narrowers = {}
+    for result in m.sparql(query):
+      result["trad"] = str(result["trad"].uri)
+      narrowers[result["trad"]] = {
+        "notation" : result["notation"],
+      }
+      result["narrower"] = str(result["narrower"].uri)
+      if not narrowers[result["trad"]].has_key("narrower"):
+        narrowers[result["trad"]] = {
+          "narrower" : [result["narrower"]],
+        }
+      else:
+        narrowers[result["trad"]]["narrower"].append(result["narrower"])
+          
+    output.update(narrowers)
+    
+    for traditionalCounty in output:
+      if output[traditionalCounty].has_key("exactMatch"):
+        administrativeCounty = output[traditionalCounty]["exactMatch"]
+        query = """PREFIX prop: <http://stats.govdata.ie/property/>
+          PREFIX sdmx: <http://purl.org/linked-data/sdmx#>
+
+          SELECT ?observation WHERE {{
+           ?observation a sdmx:Observation .
+           ?observation prop:geoArea <{0}> .
+          }}
+        """.format(administrativeCounty)
+        for observation in self.sparql(query):
+          dimensions = [{"notation" : "2006",},]
+          dimensions.append(
+            {
+              "notation" : output[traditionalCounty]["notation"],
+              "uri" : traditionalCounty,
+            }
+          )
+          observation = str(observation["observation"].uri)
+          query = """SELECT * WHERE {{
+            <{0}> ?p ?o .
+          }}""".format(observation)
+          for statement in self.sparql(query):
+            p = statement["p"]
+            o = statement["o"]
+            o = str(o.uri)
+            if p == self.ns["prop"]["religion"]:
+              dimensions.append({
+                "notation" : re.search("(?<=\/)([^\/]+)$", o).group(),
+                "uri" : o,
+              })
+            elif p == self.ns["prop"]["population"]:
+              obsValue = o
+          self.appendObservation(dimensions, obsValue)
+          
+      elif output[traditionalCounty].has_key("narrower"):
+        observations = {}
+        narrowers = output[traditionalCounty]["narrowers"]
+        for narrower in narrowers:
+          query = """PREFIX prop: <http://stats.govdata.ie/property/>
+            PREFIX sdmx: <http://purl.org/linked-data/sdmx#>
+
+            SELECT ?observation WHERE {{
+             ?observation a sdmx:Observation .
+             ?observation prop:geoArea <{0}> .
+            }}
+          """.format(narrower)
+          for observation in self.sparql(query):
+            observation = str(observation["observation"].uri)
+            query = """SELECT * WHERE {{
+              <{0}> ?p ?o .
+            }}""".format(observation)
+            for statement in self.sparql(query):
+              p = statement["p"]
+              o = statement["o"]
+              o = str(o.uri)
+              
+  def getAggregates(self, geosToAggregate):
+    m = RDFModel()
+    observations = []
+    for geoToAggregate in geosToAggregate:
       pass
       
   def main(self):
-    self.initiateDataset(dsd = "persons-by-religion", title = "Number of persons by religion, 2006")
+    self.initiateDataset()
     self.addFromEAs()
     self.addFromEDs()
     self._fileEAs.close()
     self._fileEDs.close()
-    self.computeAggregates()
+    #self.computeAggregates()
         
   def write(self):
     RDFModel.write(self, os.path.join("..", "Datasets", "{0}.ttl".format(self.datasetID)))
     
      
 if __name__ == "__main__":
-  cr = ConvertReligion(datasetID = "persons-by-religion")
+  cr = ConvertReligion(DSD = DSD, title = "Number of persons by religion, 2006")
   cr.main()
   cr.write()
