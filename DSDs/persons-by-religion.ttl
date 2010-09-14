@@ -10,13 +10,11 @@
 @prefix dsd:            <http://stats.govdata.ie/dsd/> .
 @prefix prop:           <http://stats.govdata.ie/property/> .
 @prefix code:           <http://stats.govdata.ie/codelist/> .
-@prefix code-geoareas:  <http://stats.govdata.ie/codelist/geo-areas/> .
-@prefix code-religion:  <http://stats.govdata.ie/codelist/religion/> .
 @prefix concept:        <http://stats.govdata.ie/concept/> .
 
 # --- Data structure definition -------------
 
-dsd:religionForEAs a qb:DataStructureDefinition;
+dsd:persons-by-religion a qb:DataStructureDefinition;
     qb:component [
             a qb:ComponentSpecification;
             rdfs:label "Year"@en;
@@ -24,29 +22,26 @@ dsd:religionForEAs a qb:DataStructureDefinition;
             qb:order "1"^^xsd:int
         ], [
             a qb:ComponentSpecification;
-            qb:dimension prop:enumeration-area;
+            qb:dimension sdmx-dimension:refArea;
             qb:order "2"^^xsd:int
-            .
         ], [
             a qb:ComponentSpecification;
             qb:dimension prop:religion;
             qb:order "3"^^xsd:int
-            .
         ], [
             a qb:ComponentSpecification;
             qb:measure prop:population;
             qb:order "4"^^xsd:int
-            .
         ]
     .
           
 # --- Property specifications ---------------
 
-prop:enumeration-area a qb:DimensionProperty;
-    rdfs:label "Enumeration area"@en;
+prop:geoArea a qb:DimensionProperty;
+    rdfs:label "Geographic area"@en;
     rdfs:subPropertyOf sdmx-dimension:refArea;
-    qb:concept concept:enumeration-area;
-    qb:codeList code-geoareas:enumeration-areas
+    qb:concept sdmx-concept:refArea;
+    qb:codeList code:geo
     .
     
 prop:religion a qb:DimensionProperty;
