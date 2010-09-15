@@ -62,7 +62,7 @@ class GeoAreasWriter (RDFModel):
       "Waterford City"
     ]
     self.toBroader = {
-      "Dublin City 02" : {
+      "Dublin City" : {
         "prefLabel" : "Dublin",
         "type" : "TraditionalCounty",
       },
@@ -70,15 +70,15 @@ class GeoAreasWriter (RDFModel):
         "prefLabel" : "Dublin",
         "type" : "TraditionalCounty",
       },
-      "South Dublin 03" : {
+      "South Dublin" : {
         "prefLabel" : "Dublin",
         "type" : "TraditionalCounty",
       },
-      "Fingal 04" : {
+      "Fingal" : {
         "prefLabel" : "Dublin",
         "type" : "TraditionalCounty",
       },
-      "Dún Laoghaire-Rathdown 05" : {
+      "Dún Laoghaire-Rathdown" : {
         "prefLabel" : "Dublin",
         "type" : "TraditionalCounty",
       },
@@ -86,11 +86,11 @@ class GeoAreasWriter (RDFModel):
         "prefLabel" : "Cork",
         "type" : "TraditionalCounty",
       },
-      "Cork City 17" : {
+      "Cork City" : {
         "prefLabel" : "Cork",
         "type" : "TraditionalCounty",
       },
-      "Cork Suburbs 18" : {
+      "Cork Suburbs" : {
         "prefLabel" : "Cork",
         "type" : "TraditionalCounty",
       },
@@ -98,11 +98,11 @@ class GeoAreasWriter (RDFModel):
         "prefLabel" : "Munster",
         "type" : "Province",
       },
-      "Limerick City 20" : {
+      "Limerick City" : {
         "prefLabel" : "Limerick",
         "type" : "TraditionalCounty",
       },
-      "Limerick Suburbs 21" : {
+      "Limerick Suburbs" : {
         "suburbs" : {
           "prefLabel" : "Munster",
           "type" : "Province",
@@ -112,7 +112,7 @@ class GeoAreasWriter (RDFModel):
           "type" : "TraditionalCounty",
         },
       },
-      "Limerick Suburbs in Clare 16" : {
+      "Limerick Suburbs in Clare" : {
         "prefLabel" : "Clare",
         "type" : "TraditionalCounty",
       },
@@ -120,11 +120,11 @@ class GeoAreasWriter (RDFModel):
         "prefLabel" : "Republic of Ireland",
         "type" : "State",
       },
-      "Waterford City 24" : {
+      "Waterford City" : {
         "prefLabel" : "Waterford",
         "type" : "TraditionalCounty",
       },
-      "Waterford Suburbs 07" : {
+      "Waterford Suburbs" : {
         "suburbs" : {
           "prefLabel" : "Republic of Ireland",
           "type" : "State",
@@ -134,11 +134,11 @@ class GeoAreasWriter (RDFModel):
           "type" : "TraditionalCounty",
         },
       },
-      "Waterford Suburbs in Kilkenny 07" : {
+      "Waterford Suburbs in Kilkenny" : {
         "prefLabel" : "Kilkenny",
         "type" : "TraditionalCounty",
       },
-      "Galway City 26" : {
+      "Galway City" : {
         "prefLabel" : "Galway",
         "type" : "TraditionalCounty",
       },
@@ -273,9 +273,14 @@ class GeoAreasWriter (RDFModel):
         else:
           broader = self.buffers["broader"]
         if broader["type"] in ["paired ea", "suburbs", "city plus suburbs"]:
-          try:
-            broader = self.toBroader[broader["prefLabel"]]
-          broader = self.getConcept(broader["type"], broader["prefLabel"], doNotAppend = True)
+          broader = self.toBroader[broader["prefLabel"]]
+          if broader.has_key("EnumerationArea"):
+            broader = broader["EnumerationArea"]
+          broader = self.getConcept(
+            conceptType = broader["type"],
+            name = broader["prefLabel"],
+            doNotAppend = True
+          )
         concept["uri"] = self.ns["geo"][
           "{0}/{1}/ea/{2}".format(
             self.typeToUri[broader["type"]],
@@ -505,8 +510,7 @@ class GeoAreasWriter (RDFModel):
         ]
       )
       if kwargs.has_key("pairedURI"):
-        model = self.getModelToAppend(concept)
-        model.appendToSubject(
+        self.models["csoStuff"].appendToSubject(
           concept["uri"],
           [
             [
@@ -545,48 +549,27 @@ class GeoAreasWriter (RDFModel):
           ]
         )
       if self.buffers["addBroader"] and concept["type"] in ["EnumerationArea", "paired ea"]:
-        if self.buffers["addBroader"]["type"] in ["city plus suburbs", "paired ea", "paired ed", "suburbs"]:
-          self.models["csoStuff"].appendToSubject(
-            concept["uri"],
+        self.models["csoStuff"].appendToSubject(
+          concept["uri"],
+          [
             [
-              [
-                self.ns["skos"]["broader"],
-                self.buffers["addBroader"]["uri"],
-              ],
-            ]
-          ).appendToSubject(
-            self.buffers["addBroader"]["uri"],
+              self.ns["skos"]["broader"],
+              self.buffers["addBroader"]["uri"],
+            ],
+          ]
+        ).appendToSubject(
+          self.buffers["addBroader"]["uri"],
+          [
             [
-              [
-                self.ns["skos"]["narrower"],
-                concept["uri"],
-              ],
-            ]
-          )
-        else:
-          model = self.getModelToAppend(concept)
-          model.appendToSubject(
-            concept["uri"],
-            [
-              [
-                self.ns["skos"]["broader"],
-                self.buffers["addBroader"]["uri"],
-              ],
-            ]
-          ).appendToSubject(
-            self.buffers["addBroader"]["uri"],
-            [
-              [
-                self.ns["skos"]["narrower"],
-                concept["uri"],
-              ],
-            ]
-          )
+              self.ns["skos"]["narrower"],
+              concept["uri"],
+            ],
+          ]
+        )
       
     return concept
   
   def getModelToAppend(self, concept):
-    #if (str(self.ns["code-geo"][""].uri) in str(concept["uri"].uri)) or (str(self.ns["code-geo"][""].uri) in str(self.buffers["broader"]["uri"].uri)):
     if (concept["type"] or self.buffers["broader"]["type"]) in ["paired ea", "paired ed", "suburbs", "city plus suburbs"]:
       model = self.models["csoStuff"]
     else:
@@ -672,11 +655,7 @@ class GeoAreasWriter (RDFModel):
               doNotAppend = True
             )
           elif conceptType in ["AdministrativeCounty", "City", "city plus suburbs", "suburbs"]:
-            if c1_part1:  
-              searchName = "{0} {1}".format(name, c1_part1)
-            else:
-              searchName = name
-            broader = self.toBroader[searchName]
+            broader = self.toBroader[name]
             if conceptType == "suburbs" and broader.has_key("suburbs"):
               broader = broader["suburbs"]
             self.buffers["broader"] = self.getConcept(
@@ -689,7 +668,7 @@ class GeoAreasWriter (RDFModel):
               name = name
             )
           elif conceptType == "EnumerationArea":
-            broader = self.toBroader["{0} {1}".format(name, c1_part1)]
+            broader = self.toBroader[name]
             if broader.has_key("EnumerationArea"):
               broader = broader["EnumerationArea"]
               self.buffers["addBroader"] = self.getConcept(
