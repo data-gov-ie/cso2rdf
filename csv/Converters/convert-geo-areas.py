@@ -629,7 +629,7 @@ class GeoAreasWriter (RDFModel):
             conceptType,
             name = name1
           ))
-          self.buffers["broader"] = self.buffers["broader"][1:]
+          self.buffers["broader"] = [self.buffers["broader"].pop()]
         elif conceptType == "ElectoralDivision":
           self.getConcept(
             conceptType,
@@ -637,7 +637,7 @@ class GeoAreasWriter (RDFModel):
             code = code1
           )
         elif conceptType == "paired ed":
-          self.buffers["broader"].append(self.getConcept(
+          self.buffers["broader"].insert(0, self.getConcept(
             conceptType = "paired ed",
             name1 = name1,
             code1 = code1,
@@ -653,9 +653,8 @@ class GeoAreasWriter (RDFModel):
             conceptType = "ElectoralDivision",
             name = name2,
             code = code2,
-            pairedURI = paired["uri"]
           )
-          self.buffers["broader"].pop()
+          self.buffers["broader"] = [self.buffers["broader"].pop()]
         elif conceptType == "State":
           pass # We already have Republic of Ireland in the bootstrap RDF
         else:
@@ -797,7 +796,7 @@ class GeoAreasWriter (RDFModel):
           
   def main(self):
     self.addEAs()
-    #self.addEDs()
+    self.addEDs()
     
     self._fileEAs.close()
     self._fileEDs.close()
