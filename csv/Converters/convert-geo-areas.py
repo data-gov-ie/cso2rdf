@@ -1,6 +1,10 @@
 #!/usr/bin/env python
 #-*- coding:utf-8 -*-
 
+## TODO
+# How come the paired ea receive TraditionalCounty as broader?
+# Write unittests for concept type detection
+
 import csv, os, re, RDF, sys, unicodedata
 sys.path.append(os.path.join("..", "..", "RDFModel"))
 from RDFModel import RDFModel
@@ -160,8 +164,7 @@ class GeoAreasWriter (RDFModel):
       "South Dublin" : "Dublin",
     }
     self.buffers = {
-      "broader" : {},
-      "addBroader" : {},
+      "broader" : [],
     }
   
   def getEDConceptType(self, code1, code2, name1, name2):
@@ -237,7 +240,7 @@ class GeoAreasWriter (RDFModel):
   def getEABroader(self, conceptType, name, c1_part1, c1_part2, c2):
     pass
     
-  def getConcept(self, conceptType, **kwargs):
+  def getConcept(self, conceptType, doNotAppend = False, **kwargs):
     # kwargs.keys() = ["name", "name1", "name2, "code1", "code2", "doNotAppend"]
     ## Template for returned dict
     concept = {
@@ -254,24 +257,29 @@ class GeoAreasWriter (RDFModel):
           self.ns["code-geo"]["roi"],
         ],
         "model" : self.models["eas"],
-        "notation" : self.stringForUri("{0} ea{1}".format(self.buffers["broader"]["notation"], kwargs["code"])),
-        "prefLabel" : "{0} {1}".format(self.buffers["broader"]["prefLabel"], kwargs["code"]),
+        "notation" : self.stringForUri(
+          "{0} ea{1}".format(
+            self.clean(
+              "-.+$",
+              self.buffers["broader"][-1]["notation"]
+            ), 
+            kwargs["code"]
+          )
+        ),
+        "prefLabel" : "{0} {1}".format(kwargs["name"], kwargs["code"]),
         "type" : conceptType,
       }
-      if self.buffers["broader"]["type"] == "City":
+      broader = self.buffers["broader"][-1]
+      if broader["type"] == "City":
         concept["uri"] = self.ns["geo"][
           self.stringForUri(
             "city/{0}/ea/{1}".format(
-              self.clean("-city", self.buffers["broader"]["notation"]),
+              self.clean("-city", broader["notation"]),
               kwargs["code"]
             )
           )
         ]
-      elif self.buffers["broader"]["type"] == "suburbs":
-        if self.buffers["broader"]["type"] in ["paired ea", "city plus suburbs"]:
-          broader = self.buffers["addBroader"]
-        else:
-          broader = self.buffers["broader"]
+      elif broader["type"] == "suburbs":
         if broader["type"] in ["paired ea", "suburbs", "city plus suburbs"]:
           broader = self.toBroader[broader["prefLabel"]]
           if broader.has_key("EnumerationArea"):
@@ -288,13 +296,26 @@ class GeoAreasWriter (RDFModel):
             kwargs["code"]
           )
         ]
-      elif self.buffers["broader"]["type"] == "AdministrativeCounty":
+      elif broader["type"] == "AdministrativeCounty":
         concept["uri"] = self.ns["geo"][
           "county/{0}/ea/{1}".format(
-            self.clean("-county", self.buffers["broader"]["notation"]),
+            self.clean("-county", broader["notation"]),
             kwargs["code"]
           )
         ]
+      elif broader["type"] == "TraditionalCounty":
+        concept["uri"] = self.ns["geo"][
+          "traditional-county/{0}/ea/{1}".format(
+            self.clean("-.+$", broader["notation"]),
+            kwargs["code"]
+          )
+        ]
+      else:
+        raise Exception(
+          "Unhandled broader concept type: {0}".format(
+            broader["type"]
+          )
+        )
     elif conceptType == "ElectoralDivision":
       concept = {
         "codeLists" : [
@@ -303,15 +324,15 @@ class GeoAreasWriter (RDFModel):
         ],
         "model" : self.models["eds"],
         "notation" : self.stringForUri(
-          "{0} ed{1}".format(self.buffers["broader"]["notation"], kwargs["code"])
+          "{0} ed{1}".format(self.buffers["broader"][-1]["notation"], kwargs["code"])
         ),
         "prefLabel" : kwargs["name"],
         "type" : conceptType,
         "uri" : self.ns["geo"][
           self.stringForUri(
             "{0}/{1}/ed/{2}".format(
-              self.typeToUri[self.buffers["broader"]["type"]],
-              self.clean("-city", self.buffers["broader"]["notation"]),
+              self.typeToUri[self.buffers["broader"][-1]["type"]],
+              self.clean("-city", self.buffers["broader"][-1]["notation"]),
               kwargs["code"]
             )
           )
@@ -332,7 +353,7 @@ class GeoAreasWriter (RDFModel):
         ],
       }
       if self.getTraditionalCounty.has_key(countyName):
-        self.buffers["broader"]["uri"] = self.ns["geo"][
+        self.buffers["broader"][-1]["uri"] = self.ns["geo"][
           "traditional-county/{0}".format(
             self.stringForUri(self.getTraditionalCounty[countyName])
           )
@@ -351,19 +372,19 @@ class GeoAreasWriter (RDFModel):
         "type" : conceptType,
         "uri" : self.ns["geo"]["city/{0}".format(self.stringForUri(cityName))],
       }
-      self.buffers["broader"]["uri"] = self.ns["geo"]["traditional-county/{0}".format(cityName.lower())]
+      self.buffers["broader"][-1]["uri"] = self.ns["geo"]["traditional-county/{0}".format(cityName.lower())]
     elif conceptType == "paired ed":
       concept = {
         "codeLists" : [
           self.ns["code-geo"]["census-2006"],
         ],
         "model" : self.models["csoStuff"],
-        "notation" : "{0}-ed{1}-{2}".format(self.buffers["broader"]["notation"], kwargs["code1"], kwargs["code2"]),
+        "notation" : "{0}-ed{1}-{2}".format(self.buffers["broader"][-1]["notation"], kwargs["code1"], kwargs["code2"]),
         "prefLabel" : "{0} {1}, {2} {3}".format(kwargs["name1"], kwargs["code1"], kwargs["name2"], kwargs["code2"]),
         "type" : conceptType,
         "uri" : self.ns["code-geo"]["census-2006/{0}/{1}/ed/{2}-{3}".format(
-          self.typeToUri[self.buffers["broader"]["type"]],
-          self.buffers["broader"]["notation"],
+          self.typeToUri[self.buffers["broader"][-1]["type"]],
+          self.buffers["broader"][-1]["notation"],
           kwargs["code1"],
           kwargs["code2"]
         )],
@@ -378,24 +399,30 @@ class GeoAreasWriter (RDFModel):
         "prefLabel" : "{0} {1}, {2}".format(kwargs["name1"], kwargs["code1"], kwargs["code2"]),
         "type" : conceptType,
       }
-      if self.buffers["broader"]["type"] == "City":
+      broader = self.buffers["broader"][-1]
+      if broader["type"] == "City":
         concept["uri"] = self.ns["code-geo"]["census-2006/city/{0}/ea/{1}-{2}".format(
-          self.clean("-city", self.buffers["broader"]["notation"]),
+          self.clean("-city", broader["notation"]),
           kwargs["code1"],
           kwargs["code2"]
         )]
-      elif self.buffers["broader"]["type"] == "suburbs":
+      elif broader["type"] == "suburbs":
         concept["uri"] = self.ns["code-geo"]["census-2006/suburbs/{0}/ea/{1}-{2}".format(
-          self.clean("-suburbs", self.buffers["broader"]["notation"]),
+          self.clean("-suburbs", broader["notation"]),
           kwargs["code1"],
           kwargs["code2"]
         )]
-      elif self.buffers["broader"]["type"] == "AdministrativeCounty":
+      elif broader["type"] == "AdministrativeCounty":
         concept["uri"] = self.ns["code-geo"]["census-2006/county/{0}/ea/{1}-{2}".format(
-          self.clean("-county", self.buffers["broader"]["notation"]),
+          self.clean("-county", broader["notation"]),
           kwargs["code1"],
           kwargs["code2"]
         )]
+      elif broader["type"] == "TraditionalCounty":
+        raise SystemExit
+        #concept["uri"] = self.ns["code-geo"]["census-2006/"]
+      else:
+        raise Exception("Not implemented broader type: {0}".format(broader["type"]))
     elif conceptType == "suburbs":
       notation = self.stringForUri(kwargs["name"])
       concept = {
@@ -418,7 +445,9 @@ class GeoAreasWriter (RDFModel):
         "notation" : notation,
         "prefLabel" : kwargs["name"],
         "type" : conceptType,
-        "uri" : self.ns["code-geo"]["census-2006/cities-suburbs/{0}".format(notation)],
+        "uri" : self.ns["code-geo"]["census-2006/cities-suburbs/{0}".format(
+          self.stringForUri(self.clean("\s*City and Suburbs", kwargs["name"]))
+        )],
       }
     elif conceptType == "TraditionalCounty":
       concept = {
@@ -467,7 +496,7 @@ class GeoAreasWriter (RDFModel):
     else:
       raise ValueError("Wrong conceptType argument: {0}".format(conceptType))
     
-    if (not kwargs.has_key("doNotAppend")) or (kwargs.has_key("doNotAppend") and not kwargs["doNotAppend"]):
+    if not doNotAppend:
       print "Adding concept: \nURI: {0}\nprefLabel: {1}\nnotation: {2}".format(
         concept["uri"],
         concept["prefLabel"],
@@ -491,35 +520,17 @@ class GeoAreasWriter (RDFModel):
           ],
         ]
       )
-      model = self.getModelToAppend(concept)
-      model.appendToSubject(
-        concept["uri"],
-        [
-          [
-            self.ns["skos"]["broader"],
-            self.buffers["broader"]["uri"],
-          ],
-        ]
-      ).appendToSubject(
-        self.buffers["broader"]["uri"],
-        [
-          [
-            self.ns["skos"]["narrower"],
-            concept["uri"],
-          ],
-        ]
-      )
-      if kwargs.has_key("pairedURI"):
-        self.models["csoStuff"].appendToSubject(
+      for broader in self.buffers["broader"]:
+        self.getModelToAppend(concept, broader).appendToSubject(
           concept["uri"],
           [
             [
               self.ns["skos"]["broader"],
-              kwargs["pairedURI"],
+              broader["uri"],
             ],
           ]
         ).appendToSubject(
-          kwargs["pairedURI"],
+          broader["uri"],
           [
             [
               self.ns["skos"]["narrower"],
@@ -548,29 +559,12 @@ class GeoAreasWriter (RDFModel):
             ],
           ]
         )
-      if self.buffers["addBroader"] and concept["type"] in ["EnumerationArea", "paired ea"]:
-        self.models["csoStuff"].appendToSubject(
-          concept["uri"],
-          [
-            [
-              self.ns["skos"]["broader"],
-              self.buffers["addBroader"]["uri"],
-            ],
-          ]
-        ).appendToSubject(
-          self.buffers["addBroader"]["uri"],
-          [
-            [
-              self.ns["skos"]["narrower"],
-              concept["uri"],
-            ],
-          ]
-        )
       
     return concept
   
-  def getModelToAppend(self, concept):
-    if (concept["type"] or self.buffers["broader"]["type"]) in ["paired ea", "paired ed", "suburbs", "city plus suburbs"]:
+  def getModelToAppend(self, concept, broader):
+    csoStuff = ["paired ea", "paired ed", "suburbs", "city plus suburbs"]
+    if (concept["type"] in csoStuff) or (broader["type"] in csoStuff):
       model = self.models["csoStuff"]
     else:
       model = concept["model"]
@@ -592,16 +586,18 @@ class GeoAreasWriter (RDFModel):
         
         conceptType = self.getEDConceptType(code1, code2, name1, name2)
         if conceptType == "Province":
-          self.buffers["broader"] = self.getConcept(
+          self.buffers["broader"] = []
+          self.buffers["broader"].append(self.getConcept(
             conceptType,
             name = name1,
             doNotAppend = True
-          )
+          ))
         elif conceptType in ["AdministrativeCounty", "City"]:
-          self.buffers["broader"] = self.getConcept(
+          self.buffers["broader"].append(self.getConcept(
             conceptType,
             name = name1
-          )
+          ))
+          self.buffers["broader"] = self.buffers["broader"][1:]
         elif conceptType == "ElectoralDivision":
           self.getConcept(
             conceptType,
@@ -609,18 +605,17 @@ class GeoAreasWriter (RDFModel):
             code = code1
           )
         elif conceptType == "paired ed":
-          paired = self.getConcept(
+          self.buffers["broader"].append(self.getConcept(
             conceptType = "paired ed",
             name1 = name1,
             code1 = code1,
             name2 = name2,
             code2 = code2
-          )
+          ))
           self.getConcept(
             conceptType = "ElectoralDivision",
             name = name1,
             code = code1,
-            pairedURI = paired["uri"]
           )
           self.getConcept(
             conceptType = "ElectoralDivision",
@@ -628,6 +623,7 @@ class GeoAreasWriter (RDFModel):
             code = code2,
             pairedURI = paired["uri"]
           )
+          self.buffers["broader"].pop()
         elif conceptType == "State":
           pass # We already have Republic of Ireland in the bootstrap RDF
         else:
@@ -649,54 +645,65 @@ class GeoAreasWriter (RDFModel):
           c2 = match.group("c2")
           conceptType = self.getEAConceptType(name, c1_part1, c1_part2, c2)
           if conceptType == "city plus suburbs":
-            self.buffers["addBroader"] = self.getConcept(
-              conceptType = conceptType,
-              name = name,
-              doNotAppend = True
-            )
-          elif conceptType in ["AdministrativeCounty", "City", "city plus suburbs", "suburbs"]:
+            self.buffers["broader"] = []
             broader = self.toBroader[name]
-            if conceptType == "suburbs" and broader.has_key("suburbs"):
-              broader = broader["suburbs"]
-            self.buffers["broader"] = self.getConcept(
-              conceptType = broader["type"],
-              name = broader["prefLabel"],
-              doNotAppend = True
-            )
-            self.buffers["broader"] = self.getConcept(
-              conceptType = conceptType,
-              name = name
-            )
-          elif conceptType == "EnumerationArea":
-            broader = self.toBroader[name]
-            if broader.has_key("EnumerationArea"):
-              broader = broader["EnumerationArea"]
-              self.buffers["addBroader"] = self.getConcept(
+            self.buffers["broader"].append(
+              self.getConcept(
                 conceptType = broader["type"],
                 name = broader["prefLabel"],
                 doNotAppend = True
               )
+            )
+            self.buffers["broader"].append(self.getConcept(
+              conceptType = conceptType,
+              name = name
+            ))
+          elif conceptType in ["AdministrativeCounty", "City", "city plus suburbs", "suburbs"]:
+            broader = self.toBroader[name]
+            if conceptType == "suburbs" and broader.has_key("suburbs"):
+              broader = broader["suburbs"]
+            self.buffers["broader"].append(self.getConcept(
+              conceptType = broader["type"],
+              name = broader["prefLabel"],
+              doNotAppend = True
+            ))
+            self.buffers["broader"].append(self.getConcept(
+              conceptType = conceptType,
+              name = name
+            ))
+            self.buffers["broader"] = [self.buffers["broader"][-1]]
+          elif conceptType == "EnumerationArea":
+            broader = self.toBroader[name]
+            if broader.has_key("EnumerationArea"):
+              broader = broader["EnumerationArea"]
+              self.buffers["broader"].append(self.getConcept(
+                conceptType = broader["type"],
+                name = broader["prefLabel"],
+                doNotAppend = True
+              ))
             self.getConcept(
               conceptType = "EnumerationArea",
+              name = name,
               code = c1_part2
             )
           elif conceptType == "paired ea":
-            paired = self.getConcept(
+            self.buffers["broader"].insert(0, self.getConcept(
               conceptType = "paired ea",
               name1 = name,
               code1 = c1_part2,
               code2 = c2
+            ))
+            self.getConcept(
+              conceptType = "EnumerationArea",
+              name = name,
+              code = c1_part2
             )
             self.getConcept(
               conceptType = "EnumerationArea",
-              code = c1_part2,
-              pairedURI = paired["uri"]
+              name = name,
+              code = c2
             )
-            self.getConcept(
-              conceptType = "EnumerationArea",
-              code = c2,
-              pairedURI = paired["uri"]
-            )
+            self.buffers["broader"] = self.buffers["broader"][1:]
           else:
             raise Exception("Unknown concept type: {0}".format(conceptType))
         else:
@@ -704,7 +711,7 @@ class GeoAreasWriter (RDFModel):
           
   def main(self):
     self.addEAs()
-    self.addEDs()
+    #self.addEDs()
     
     self._fileEAs.close()
     self._fileEDs.close()
