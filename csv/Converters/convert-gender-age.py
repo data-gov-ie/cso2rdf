@@ -2,45 +2,21 @@
 #-*- coding:utf-8 -*-
 
 # TODO:
-# For computing aggregates, the MemoryStorage is not enough due to the volume of data.
-# Stack trace:
-#librdf error - digest SHA1 already registered
-#librdf error - hash bdb already registered
-#librdf error - hash memory already registered
-#librdf error - model storage already registered
-#librdf error - storage hashes already registered
-#librdf error - storage trees already registered
-#librdf error - storage memory already registered
-#librdf error - storage file already registered
-#librdf error - storage uri already registered
-#librdf error - query language triples already registered
-#librdf error - query language laqrs already registered
-#librdf error - query language rdql already registered
-#librdf error - query language sparql already registered
-#Traceback (most recent call last):
-#  File "./convert-religion.py", line 582, in <module>
-#    cr.main()
-#  File "./convert-religion.py", line 574, in main
-#    self.computeAggregates()
-#  File "./convert-religion.py", line 554, in computeAggregates
-#    for populationPart in self.sparql(query):
-#  File "/usr/lib/python2.6/dist-packages/RDF.py", line 2020, in next
-#    Redland.librdf_query_results_next(self._results)
-#RDF.RedlandError: 'digest MD5 already registered'
-
+# compute values for geographical entities that are not in out datasets (traditional counties, maybe even state) - in which step will we do that?
+# (a) afterwards with SPARQL queries
 
 import csv, os, RDF, re, sys
 sys.path.append(os.path.join("..", "..", "RDFModel"))
 from RDFModel import RDFModel
 
 # Definition of the paths
-DSD = os.path.join("..", "..", "DSDs", "persons-by-religion.ttl")
-ED_FILE = os.path.join("..", "Datasources", "ed", "religion.csv")
-EA_FILE = os.path.join("..", "Datasources", "ea", "religion.csv")
+DSD = os.path.join("..", "..", "DSDs", "persons-by-gender-and-age.ttl")
+ED_FILE = os.path.join("..", "Datasources", "ed", "gender-age.csv")
+EA_FILE = os.path.join("..", "Datasources", "ea", "gender-age.csv")
 TOP_LEVEL_GEO = os.path.join("..", "..", "Codelists", "geo-topLevel.ttl")
 
 
-class ConvertReligion (RDFModel):
+class ConvertGenderAge (RDFModel):
   """
     Class for converting CSO datasets about religion
   """
@@ -558,7 +534,7 @@ class ConvertReligion (RDFModel):
         narrowers = output[traditionalCounty]["narrower"]
         for religion in self.religionIndexToConcept:
           religion = religion["uri"].uri
-          religionStr = str(religion)
+          religionStr = str(religion["uri"].uri)
           query = """PREFIX prop: <http://stats.govdata.ie/property/>
             PREFIX sdmx: <http://purl.org/linked-data/sdmx#>
 
@@ -602,6 +578,6 @@ class ConvertReligion (RDFModel):
     
      
 if __name__ == "__main__":
-  cr = ConvertReligion(DSD = DSD, title = "Number of persons by religion, 2006")
+  cr = ConvertGenderAge(DSD = DSD, title = "Persons aged 18 and under by sex and single year of age and persons aged 19 and over by sex, 2006")
   cr.main()
   cr.write()
