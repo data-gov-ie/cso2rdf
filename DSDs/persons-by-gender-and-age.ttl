@@ -8,10 +8,12 @@
 
 @prefix dsd:            <http://stats.govdata.ie/dsd/> .
 @prefix prop:           <http://stats.govdata.ie/property/> .
+@prefix code:           <http://stats.govdata.ie/codelist/> .
+@prefix concept:        <http://stats.govdata.ie/concept/> .
 
 # --- Data structure definition -------------
 
-dsd:persons-by-religion a qb:DataStructureDefinition;
+dsd:persons-by-gender-and-age a qb:DataStructureDefinition;
     qb:component [
             a qb:ComponentSpecification;
             rdfs:label "Year"@en;
@@ -23,11 +25,15 @@ dsd:persons-by-religion a qb:DataStructureDefinition;
             qb:order "2"^^xsd:int
         ], [
             a qb:ComponentSpecification;
-            qb:dimension prop:religion;
+            qb:dimension sdmx-dimension:sex;
             qb:order "3"^^xsd:int
         ], [
             a qb:ComponentSpecification;
-            qb:measure prop:population;
+            qb:dimension prop:age2;
             qb:order "4"^^xsd:int
+        ], [
+            a qb:ComponentSpecification;
+            qb:measure prop:population;
+            qb:order "5"^^xsd:int
         ]
     .

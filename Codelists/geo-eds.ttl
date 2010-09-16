@@ -2093,7 +2093,7 @@
 
 <http://geo.govdata.ie/city/waterford/ed/002>
     a geo:ElectoralDivision, skos:Concept ;
-    skos:broader <http://geo.govdata.ie/city/waterford>, <http://stats.govdata.ie/codelist/geo/census-2006/city/waterford-city/ed/002-006> ;
+    skos:broader <http://geo.govdata.ie/city/waterford> ;
     skos:inScheme code-geo:census-2006, code-geo:roi ;
     skos:notation "waterford-city-ed002" ;
     skos:prefLabel "Ballybeg South"@en .
@@ -2121,7 +2121,7 @@
 
 <http://geo.govdata.ie/city/waterford/ed/006>
     a geo:ElectoralDivision, skos:Concept ;
-    skos:broader <http://geo.govdata.ie/city/waterford>, <http://stats.govdata.ie/codelist/geo/census-2006/city/waterford-city/ed/002-006> ;
+    skos:broader <http://geo.govdata.ie/city/waterford> ;
     skos:inScheme code-geo:census-2006, code-geo:roi ;
     skos:notation "waterford-city-ed006" ;
     skos:prefLabel "Ballynaneashagh"@en .
@@ -2855,7 +2855,7 @@
 
 <http://geo.govdata.ie/county/cavan/ed/018>
     a geo:ElectoralDivision, skos:Concept ;
-    skos:broader <http://geo.govdata.ie/county/cavan>, <http://stats.govdata.ie/codelist/geo/census-2006/county/cavan/ed/027-018> ;
+    skos:broader <http://geo.govdata.ie/county/cavan> ;
     skos:inScheme code-geo:census-2006, code-geo:roi ;
     skos:notation "cavan-ed018" ;
     skos:prefLabel "Benbrack"@en .
@@ -2904,7 +2904,7 @@
 
 <http://geo.govdata.ie/county/cavan/ed/025>
     a geo:ElectoralDivision, skos:Concept ;
-    skos:broader <http://geo.govdata.ie/county/cavan>, <http://stats.govdata.ie/codelist/geo/census-2006/county/cavan/ed/025-028> ;
+    skos:broader <http://geo.govdata.ie/county/cavan> ;
     skos:inScheme code-geo:census-2006, code-geo:roi ;
     skos:notation "cavan-ed025" ;
     skos:prefLabel "Pedara Vohers"@en .
@@ -2918,14 +2918,14 @@
 
 <http://geo.govdata.ie/county/cavan/ed/027>
     a geo:ElectoralDivision, skos:Concept ;
-    skos:broader <http://geo.govdata.ie/county/cavan>, <http://stats.govdata.ie/codelist/geo/census-2006/county/cavan/ed/027-018> ;
+    skos:broader <http://geo.govdata.ie/county/cavan> ;
     skos:inScheme code-geo:census-2006, code-geo:roi ;
     skos:notation "cavan-ed027" ;
     skos:prefLabel "Templeport"@en .
 
 <http://geo.govdata.ie/county/cavan/ed/028>
     a geo:ElectoralDivision, skos:Concept ;
-    skos:broader <http://geo.govdata.ie/county/cavan>, <http://stats.govdata.ie/codelist/geo/census-2006/county/cavan/ed/025-028> ;
+    skos:broader <http://geo.govdata.ie/county/cavan> ;
     skos:inScheme code-geo:census-2006, code-geo:roi ;
     skos:notation "cavan-ed028" ;
     skos:prefLabel "Tircahan"@en .
@@ -3303,7 +3303,7 @@
 
 <http://geo.govdata.ie/county/cavan/ed/082>
     a geo:ElectoralDivision, skos:Concept ;
-    skos:broader <http://geo.govdata.ie/county/cavan>, <http://stats.govdata.ie/codelist/geo/census-2006/county/cavan/ed/084-082> ;
+    skos:broader <http://geo.govdata.ie/county/cavan> ;
     skos:inScheme code-geo:census-2006, code-geo:roi ;
     skos:notation "cavan-ed082" ;
     skos:prefLabel "Derrynananta"@en .
@@ -3317,7 +3317,7 @@
 
 <http://geo.govdata.ie/county/cavan/ed/084>
     a geo:ElectoralDivision, skos:Concept ;
-    skos:broader <http://geo.govdata.ie/county/cavan>, <http://stats.govdata.ie/codelist/geo/census-2006/county/cavan/ed/084-082> ;
+    skos:broader <http://geo.govdata.ie/county/cavan> ;
     skos:inScheme code-geo:census-2006, code-geo:roi ;
     skos:notation "cavan-ed084" ;
     skos:prefLabel "Dunmakeever"@en .
@@ -3331,14 +3331,14 @@
 
 <http://geo.govdata.ie/county/cavan/ed/086>
     a geo:ElectoralDivision, skos:Concept ;
-    skos:broader <http://geo.govdata.ie/county/cavan>, <http://stats.govdata.ie/codelist/geo/census-2006/county/cavan/ed/086-087> ;
+    skos:broader <http://geo.govdata.ie/county/cavan> ;
     skos:inScheme code-geo:census-2006, code-geo:roi ;
     skos:notation "cavan-ed086" ;
     skos:prefLabel "Kinninagh"@en .
 
 <http://geo.govdata.ie/county/cavan/ed/087>
     a geo:ElectoralDivision, skos:Concept ;
-    skos:broader <http://geo.govdata.ie/county/cavan>, <http://stats.govdata.ie/codelist/geo/census-2006/county/cavan/ed/086-087> ;
+    skos:broader <http://geo.govdata.ie/county/cavan> ;
     skos:inScheme code-geo:census-2006, code-geo:roi ;
     skos:notation "cavan-ed087" ;
     skos:prefLabel "Teebane"@en .
@@ -3439,7 +3439,7 @@
 
 <http://geo.govdata.ie/county/clare/ed/008>
     a geo:ElectoralDivision, skos:Concept ;
-    skos:broader <http://geo.govdata.ie/county/clare>, <http://stats.govdata.ie/codelist/geo/census-2006/county/clare/ed/014-008> ;
+    skos:broader <http://geo.govdata.ie/county/clare> ;
     skos:inScheme code-geo:census-2006, code-geo:roi ;
     skos:notation "clare-ed008" ;
     skos:prefLabel "Castletown"@en .
@@ -3481,7 +3481,7 @@
 
 <http://geo.govdata.ie/county/clare/ed/014>
     a geo:ElectoralDivision, skos:Concept ;
-    skos:broader <http://geo.govdata.ie/county/clare>, <http://stats.govdata.ie/codelist/geo/census-2006/county/clare/ed/014-008> ;
+    skos:broader <http://geo.govdata.ie/county/clare> ;
     skos:inScheme code-geo:census-2006, code-geo:roi ;
     skos:notation "clare-ed014" ;
     skos:prefLabel "Noughaval"@en .
@@ -3502,7 +3502,7 @@
 
 <http://geo.govdata.ie/county/clare/ed/017>
     a geo:ElectoralDivision, skos:Concept ;
-    skos:broader <http://geo.govdata.ie/county/clare>, <http://stats.govdata.ie/codelist/geo/census-2006/county/clare/ed/020-017> ;
+    skos:broader <http://geo.govdata.ie/county/clare> ;
     skos:inScheme code-geo:census-2006, code-geo:roi ;
     skos:notation "clare-ed017" ;
     skos:prefLabel "Ballyeighter"@en .
@@ -3523,7 +3523,7 @@
 
 <http://geo.govdata.ie/county/clare/ed/020>
     a geo:ElectoralDivision, skos:Concept ;
-    skos:broader <http://geo.govdata.ie/county/clare>, <http://stats.govdata.ie/codelist/geo/census-2006/county/clare/ed/020-017> ;
+    skos:broader <http://geo.govdata.ie/county/clare> ;
     skos:inScheme code-geo:census-2006, code-geo:roi ;
     skos:notation "clare-ed020" ;
     skos:prefLabel "Glenroe"@en .
@@ -4244,7 +4244,7 @@
 
 <http://geo.govdata.ie/county/clare/ed/123>
     a geo:ElectoralDivision, skos:Concept ;
-    skos:broader <http://geo.govdata.ie/county/clare>, <http://stats.govdata.ie/codelist/geo/census-2006/county/clare/ed/128-123> ;
+    skos:broader <http://geo.govdata.ie/county/clare> ;
     skos:inScheme code-geo:census-2006, code-geo:roi ;
     skos:notation "clare-ed123" ;
     skos:prefLabel "Cahermurphy"@en .
@@ -4279,7 +4279,7 @@
 
 <http://geo.govdata.ie/county/clare/ed/128>
     a geo:ElectoralDivision, skos:Concept ;
-    skos:broader <http://geo.govdata.ie/county/clare>, <http://stats.govdata.ie/codelist/geo/census-2006/county/clare/ed/128-123> ;
+    skos:broader <http://geo.govdata.ie/county/clare> ;
     skos:inScheme code-geo:census-2006, code-geo:roi ;
     skos:notation "clare-ed128" ;
     skos:prefLabel "Corlea"@en .
@@ -4307,14 +4307,14 @@
 
 <http://geo.govdata.ie/county/clare/ed/132>
     a geo:ElectoralDivision, skos:Concept ;
-    skos:broader <http://geo.govdata.ie/county/clare>, <http://stats.govdata.ie/codelist/geo/census-2006/county/clare/ed/132-133> ;
+    skos:broader <http://geo.govdata.ie/county/clare> ;
     skos:inScheme code-geo:census-2006, code-geo:roi ;
     skos:notation "clare-ed132" ;
     skos:prefLabel "Inishcaltra North"@en .
 
 <http://geo.govdata.ie/county/clare/ed/133>
     a geo:ElectoralDivision, skos:Concept ;
-    skos:broader <http://geo.govdata.ie/county/clare>, <http://stats.govdata.ie/codelist/geo/census-2006/county/clare/ed/132-133> ;
+    skos:broader <http://geo.govdata.ie/county/clare> ;
     skos:inScheme code-geo:census-2006, code-geo:roi ;
     skos:notation "clare-ed133" ;
     skos:prefLabel "Inishcaltra South"@en .
@@ -4702,7 +4702,7 @@
 
 <http://geo.govdata.ie/county/cork/ed/033>
     a geo:ElectoralDivision, skos:Concept ;
-    skos:broader <http://geo.govdata.ie/county/cork>, <http://stats.govdata.ie/codelist/geo/census-2006/county/cork/ed/033-046> ;
+    skos:broader <http://geo.govdata.ie/county/cork> ;
     skos:inScheme code-geo:census-2006, code-geo:roi ;
     skos:notation "cork-ed033" ;
     skos:prefLabel "Bantry Rural"@en .
@@ -4793,7 +4793,7 @@
 
 <http://geo.govdata.ie/county/cork/ed/046>
     a geo:ElectoralDivision, skos:Concept ;
-    skos:broader <http://geo.govdata.ie/county/cork>, <http://stats.govdata.ie/codelist/geo/census-2006/county/cork/ed/033-046> ;
+    skos:broader <http://geo.govdata.ie/county/cork> ;
     skos:inScheme code-geo:census-2006, code-geo:roi ;
     skos:notation "cork-ed046" ;
     skos:prefLabel "Whiddy"@en .
@@ -8767,14 +8767,14 @@
 
 <http://geo.govdata.ie/county/galway/ed/027>
     a geo:ElectoralDivision, skos:Concept ;
-    skos:broader <http://geo.govdata.ie/county/galway>, <http://stats.govdata.ie/codelist/geo/census-2006/county/galway/ed/027-028> ;
+    skos:broader <http://geo.govdata.ie/county/galway> ;
     skos:inScheme code-geo:census-2006, code-geo:roi ;
     skos:notation "galway-ed027" ;
     skos:prefLabel "Derrycunlagh"@en .
 
 <http://geo.govdata.ie/county/galway/ed/028>
     a geo:ElectoralDivision, skos:Concept ;
-    skos:broader <http://geo.govdata.ie/county/galway>, <http://stats.govdata.ie/codelist/geo/census-2006/county/galway/ed/027-028> ;
+    skos:broader <http://geo.govdata.ie/county/galway> ;
     skos:inScheme code-geo:census-2006, code-geo:roi ;
     skos:notation "galway-ed028" ;
     skos:prefLabel "Derrylea"@en .
@@ -9460,7 +9460,7 @@
 
 <http://geo.govdata.ie/county/galway/ed/126>
     a geo:ElectoralDivision, skos:Concept ;
-    skos:broader <http://geo.govdata.ie/county/galway>, <http://stats.govdata.ie/codelist/geo/census-2006/county/galway/ed/129-126> ;
+    skos:broader <http://geo.govdata.ie/county/galway> ;
     skos:inScheme code-geo:census-2006, code-geo:roi ;
     skos:notation "galway-ed126" ;
     skos:prefLabel "Loughatorick"@en .
@@ -9481,7 +9481,7 @@
 
 <http://geo.govdata.ie/county/galway/ed/129>
     a geo:ElectoralDivision, skos:Concept ;
-    skos:broader <http://geo.govdata.ie/county/galway>, <http://stats.govdata.ie/codelist/geo/census-2006/county/galway/ed/129-126> ;
+    skos:broader <http://geo.govdata.ie/county/galway> ;
     skos:inScheme code-geo:census-2006, code-geo:roi ;
     skos:notation "galway-ed129" ;
     skos:prefLabel "Marblehill"@en .
@@ -10156,7 +10156,7 @@
 
 <http://geo.govdata.ie/county/kerry/ed/009>
     a geo:ElectoralDivision, skos:Concept ;
-    skos:broader <http://geo.govdata.ie/county/kerry>, <http://stats.govdata.ie/codelist/geo/census-2006/county/kerry/ed/009-020> ;
+    skos:broader <http://geo.govdata.ie/county/kerry> ;
     skos:inScheme code-geo:census-2006, code-geo:roi ;
     skos:notation "kerry-ed009" ;
     skos:prefLabel "Ceannúig"@en .
@@ -10170,7 +10170,7 @@
 
 <http://geo.govdata.ie/county/kerry/ed/011>
     a geo:ElectoralDivision, skos:Concept ;
-    skos:broader <http://geo.govdata.ie/county/kerry>, <http://stats.govdata.ie/codelist/geo/census-2006/county/kerry/ed/014-011> ;
+    skos:broader <http://geo.govdata.ie/county/kerry> ;
     skos:inScheme code-geo:census-2006, code-geo:roi ;
     skos:notation "kerry-ed011" ;
     skos:prefLabel "Daoire Ianna"@en .
@@ -10191,7 +10191,7 @@
 
 <http://geo.govdata.ie/county/kerry/ed/014>
     a geo:ElectoralDivision, skos:Concept ;
-    skos:broader <http://geo.govdata.ie/county/kerry>, <http://stats.govdata.ie/codelist/geo/census-2006/county/kerry/ed/014-011> ;
+    skos:broader <http://geo.govdata.ie/county/kerry> ;
     skos:inScheme code-geo:census-2006, code-geo:roi ;
     skos:notation "kerry-ed014" ;
     skos:prefLabel "Cloon"@en .
@@ -10233,7 +10233,7 @@
 
 <http://geo.govdata.ie/county/kerry/ed/020>
     a geo:ElectoralDivision, skos:Concept ;
-    skos:broader <http://geo.govdata.ie/county/kerry>, <http://stats.govdata.ie/codelist/geo/census-2006/county/kerry/ed/009-020> ;
+    skos:broader <http://geo.govdata.ie/county/kerry> ;
     skos:inScheme code-geo:census-2006, code-geo:roi ;
     skos:notation "kerry-ed020" ;
     skos:prefLabel "Máistir Gaoithe"@en .
@@ -12993,14 +12993,14 @@
 
 <http://geo.govdata.ie/county/laoighis/ed/045>
     a geo:ElectoralDivision, skos:Concept ;
-    skos:broader <http://geo.govdata.ie/county/laoighis>, <http://stats.govdata.ie/codelist/geo/census-2006/county/laoighis/ed/045-046> ;
+    skos:broader <http://geo.govdata.ie/county/laoighis> ;
     skos:inScheme code-geo:census-2006, code-geo:roi ;
     skos:notation "laoighis-ed045" ;
     skos:prefLabel "Brisha"@en .
 
 <http://geo.govdata.ie/county/laoighis/ed/046>
     a geo:ElectoralDivision, skos:Concept ;
-    skos:broader <http://geo.govdata.ie/county/laoighis>, <http://stats.govdata.ie/codelist/geo/census-2006/county/laoighis/ed/045-046> ;
+    skos:broader <http://geo.govdata.ie/county/laoighis> ;
     skos:inScheme code-geo:census-2006, code-geo:roi ;
     skos:notation "laoighis-ed046" ;
     skos:prefLabel "Cappard"@en .
@@ -13416,7 +13416,7 @@
 
 <http://geo.govdata.ie/county/leitrim/ed/007>
     a geo:ElectoralDivision, skos:Concept ;
-    skos:broader <http://geo.govdata.ie/county/leitrim>, <http://stats.govdata.ie/codelist/geo/census-2006/county/leitrim/ed/007-011> ;
+    skos:broader <http://geo.govdata.ie/county/leitrim> ;
     skos:inScheme code-geo:census-2006, code-geo:roi ;
     skos:notation "leitrim-ed007" ;
     skos:prefLabel "Greaghlass"@en .
@@ -13444,7 +13444,7 @@
 
 <http://geo.govdata.ie/county/leitrim/ed/011>
     a geo:ElectoralDivision, skos:Concept ;
-    skos:broader <http://geo.govdata.ie/county/leitrim>, <http://stats.govdata.ie/codelist/geo/census-2006/county/leitrim/ed/007-011> ;
+    skos:broader <http://geo.govdata.ie/county/leitrim> ;
     skos:inScheme code-geo:census-2006, code-geo:roi ;
     skos:notation "leitrim-ed011" ;
     skos:prefLabel "Stralongford"@en .
@@ -13479,14 +13479,14 @@
 
 <http://geo.govdata.ie/county/leitrim/ed/016>
     a geo:ElectoralDivision, skos:Concept ;
-    skos:broader <http://geo.govdata.ie/county/leitrim>, <http://stats.govdata.ie/codelist/geo/census-2006/county/leitrim/ed/017-016> ;
+    skos:broader <http://geo.govdata.ie/county/leitrim> ;
     skos:inScheme code-geo:census-2006, code-geo:roi ;
     skos:notation "leitrim-ed016" ;
     skos:prefLabel "Drumreilly East"@en .
 
 <http://geo.govdata.ie/county/leitrim/ed/017>
     a geo:ElectoralDivision, skos:Concept ;
-    skos:broader <http://geo.govdata.ie/county/leitrim>, <http://stats.govdata.ie/codelist/geo/census-2006/county/leitrim/ed/017-016> ;
+    skos:broader <http://geo.govdata.ie/county/leitrim> ;
     skos:inScheme code-geo:census-2006, code-geo:roi ;
     skos:notation "leitrim-ed017" ;
     skos:prefLabel "Drumreilly West"@en .
@@ -13556,21 +13556,21 @@
 
 <http://geo.govdata.ie/county/leitrim/ed/027>
     a geo:ElectoralDivision, skos:Concept ;
-    skos:broader <http://geo.govdata.ie/county/leitrim>, <http://stats.govdata.ie/codelist/geo/census-2006/county/leitrim/ed/027-028> ;
+    skos:broader <http://geo.govdata.ie/county/leitrim> ;
     skos:inScheme code-geo:census-2006, code-geo:roi ;
     skos:notation "leitrim-ed027" ;
     skos:prefLabel "Aghalateeve"@en .
 
 <http://geo.govdata.ie/county/leitrim/ed/028>
     a geo:ElectoralDivision, skos:Concept ;
-    skos:broader <http://geo.govdata.ie/county/leitrim>, <http://stats.govdata.ie/codelist/geo/census-2006/county/leitrim/ed/027-028> ;
+    skos:broader <http://geo.govdata.ie/county/leitrim> ;
     skos:inScheme code-geo:census-2006, code-geo:roi ;
     skos:notation "leitrim-ed028" ;
     skos:prefLabel "Aghanlish"@en .
 
 <http://geo.govdata.ie/county/leitrim/ed/029>
     a geo:ElectoralDivision, skos:Concept ;
-    skos:broader <http://geo.govdata.ie/county/leitrim>, <http://stats.govdata.ie/codelist/geo/census-2006/county/leitrim/ed/029-032> ;
+    skos:broader <http://geo.govdata.ie/county/leitrim> ;
     skos:inScheme code-geo:census-2006, code-geo:roi ;
     skos:notation "leitrim-ed029" ;
     skos:prefLabel "Melvin"@en .
@@ -13591,7 +13591,7 @@
 
 <http://geo.govdata.ie/county/leitrim/ed/032>
     a geo:ElectoralDivision, skos:Concept ;
-    skos:broader <http://geo.govdata.ie/county/leitrim>, <http://stats.govdata.ie/codelist/geo/census-2006/county/leitrim/ed/029-032> ;
+    skos:broader <http://geo.govdata.ie/county/leitrim> ;
     skos:inScheme code-geo:census-2006, code-geo:roi ;
     skos:notation "leitrim-ed032" ;
     skos:prefLabel "Aghavoghill"@en .
@@ -13605,7 +13605,7 @@
 
 <http://geo.govdata.ie/county/leitrim/ed/034>
     a geo:ElectoralDivision, skos:Concept ;
-    skos:broader <http://geo.govdata.ie/county/leitrim>, <http://stats.govdata.ie/codelist/geo/census-2006/county/leitrim/ed/041-034> ;
+    skos:broader <http://geo.govdata.ie/county/leitrim> ;
     skos:inScheme code-geo:census-2006, code-geo:roi ;
     skos:notation "leitrim-ed034" ;
     skos:prefLabel "Arigna"@en .
@@ -13654,7 +13654,7 @@
 
 <http://geo.govdata.ie/county/leitrim/ed/041>
     a geo:ElectoralDivision, skos:Concept ;
-    skos:broader <http://geo.govdata.ie/county/leitrim>, <http://stats.govdata.ie/codelist/geo/census-2006/county/leitrim/ed/041-034> ;
+    skos:broader <http://geo.govdata.ie/county/leitrim> ;
     skos:inScheme code-geo:census-2006, code-geo:roi ;
     skos:notation "leitrim-ed041" ;
     skos:prefLabel "Garvagh"@en .
@@ -15039,7 +15039,7 @@
 
 <http://geo.govdata.ie/county/longford/ed/024>
     a geo:ElectoralDivision, skos:Concept ;
-    skos:broader <http://geo.govdata.ie/county/longford>, <http://stats.govdata.ie/codelist/geo/census-2006/county/longford/ed/024-035> ;
+    skos:broader <http://geo.govdata.ie/county/longford> ;
     skos:inScheme code-geo:census-2006, code-geo:roi ;
     skos:notation "longford-ed024" ;
     skos:prefLabel "Firry"@en .
@@ -15116,7 +15116,7 @@
 
 <http://geo.govdata.ie/county/longford/ed/035>
     a geo:ElectoralDivision, skos:Concept ;
-    skos:broader <http://geo.govdata.ie/county/longford>, <http://stats.govdata.ie/codelist/geo/census-2006/county/longford/ed/024-035> ;
+    skos:broader <http://geo.govdata.ie/county/longford> ;
     skos:inScheme code-geo:census-2006, code-geo:roi ;
     skos:notation "longford-ed035" ;
     skos:prefLabel "Newgrove"@en .
@@ -15969,7 +15969,7 @@
 
 <http://geo.govdata.ie/county/mayo/ed/058>
     a geo:ElectoralDivision, skos:Concept ;
-    skos:broader <http://geo.govdata.ie/county/mayo>, <http://stats.govdata.ie/codelist/geo/census-2006/county/mayo/ed/058-065> ;
+    skos:broader <http://geo.govdata.ie/county/mayo> ;
     skos:inScheme code-geo:census-2006, code-geo:roi ;
     skos:notation "mayo-ed058" ;
     skos:prefLabel "Glenco"@en .
@@ -16018,7 +16018,7 @@
 
 <http://geo.govdata.ie/county/mayo/ed/065>
     a geo:ElectoralDivision, skos:Concept ;
-    skos:broader <http://geo.govdata.ie/county/mayo>, <http://stats.govdata.ie/codelist/geo/census-2006/county/mayo/ed/058-065> ;
+    skos:broader <http://geo.govdata.ie/county/mayo> ;
     skos:inScheme code-geo:census-2006, code-geo:roi ;
     skos:notation "mayo-ed065" ;
     skos:prefLabel "Sheskin"@en .
@@ -16473,7 +16473,7 @@
 
 <http://geo.govdata.ie/county/mayo/ed/130>
     a geo:ElectoralDivision, skos:Concept ;
-    skos:broader <http://geo.govdata.ie/county/mayo>, <http://stats.govdata.ie/codelist/geo/census-2006/county/mayo/ed/150-130> ;
+    skos:broader <http://geo.govdata.ie/county/mayo> ;
     skos:inScheme code-geo:census-2006, code-geo:roi ;
     skos:notation "mayo-ed130" ;
     skos:prefLabel "Bundorragha"@en .
@@ -16613,7 +16613,7 @@
 
 <http://geo.govdata.ie/county/mayo/ed/150>
     a geo:ElectoralDivision, skos:Concept ;
-    skos:broader <http://geo.govdata.ie/county/mayo>, <http://stats.govdata.ie/codelist/geo/census-2006/county/mayo/ed/150-130> ;
+    skos:broader <http://geo.govdata.ie/county/mayo> ;
     skos:inScheme code-geo:census-2006, code-geo:roi ;
     skos:notation "mayo-ed150" ;
     skos:prefLabel "Owennadornaun"@en .
@@ -18043,7 +18043,7 @@
 
 <http://geo.govdata.ie/county/north-tipperary/ed/037>
     a geo:ElectoralDivision, skos:Concept ;
-    skos:broader <http://geo.govdata.ie/county/north-tipperary>, <http://stats.govdata.ie/codelist/geo/census-2006/county/north-tipperary/ed/037-045> ;
+    skos:broader <http://geo.govdata.ie/county/north-tipperary> ;
     skos:inScheme code-geo:census-2006, code-geo:roi ;
     skos:notation "north-tipperary-ed037" ;
     skos:prefLabel "Greenhall"@en .
@@ -18099,7 +18099,7 @@
 
 <http://geo.govdata.ie/county/north-tipperary/ed/045>
     a geo:ElectoralDivision, skos:Concept ;
-    skos:broader <http://geo.govdata.ie/county/north-tipperary>, <http://stats.govdata.ie/codelist/geo/census-2006/county/north-tipperary/ed/037-045> ;
+    skos:broader <http://geo.govdata.ie/county/north-tipperary> ;
     skos:inScheme code-geo:census-2006, code-geo:roi ;
     skos:notation "north-tipperary-ed045" ;
     skos:prefLabel "Lackagh"@en .
@@ -18592,7 +18592,7 @@
 
 <http://geo.govdata.ie/county/offaly/ed/034>
     a geo:ElectoralDivision, skos:Concept ;
-    skos:broader <http://geo.govdata.ie/county/offaly>, <http://stats.govdata.ie/codelist/geo/census-2006/county/offaly/ed/043-034> ;
+    skos:broader <http://geo.govdata.ie/county/offaly> ;
     skos:inScheme code-geo:census-2006, code-geo:roi ;
     skos:notation "offaly-ed034" ;
     skos:prefLabel "Ballaghassaan"@en .
@@ -18655,7 +18655,7 @@
 
 <http://geo.govdata.ie/county/offaly/ed/043>
     a geo:ElectoralDivision, skos:Concept ;
-    skos:broader <http://geo.govdata.ie/county/offaly>, <http://stats.govdata.ie/codelist/geo/census-2006/county/offaly/ed/043-034> ;
+    skos:broader <http://geo.govdata.ie/county/offaly> ;
     skos:inScheme code-geo:census-2006, code-geo:roi ;
     skos:notation "offaly-ed043" ;
     skos:prefLabel "Esker"@en .
@@ -19141,7 +19141,7 @@
 
 <http://geo.govdata.ie/county/roscommon/ed/025>
     a geo:ElectoralDivision, skos:Concept ;
-    skos:broader <http://geo.govdata.ie/county/roscommon>, <http://stats.govdata.ie/codelist/geo/census-2006/county/roscommon/ed/047-025> ;
+    skos:broader <http://geo.govdata.ie/county/roscommon> ;
     skos:inScheme code-geo:census-2006, code-geo:roi ;
     skos:notation "roscommon-ed025" ;
     skos:prefLabel "Altagowlan"@en .
@@ -19288,21 +19288,21 @@
 
 <http://geo.govdata.ie/county/roscommon/ed/046>
     a geo:ElectoralDivision, skos:Concept ;
-    skos:broader <http://geo.govdata.ie/county/roscommon>, <http://stats.govdata.ie/codelist/geo/census-2006/county/roscommon/ed/046-048> ;
+    skos:broader <http://geo.govdata.ie/county/roscommon> ;
     skos:inScheme code-geo:census-2006, code-geo:roi ;
     skos:notation "roscommon-ed046" ;
     skos:prefLabel "Lisgarve"@en .
 
 <http://geo.govdata.ie/county/roscommon/ed/047>
     a geo:ElectoralDivision, skos:Concept ;
-    skos:broader <http://geo.govdata.ie/county/roscommon>, <http://stats.govdata.ie/codelist/geo/census-2006/county/roscommon/ed/047-025> ;
+    skos:broader <http://geo.govdata.ie/county/roscommon> ;
     skos:inScheme code-geo:census-2006, code-geo:roi ;
     skos:notation "roscommon-ed047" ;
     skos:prefLabel "Lough Allen"@en .
 
 <http://geo.govdata.ie/county/roscommon/ed/048>
     a geo:ElectoralDivision, skos:Concept ;
-    skos:broader <http://geo.govdata.ie/county/roscommon>, <http://stats.govdata.ie/codelist/geo/census-2006/county/roscommon/ed/046-048> ;
+    skos:broader <http://geo.govdata.ie/county/roscommon> ;
     skos:inScheme code-geo:census-2006, code-geo:roi ;
     skos:notation "roscommon-ed048" ;
     skos:prefLabel "Mantua"@en .
@@ -19942,7 +19942,7 @@
 
 <http://geo.govdata.ie/county/sligo/ed/027>
     a geo:ElectoralDivision, skos:Concept ;
-    skos:broader <http://geo.govdata.ie/county/sligo>, <http://stats.govdata.ie/codelist/geo/census-2006/county/sligo/ed/031-027> ;
+    skos:broader <http://geo.govdata.ie/county/sligo> ;
     skos:inScheme code-geo:census-2006, code-geo:roi ;
     skos:notation "sligo-ed027" ;
     skos:prefLabel "Mullagheruse"@en .
@@ -19970,7 +19970,7 @@
 
 <http://geo.govdata.ie/county/sligo/ed/031>
     a geo:ElectoralDivision, skos:Concept ;
-    skos:broader <http://geo.govdata.ie/county/sligo>, <http://stats.govdata.ie/codelist/geo/census-2006/county/sligo/ed/031-027> ;
+    skos:broader <http://geo.govdata.ie/county/sligo> ;
     skos:inScheme code-geo:census-2006, code-geo:roi ;
     skos:notation "sligo-ed031" ;
     skos:prefLabel "Templeboy South"@en .
@@ -20222,7 +20222,7 @@
 
 <http://geo.govdata.ie/county/sligo/ed/067>
     a geo:ElectoralDivision, skos:Concept ;
-    skos:broader <http://geo.govdata.ie/county/sligo>, <http://stats.govdata.ie/codelist/geo/census-2006/county/sligo/ed/067-069> ;
+    skos:broader <http://geo.govdata.ie/county/sligo> ;
     skos:inScheme code-geo:census-2006, code-geo:roi ;
     skos:notation "sligo-ed067" ;
     skos:prefLabel "Branchfield"@en .
@@ -20236,7 +20236,7 @@
 
 <http://geo.govdata.ie/county/sligo/ed/069>
     a geo:ElectoralDivision, skos:Concept ;
-    skos:broader <http://geo.govdata.ie/county/sligo>, <http://stats.govdata.ie/codelist/geo/census-2006/county/sligo/ed/067-069> ;
+    skos:broader <http://geo.govdata.ie/county/sligo> ;
     skos:inScheme code-geo:census-2006, code-geo:roi ;
     skos:notation "sligo-ed069" ;
     skos:prefLabel "Carrownaskeagh"@en .
@@ -20250,7 +20250,7 @@
 
 <http://geo.govdata.ie/county/sligo/ed/071>
     a geo:ElectoralDivision, skos:Concept ;
-    skos:broader <http://geo.govdata.ie/county/sligo>, <http://stats.govdata.ie/codelist/geo/census-2006/county/sligo/ed/078-071> ;
+    skos:broader <http://geo.govdata.ie/county/sligo> ;
     skos:inScheme code-geo:census-2006, code-geo:roi ;
     skos:notation "sligo-ed071" ;
     skos:prefLabel "Cloonacool"@en .
@@ -20299,7 +20299,7 @@
 
 <http://geo.govdata.ie/county/sligo/ed/078>
     a geo:ElectoralDivision, skos:Concept ;
-    skos:broader <http://geo.govdata.ie/county/sligo>, <http://stats.govdata.ie/codelist/geo/census-2006/county/sligo/ed/078-071> ;
+    skos:broader <http://geo.govdata.ie/county/sligo> ;
     skos:inScheme code-geo:census-2006, code-geo:roi ;
     skos:notation "sligo-ed078" ;
     skos:prefLabel "Loughill"@en .
@@ -21061,14 +21061,14 @@
 
 <http://geo.govdata.ie/county/south-tipperary/ed/136>
     a geo:ElectoralDivision, skos:Concept ;
-    skos:broader <http://geo.govdata.ie/county/south-tipperary>, <http://stats.govdata.ie/codelist/geo/census-2006/county/south-tipperary/ed/137-136> ;
+    skos:broader <http://geo.govdata.ie/county/south-tipperary> ;
     skos:inScheme code-geo:census-2006, code-geo:roi ;
     skos:notation "south-tipperary-ed136" ;
     skos:prefLabel "Killaloan"@en .
 
 <http://geo.govdata.ie/county/south-tipperary/ed/137>
     a geo:ElectoralDivision, skos:Concept ;
-    skos:broader <http://geo.govdata.ie/county/south-tipperary>, <http://stats.govdata.ie/codelist/geo/census-2006/county/south-tipperary/ed/137-136> ;
+    skos:broader <http://geo.govdata.ie/county/south-tipperary> ;
     skos:inScheme code-geo:census-2006, code-geo:roi ;
     skos:notation "south-tipperary-ed137" ;
     skos:prefLabel "Kilsheelan"@en .
@@ -22376,7 +22376,7 @@
 
 <http://geo.govdata.ie/county/westmeath/ed/054>
     a geo:ElectoralDivision, skos:Concept ;
-    skos:broader <http://geo.govdata.ie/county/westmeath>, <http://stats.govdata.ie/codelist/geo/census-2006/county/westmeath/ed/054-085> ;
+    skos:broader <http://geo.govdata.ie/county/westmeath> ;
     skos:inScheme code-geo:census-2006, code-geo:roi ;
     skos:notation "westmeath-ed054" ;
     skos:prefLabel "Ballinalack"@en .
@@ -22593,7 +22593,7 @@
 
 <http://geo.govdata.ie/county/westmeath/ed/085>
     a geo:ElectoralDivision, skos:Concept ;
-    skos:broader <http://geo.govdata.ie/county/westmeath>, <http://stats.govdata.ie/codelist/geo/census-2006/county/westmeath/ed/054-085> ;
+    skos:broader <http://geo.govdata.ie/county/westmeath> ;
     skos:inScheme code-geo:census-2006, code-geo:roi ;
     skos:notation "westmeath-ed085" ;
     skos:prefLabel "Lackan"@en .
@@ -24192,100 +24192,4 @@
     skos:inScheme code-geo:census-2006, code-geo:roi ;
     skos:notation "wicklow-ed082" ;
     skos:prefLabel "Tinahely"@en .
-
-<http://stats.govdata.ie/codelist/geo/census-2006/city/waterford-city/ed/002-006>
-    skos:narrower <http://geo.govdata.ie/city/waterford/ed/002>, <http://geo.govdata.ie/city/waterford/ed/006> .
-
-<http://stats.govdata.ie/codelist/geo/census-2006/county/cavan/ed/025-028>
-    skos:narrower <http://geo.govdata.ie/county/cavan/ed/025>, <http://geo.govdata.ie/county/cavan/ed/028> .
-
-<http://stats.govdata.ie/codelist/geo/census-2006/county/cavan/ed/027-018>
-    skos:narrower <http://geo.govdata.ie/county/cavan/ed/018>, <http://geo.govdata.ie/county/cavan/ed/027> .
-
-<http://stats.govdata.ie/codelist/geo/census-2006/county/cavan/ed/084-082>
-    skos:narrower <http://geo.govdata.ie/county/cavan/ed/082>, <http://geo.govdata.ie/county/cavan/ed/084> .
-
-<http://stats.govdata.ie/codelist/geo/census-2006/county/cavan/ed/086-087>
-    skos:narrower <http://geo.govdata.ie/county/cavan/ed/086>, <http://geo.govdata.ie/county/cavan/ed/087> .
-
-<http://stats.govdata.ie/codelist/geo/census-2006/county/clare/ed/014-008>
-    skos:narrower <http://geo.govdata.ie/county/clare/ed/008>, <http://geo.govdata.ie/county/clare/ed/014> .
-
-<http://stats.govdata.ie/codelist/geo/census-2006/county/clare/ed/020-017>
-    skos:narrower <http://geo.govdata.ie/county/clare/ed/017>, <http://geo.govdata.ie/county/clare/ed/020> .
-
-<http://stats.govdata.ie/codelist/geo/census-2006/county/clare/ed/128-123>
-    skos:narrower <http://geo.govdata.ie/county/clare/ed/123>, <http://geo.govdata.ie/county/clare/ed/128> .
-
-<http://stats.govdata.ie/codelist/geo/census-2006/county/clare/ed/132-133>
-    skos:narrower <http://geo.govdata.ie/county/clare/ed/132>, <http://geo.govdata.ie/county/clare/ed/133> .
-
-<http://stats.govdata.ie/codelist/geo/census-2006/county/cork/ed/033-046>
-    skos:narrower <http://geo.govdata.ie/county/cork/ed/033>, <http://geo.govdata.ie/county/cork/ed/046> .
-
-<http://stats.govdata.ie/codelist/geo/census-2006/county/galway/ed/027-028>
-    skos:narrower <http://geo.govdata.ie/county/galway/ed/027>, <http://geo.govdata.ie/county/galway/ed/028> .
-
-<http://stats.govdata.ie/codelist/geo/census-2006/county/galway/ed/129-126>
-    skos:narrower <http://geo.govdata.ie/county/galway/ed/126>, <http://geo.govdata.ie/county/galway/ed/129> .
-
-<http://stats.govdata.ie/codelist/geo/census-2006/county/kerry/ed/009-020>
-    skos:narrower <http://geo.govdata.ie/county/kerry/ed/009>, <http://geo.govdata.ie/county/kerry/ed/020> .
-
-<http://stats.govdata.ie/codelist/geo/census-2006/county/kerry/ed/014-011>
-    skos:narrower <http://geo.govdata.ie/county/kerry/ed/011>, <http://geo.govdata.ie/county/kerry/ed/014> .
-
-<http://stats.govdata.ie/codelist/geo/census-2006/county/laoighis/ed/045-046>
-    skos:narrower <http://geo.govdata.ie/county/laoighis/ed/045>, <http://geo.govdata.ie/county/laoighis/ed/046> .
-
-<http://stats.govdata.ie/codelist/geo/census-2006/county/leitrim/ed/007-011>
-    skos:narrower <http://geo.govdata.ie/county/leitrim/ed/007>, <http://geo.govdata.ie/county/leitrim/ed/011> .
-
-<http://stats.govdata.ie/codelist/geo/census-2006/county/leitrim/ed/017-016>
-    skos:narrower <http://geo.govdata.ie/county/leitrim/ed/016>, <http://geo.govdata.ie/county/leitrim/ed/017> .
-
-<http://stats.govdata.ie/codelist/geo/census-2006/county/leitrim/ed/027-028>
-    skos:narrower <http://geo.govdata.ie/county/leitrim/ed/027>, <http://geo.govdata.ie/county/leitrim/ed/028> .
-
-<http://stats.govdata.ie/codelist/geo/census-2006/county/leitrim/ed/029-032>
-    skos:narrower <http://geo.govdata.ie/county/leitrim/ed/029>, <http://geo.govdata.ie/county/leitrim/ed/032> .
-
-<http://stats.govdata.ie/codelist/geo/census-2006/county/leitrim/ed/041-034>
-    skos:narrower <http://geo.govdata.ie/county/leitrim/ed/034>, <http://geo.govdata.ie/county/leitrim/ed/041> .
-
-<http://stats.govdata.ie/codelist/geo/census-2006/county/longford/ed/024-035>
-    skos:narrower <http://geo.govdata.ie/county/longford/ed/024>, <http://geo.govdata.ie/county/longford/ed/035> .
-
-<http://stats.govdata.ie/codelist/geo/census-2006/county/mayo/ed/058-065>
-    skos:narrower <http://geo.govdata.ie/county/mayo/ed/058>, <http://geo.govdata.ie/county/mayo/ed/065> .
-
-<http://stats.govdata.ie/codelist/geo/census-2006/county/mayo/ed/150-130>
-    skos:narrower <http://geo.govdata.ie/county/mayo/ed/130>, <http://geo.govdata.ie/county/mayo/ed/150> .
-
-<http://stats.govdata.ie/codelist/geo/census-2006/county/north-tipperary/ed/037-045>
-    skos:narrower <http://geo.govdata.ie/county/north-tipperary/ed/037>, <http://geo.govdata.ie/county/north-tipperary/ed/045> .
-
-<http://stats.govdata.ie/codelist/geo/census-2006/county/offaly/ed/043-034>
-    skos:narrower <http://geo.govdata.ie/county/offaly/ed/034>, <http://geo.govdata.ie/county/offaly/ed/043> .
-
-<http://stats.govdata.ie/codelist/geo/census-2006/county/roscommon/ed/046-048>
-    skos:narrower <http://geo.govdata.ie/county/roscommon/ed/046>, <http://geo.govdata.ie/county/roscommon/ed/048> .
-
-<http://stats.govdata.ie/codelist/geo/census-2006/county/roscommon/ed/047-025>
-    skos:narrower <http://geo.govdata.ie/county/roscommon/ed/025>, <http://geo.govdata.ie/county/roscommon/ed/047> .
-
-<http://stats.govdata.ie/codelist/geo/census-2006/county/sligo/ed/031-027>
-    skos:narrower <http://geo.govdata.ie/county/sligo/ed/027>, <http://geo.govdata.ie/county/sligo/ed/031> .
-
-<http://stats.govdata.ie/codelist/geo/census-2006/county/sligo/ed/067-069>
-    skos:narrower <http://geo.govdata.ie/county/sligo/ed/067>, <http://geo.govdata.ie/county/sligo/ed/069> .
-
-<http://stats.govdata.ie/codelist/geo/census-2006/county/sligo/ed/078-071>
-    skos:narrower <http://geo.govdata.ie/county/sligo/ed/071>, <http://geo.govdata.ie/county/sligo/ed/078> .
-
-<http://stats.govdata.ie/codelist/geo/census-2006/county/south-tipperary/ed/137-136>
-    skos:narrower <http://geo.govdata.ie/county/south-tipperary/ed/136>, <http://geo.govdata.ie/county/south-tipperary/ed/137> .
-
-<http://stats.govdata.ie/codelist/geo/census-2006/county/westmeath/ed/054-085>
-    skos:narrower <http://geo.govdata.ie/county/westmeath/ed/054>, <http://geo.govdata.ie/county/westmeath/ed/085> .
 

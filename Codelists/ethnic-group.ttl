@@ -11,54 +11,54 @@
   
 code:ethnic-group a sdmx:CodeList;
     skos:prefLabel "Code list for ethnic groups"@en;
-    skos:hasTopConcept code-ethicgroup:1, code-ethicgroup:2, code-ethicgroup:3, code-ethicgroup:4, code-ethicgroup:5, code-ethicgroup:6, code-ethicgroup:7
+    skos:hasTopConcept code-ethicgroup:white-irish, code-ethicgroup:white-irish-traveller, code-ethicgroup:other-white, code-ethicgroup:black, code-ethicgroup:asian, code-ethicgroup:other, code-ethicgroup:not-stated
     .
     
-code-ethicgroup:1 a skos:Concept;
+code-ethicgroup:white-irish a skos:Concept;
     skos:inScheme code:ethnic-group;
     skos:topConceptOf code:ethnic-group;
     skos:prefLabel "White Irish"@en;
-    skos:notation "1";
+    skos:notation "white-irish";
     .
     
-code-ethicgroup:2 a skos:Concept;
+code-ethicgroup:white-irish-traveller a skos:Concept;
     skos:inScheme code:ethnic-group;
     skos:topConceptOf code:ethnic-group;
     skos:prefLabel "White Irish Traveller"@en;
-    skos:notation "2";
+    skos:notation "white-irish-traveller";
     .
     
-code-ethicgroup:3 a skos:Concept;
+code-ethicgroup:other-white a skos:Concept;
     skos:inScheme code:ethnic-group;
     skos:topConceptOf code:ethnic-group;
     skos:prefLabel "Any other White background"@en;
-    skos:notation "3";
+    skos:notation "other-white";
     .
     
-code-ethicgroup:4 a skos:Concept;
+code-ethicgroup:black a skos:Concept;
     skos:inScheme code:ethnic-group;
     skos:topConceptOf code:ethnic-group;
     skos:prefLabel "Black or Black Irish"@en;
-    skos:notation "4";
+    skos:notation "black";
     .
     
-code-ethicgroup:5 a skos:Concept;
+code-ethicgroup:asian a skos:Concept;
     skos:inScheme code:ethnic-group;
     skos:topConceptOf code:ethnic-group;
     skos:prefLabel "Asian or Asian Irish"@en;
-    skos:notation "5"
+    skos:notation "asian"
     .
     
-code-ethicgroup:6 a skos:Concept;
+code-ethicgroup:other a skos:Concept;
     skos:inScheme code:ethnic-group;
     skos:topConceptOf code:ethnic-group;
     skos:prefLabel "Other"@en;
-    skos:notation "6"
+    skos:notation "other"
     .
     
-code-ethicgroup:7 a skos:Concept;
+code-ethicgroup:not-stated a skos:Concept;
     skos:inScheme code:ethnic-group;
     skos:topConceptOf code:ethnic-group;
     skos:prefLabel "Not stated"@en;
-    skos:notation "7"
+    skos:notation "not-stated"
     .

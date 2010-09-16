@@ -1,43 +1,45 @@
 @prefix rdf:            <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix sdmx:           <http://purl.org/linked-data/sdmx#> .
+@prefix sdmx-concept:   <http://purl.org/linked-data/sdmx/2009/concept#> .
 @prefix skos:           <http://www.w3.org/2004/02/skos/core#> .
 
 # --- Concepts ----------------------------  
 
-concept:geo-area a skos:Concept;
-    skos:prefLabel "Geographic area"@en;
-    skos:broader sdmx-concept:refArea
-    .
-    
-concept:religion a skos:Concept;
-    skos:prefLabel "Religion"@en;
-    skos:definition """A religion is a set of beliefs concerning the cause, nature, and purpose of the universe, especially when considered as the creation of a supernatural agency or agencies, usually involving devotional and ritual observances, and often containing a moral code governing the conduct of human affairs. (Source: <http://en.wikipedia.org/wiki/Religion>"""@en;
-    skos:exactMatch <http://dbpedia.org/resource/Religion>
-    .
-    
-concept:birth-place a skos:Concept;
+concept:birthplace a skos:Concept;
     skos:prefLabel "Birthplace"@en;
     skos:related sdmx-concept:refArea;
     skos:exactMatch <http://dbpedia.org/resource/Place_of_birth>
     .
-    
+
 concept:ethnic-group a skos:Concept;
     skos:prefLabel "Ethnic group"@en;
     skos:exactMatch <http://dbpedia.org/resource/Ethnic_group>
     .
     
+concept:geo-area a skos:Concept;
+    skos:prefLabel "Geographic area"@en;
+    skos:broader sdmx-concept:refArea
+    .
+
+concept:nationality a skos:Concept;
+    skos:prefLabel "Nationality"@en;
+    skos:exactMatch <http://dbpedia.org/resource/Nationality>
+    .
+
 concept:marital-status a skos:Concept;
     skos:prefLabel "Marital status"@en;
-    skos:exactMatch <http://dbpedia.org/resource/Marital_status>
+    skos:broaderMatch sdmx-concept:civilStatus;
+    skos:exactMatch <http://dbpedia.org/resource/Marital_status>;
     .
-    
+
+concept:religion a skos:Concept;
+    skos:prefLabel "Religion"@en;
+    skos:definition """A religion is a set of beliefs concerning the cause, nature, and purpose of the universe, especially when considered as the creation of a supernatural agency or agencies, usually involving devotional and ritual observances, and often containing a moral code governing the conduct of human affairs. (Source: <http://en.wikipedia.org/wiki/Religion>"""@en;
+    skos:exactMatch <http://dbpedia.org/resource/Religion>
+    .
+        
 concept:usual-residence a skos:Concept;
     skos:prefLabel "Usual residence"@en;
     skos:related sdmx-concept:refArea;
     skos:relatedMatch <http://dbpedia.org/resource/Registration_district>
-    .
-    
-concept:nationality a skos:Concept;
-    skos:prefLabel "Nationality"@en;
-    skos:exactMatch <http://dbpedia.org/resource/Nationality>
     .

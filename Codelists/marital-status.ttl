@@ -11,40 +11,40 @@
   
 code:marital-status a sdmx:CodeList;
     skos:prefLabel "Code list for marital statuses"@en;
-    skos:hasTopConcept code-marital:1, code-marital:2, code-marital:3, code-marital:4, code:marital:5
+    skos:hasTopConcept code-marital:single, code-marital:married, code-marital:separated, code-marital:divorced, code:marital:widowed
     .
     
-code-marital:1 a skos:Concept;
+code-marital:single a skos:Concept;
     skos:inScheme code:marital-status;
     skos:topConceptOf code:marital-status;
     skos:prefLabel "Single"@en;
-    skos:notation "1"
+    skos:notation "single"
     .
     
-code-marital:2 a skos:Concept;
+code-marital:married a skos:Concept;
     skos:inScheme code:marital-status;
     skos:topConceptOf code:marital-status;
     skos:prefLabel "Married"@en;
-    skos:notation "2"
+    skos:notation "married"
     .
     
-code-marital:3 a skos:Concept;
+code-marital:separated a skos:Concept;
     skos:inScheme code:marital-status;
     skos:topConceptOf code:marital-status;
     skos:prefLabel "Separated"@en;
-    skos:notation "3"
+    skos:notation "separated"
     .
     
-code-marital:4 a skos:Concept;
+code-marital:divorced a skos:Concept;
     skos:inScheme code:marital-status;
     skos:topConceptOf code:marital-status;
     skos:prefLabel "Divorced"@en;
-    skos:notation "4"
+    skos:notation "divorced"
     .
     
-code-marital:5 a skos:Concept;
+code-marital:widowed a skos:Concept;
     skos:inScheme code:marital-status;
     skos:topConceptOf code:marital-status;
     skos:prefLabel "Widowed"@en;
-    skos:notation "5"
+    skos:notation "widowed"
     .

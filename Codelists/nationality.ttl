@@ -11,45 +11,45 @@
   
 code:nationality a sdmx:CodeList;
     skos:prefLabel "Code list for nationalities"@en;
-    skos:hasTopConcept code-nationality:1, code-nationality:2, code-nationality:3, code-nationality:4, code-nationality:5, code-nationality:6
+    skos:hasTopConcept code-nationality:irish, code-nationality:uk, code-nationality:polish, code-nationality:lithuanian, code-nationality:other-eu-25, code-nationality:rest
     .
     
-code-nationality:1 a sdmx:Concept;
+code-nationality:irish a sdmx:Concept;
     skos:topConceptOf code:nationality;
     skos:prefLabel "Irish"@en;
     skos:closeMatch <http://dbpedia.org/resource/Irish_people>;
-    skos:notation "1"
+    skos:notation "irish"
     .
     
-code-nationality:2 a sdmx:Concept;
+code-nationality:uk a sdmx:Concept;
     skos:topConceptOf code:nationality;
     skos:prefLabel "UK"@en;
     skos:closeMatch <http://dbpedia.org/resource/British_people>;
-    skos:notation "2"
+    skos:notation "uk"
     .
     
-code-nationality:3 a sdmx:Concept;
+code-nationality:polish a sdmx:Concept;
     skos:topConceptOf code:nationality;
     skos:prefLabel "Polish"@en;
     skos:closeMatch <http://dbpedia.org/resource/Poles>;
-    skos:notation "3"
+    skos:notation "polish"
     .
     
-code-nationality:4 a sdmx:Concept;
+code-nationality:lithuanian a sdmx:Concept;
     skos:topConceptOf code:nationality;
     skos:prefLabel "Lithuanian"@en;
     skos:closeMatch <http://dbpedia.org/resource/Lithuanian_people>;
-    skos:notation "4"
+    skos:notation "lithuanian"
     .
     
-code-nationality:5 a sdmx:Concept;
+code-nationality:other-eu-25 a sdmx:Concept;
     skos:topConceptOf code:nationality;
     skos:prefLabel "Other EU25"@en;
-    skos:notation "5"
+    skos:notation "other-eu-25"
     .
     
-code-nationality:6 a sdmx:Concept;
+code-nationality:rest a sdmx:Concept;
     skos:topConceptOf code:nationality;
     skos:prefLabel "Rest of World"@en;
-    skos:notation "6"
+    skos:notation "rest"
     .

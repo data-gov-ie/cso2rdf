@@ -5,215 +5,846 @@
 @prefix code-geo: <http://stats.govdata.ie/codelist/geo/> .
 
 <http://geo.govdata.ie/city/cork>
+    skos:broader <http://stats.govdata.ie/codelist/geo/census-2006/cities-suburbs/cork> ;
     skos:narrower <http://stats.govdata.ie/codelist/geo/census-2006/city/cork/ea/006-008>, <http://stats.govdata.ie/codelist/geo/census-2006/city/cork/ea/015-124>, <http://stats.govdata.ie/codelist/geo/census-2006/city/cork/ea/056-007> .
 
+<http://geo.govdata.ie/city/cork/ea/006>
+    skos:broader <http://stats.govdata.ie/codelist/geo/census-2006/city/cork/ea/006-008> .
+
+<http://geo.govdata.ie/city/cork/ea/007>
+    skos:broader <http://stats.govdata.ie/codelist/geo/census-2006/city/cork/ea/056-007> .
+
+<http://geo.govdata.ie/city/cork/ea/008>
+    skos:broader <http://stats.govdata.ie/codelist/geo/census-2006/city/cork/ea/006-008> .
+
+<http://geo.govdata.ie/city/cork/ea/015>
+    skos:broader <http://stats.govdata.ie/codelist/geo/census-2006/city/cork/ea/015-124> .
+
+<http://geo.govdata.ie/city/cork/ea/056>
+    skos:broader <http://stats.govdata.ie/codelist/geo/census-2006/city/cork/ea/056-007> .
+
+<http://geo.govdata.ie/city/cork/ea/124>
+    skos:broader <http://stats.govdata.ie/codelist/geo/census-2006/city/cork/ea/015-124> .
+
 <http://geo.govdata.ie/city/dublin>
+    skos:broader <http://stats.govdata.ie/codelist/geo/census-2006/cities-suburbs/dublin> ;
     skos:narrower <http://stats.govdata.ie/codelist/geo/census-2006/city/dublin/ea/108-560>, <http://stats.govdata.ie/codelist/geo/census-2006/city/dublin/ea/286-611>, <http://stats.govdata.ie/codelist/geo/census-2006/city/dublin/ea/383-620>, <http://stats.govdata.ie/codelist/geo/census-2006/city/dublin/ea/591-230> .
 
+<http://geo.govdata.ie/city/dublin/ea/108>
+    skos:broader <http://stats.govdata.ie/codelist/geo/census-2006/city/dublin/ea/108-560> .
+
+<http://geo.govdata.ie/city/dublin/ea/230>
+    skos:broader <http://stats.govdata.ie/codelist/geo/census-2006/city/dublin/ea/591-230> .
+
+<http://geo.govdata.ie/city/dublin/ea/286>
+    skos:broader <http://stats.govdata.ie/codelist/geo/census-2006/city/dublin/ea/286-611> .
+
+<http://geo.govdata.ie/city/dublin/ea/383>
+    skos:broader <http://stats.govdata.ie/codelist/geo/census-2006/city/dublin/ea/383-620> .
+
+<http://geo.govdata.ie/city/dublin/ea/560>
+    skos:broader <http://stats.govdata.ie/codelist/geo/census-2006/city/dublin/ea/108-560> .
+
+<http://geo.govdata.ie/city/dublin/ea/591>
+    skos:broader <http://stats.govdata.ie/codelist/geo/census-2006/city/dublin/ea/591-230> .
+
+<http://geo.govdata.ie/city/dublin/ea/611>
+    skos:broader <http://stats.govdata.ie/codelist/geo/census-2006/city/dublin/ea/286-611> .
+
+<http://geo.govdata.ie/city/dublin/ea/620>
+    skos:broader <http://stats.govdata.ie/codelist/geo/census-2006/city/dublin/ea/383-620> .
+
 <http://geo.govdata.ie/city/galway>
+    skos:broader <http://stats.govdata.ie/codelist/geo/census-2006/cities-suburbs/galway> ;
     skos:narrower <http://stats.govdata.ie/codelist/geo/census-2006/city/galway/ea/010-013>, <http://stats.govdata.ie/codelist/geo/census-2006/city/galway/ea/041-039>, <http://stats.govdata.ie/codelist/geo/census-2006/city/galway/ea/052-065> .
 
+<http://geo.govdata.ie/city/galway/ea/010>
+    skos:broader <http://stats.govdata.ie/codelist/geo/census-2006/city/galway/ea/010-013> .
+
+<http://geo.govdata.ie/city/galway/ea/013>
+    skos:broader <http://stats.govdata.ie/codelist/geo/census-2006/city/galway/ea/010-013> .
+
+<http://geo.govdata.ie/city/galway/ea/039>
+    skos:broader <http://stats.govdata.ie/codelist/geo/census-2006/city/galway/ea/041-039> .
+
+<http://geo.govdata.ie/city/galway/ea/041>
+    skos:broader <http://stats.govdata.ie/codelist/geo/census-2006/city/galway/ea/041-039> .
+
+<http://geo.govdata.ie/city/galway/ea/052>
+    skos:broader <http://stats.govdata.ie/codelist/geo/census-2006/city/galway/ea/052-065> .
+
+<http://geo.govdata.ie/city/galway/ea/065>
+    skos:broader <http://stats.govdata.ie/codelist/geo/census-2006/city/galway/ea/052-065> .
+
 <http://geo.govdata.ie/city/limerick>
+    skos:broader <http://stats.govdata.ie/codelist/geo/census-2006/cities-suburbs/limerick> ;
     skos:narrower <http://stats.govdata.ie/codelist/geo/census-2006/city/limerick/ea/013-012>, <http://stats.govdata.ie/codelist/geo/census-2006/city/limerick/ea/036-037>, <http://stats.govdata.ie/codelist/geo/census-2006/city/limerick/ea/041-042> .
 
+<http://geo.govdata.ie/city/limerick/ea/012>
+    skos:broader <http://stats.govdata.ie/codelist/geo/census-2006/city/limerick/ea/013-012> .
+
+<http://geo.govdata.ie/city/limerick/ea/013>
+    skos:broader <http://stats.govdata.ie/codelist/geo/census-2006/city/limerick/ea/013-012> .
+
+<http://geo.govdata.ie/city/limerick/ea/036>
+    skos:broader <http://stats.govdata.ie/codelist/geo/census-2006/city/limerick/ea/036-037> .
+
+<http://geo.govdata.ie/city/limerick/ea/037>
+    skos:broader <http://stats.govdata.ie/codelist/geo/census-2006/city/limerick/ea/036-037> .
+
+<http://geo.govdata.ie/city/limerick/ea/041>
+    skos:broader <http://stats.govdata.ie/codelist/geo/census-2006/city/limerick/ea/041-042> .
+
+<http://geo.govdata.ie/city/limerick/ea/042>
+    skos:broader <http://stats.govdata.ie/codelist/geo/census-2006/city/limerick/ea/041-042> .
+
 <http://geo.govdata.ie/city/waterford>
+    skos:broader <http://stats.govdata.ie/codelist/geo/census-2006/cities-suburbs/waterford> ;
     skos:narrower <http://stats.govdata.ie/codelist/geo/census-2006/city/waterford-city/ed/002-006>, <http://stats.govdata.ie/codelist/geo/census-2006/city/waterford/ea/006-004>, <http://stats.govdata.ie/codelist/geo/census-2006/city/waterford/ea/018-017>, <http://stats.govdata.ie/codelist/geo/census-2006/city/waterford/ea/029-028> .
+
+<http://geo.govdata.ie/city/waterford/ea/004>
+    skos:broader <http://stats.govdata.ie/codelist/geo/census-2006/city/waterford/ea/006-004> .
+
+<http://geo.govdata.ie/city/waterford/ea/006>
+    skos:broader <http://stats.govdata.ie/codelist/geo/census-2006/city/waterford/ea/006-004> .
+
+<http://geo.govdata.ie/city/waterford/ea/017>
+    skos:broader <http://stats.govdata.ie/codelist/geo/census-2006/city/waterford/ea/018-017> .
+
+<http://geo.govdata.ie/city/waterford/ea/018>
+    skos:broader <http://stats.govdata.ie/codelist/geo/census-2006/city/waterford/ea/018-017> .
+
+<http://geo.govdata.ie/city/waterford/ea/028>
+    skos:broader <http://stats.govdata.ie/codelist/geo/census-2006/city/waterford/ea/029-028> .
+
+<http://geo.govdata.ie/city/waterford/ea/029>
+    skos:broader <http://stats.govdata.ie/codelist/geo/census-2006/city/waterford/ea/029-028> .
+
+<http://geo.govdata.ie/city/waterford/ed/002>
+    skos:broader <http://stats.govdata.ie/codelist/geo/census-2006/city/waterford-city/ed/002-006> .
+
+<http://geo.govdata.ie/city/waterford/ed/006>
+    skos:broader <http://stats.govdata.ie/codelist/geo/census-2006/city/waterford-city/ed/002-006> .
 
 <http://geo.govdata.ie/county/cavan>
     skos:narrower <http://stats.govdata.ie/codelist/geo/census-2006/county/cavan/ed/025-028>, <http://stats.govdata.ie/codelist/geo/census-2006/county/cavan/ed/027-018>, <http://stats.govdata.ie/codelist/geo/census-2006/county/cavan/ed/084-082>, <http://stats.govdata.ie/codelist/geo/census-2006/county/cavan/ed/086-087> .
 
+<http://geo.govdata.ie/county/cavan/ed/018>
+    skos:broader <http://stats.govdata.ie/codelist/geo/census-2006/county/cavan/ed/027-018> .
+
+<http://geo.govdata.ie/county/cavan/ed/025>
+    skos:broader <http://stats.govdata.ie/codelist/geo/census-2006/county/cavan/ed/025-028> .
+
+<http://geo.govdata.ie/county/cavan/ed/027>
+    skos:broader <http://stats.govdata.ie/codelist/geo/census-2006/county/cavan/ed/027-018> .
+
+<http://geo.govdata.ie/county/cavan/ed/028>
+    skos:broader <http://stats.govdata.ie/codelist/geo/census-2006/county/cavan/ed/025-028> .
+
+<http://geo.govdata.ie/county/cavan/ed/082>
+    skos:broader <http://stats.govdata.ie/codelist/geo/census-2006/county/cavan/ed/084-082> .
+
+<http://geo.govdata.ie/county/cavan/ed/084>
+    skos:broader <http://stats.govdata.ie/codelist/geo/census-2006/county/cavan/ed/084-082> .
+
+<http://geo.govdata.ie/county/cavan/ed/086>
+    skos:broader <http://stats.govdata.ie/codelist/geo/census-2006/county/cavan/ed/086-087> .
+
+<http://geo.govdata.ie/county/cavan/ed/087>
+    skos:broader <http://stats.govdata.ie/codelist/geo/census-2006/county/cavan/ed/086-087> .
+
 <http://geo.govdata.ie/county/clare>
     skos:narrower <http://stats.govdata.ie/codelist/geo/census-2006/county/clare/ed/014-008>, <http://stats.govdata.ie/codelist/geo/census-2006/county/clare/ed/020-017>, <http://stats.govdata.ie/codelist/geo/census-2006/county/clare/ed/128-123>, <http://stats.govdata.ie/codelist/geo/census-2006/county/clare/ed/132-133> .
+
+<http://geo.govdata.ie/county/clare/ed/008>
+    skos:broader <http://stats.govdata.ie/codelist/geo/census-2006/county/clare/ed/014-008> .
+
+<http://geo.govdata.ie/county/clare/ed/014>
+    skos:broader <http://stats.govdata.ie/codelist/geo/census-2006/county/clare/ed/014-008> .
+
+<http://geo.govdata.ie/county/clare/ed/017>
+    skos:broader <http://stats.govdata.ie/codelist/geo/census-2006/county/clare/ed/020-017> .
+
+<http://geo.govdata.ie/county/clare/ed/020>
+    skos:broader <http://stats.govdata.ie/codelist/geo/census-2006/county/clare/ed/020-017> .
+
+<http://geo.govdata.ie/county/clare/ed/123>
+    skos:broader <http://stats.govdata.ie/codelist/geo/census-2006/county/clare/ed/128-123> .
+
+<http://geo.govdata.ie/county/clare/ed/128>
+    skos:broader <http://stats.govdata.ie/codelist/geo/census-2006/county/clare/ed/128-123> .
+
+<http://geo.govdata.ie/county/clare/ed/132>
+    skos:broader <http://stats.govdata.ie/codelist/geo/census-2006/county/clare/ed/132-133> .
+
+<http://geo.govdata.ie/county/clare/ed/133>
+    skos:broader <http://stats.govdata.ie/codelist/geo/census-2006/county/clare/ed/132-133> .
 
 <http://geo.govdata.ie/county/cork>
     skos:narrower <http://stats.govdata.ie/codelist/geo/census-2006/county/cork/ed/033-046> .
 
+<http://geo.govdata.ie/county/cork/ed/033>
+    skos:broader <http://stats.govdata.ie/codelist/geo/census-2006/county/cork/ed/033-046> .
+
+<http://geo.govdata.ie/county/cork/ed/046>
+    skos:broader <http://stats.govdata.ie/codelist/geo/census-2006/county/cork/ed/033-046> .
+
 <http://geo.govdata.ie/county/dun-laoghaire-rathdown>
+    skos:broader <http://stats.govdata.ie/codelist/geo/census-2006/cities-suburbs/dublin> ;
     skos:narrower <http://stats.govdata.ie/codelist/geo/census-2006/county/dun-laoghaire-rathdown/ea/049-051>, <http://stats.govdata.ie/codelist/geo/census-2006/county/dun-laoghaire-rathdown/ea/177-178> .
+
+<http://geo.govdata.ie/county/dun-laoghaire-rathdown/ea/049>
+    skos:broader <http://stats.govdata.ie/codelist/geo/census-2006/county/dun-laoghaire-rathdown/ea/049-051> .
+
+<http://geo.govdata.ie/county/dun-laoghaire-rathdown/ea/051>
+    skos:broader <http://stats.govdata.ie/codelist/geo/census-2006/county/dun-laoghaire-rathdown/ea/049-051> .
+
+<http://geo.govdata.ie/county/dun-laoghaire-rathdown/ea/177>
+    skos:broader <http://stats.govdata.ie/codelist/geo/census-2006/county/dun-laoghaire-rathdown/ea/177-178> .
+
+<http://geo.govdata.ie/county/dun-laoghaire-rathdown/ea/178>
+    skos:broader <http://stats.govdata.ie/codelist/geo/census-2006/county/dun-laoghaire-rathdown/ea/177-178> .
+
+<http://geo.govdata.ie/county/fingal>
+    skos:broader <http://stats.govdata.ie/codelist/geo/census-2006/cities-suburbs/dublin> .
 
 <http://geo.govdata.ie/county/galway>
     skos:narrower <http://stats.govdata.ie/codelist/geo/census-2006/county/galway/ed/027-028>, <http://stats.govdata.ie/codelist/geo/census-2006/county/galway/ed/129-126> .
 
+<http://geo.govdata.ie/county/galway/ed/027>
+    skos:broader <http://stats.govdata.ie/codelist/geo/census-2006/county/galway/ed/027-028> .
+
+<http://geo.govdata.ie/county/galway/ed/028>
+    skos:broader <http://stats.govdata.ie/codelist/geo/census-2006/county/galway/ed/027-028> .
+
+<http://geo.govdata.ie/county/galway/ed/126>
+    skos:broader <http://stats.govdata.ie/codelist/geo/census-2006/county/galway/ed/129-126> .
+
+<http://geo.govdata.ie/county/galway/ed/129>
+    skos:broader <http://stats.govdata.ie/codelist/geo/census-2006/county/galway/ed/129-126> .
+
 <http://geo.govdata.ie/county/kerry>
     skos:narrower <http://stats.govdata.ie/codelist/geo/census-2006/county/kerry/ed/009-020>, <http://stats.govdata.ie/codelist/geo/census-2006/county/kerry/ed/014-011> .
+
+<http://geo.govdata.ie/county/kerry/ed/009>
+    skos:broader <http://stats.govdata.ie/codelist/geo/census-2006/county/kerry/ed/009-020> .
+
+<http://geo.govdata.ie/county/kerry/ed/011>
+    skos:broader <http://stats.govdata.ie/codelist/geo/census-2006/county/kerry/ed/014-011> .
+
+<http://geo.govdata.ie/county/kerry/ed/014>
+    skos:broader <http://stats.govdata.ie/codelist/geo/census-2006/county/kerry/ed/014-011> .
+
+<http://geo.govdata.ie/county/kerry/ed/020>
+    skos:broader <http://stats.govdata.ie/codelist/geo/census-2006/county/kerry/ed/009-020> .
 
 <http://geo.govdata.ie/county/laoighis>
     skos:narrower <http://stats.govdata.ie/codelist/geo/census-2006/county/laoighis/ed/045-046> .
 
+<http://geo.govdata.ie/county/laoighis/ed/045>
+    skos:broader <http://stats.govdata.ie/codelist/geo/census-2006/county/laoighis/ed/045-046> .
+
+<http://geo.govdata.ie/county/laoighis/ed/046>
+    skos:broader <http://stats.govdata.ie/codelist/geo/census-2006/county/laoighis/ed/045-046> .
+
 <http://geo.govdata.ie/county/leitrim>
     skos:narrower <http://stats.govdata.ie/codelist/geo/census-2006/county/leitrim/ed/007-011>, <http://stats.govdata.ie/codelist/geo/census-2006/county/leitrim/ed/017-016>, <http://stats.govdata.ie/codelist/geo/census-2006/county/leitrim/ed/027-028>, <http://stats.govdata.ie/codelist/geo/census-2006/county/leitrim/ed/029-032>, <http://stats.govdata.ie/codelist/geo/census-2006/county/leitrim/ed/041-034> .
+
+<http://geo.govdata.ie/county/leitrim/ed/007>
+    skos:broader <http://stats.govdata.ie/codelist/geo/census-2006/county/leitrim/ed/007-011> .
+
+<http://geo.govdata.ie/county/leitrim/ed/011>
+    skos:broader <http://stats.govdata.ie/codelist/geo/census-2006/county/leitrim/ed/007-011> .
+
+<http://geo.govdata.ie/county/leitrim/ed/016>
+    skos:broader <http://stats.govdata.ie/codelist/geo/census-2006/county/leitrim/ed/017-016> .
+
+<http://geo.govdata.ie/county/leitrim/ed/017>
+    skos:broader <http://stats.govdata.ie/codelist/geo/census-2006/county/leitrim/ed/017-016> .
+
+<http://geo.govdata.ie/county/leitrim/ed/027>
+    skos:broader <http://stats.govdata.ie/codelist/geo/census-2006/county/leitrim/ed/027-028> .
+
+<http://geo.govdata.ie/county/leitrim/ed/028>
+    skos:broader <http://stats.govdata.ie/codelist/geo/census-2006/county/leitrim/ed/027-028> .
+
+<http://geo.govdata.ie/county/leitrim/ed/029>
+    skos:broader <http://stats.govdata.ie/codelist/geo/census-2006/county/leitrim/ed/029-032> .
+
+<http://geo.govdata.ie/county/leitrim/ed/032>
+    skos:broader <http://stats.govdata.ie/codelist/geo/census-2006/county/leitrim/ed/029-032> .
+
+<http://geo.govdata.ie/county/leitrim/ed/034>
+    skos:broader <http://stats.govdata.ie/codelist/geo/census-2006/county/leitrim/ed/041-034> .
+
+<http://geo.govdata.ie/county/leitrim/ed/041>
+    skos:broader <http://stats.govdata.ie/codelist/geo/census-2006/county/leitrim/ed/041-034> .
 
 <http://geo.govdata.ie/county/longford>
     skos:narrower <http://stats.govdata.ie/codelist/geo/census-2006/county/longford/ed/024-035> .
 
+<http://geo.govdata.ie/county/longford/ed/024>
+    skos:broader <http://stats.govdata.ie/codelist/geo/census-2006/county/longford/ed/024-035> .
+
+<http://geo.govdata.ie/county/longford/ed/035>
+    skos:broader <http://stats.govdata.ie/codelist/geo/census-2006/county/longford/ed/024-035> .
+
 <http://geo.govdata.ie/county/mayo>
     skos:narrower <http://stats.govdata.ie/codelist/geo/census-2006/county/mayo/ed/058-065>, <http://stats.govdata.ie/codelist/geo/census-2006/county/mayo/ed/150-130> .
+
+<http://geo.govdata.ie/county/mayo/ed/058>
+    skos:broader <http://stats.govdata.ie/codelist/geo/census-2006/county/mayo/ed/058-065> .
+
+<http://geo.govdata.ie/county/mayo/ed/065>
+    skos:broader <http://stats.govdata.ie/codelist/geo/census-2006/county/mayo/ed/058-065> .
+
+<http://geo.govdata.ie/county/mayo/ed/130>
+    skos:broader <http://stats.govdata.ie/codelist/geo/census-2006/county/mayo/ed/150-130> .
+
+<http://geo.govdata.ie/county/mayo/ed/150>
+    skos:broader <http://stats.govdata.ie/codelist/geo/census-2006/county/mayo/ed/150-130> .
 
 <http://geo.govdata.ie/county/north-tipperary>
     skos:narrower <http://stats.govdata.ie/codelist/geo/census-2006/county/north-tipperary/ed/037-045> .
 
+<http://geo.govdata.ie/county/north-tipperary/ed/037>
+    skos:broader <http://stats.govdata.ie/codelist/geo/census-2006/county/north-tipperary/ed/037-045> .
+
+<http://geo.govdata.ie/county/north-tipperary/ed/045>
+    skos:broader <http://stats.govdata.ie/codelist/geo/census-2006/county/north-tipperary/ed/037-045> .
+
 <http://geo.govdata.ie/county/offaly>
     skos:narrower <http://stats.govdata.ie/codelist/geo/census-2006/county/offaly/ed/043-034> .
+
+<http://geo.govdata.ie/county/offaly/ed/034>
+    skos:broader <http://stats.govdata.ie/codelist/geo/census-2006/county/offaly/ed/043-034> .
+
+<http://geo.govdata.ie/county/offaly/ed/043>
+    skos:broader <http://stats.govdata.ie/codelist/geo/census-2006/county/offaly/ed/043-034> .
 
 <http://geo.govdata.ie/county/roscommon>
     skos:narrower <http://stats.govdata.ie/codelist/geo/census-2006/county/roscommon/ed/046-048>, <http://stats.govdata.ie/codelist/geo/census-2006/county/roscommon/ed/047-025> .
 
+<http://geo.govdata.ie/county/roscommon/ed/025>
+    skos:broader <http://stats.govdata.ie/codelist/geo/census-2006/county/roscommon/ed/047-025> .
+
+<http://geo.govdata.ie/county/roscommon/ed/046>
+    skos:broader <http://stats.govdata.ie/codelist/geo/census-2006/county/roscommon/ed/046-048> .
+
+<http://geo.govdata.ie/county/roscommon/ed/047>
+    skos:broader <http://stats.govdata.ie/codelist/geo/census-2006/county/roscommon/ed/047-025> .
+
+<http://geo.govdata.ie/county/roscommon/ed/048>
+    skos:broader <http://stats.govdata.ie/codelist/geo/census-2006/county/roscommon/ed/046-048> .
+
 <http://geo.govdata.ie/county/sligo>
     skos:narrower <http://stats.govdata.ie/codelist/geo/census-2006/county/sligo/ed/031-027>, <http://stats.govdata.ie/codelist/geo/census-2006/county/sligo/ed/067-069>, <http://stats.govdata.ie/codelist/geo/census-2006/county/sligo/ed/078-071> .
 
+<http://geo.govdata.ie/county/sligo/ed/027>
+    skos:broader <http://stats.govdata.ie/codelist/geo/census-2006/county/sligo/ed/031-027> .
+
+<http://geo.govdata.ie/county/sligo/ed/031>
+    skos:broader <http://stats.govdata.ie/codelist/geo/census-2006/county/sligo/ed/031-027> .
+
+<http://geo.govdata.ie/county/sligo/ed/067>
+    skos:broader <http://stats.govdata.ie/codelist/geo/census-2006/county/sligo/ed/067-069> .
+
+<http://geo.govdata.ie/county/sligo/ed/069>
+    skos:broader <http://stats.govdata.ie/codelist/geo/census-2006/county/sligo/ed/067-069> .
+
+<http://geo.govdata.ie/county/sligo/ed/071>
+    skos:broader <http://stats.govdata.ie/codelist/geo/census-2006/county/sligo/ed/078-071> .
+
+<http://geo.govdata.ie/county/sligo/ed/078>
+    skos:broader <http://stats.govdata.ie/codelist/geo/census-2006/county/sligo/ed/078-071> .
+
 <http://geo.govdata.ie/county/south-dublin>
+    skos:broader <http://stats.govdata.ie/codelist/geo/census-2006/cities-suburbs/dublin> ;
     skos:narrower <http://stats.govdata.ie/codelist/geo/census-2006/county/south-dublin/ea/051-050> .
+
+<http://geo.govdata.ie/county/south-dublin/ea/050>
+    skos:broader <http://stats.govdata.ie/codelist/geo/census-2006/county/south-dublin/ea/051-050> .
+
+<http://geo.govdata.ie/county/south-dublin/ea/051>
+    skos:broader <http://stats.govdata.ie/codelist/geo/census-2006/county/south-dublin/ea/051-050> .
 
 <http://geo.govdata.ie/county/south-tipperary>
     skos:narrower <http://stats.govdata.ie/codelist/geo/census-2006/county/south-tipperary/ed/137-136> .
 
+<http://geo.govdata.ie/county/south-tipperary/ed/136>
+    skos:broader <http://stats.govdata.ie/codelist/geo/census-2006/county/south-tipperary/ed/137-136> .
+
+<http://geo.govdata.ie/county/south-tipperary/ed/137>
+    skos:broader <http://stats.govdata.ie/codelist/geo/census-2006/county/south-tipperary/ed/137-136> .
+
 <http://geo.govdata.ie/county/westmeath>
     skos:narrower <http://stats.govdata.ie/codelist/geo/census-2006/county/westmeath/ed/054-085> .
 
+<http://geo.govdata.ie/county/westmeath/ed/054>
+    skos:broader <http://stats.govdata.ie/codelist/geo/census-2006/county/westmeath/ed/054-085> .
+
+<http://geo.govdata.ie/county/westmeath/ed/085>
+    skos:broader <http://stats.govdata.ie/codelist/geo/census-2006/county/westmeath/ed/054-085> .
+
 <http://geo.govdata.ie/province/munster>
-    skos:narrower <http://stats.govdata.ie/codelist/geo/census-2006/cities-suburbs/limerick-city-and-suburbs>, <http://stats.govdata.ie/codelist/geo/census-2006/suburbs/limerick> .
+    skos:narrower <http://stats.govdata.ie/codelist/geo/census-2006/cities-suburbs/limerick>, <http://stats.govdata.ie/codelist/geo/census-2006/suburbs/limerick> .
 
 geo:roi
-    skos:narrower <http://stats.govdata.ie/codelist/geo/census-2006/cities-suburbs/waterford-city-and-suburbs>, <http://stats.govdata.ie/codelist/geo/census-2006/suburbs/waterford> .
+    skos:narrower <http://stats.govdata.ie/codelist/geo/census-2006/cities-suburbs/waterford> .
 
 <http://geo.govdata.ie/traditional-county/cork>
-    skos:narrower <http://stats.govdata.ie/codelist/geo/census-2006/cities-suburbs/cork-city-and-suburbs>, <http://stats.govdata.ie/codelist/geo/census-2006/city/cork/ea/006-008>, <http://stats.govdata.ie/codelist/geo/census-2006/city/cork/ea/015-124>, <http://stats.govdata.ie/codelist/geo/census-2006/city/cork/ea/056-007>, <http://stats.govdata.ie/codelist/geo/census-2006/suburbs/cork> .
+    skos:narrower <http://stats.govdata.ie/codelist/geo/census-2006/cities-suburbs/cork>, <http://stats.govdata.ie/codelist/geo/census-2006/suburbs/cork> .
+
+<http://geo.govdata.ie/traditional-county/cork/ea/184>
+    skos:broader <http://stats.govdata.ie/codelist/geo/census-2006/suburbs/cork> .
+
+<http://geo.govdata.ie/traditional-county/cork/ea/185>
+    skos:broader <http://stats.govdata.ie/codelist/geo/census-2006/suburbs/cork> .
+
+<http://geo.govdata.ie/traditional-county/cork/ea/186>
+    skos:broader <http://stats.govdata.ie/codelist/geo/census-2006/suburbs/cork> .
+
+<http://geo.govdata.ie/traditional-county/cork/ea/187>
+    skos:broader <http://stats.govdata.ie/codelist/geo/census-2006/suburbs/cork> .
+
+<http://geo.govdata.ie/traditional-county/cork/ea/188>
+    skos:broader <http://stats.govdata.ie/codelist/geo/census-2006/suburbs/cork> .
+
+<http://geo.govdata.ie/traditional-county/cork/ea/189>
+    skos:broader <http://stats.govdata.ie/codelist/geo/census-2006/suburbs/cork> .
+
+<http://geo.govdata.ie/traditional-county/cork/ea/190>
+    skos:broader <http://stats.govdata.ie/codelist/geo/census-2006/suburbs/cork> .
+
+<http://geo.govdata.ie/traditional-county/cork/ea/191>
+    skos:broader <http://stats.govdata.ie/codelist/geo/census-2006/suburbs/cork> .
+
+<http://geo.govdata.ie/traditional-county/cork/ea/192>
+    skos:broader <http://stats.govdata.ie/codelist/geo/census-2006/suburbs/cork> .
+
+<http://geo.govdata.ie/traditional-county/cork/ea/193>
+    skos:broader <http://stats.govdata.ie/codelist/geo/census-2006/suburbs/cork> .
+
+<http://geo.govdata.ie/traditional-county/cork/ea/194>
+    skos:broader <http://stats.govdata.ie/codelist/geo/census-2006/suburbs/cork> .
+
+<http://geo.govdata.ie/traditional-county/cork/ea/196>
+    skos:broader <http://stats.govdata.ie/codelist/geo/census-2006/suburbs/cork> .
+
+<http://geo.govdata.ie/traditional-county/cork/ea/197>
+    skos:broader <http://stats.govdata.ie/codelist/geo/census-2006/suburbs/cork> .
+
+<http://geo.govdata.ie/traditional-county/cork/ea/198>
+    skos:broader <http://stats.govdata.ie/codelist/geo/census-2006/suburbs/cork> .
+
+<http://geo.govdata.ie/traditional-county/cork/ea/199>
+    skos:broader <http://stats.govdata.ie/codelist/geo/census-2006/suburbs/cork> .
+
+<http://geo.govdata.ie/traditional-county/cork/ea/200>
+    skos:broader <http://stats.govdata.ie/codelist/geo/census-2006/suburbs/cork> .
+
+<http://geo.govdata.ie/traditional-county/cork/ea/201>
+    skos:broader <http://stats.govdata.ie/codelist/geo/census-2006/suburbs/cork> .
+
+<http://geo.govdata.ie/traditional-county/cork/ea/202>
+    skos:broader <http://stats.govdata.ie/codelist/geo/census-2006/suburbs/cork> .
+
+<http://geo.govdata.ie/traditional-county/cork/ea/203>
+    skos:broader <http://stats.govdata.ie/codelist/geo/census-2006/suburbs/cork> .
+
+<http://geo.govdata.ie/traditional-county/cork/ea/204>
+    skos:broader <http://stats.govdata.ie/codelist/geo/census-2006/suburbs/cork> .
+
+<http://geo.govdata.ie/traditional-county/cork/ea/205>
+    skos:broader <http://stats.govdata.ie/codelist/geo/census-2006/suburbs/cork> .
+
+<http://geo.govdata.ie/traditional-county/cork/ea/206>
+    skos:broader <http://stats.govdata.ie/codelist/geo/census-2006/suburbs/cork> .
+
+<http://geo.govdata.ie/traditional-county/cork/ea/207>
+    skos:broader <http://stats.govdata.ie/codelist/geo/census-2006/suburbs/cork> .
+
+<http://geo.govdata.ie/traditional-county/cork/ea/208>
+    skos:broader <http://stats.govdata.ie/codelist/geo/census-2006/suburbs/cork> .
+
+<http://geo.govdata.ie/traditional-county/cork/ea/210>
+    skos:broader <http://stats.govdata.ie/codelist/geo/census-2006/suburbs/cork> .
+
+<http://geo.govdata.ie/traditional-county/cork/ea/211>
+    skos:broader <http://stats.govdata.ie/codelist/geo/census-2006/suburbs/cork> .
+
+<http://geo.govdata.ie/traditional-county/cork/ea/212>
+    skos:broader <http://stats.govdata.ie/codelist/geo/census-2006/suburbs/cork> .
+
+<http://geo.govdata.ie/traditional-county/cork/ea/213>
+    skos:broader <http://stats.govdata.ie/codelist/geo/census-2006/suburbs/cork> .
+
+<http://geo.govdata.ie/traditional-county/cork/ea/214>
+    skos:broader <http://stats.govdata.ie/codelist/geo/census-2006/suburbs/cork> .
+
+<http://geo.govdata.ie/traditional-county/cork/ea/215>
+    skos:broader <http://stats.govdata.ie/codelist/geo/census-2006/suburbs/cork> .
+
+<http://geo.govdata.ie/traditional-county/cork/ea/220>
+    skos:broader <http://stats.govdata.ie/codelist/geo/census-2006/suburbs/cork> .
+
+<http://geo.govdata.ie/traditional-county/cork/ea/222>
+    skos:broader <http://stats.govdata.ie/codelist/geo/census-2006/suburbs/cork> .
+
+<http://geo.govdata.ie/traditional-county/cork/ea/223>
+    skos:broader <http://stats.govdata.ie/codelist/geo/census-2006/suburbs/cork> .
+
+<http://geo.govdata.ie/traditional-county/cork/ea/225>
+    skos:broader <http://stats.govdata.ie/codelist/geo/census-2006/suburbs/cork> .
+
+<http://geo.govdata.ie/traditional-county/cork/ea/226>
+    skos:broader <http://stats.govdata.ie/codelist/geo/census-2006/suburbs/cork> .
+
+<http://geo.govdata.ie/traditional-county/cork/ea/227>
+    skos:broader <http://stats.govdata.ie/codelist/geo/census-2006/suburbs/cork> .
+
+<http://geo.govdata.ie/traditional-county/cork/ea/228>
+    skos:broader <http://stats.govdata.ie/codelist/geo/census-2006/suburbs/cork> .
+
+<http://geo.govdata.ie/traditional-county/cork/ea/229>
+    skos:broader <http://stats.govdata.ie/codelist/geo/census-2006/suburbs/cork> .
+
+<http://geo.govdata.ie/traditional-county/cork/ea/230>
+    skos:broader <http://stats.govdata.ie/codelist/geo/census-2006/suburbs/cork> .
+
+<http://geo.govdata.ie/traditional-county/cork/ea/296>
+    skos:broader <http://stats.govdata.ie/codelist/geo/census-2006/suburbs/cork> .
+
+<http://geo.govdata.ie/traditional-county/cork/ea/297>
+    skos:broader <http://stats.govdata.ie/codelist/geo/census-2006/suburbs/cork> .
+
+<http://geo.govdata.ie/traditional-county/cork/ea/298>
+    skos:broader <http://stats.govdata.ie/codelist/geo/census-2006/suburbs/cork> .
+
+<http://geo.govdata.ie/traditional-county/cork/ea/299>
+    skos:broader <http://stats.govdata.ie/codelist/geo/census-2006/suburbs/cork> .
+
+<http://geo.govdata.ie/traditional-county/cork/ea/300>
+    skos:broader <http://stats.govdata.ie/codelist/geo/census-2006/suburbs/cork> .
+
+<http://geo.govdata.ie/traditional-county/cork/ea/301>
+    skos:broader <http://stats.govdata.ie/codelist/geo/census-2006/suburbs/cork> .
+
+<http://geo.govdata.ie/traditional-county/cork/ea/303>
+    skos:broader <http://stats.govdata.ie/codelist/geo/census-2006/suburbs/cork> .
+
+<http://geo.govdata.ie/traditional-county/cork/ea/304>
+    skos:broader <http://stats.govdata.ie/codelist/geo/census-2006/suburbs/cork> .
+
+<http://geo.govdata.ie/traditional-county/cork/ea/306>
+    skos:broader <http://stats.govdata.ie/codelist/geo/census-2006/suburbs/cork> .
+
+<http://geo.govdata.ie/traditional-county/cork/ea/308>
+    skos:broader <http://stats.govdata.ie/codelist/geo/census-2006/suburbs/cork> .
+
+<http://geo.govdata.ie/traditional-county/cork/ea/316>
+    skos:broader <http://stats.govdata.ie/codelist/geo/census-2006/suburbs/cork> .
+
+<http://geo.govdata.ie/traditional-county/cork/ea/317>
+    skos:broader <http://stats.govdata.ie/codelist/geo/census-2006/suburbs/cork> .
+
+<http://geo.govdata.ie/traditional-county/cork/ea/322>
+    skos:broader <http://stats.govdata.ie/codelist/geo/census-2006/suburbs/cork> .
+
+<http://geo.govdata.ie/traditional-county/cork/ea/339>
+    skos:broader <http://stats.govdata.ie/codelist/geo/census-2006/suburbs/cork> .
+
+<http://geo.govdata.ie/traditional-county/cork/ea/340>
+    skos:broader <http://stats.govdata.ie/codelist/geo/census-2006/suburbs/cork> .
+
+<http://geo.govdata.ie/traditional-county/cork/ea/341>
+    skos:broader <http://stats.govdata.ie/codelist/geo/census-2006/suburbs/cork> .
+
+<http://geo.govdata.ie/traditional-county/cork/ea/343>
+    skos:broader <http://stats.govdata.ie/codelist/geo/census-2006/suburbs/cork> .
+
+<http://geo.govdata.ie/traditional-county/cork/ea/344>
+    skos:broader <http://stats.govdata.ie/codelist/geo/census-2006/suburbs/cork> .
+
+<http://geo.govdata.ie/traditional-county/cork/ea/345>
+    skos:broader <http://stats.govdata.ie/codelist/geo/census-2006/suburbs/cork> .
+
+<http://geo.govdata.ie/traditional-county/cork/ea/346>
+    skos:broader <http://stats.govdata.ie/codelist/geo/census-2006/suburbs/cork> .
+
+<http://geo.govdata.ie/traditional-county/cork/ea/347>
+    skos:broader <http://stats.govdata.ie/codelist/geo/census-2006/suburbs/cork> .
+
+<http://geo.govdata.ie/traditional-county/cork/ea/348>
+    skos:broader <http://stats.govdata.ie/codelist/geo/census-2006/suburbs/cork> .
 
 <http://geo.govdata.ie/traditional-county/dublin>
-    skos:narrower <http://stats.govdata.ie/codelist/geo/census-2006/cities-suburbs/dublin-city-and-suburbs>, <http://stats.govdata.ie/codelist/geo/census-2006/city/dublin/ea/108-560>, <http://stats.govdata.ie/codelist/geo/census-2006/city/dublin/ea/286-611>, <http://stats.govdata.ie/codelist/geo/census-2006/city/dublin/ea/383-620>, <http://stats.govdata.ie/codelist/geo/census-2006/city/dublin/ea/591-230>, <http://stats.govdata.ie/codelist/geo/census-2006/county/dun-laoghaire-rathdown/ea/049-051>, <http://stats.govdata.ie/codelist/geo/census-2006/county/dun-laoghaire-rathdown/ea/177-178>, <http://stats.govdata.ie/codelist/geo/census-2006/county/south-dublin/ea/051-050> .
+    skos:narrower <http://stats.govdata.ie/codelist/geo/census-2006/cities-suburbs/dublin> .
 
 <http://geo.govdata.ie/traditional-county/galway>
-    skos:narrower <http://stats.govdata.ie/codelist/geo/census-2006/cities-suburbs/galway-city-and-suburbs>, <http://stats.govdata.ie/codelist/geo/census-2006/city/galway/ea/010-013>, <http://stats.govdata.ie/codelist/geo/census-2006/city/galway/ea/041-039>, <http://stats.govdata.ie/codelist/geo/census-2006/city/galway/ea/052-065> .
+    skos:narrower <http://stats.govdata.ie/codelist/geo/census-2006/cities-suburbs/galway> .
 
-<http://geo.govdata.ie/traditional-county/limerick>
-    skos:narrower <http://stats.govdata.ie/codelist/geo/census-2006/city/limerick/ea/013-012>, <http://stats.govdata.ie/codelist/geo/census-2006/city/limerick/ea/036-037>, <http://stats.govdata.ie/codelist/geo/census-2006/city/limerick/ea/041-042> .
+<http://geo.govdata.ie/traditional-county/kilkenny>
+    skos:narrower <http://stats.govdata.ie/codelist/geo/census-2006/suburbs/waterford> .
 
-<http://geo.govdata.ie/traditional-county/waterford>
-    skos:narrower <http://stats.govdata.ie/codelist/geo/census-2006/city/waterford/ea/006-004>, <http://stats.govdata.ie/codelist/geo/census-2006/city/waterford/ea/018-017>, <http://stats.govdata.ie/codelist/geo/census-2006/city/waterford/ea/029-028> .
+<http://geo.govdata.ie/traditional-county/kilkenny/ea/048>
+    skos:broader <http://stats.govdata.ie/codelist/geo/census-2006/suburbs/waterford> .
 
-<http://stats.govdata.ie/codelist/geo/census-2006/cities-suburbs/cork-city-and-suburbs>
+<http://geo.govdata.ie/traditional-county/kilkenny/ea/086>
+    skos:broader <http://stats.govdata.ie/codelist/geo/census-2006/suburbs/waterford> .
+
+<http://geo.govdata.ie/traditional-county/kilkenny/ea/087>
+    skos:broader <http://stats.govdata.ie/codelist/geo/census-2006/suburbs/waterford> .
+
+<http://geo.govdata.ie/traditional-county/limerick/ea/066>
+    skos:broader <http://stats.govdata.ie/codelist/geo/census-2006/suburbs/limerick> .
+
+<http://geo.govdata.ie/traditional-county/limerick/ea/068>
+    skos:broader <http://stats.govdata.ie/codelist/geo/census-2006/suburbs/limerick> .
+
+<http://geo.govdata.ie/traditional-county/limerick/ea/080>
+    skos:broader <http://stats.govdata.ie/codelist/geo/census-2006/suburbs/limerick> .
+
+<http://geo.govdata.ie/traditional-county/limerick/ea/081>
+    skos:broader <http://stats.govdata.ie/codelist/geo/census-2006/suburbs/limerick> .
+
+<http://geo.govdata.ie/traditional-county/limerick/ea/082>
+    skos:broader <http://stats.govdata.ie/codelist/geo/census-2006/suburbs/limerick> .
+
+<http://geo.govdata.ie/traditional-county/limerick/ea/083>
+    skos:broader <http://stats.govdata.ie/codelist/geo/census-2006/suburbs/limerick> .
+
+<http://geo.govdata.ie/traditional-county/limerick/ea/084>
+    skos:broader <http://stats.govdata.ie/codelist/geo/census-2006/suburbs/limerick> .
+
+<http://geo.govdata.ie/traditional-county/limerick/ea/086>
+    skos:broader <http://stats.govdata.ie/codelist/geo/census-2006/suburbs/limerick> .
+
+<http://geo.govdata.ie/traditional-county/limerick/ea/087>
+    skos:broader <http://stats.govdata.ie/codelist/geo/census-2006/suburbs/limerick> .
+
+<http://geo.govdata.ie/traditional-county/limerick/ea/088>
+    skos:broader <http://stats.govdata.ie/codelist/geo/census-2006/suburbs/limerick> .
+
+<http://geo.govdata.ie/traditional-county/limerick/ea/089>
+    skos:broader <http://stats.govdata.ie/codelist/geo/census-2006/suburbs/limerick> .
+
+<http://geo.govdata.ie/traditional-county/limerick/ea/090>
+    skos:broader <http://stats.govdata.ie/codelist/geo/census-2006/suburbs/limerick> .
+
+<http://geo.govdata.ie/traditional-county/limerick/ea/091>
+    skos:broader <http://stats.govdata.ie/codelist/geo/census-2006/suburbs/limerick> .
+
+<http://geo.govdata.ie/traditional-county/limerick/ea/092>
+    skos:broader <http://stats.govdata.ie/codelist/geo/census-2006/suburbs/limerick> .
+
+<http://geo.govdata.ie/traditional-county/limerick/ea/093>
+    skos:broader <http://stats.govdata.ie/codelist/geo/census-2006/suburbs/limerick> .
+
+<http://geo.govdata.ie/traditional-county/limerick/ea/097>
+    skos:broader <http://stats.govdata.ie/codelist/geo/census-2006/suburbs/limerick> .
+
+<http://geo.govdata.ie/traditional-county/limerick/ea/098>
+    skos:broader <http://stats.govdata.ie/codelist/geo/census-2006/suburbs/limerick> .
+
+<http://geo.govdata.ie/traditional-county/limerick/ea/099>
+    skos:broader <http://stats.govdata.ie/codelist/geo/census-2006/suburbs/limerick> .
+
+<http://geo.govdata.ie/traditional-county/limerick/ea/100>
+    skos:broader <http://stats.govdata.ie/codelist/geo/census-2006/suburbs/limerick> .
+
+<http://geo.govdata.ie/traditional-county/limerick/ea/113>
+    skos:broader <http://stats.govdata.ie/codelist/geo/census-2006/suburbs/limerick> .
+
+<http://geo.govdata.ie/traditional-county/limerick/ea/114>
+    skos:broader <http://stats.govdata.ie/codelist/geo/census-2006/suburbs/limerick> .
+
+<http://geo.govdata.ie/traditional-county/limerick/ea/115>
+    skos:broader <http://stats.govdata.ie/codelist/geo/census-2006/suburbs/limerick> .
+
+<http://geo.govdata.ie/traditional-county/limerick/ea/117>
+    skos:broader <http://stats.govdata.ie/codelist/geo/census-2006/suburbs/limerick> .
+
+<http://geo.govdata.ie/traditional-county/limerick/ea/119>
+    skos:broader <http://stats.govdata.ie/codelist/geo/census-2006/suburbs/limerick> .
+
+<http://geo.govdata.ie/traditional-county/limerick/ea/120>
+    skos:broader <http://stats.govdata.ie/codelist/geo/census-2006/suburbs/limerick> .
+
+<http://geo.govdata.ie/traditional-county/limerick/ea/123>
+    skos:broader <http://stats.govdata.ie/codelist/geo/census-2006/suburbs/limerick> .
+
+<http://geo.govdata.ie/traditional-county/limerick/ea/124>
+    skos:broader <http://stats.govdata.ie/codelist/geo/census-2006/suburbs/limerick> .
+
+<http://geo.govdata.ie/traditional-county/limerick/ea/125>
+    skos:broader <http://stats.govdata.ie/codelist/geo/census-2006/suburbs/limerick> .
+
+<http://geo.govdata.ie/traditional-county/limerick/ea/126>
+    skos:broader <http://stats.govdata.ie/codelist/geo/census-2006/suburbs/limerick> .
+
+<http://geo.govdata.ie/traditional-county/limerick/ea/127>
+    skos:broader <http://stats.govdata.ie/codelist/geo/census-2006/suburbs/limerick> .
+
+<http://geo.govdata.ie/traditional-county/limerick/ea/128>
+    skos:broader <http://stats.govdata.ie/codelist/geo/census-2006/suburbs/limerick> .
+
+<http://geo.govdata.ie/traditional-county/limerick/ea/129>
+    skos:broader <http://stats.govdata.ie/codelist/geo/census-2006/suburbs/limerick> .
+
+<http://geo.govdata.ie/traditional-county/limerick/ea/130>
+    skos:broader <http://stats.govdata.ie/codelist/geo/census-2006/suburbs/limerick> .
+
+<http://geo.govdata.ie/traditional-county/limerick/ea/131>
+    skos:broader <http://stats.govdata.ie/codelist/geo/census-2006/suburbs/limerick> .
+
+<http://geo.govdata.ie/traditional-county/limerick/ea/132>
+    skos:broader <http://stats.govdata.ie/codelist/geo/census-2006/suburbs/limerick> .
+
+<http://geo.govdata.ie/traditional-county/limerick/ea/133>
+    skos:broader <http://stats.govdata.ie/codelist/geo/census-2006/suburbs/limerick> .
+
+<http://stats.govdata.ie/codelist/geo/census-2006/cities-suburbs/cork>
     a skos:Concept ;
     skos:broader <http://geo.govdata.ie/traditional-county/cork> ;
     skos:inScheme code-geo:census-2006 ;
+    skos:narrower <http://geo.govdata.ie/city/cork>, <http://stats.govdata.ie/codelist/geo/census-2006/suburbs/cork> ;
     skos:notation "cork-city-and-suburbs" ;
     skos:prefLabel "Cork City and Suburbs"@en .
 
-<http://stats.govdata.ie/codelist/geo/census-2006/cities-suburbs/dublin-city-and-suburbs>
+<http://stats.govdata.ie/codelist/geo/census-2006/cities-suburbs/dublin>
     a skos:Concept ;
     skos:broader <http://geo.govdata.ie/traditional-county/dublin> ;
     skos:inScheme code-geo:census-2006 ;
+    skos:narrower <http://geo.govdata.ie/city/dublin>, <http://geo.govdata.ie/county/dun-laoghaire-rathdown>, <http://geo.govdata.ie/county/fingal>, <http://geo.govdata.ie/county/south-dublin> ;
     skos:notation "dublin-city-and-suburbs" ;
     skos:prefLabel "Dublin City and Suburbs"@en .
 
-<http://stats.govdata.ie/codelist/geo/census-2006/cities-suburbs/galway-city-and-suburbs>
+<http://stats.govdata.ie/codelist/geo/census-2006/cities-suburbs/galway>
     a skos:Concept ;
     skos:broader <http://geo.govdata.ie/traditional-county/galway> ;
     skos:inScheme code-geo:census-2006 ;
+    skos:narrower <http://geo.govdata.ie/city/galway> ;
     skos:notation "galway-city-and-suburbs" ;
     skos:prefLabel "Galway City and Suburbs"@en .
 
-<http://stats.govdata.ie/codelist/geo/census-2006/cities-suburbs/limerick-city-and-suburbs>
+<http://stats.govdata.ie/codelist/geo/census-2006/cities-suburbs/limerick>
     a skos:Concept ;
     skos:broader <http://geo.govdata.ie/province/munster> ;
     skos:inScheme code-geo:census-2006 ;
+    skos:narrower <http://geo.govdata.ie/city/limerick>, <http://stats.govdata.ie/codelist/geo/census-2006/suburbs/limerick> ;
     skos:notation "limerick-city-and-suburbs" ;
     skos:prefLabel "Limerick City and Suburbs"@en .
 
-<http://stats.govdata.ie/codelist/geo/census-2006/cities-suburbs/waterford-city-and-suburbs>
+<http://stats.govdata.ie/codelist/geo/census-2006/cities-suburbs/waterford>
     a skos:Concept ;
     skos:broader geo:roi ;
     skos:inScheme code-geo:census-2006 ;
+    skos:narrower <http://geo.govdata.ie/city/waterford>, <http://stats.govdata.ie/codelist/geo/census-2006/suburbs/waterford> ;
     skos:notation "waterford-city-and-suburbs" ;
     skos:prefLabel "Waterford City and Suburbs"@en .
 
 <http://stats.govdata.ie/codelist/geo/census-2006/city/cork/ea/006-008>
     a skos:Concept ;
-    skos:broader <http://geo.govdata.ie/city/cork>, <http://geo.govdata.ie/traditional-county/cork> ;
+    skos:broader <http://geo.govdata.ie/city/cork> ;
     skos:inScheme code-geo:census-2006 ;
+    skos:narrower <http://geo.govdata.ie/city/cork/ea/006>, <http://geo.govdata.ie/city/cork/ea/008> ;
     skos:notation "cork-city-ea006-008" ;
     skos:prefLabel "Cork City 006, 008"@en .
 
 <http://stats.govdata.ie/codelist/geo/census-2006/city/cork/ea/015-124>
     a skos:Concept ;
-    skos:broader <http://geo.govdata.ie/city/cork>, <http://geo.govdata.ie/traditional-county/cork> ;
+    skos:broader <http://geo.govdata.ie/city/cork> ;
     skos:inScheme code-geo:census-2006 ;
+    skos:narrower <http://geo.govdata.ie/city/cork/ea/015>, <http://geo.govdata.ie/city/cork/ea/124> ;
     skos:notation "cork-city-ea015-124" ;
     skos:prefLabel "Cork City 015, 124"@en .
 
 <http://stats.govdata.ie/codelist/geo/census-2006/city/cork/ea/056-007>
     a skos:Concept ;
-    skos:broader <http://geo.govdata.ie/city/cork>, <http://geo.govdata.ie/traditional-county/cork> ;
+    skos:broader <http://geo.govdata.ie/city/cork> ;
     skos:inScheme code-geo:census-2006 ;
+    skos:narrower <http://geo.govdata.ie/city/cork/ea/007>, <http://geo.govdata.ie/city/cork/ea/056> ;
     skos:notation "cork-city-ea056-007" ;
     skos:prefLabel "Cork City 056, 007"@en .
 
 <http://stats.govdata.ie/codelist/geo/census-2006/city/dublin/ea/108-560>
     a skos:Concept ;
-    skos:broader <http://geo.govdata.ie/city/dublin>, <http://geo.govdata.ie/traditional-county/dublin> ;
+    skos:broader <http://geo.govdata.ie/city/dublin> ;
     skos:inScheme code-geo:census-2006 ;
+    skos:narrower <http://geo.govdata.ie/city/dublin/ea/108>, <http://geo.govdata.ie/city/dublin/ea/560> ;
     skos:notation "dublin-city-ea108-560" ;
     skos:prefLabel "Dublin City 108, 560"@en .
 
 <http://stats.govdata.ie/codelist/geo/census-2006/city/dublin/ea/286-611>
     a skos:Concept ;
-    skos:broader <http://geo.govdata.ie/city/dublin>, <http://geo.govdata.ie/traditional-county/dublin> ;
+    skos:broader <http://geo.govdata.ie/city/dublin> ;
     skos:inScheme code-geo:census-2006 ;
+    skos:narrower <http://geo.govdata.ie/city/dublin/ea/286>, <http://geo.govdata.ie/city/dublin/ea/611> ;
     skos:notation "dublin-city-ea286-611" ;
     skos:prefLabel "Dublin City 286, 611"@en .
 
 <http://stats.govdata.ie/codelist/geo/census-2006/city/dublin/ea/383-620>
     a skos:Concept ;
-    skos:broader <http://geo.govdata.ie/city/dublin>, <http://geo.govdata.ie/traditional-county/dublin> ;
+    skos:broader <http://geo.govdata.ie/city/dublin> ;
     skos:inScheme code-geo:census-2006 ;
+    skos:narrower <http://geo.govdata.ie/city/dublin/ea/383>, <http://geo.govdata.ie/city/dublin/ea/620> ;
     skos:notation "dublin-city-ea383-620" ;
     skos:prefLabel "Dublin City 383, 620"@en .
 
 <http://stats.govdata.ie/codelist/geo/census-2006/city/dublin/ea/591-230>
     a skos:Concept ;
-    skos:broader <http://geo.govdata.ie/city/dublin>, <http://geo.govdata.ie/traditional-county/dublin> ;
+    skos:broader <http://geo.govdata.ie/city/dublin> ;
     skos:inScheme code-geo:census-2006 ;
+    skos:narrower <http://geo.govdata.ie/city/dublin/ea/230>, <http://geo.govdata.ie/city/dublin/ea/591> ;
     skos:notation "dublin-city-ea591-230" ;
     skos:prefLabel "Dublin City 591, 230"@en .
 
 <http://stats.govdata.ie/codelist/geo/census-2006/city/galway/ea/010-013>
     a skos:Concept ;
-    skos:broader <http://geo.govdata.ie/city/galway>, <http://geo.govdata.ie/traditional-county/galway> ;
+    skos:broader <http://geo.govdata.ie/city/galway> ;
     skos:inScheme code-geo:census-2006 ;
+    skos:narrower <http://geo.govdata.ie/city/galway/ea/010>, <http://geo.govdata.ie/city/galway/ea/013> ;
     skos:notation "galway-city-ea010-013" ;
     skos:prefLabel "Galway City 010, 013"@en .
 
 <http://stats.govdata.ie/codelist/geo/census-2006/city/galway/ea/041-039>
     a skos:Concept ;
-    skos:broader <http://geo.govdata.ie/city/galway>, <http://geo.govdata.ie/traditional-county/galway> ;
+    skos:broader <http://geo.govdata.ie/city/galway> ;
     skos:inScheme code-geo:census-2006 ;
+    skos:narrower <http://geo.govdata.ie/city/galway/ea/039>, <http://geo.govdata.ie/city/galway/ea/041> ;
     skos:notation "galway-city-ea041-039" ;
     skos:prefLabel "Galway City 041, 039"@en .
 
 <http://stats.govdata.ie/codelist/geo/census-2006/city/galway/ea/052-065>
     a skos:Concept ;
-    skos:broader <http://geo.govdata.ie/city/galway>, <http://geo.govdata.ie/traditional-county/galway> ;
+    skos:broader <http://geo.govdata.ie/city/galway> ;
     skos:inScheme code-geo:census-2006 ;
+    skos:narrower <http://geo.govdata.ie/city/galway/ea/052>, <http://geo.govdata.ie/city/galway/ea/065> ;
     skos:notation "galway-city-ea052-065" ;
     skos:prefLabel "Galway City 052, 065"@en .
 
 <http://stats.govdata.ie/codelist/geo/census-2006/city/limerick/ea/013-012>
     a skos:Concept ;
-    skos:broader <http://geo.govdata.ie/city/limerick>, <http://geo.govdata.ie/traditional-county/limerick> ;
+    skos:broader <http://geo.govdata.ie/city/limerick> ;
     skos:inScheme code-geo:census-2006 ;
+    skos:narrower <http://geo.govdata.ie/city/limerick/ea/012>, <http://geo.govdata.ie/city/limerick/ea/013> ;
     skos:notation "limerick-city-ea013-012" ;
     skos:prefLabel "Limerick City 013, 012"@en .
 
 <http://stats.govdata.ie/codelist/geo/census-2006/city/limerick/ea/036-037>
     a skos:Concept ;
-    skos:broader <http://geo.govdata.ie/city/limerick>, <http://geo.govdata.ie/traditional-county/limerick> ;
+    skos:broader <http://geo.govdata.ie/city/limerick> ;
     skos:inScheme code-geo:census-2006 ;
+    skos:narrower <http://geo.govdata.ie/city/limerick/ea/036>, <http://geo.govdata.ie/city/limerick/ea/037> ;
     skos:notation "limerick-city-ea036-037" ;
     skos:prefLabel "Limerick City 036, 037"@en .
 
 <http://stats.govdata.ie/codelist/geo/census-2006/city/limerick/ea/041-042>
     a skos:Concept ;
-    skos:broader <http://geo.govdata.ie/city/limerick>, <http://geo.govdata.ie/traditional-county/limerick> ;
+    skos:broader <http://geo.govdata.ie/city/limerick> ;
     skos:inScheme code-geo:census-2006 ;
+    skos:narrower <http://geo.govdata.ie/city/limerick/ea/041>, <http://geo.govdata.ie/city/limerick/ea/042> ;
     skos:notation "limerick-city-ea041-042" ;
     skos:prefLabel "Limerick City 041, 042"@en .
 
@@ -221,27 +852,31 @@ geo:roi
     a skos:Concept ;
     skos:broader <http://geo.govdata.ie/city/waterford> ;
     skos:inScheme code-geo:census-2006 ;
+    skos:narrower <http://geo.govdata.ie/city/waterford/ed/002>, <http://geo.govdata.ie/city/waterford/ed/006> ;
     skos:notation "waterford-city-ed002-006" ;
     skos:prefLabel "Ballybeg South 002, Ballynaneashagh 006"@en .
 
 <http://stats.govdata.ie/codelist/geo/census-2006/city/waterford/ea/006-004>
     a skos:Concept ;
-    skos:broader <http://geo.govdata.ie/city/waterford>, <http://geo.govdata.ie/traditional-county/waterford> ;
+    skos:broader <http://geo.govdata.ie/city/waterford> ;
     skos:inScheme code-geo:census-2006 ;
+    skos:narrower <http://geo.govdata.ie/city/waterford/ea/004>, <http://geo.govdata.ie/city/waterford/ea/006> ;
     skos:notation "waterford-city-ea006-004" ;
     skos:prefLabel "Waterford City 006, 004"@en .
 
 <http://stats.govdata.ie/codelist/geo/census-2006/city/waterford/ea/018-017>
     a skos:Concept ;
-    skos:broader <http://geo.govdata.ie/city/waterford>, <http://geo.govdata.ie/traditional-county/waterford> ;
+    skos:broader <http://geo.govdata.ie/city/waterford> ;
     skos:inScheme code-geo:census-2006 ;
+    skos:narrower <http://geo.govdata.ie/city/waterford/ea/017>, <http://geo.govdata.ie/city/waterford/ea/018> ;
     skos:notation "waterford-city-ea018-017" ;
     skos:prefLabel "Waterford City 018, 017"@en .
 
 <http://stats.govdata.ie/codelist/geo/census-2006/city/waterford/ea/029-028>
     a skos:Concept ;
-    skos:broader <http://geo.govdata.ie/city/waterford>, <http://geo.govdata.ie/traditional-county/waterford> ;
+    skos:broader <http://geo.govdata.ie/city/waterford> ;
     skos:inScheme code-geo:census-2006 ;
+    skos:narrower <http://geo.govdata.ie/city/waterford/ea/028>, <http://geo.govdata.ie/city/waterford/ea/029> ;
     skos:notation "waterford-city-ea029-028" ;
     skos:prefLabel "Waterford City 029, 028"@en .
 
@@ -249,6 +884,7 @@ geo:roi
     a skos:Concept ;
     skos:broader <http://geo.govdata.ie/county/cavan> ;
     skos:inScheme code-geo:census-2006 ;
+    skos:narrower <http://geo.govdata.ie/county/cavan/ed/025>, <http://geo.govdata.ie/county/cavan/ed/028> ;
     skos:notation "cavan-ed025-028" ;
     skos:prefLabel "Pedara Vohers 025, Tircahan 028"@en .
 
@@ -256,6 +892,7 @@ geo:roi
     a skos:Concept ;
     skos:broader <http://geo.govdata.ie/county/cavan> ;
     skos:inScheme code-geo:census-2006 ;
+    skos:narrower <http://geo.govdata.ie/county/cavan/ed/018>, <http://geo.govdata.ie/county/cavan/ed/027> ;
     skos:notation "cavan-ed027-018" ;
     skos:prefLabel "Templeport 027, Benbrack 018"@en .
 
@@ -263,6 +900,7 @@ geo:roi
     a skos:Concept ;
     skos:broader <http://geo.govdata.ie/county/cavan> ;
     skos:inScheme code-geo:census-2006 ;
+    skos:narrower <http://geo.govdata.ie/county/cavan/ed/082>, <http://geo.govdata.ie/county/cavan/ed/084> ;
     skos:notation "cavan-ed084-082" ;
     skos:prefLabel "Dunmakeever 084, Derrynananta 082"@en .
 
@@ -270,6 +908,7 @@ geo:roi
     a skos:Concept ;
     skos:broader <http://geo.govdata.ie/county/cavan> ;
     skos:inScheme code-geo:census-2006 ;
+    skos:narrower <http://geo.govdata.ie/county/cavan/ed/086>, <http://geo.govdata.ie/county/cavan/ed/087> ;
     skos:notation "cavan-ed086-087" ;
     skos:prefLabel "Kinninagh 086, Teebane 087"@en .
 
@@ -277,6 +916,7 @@ geo:roi
     a skos:Concept ;
     skos:broader <http://geo.govdata.ie/county/clare> ;
     skos:inScheme code-geo:census-2006 ;
+    skos:narrower <http://geo.govdata.ie/county/clare/ed/008>, <http://geo.govdata.ie/county/clare/ed/014> ;
     skos:notation "clare-ed014-008" ;
     skos:prefLabel "Noughaval 014, Castletown 008"@en .
 
@@ -284,6 +924,7 @@ geo:roi
     a skos:Concept ;
     skos:broader <http://geo.govdata.ie/county/clare> ;
     skos:inScheme code-geo:census-2006 ;
+    skos:narrower <http://geo.govdata.ie/county/clare/ed/017>, <http://geo.govdata.ie/county/clare/ed/020> ;
     skos:notation "clare-ed020-017" ;
     skos:prefLabel "Glenroe 020, Ballyeighter 017"@en .
 
@@ -291,6 +932,7 @@ geo:roi
     a skos:Concept ;
     skos:broader <http://geo.govdata.ie/county/clare> ;
     skos:inScheme code-geo:census-2006 ;
+    skos:narrower <http://geo.govdata.ie/county/clare/ed/123>, <http://geo.govdata.ie/county/clare/ed/128> ;
     skos:notation "clare-ed128-123" ;
     skos:prefLabel "Corlea 128, Cahermurphy 123"@en .
 
@@ -298,6 +940,7 @@ geo:roi
     a skos:Concept ;
     skos:broader <http://geo.govdata.ie/county/clare> ;
     skos:inScheme code-geo:census-2006 ;
+    skos:narrower <http://geo.govdata.ie/county/clare/ed/132>, <http://geo.govdata.ie/county/clare/ed/133> ;
     skos:notation "clare-ed132-133" ;
     skos:prefLabel "Inishcaltra North 132, Inishcaltra South 133"@en .
 
@@ -305,20 +948,23 @@ geo:roi
     a skos:Concept ;
     skos:broader <http://geo.govdata.ie/county/cork> ;
     skos:inScheme code-geo:census-2006 ;
+    skos:narrower <http://geo.govdata.ie/county/cork/ed/033>, <http://geo.govdata.ie/county/cork/ed/046> ;
     skos:notation "cork-ed033-046" ;
     skos:prefLabel "Bantry Rural 033, Whiddy 046"@en .
 
 <http://stats.govdata.ie/codelist/geo/census-2006/county/dun-laoghaire-rathdown/ea/049-051>
     a skos:Concept ;
-    skos:broader <http://geo.govdata.ie/county/dun-laoghaire-rathdown>, <http://geo.govdata.ie/traditional-county/dublin> ;
+    skos:broader <http://geo.govdata.ie/county/dun-laoghaire-rathdown> ;
     skos:inScheme code-geo:census-2006 ;
+    skos:narrower <http://geo.govdata.ie/county/dun-laoghaire-rathdown/ea/049>, <http://geo.govdata.ie/county/dun-laoghaire-rathdown/ea/051> ;
     skos:notation "dun-laoghaire-rathdown-ea049-051" ;
     skos:prefLabel "Dún Laoghaire-Rathdown 049, 051"@en .
 
 <http://stats.govdata.ie/codelist/geo/census-2006/county/dun-laoghaire-rathdown/ea/177-178>
     a skos:Concept ;
-    skos:broader <http://geo.govdata.ie/county/dun-laoghaire-rathdown>, <http://geo.govdata.ie/traditional-county/dublin> ;
+    skos:broader <http://geo.govdata.ie/county/dun-laoghaire-rathdown> ;
     skos:inScheme code-geo:census-2006 ;
+    skos:narrower <http://geo.govdata.ie/county/dun-laoghaire-rathdown/ea/177>, <http://geo.govdata.ie/county/dun-laoghaire-rathdown/ea/178> ;
     skos:notation "dun-laoghaire-rathdown-ea177-178" ;
     skos:prefLabel "Dún Laoghaire-Rathdown 177, 178"@en .
 
@@ -326,6 +972,7 @@ geo:roi
     a skos:Concept ;
     skos:broader <http://geo.govdata.ie/county/galway> ;
     skos:inScheme code-geo:census-2006 ;
+    skos:narrower <http://geo.govdata.ie/county/galway/ed/027>, <http://geo.govdata.ie/county/galway/ed/028> ;
     skos:notation "galway-ed027-028" ;
     skos:prefLabel "Derrycunlagh 027, Derrylea 028"@en .
 
@@ -333,6 +980,7 @@ geo:roi
     a skos:Concept ;
     skos:broader <http://geo.govdata.ie/county/galway> ;
     skos:inScheme code-geo:census-2006 ;
+    skos:narrower <http://geo.govdata.ie/county/galway/ed/126>, <http://geo.govdata.ie/county/galway/ed/129> ;
     skos:notation "galway-ed129-126" ;
     skos:prefLabel "Marblehill 129, Loughatorick 126"@en .
 
@@ -340,6 +988,7 @@ geo:roi
     a skos:Concept ;
     skos:broader <http://geo.govdata.ie/county/kerry> ;
     skos:inScheme code-geo:census-2006 ;
+    skos:narrower <http://geo.govdata.ie/county/kerry/ed/009>, <http://geo.govdata.ie/county/kerry/ed/020> ;
     skos:notation "kerry-ed009-020" ;
     skos:prefLabel "Ceannúig 009, Máistir Gaoithe 020"@en .
 
@@ -347,6 +996,7 @@ geo:roi
     a skos:Concept ;
     skos:broader <http://geo.govdata.ie/county/kerry> ;
     skos:inScheme code-geo:census-2006 ;
+    skos:narrower <http://geo.govdata.ie/county/kerry/ed/011>, <http://geo.govdata.ie/county/kerry/ed/014> ;
     skos:notation "kerry-ed014-011" ;
     skos:prefLabel "Cloon 014, Daoire Ianna 011"@en .
 
@@ -354,6 +1004,7 @@ geo:roi
     a skos:Concept ;
     skos:broader <http://geo.govdata.ie/county/laoighis> ;
     skos:inScheme code-geo:census-2006 ;
+    skos:narrower <http://geo.govdata.ie/county/laoighis/ed/045>, <http://geo.govdata.ie/county/laoighis/ed/046> ;
     skos:notation "laoighis-ed045-046" ;
     skos:prefLabel "Brisha 045, Cappard 046"@en .
 
@@ -361,6 +1012,7 @@ geo:roi
     a skos:Concept ;
     skos:broader <http://geo.govdata.ie/county/leitrim> ;
     skos:inScheme code-geo:census-2006 ;
+    skos:narrower <http://geo.govdata.ie/county/leitrim/ed/007>, <http://geo.govdata.ie/county/leitrim/ed/011> ;
     skos:notation "leitrim-ed007-011" ;
     skos:prefLabel "Greaghlass 007, Stralongford 011"@en .
 
@@ -368,6 +1020,7 @@ geo:roi
     a skos:Concept ;
     skos:broader <http://geo.govdata.ie/county/leitrim> ;
     skos:inScheme code-geo:census-2006 ;
+    skos:narrower <http://geo.govdata.ie/county/leitrim/ed/016>, <http://geo.govdata.ie/county/leitrim/ed/017> ;
     skos:notation "leitrim-ed017-016" ;
     skos:prefLabel "Drumreilly West 017, Drumreilly East 016"@en .
 
@@ -375,6 +1028,7 @@ geo:roi
     a skos:Concept ;
     skos:broader <http://geo.govdata.ie/county/leitrim> ;
     skos:inScheme code-geo:census-2006 ;
+    skos:narrower <http://geo.govdata.ie/county/leitrim/ed/027>, <http://geo.govdata.ie/county/leitrim/ed/028> ;
     skos:notation "leitrim-ed027-028" ;
     skos:prefLabel "Aghalateeve 027, Aghanlish 028"@en .
 
@@ -382,6 +1036,7 @@ geo:roi
     a skos:Concept ;
     skos:broader <http://geo.govdata.ie/county/leitrim> ;
     skos:inScheme code-geo:census-2006 ;
+    skos:narrower <http://geo.govdata.ie/county/leitrim/ed/029>, <http://geo.govdata.ie/county/leitrim/ed/032> ;
     skos:notation "leitrim-ed029-032" ;
     skos:prefLabel "Melvin 029, Aghavoghill 032"@en .
 
@@ -389,6 +1044,7 @@ geo:roi
     a skos:Concept ;
     skos:broader <http://geo.govdata.ie/county/leitrim> ;
     skos:inScheme code-geo:census-2006 ;
+    skos:narrower <http://geo.govdata.ie/county/leitrim/ed/034>, <http://geo.govdata.ie/county/leitrim/ed/041> ;
     skos:notation "leitrim-ed041-034" ;
     skos:prefLabel "Garvagh 041, Arigna 034"@en .
 
@@ -396,6 +1052,7 @@ geo:roi
     a skos:Concept ;
     skos:broader <http://geo.govdata.ie/county/longford> ;
     skos:inScheme code-geo:census-2006 ;
+    skos:narrower <http://geo.govdata.ie/county/longford/ed/024>, <http://geo.govdata.ie/county/longford/ed/035> ;
     skos:notation "longford-ed024-035" ;
     skos:prefLabel "Firry 024, Newgrove 035"@en .
 
@@ -403,6 +1060,7 @@ geo:roi
     a skos:Concept ;
     skos:broader <http://geo.govdata.ie/county/mayo> ;
     skos:inScheme code-geo:census-2006 ;
+    skos:narrower <http://geo.govdata.ie/county/mayo/ed/058>, <http://geo.govdata.ie/county/mayo/ed/065> ;
     skos:notation "mayo-ed058-065" ;
     skos:prefLabel "Glenco 058, Sheskin 065"@en .
 
@@ -410,6 +1068,7 @@ geo:roi
     a skos:Concept ;
     skos:broader <http://geo.govdata.ie/county/mayo> ;
     skos:inScheme code-geo:census-2006 ;
+    skos:narrower <http://geo.govdata.ie/county/mayo/ed/130>, <http://geo.govdata.ie/county/mayo/ed/150> ;
     skos:notation "mayo-ed150-130" ;
     skos:prefLabel "Owennadornaun 150, Bundorragha 130"@en .
 
@@ -417,6 +1076,7 @@ geo:roi
     a skos:Concept ;
     skos:broader <http://geo.govdata.ie/county/north-tipperary> ;
     skos:inScheme code-geo:census-2006 ;
+    skos:narrower <http://geo.govdata.ie/county/north-tipperary/ed/037>, <http://geo.govdata.ie/county/north-tipperary/ed/045> ;
     skos:notation "north-tipperary-ed037-045" ;
     skos:prefLabel "Greenhall 037, Lackagh 045"@en .
 
@@ -424,6 +1084,7 @@ geo:roi
     a skos:Concept ;
     skos:broader <http://geo.govdata.ie/county/offaly> ;
     skos:inScheme code-geo:census-2006 ;
+    skos:narrower <http://geo.govdata.ie/county/offaly/ed/034>, <http://geo.govdata.ie/county/offaly/ed/043> ;
     skos:notation "offaly-ed043-034" ;
     skos:prefLabel "Esker 043, Ballaghassaan 034"@en .
 
@@ -431,6 +1092,7 @@ geo:roi
     a skos:Concept ;
     skos:broader <http://geo.govdata.ie/county/roscommon> ;
     skos:inScheme code-geo:census-2006 ;
+    skos:narrower <http://geo.govdata.ie/county/roscommon/ed/046>, <http://geo.govdata.ie/county/roscommon/ed/048> ;
     skos:notation "roscommon-ed046-048" ;
     skos:prefLabel "Lisgarve 046, Mantua 048"@en .
 
@@ -438,6 +1100,7 @@ geo:roi
     a skos:Concept ;
     skos:broader <http://geo.govdata.ie/county/roscommon> ;
     skos:inScheme code-geo:census-2006 ;
+    skos:narrower <http://geo.govdata.ie/county/roscommon/ed/025>, <http://geo.govdata.ie/county/roscommon/ed/047> ;
     skos:notation "roscommon-ed047-025" ;
     skos:prefLabel "Lough Allen 047, Altagowlan 025"@en .
 
@@ -445,6 +1108,7 @@ geo:roi
     a skos:Concept ;
     skos:broader <http://geo.govdata.ie/county/sligo> ;
     skos:inScheme code-geo:census-2006 ;
+    skos:narrower <http://geo.govdata.ie/county/sligo/ed/027>, <http://geo.govdata.ie/county/sligo/ed/031> ;
     skos:notation "sligo-ed031-027" ;
     skos:prefLabel "Templeboy South 031, Mullagheruse 027"@en .
 
@@ -452,6 +1116,7 @@ geo:roi
     a skos:Concept ;
     skos:broader <http://geo.govdata.ie/county/sligo> ;
     skos:inScheme code-geo:census-2006 ;
+    skos:narrower <http://geo.govdata.ie/county/sligo/ed/067>, <http://geo.govdata.ie/county/sligo/ed/069> ;
     skos:notation "sligo-ed067-069" ;
     skos:prefLabel "Branchfield 067, Carrownaskeagh 069"@en .
 
@@ -459,13 +1124,15 @@ geo:roi
     a skos:Concept ;
     skos:broader <http://geo.govdata.ie/county/sligo> ;
     skos:inScheme code-geo:census-2006 ;
+    skos:narrower <http://geo.govdata.ie/county/sligo/ed/071>, <http://geo.govdata.ie/county/sligo/ed/078> ;
     skos:notation "sligo-ed078-071" ;
     skos:prefLabel "Loughill 078, Cloonacool 071"@en .
 
 <http://stats.govdata.ie/codelist/geo/census-2006/county/south-dublin/ea/051-050>
     a skos:Concept ;
-    skos:broader <http://geo.govdata.ie/county/south-dublin>, <http://geo.govdata.ie/traditional-county/dublin> ;
+    skos:broader <http://geo.govdata.ie/county/south-dublin> ;
     skos:inScheme code-geo:census-2006 ;
+    skos:narrower <http://geo.govdata.ie/county/south-dublin/ea/050>, <http://geo.govdata.ie/county/south-dublin/ea/051> ;
     skos:notation "south-dublin-ea051-050" ;
     skos:prefLabel "South Dublin 051, 050"@en .
 
@@ -473,6 +1140,7 @@ geo:roi
     a skos:Concept ;
     skos:broader <http://geo.govdata.ie/county/south-tipperary> ;
     skos:inScheme code-geo:census-2006 ;
+    skos:narrower <http://geo.govdata.ie/county/south-tipperary/ed/136>, <http://geo.govdata.ie/county/south-tipperary/ed/137> ;
     skos:notation "south-tipperary-ed137-136" ;
     skos:prefLabel "Kilsheelan 137, Killaloan 136"@en .
 
@@ -480,27 +1148,31 @@ geo:roi
     a skos:Concept ;
     skos:broader <http://geo.govdata.ie/county/westmeath> ;
     skos:inScheme code-geo:census-2006 ;
+    skos:narrower <http://geo.govdata.ie/county/westmeath/ed/054>, <http://geo.govdata.ie/county/westmeath/ed/085> ;
     skos:notation "westmeath-ed054-085" ;
     skos:prefLabel "Ballinalack 054, Lackan 085"@en .
 
 <http://stats.govdata.ie/codelist/geo/census-2006/suburbs/cork>
     a skos:Concept ;
-    skos:broader <http://geo.govdata.ie/traditional-county/cork> ;
+    skos:broader <http://geo.govdata.ie/traditional-county/cork>, <http://stats.govdata.ie/codelist/geo/census-2006/cities-suburbs/cork> ;
     skos:inScheme code-geo:census-2006 ;
+    skos:narrower <http://geo.govdata.ie/traditional-county/cork/ea/184>, <http://geo.govdata.ie/traditional-county/cork/ea/185>, <http://geo.govdata.ie/traditional-county/cork/ea/186>, <http://geo.govdata.ie/traditional-county/cork/ea/187>, <http://geo.govdata.ie/traditional-county/cork/ea/188>, <http://geo.govdata.ie/traditional-county/cork/ea/189>, <http://geo.govdata.ie/traditional-county/cork/ea/190>, <http://geo.govdata.ie/traditional-county/cork/ea/191>, <http://geo.govdata.ie/traditional-county/cork/ea/192>, <http://geo.govdata.ie/traditional-county/cork/ea/193>, <http://geo.govdata.ie/traditional-county/cork/ea/194>, <http://geo.govdata.ie/traditional-county/cork/ea/196>, <http://geo.govdata.ie/traditional-county/cork/ea/197>, <http://geo.govdata.ie/traditional-county/cork/ea/198>, <http://geo.govdata.ie/traditional-county/cork/ea/199>, <http://geo.govdata.ie/traditional-county/cork/ea/200>, <http://geo.govdata.ie/traditional-county/cork/ea/201>, <http://geo.govdata.ie/traditional-county/cork/ea/202>, <http://geo.govdata.ie/traditional-county/cork/ea/203>, <http://geo.govdata.ie/traditional-county/cork/ea/204>, <http://geo.govdata.ie/traditional-county/cork/ea/205>, <http://geo.govdata.ie/traditional-county/cork/ea/206>, <http://geo.govdata.ie/traditional-county/cork/ea/207>, <http://geo.govdata.ie/traditional-county/cork/ea/208>, <http://geo.govdata.ie/traditional-county/cork/ea/210>, <http://geo.govdata.ie/traditional-county/cork/ea/211>, <http://geo.govdata.ie/traditional-county/cork/ea/212>, <http://geo.govdata.ie/traditional-county/cork/ea/213>, <http://geo.govdata.ie/traditional-county/cork/ea/214>, <http://geo.govdata.ie/traditional-county/cork/ea/215>, <http://geo.govdata.ie/traditional-county/cork/ea/220>, <http://geo.govdata.ie/traditional-county/cork/ea/222>, <http://geo.govdata.ie/traditional-county/cork/ea/223>, <http://geo.govdata.ie/traditional-county/cork/ea/225>, <http://geo.govdata.ie/traditional-county/cork/ea/226>, <http://geo.govdata.ie/traditional-county/cork/ea/227>, <http://geo.govdata.ie/traditional-county/cork/ea/228>, <http://geo.govdata.ie/traditional-county/cork/ea/229>, <http://geo.govdata.ie/traditional-county/cork/ea/230>, <http://geo.govdata.ie/traditional-county/cork/ea/296>, <http://geo.govdata.ie/traditional-county/cork/ea/297>, <http://geo.govdata.ie/traditional-county/cork/ea/298>, <http://geo.govdata.ie/traditional-county/cork/ea/299>, <http://geo.govdata.ie/traditional-county/cork/ea/300>, <http://geo.govdata.ie/traditional-county/cork/ea/301>, <http://geo.govdata.ie/traditional-county/cork/ea/303>, <http://geo.govdata.ie/traditional-county/cork/ea/304>, <http://geo.govdata.ie/traditional-county/cork/ea/306>, <http://geo.govdata.ie/traditional-county/cork/ea/308>, <http://geo.govdata.ie/traditional-county/cork/ea/316>, <http://geo.govdata.ie/traditional-county/cork/ea/317>, <http://geo.govdata.ie/traditional-county/cork/ea/322>, <http://geo.govdata.ie/traditional-county/cork/ea/339>, <http://geo.govdata.ie/traditional-county/cork/ea/340>, <http://geo.govdata.ie/traditional-county/cork/ea/341>, <http://geo.govdata.ie/traditional-county/cork/ea/343>, <http://geo.govdata.ie/traditional-county/cork/ea/344>, <http://geo.govdata.ie/traditional-county/cork/ea/345>, <http://geo.govdata.ie/traditional-county/cork/ea/346>, <http://geo.govdata.ie/traditional-county/cork/ea/347>, <http://geo.govdata.ie/traditional-county/cork/ea/348> ;
     skos:notation "cork-suburbs" ;
     skos:prefLabel "Cork Suburbs"@en .
 
 <http://stats.govdata.ie/codelist/geo/census-2006/suburbs/limerick>
     a skos:Concept ;
-    skos:broader <http://geo.govdata.ie/province/munster> ;
+    skos:broader <http://geo.govdata.ie/province/munster>, <http://stats.govdata.ie/codelist/geo/census-2006/cities-suburbs/limerick> ;
     skos:inScheme code-geo:census-2006 ;
+    skos:narrower <http://geo.govdata.ie/traditional-county/limerick/ea/066>, <http://geo.govdata.ie/traditional-county/limerick/ea/068>, <http://geo.govdata.ie/traditional-county/limerick/ea/080>, <http://geo.govdata.ie/traditional-county/limerick/ea/081>, <http://geo.govdata.ie/traditional-county/limerick/ea/082>, <http://geo.govdata.ie/traditional-county/limerick/ea/083>, <http://geo.govdata.ie/traditional-county/limerick/ea/084>, <http://geo.govdata.ie/traditional-county/limerick/ea/086>, <http://geo.govdata.ie/traditional-county/limerick/ea/087>, <http://geo.govdata.ie/traditional-county/limerick/ea/088>, <http://geo.govdata.ie/traditional-county/limerick/ea/089>, <http://geo.govdata.ie/traditional-county/limerick/ea/090>, <http://geo.govdata.ie/traditional-county/limerick/ea/091>, <http://geo.govdata.ie/traditional-county/limerick/ea/092>, <http://geo.govdata.ie/traditional-county/limerick/ea/093>, <http://geo.govdata.ie/traditional-county/limerick/ea/097>, <http://geo.govdata.ie/traditional-county/limerick/ea/098>, <http://geo.govdata.ie/traditional-county/limerick/ea/099>, <http://geo.govdata.ie/traditional-county/limerick/ea/100>, <http://geo.govdata.ie/traditional-county/limerick/ea/113>, <http://geo.govdata.ie/traditional-county/limerick/ea/114>, <http://geo.govdata.ie/traditional-county/limerick/ea/115>, <http://geo.govdata.ie/traditional-county/limerick/ea/117>, <http://geo.govdata.ie/traditional-county/limerick/ea/119>, <http://geo.govdata.ie/traditional-county/limerick/ea/120>, <http://geo.govdata.ie/traditional-county/limerick/ea/123>, <http://geo.govdata.ie/traditional-county/limerick/ea/124>, <http://geo.govdata.ie/traditional-county/limerick/ea/125>, <http://geo.govdata.ie/traditional-county/limerick/ea/126>, <http://geo.govdata.ie/traditional-county/limerick/ea/127>, <http://geo.govdata.ie/traditional-county/limerick/ea/128>, <http://geo.govdata.ie/traditional-county/limerick/ea/129>, <http://geo.govdata.ie/traditional-county/limerick/ea/130>, <http://geo.govdata.ie/traditional-county/limerick/ea/131>, <http://geo.govdata.ie/traditional-county/limerick/ea/132>, <http://geo.govdata.ie/traditional-county/limerick/ea/133> ;
     skos:notation "limerick-suburbs" ;
     skos:prefLabel "Limerick Suburbs"@en .
 
 <http://stats.govdata.ie/codelist/geo/census-2006/suburbs/waterford>
     a skos:Concept ;
-    skos:broader geo:roi ;
+    skos:broader <http://geo.govdata.ie/traditional-county/kilkenny>, <http://stats.govdata.ie/codelist/geo/census-2006/cities-suburbs/waterford> ;
     skos:inScheme code-geo:census-2006 ;
+    skos:narrower <http://geo.govdata.ie/traditional-county/kilkenny/ea/048>, <http://geo.govdata.ie/traditional-county/kilkenny/ea/086>, <http://geo.govdata.ie/traditional-county/kilkenny/ea/087> ;
     skos:notation "waterford-suburbs" ;
     skos:prefLabel "Waterford Suburbs"@en .
 

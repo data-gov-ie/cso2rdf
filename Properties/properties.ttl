@@ -1,0 +1,67 @@
+@prefix qb:             <http://purl.org/linked-data/cube#> .
+@prefix rdf:            <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:           <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sdmx-concept:   <http://purl.org/linked-data/sdmx/2009/concept#> .
+@prefix sdmx-dimension: <http://purl.org/linked-data/sdmx/2009/dimension#> .
+
+# --- Own namespaces ------------------------
+
+@prefix code:           <http://stats.govdata.ie/codelist/> .
+@prefix concept:        <http://stats.govdata.ie/concept/> .
+@prefix prop:           <http://stats.govdata.ie/property/> .
+
+# --- Property specifications ---------------
+
+prop:age1 a qb:DimensionProperty;
+    rdfs:label "Age"@en;
+    rdfs:subPropertyOf sdmx-dimension:age;
+    qb:concept sdmx-concept:age;
+    qb:codeList code:age1
+    .
+    
+prop:age2 a qb:DimensionProperty;
+    rdfs:label "Age"@en;
+    rdfs:subPropertyOf sdmx-dimension:age;
+    qb:concept sdmx-concept:age;
+    qb:codeList code:age2
+    .
+    
+prop:birthplace a qb:DimensionProperty;
+    rdfs:label "Birthplace"@en;
+    rdfs:subPropertyOf sdmx-dimension:refArea;
+    qb:concept concept:birthplace;
+    qb:codeList code:birthplace
+    .
+    
+prop:ethnicGroup a qb:DimensionProperty;
+    rdfs:label "Ethnic group"@en;
+    qb:concept concept:ethnicGroup;
+    qb:codeList code:ethnic-group
+    .
+    
+prop:geoArea a qb:DimensionProperty;
+    rdfs:label "Geographic area"@en;
+    rdfs:subPropertyOf sdmx-dimension:refArea;
+    qb:concept concept:geo-area;
+    qb:codeList code:geo
+    .
+    
+prop:maritalStatus a qb:DimensionProperty;
+    rdfs:label "Marital status"@en;
+    rdfs:subPropertyOf sdmx-dimension:civilStatus;
+    qb:concept concept:marital-status;
+    qb:codeList code:marital-status
+    .
+    
+prop:population a qb:MeasureProperty;
+    rdfs:label "Population"@en;
+    rdfs:subPropertyOf qb:obsValue;
+    qb:concept sdmx-concept:statPop;
+    rdfs:range xsd:int
+    .
+    
+prop:religion a qb:DimensionProperty;
+    rdfs:label "Religion"@en;
+    qb:concept concept:religion;
+    qb:codeList code:religion
+    .

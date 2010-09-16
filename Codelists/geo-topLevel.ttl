@@ -45,7 +45,7 @@
 
 <http://geo.govdata.ie/county/carlow>
     a geo:AdministrativeCounty, skos:Concept ;
-    skos:broader geo:leinster ;
+    skos:broader <http://geo.govdata.ie/province/leinster> ;
     skos:exactMatch <http://geo.govdata.ie/traditional-county/carlow> ;
     skos:inScheme code-geo:census-2006, code-geo:roi, code-geo:top-level ;
     skos:notation "carlow" ;
@@ -53,7 +53,7 @@
 
 <http://geo.govdata.ie/county/cavan>
     a geo:AdministrativeCounty, skos:Concept ;
-    skos:broader geo:ulster ;
+    skos:broader <http://geo.govdata.ie/province/ulster> ;
     skos:exactMatch <http://geo.govdata.ie/traditional-county/cavan> ;
     skos:inScheme code-geo:census-2006, code-geo:roi, code-geo:top-level ;
     skos:narrower <http://geo.govdata.ie/county/donegal> ;
@@ -62,7 +62,7 @@
 
 <http://geo.govdata.ie/county/clare>
     a geo:AdministrativeCounty, skos:Concept ;
-    skos:broader geo:munster ;
+    skos:broader <http://geo.govdata.ie/province/munster> ;
     skos:exactMatch <http://geo.govdata.ie/traditional-county/clare> ;
     skos:inScheme code-geo:census-2006, code-geo:roi, code-geo:top-level ;
     skos:notation "clare" ;
@@ -285,12 +285,6 @@
     skos:notation "wicklow" ;
     skos:prefLabel "County Wicklow (administrative)"@en .
 
-geo:leinster
-    skos:narrower <http://geo.govdata.ie/county/carlow> .
-
-geo:munster
-    skos:narrower <http://geo.govdata.ie/county/clare> .
-
 <http://geo.govdata.ie/province/connacht>
     a geo:Province, skos:Concept ;
     skos:broader geo:roi ;
@@ -302,6 +296,7 @@ geo:munster
     a geo:Province, skos:Concept ;
     skos:broader geo:roi ;
     skos:inScheme code-geo:census-2006, code-geo:top-level ;
+    skos:narrower <http://geo.govdata.ie/county/carlow> ;
     skos:notation "leinster" ;
     skos:prefLabel "Cúige Laighean"@ga, "Leinster"@en .
 
@@ -309,7 +304,7 @@ geo:munster
     a geo:Province, skos:Concept ;
     skos:broader geo:roi ;
     skos:inScheme code-geo:census-2006, code-geo:top-level ;
-    skos:narrower <http://geo.govdata.ie/county/tipperary> ;
+    skos:narrower <http://geo.govdata.ie/county/clare>, <http://geo.govdata.ie/county/tipperary> ;
     skos:notation "munster" ;
     skos:prefLabel "Cúige Mumhan"@ga, "Munster"@en .
 
@@ -317,6 +312,7 @@ geo:munster
     a geo:Province, skos:Concept ;
     skos:broader geo:roi ;
     skos:inScheme code-geo:census-2006, code-geo:top-level ;
+    skos:narrower <http://geo.govdata.ie/county/cavan> ;
     skos:notation "ulster" ;
     skos:prefLabel "Cúige Uladh (Poblacht na hÉireann)"@ga, "Ulster (ROI)"@en .
 
@@ -535,7 +531,4 @@ geo:roi
     skos:inScheme code-geo:census-2006, code-geo:top-level ;
     skos:notation "wicklow-traditional" ;
     skos:prefLabel "County Wicklow (traditional)"@en .
-
-geo:ulster
-    skos:narrower <http://geo.govdata.ie/county/cavan> .
 
