@@ -77,14 +77,26 @@ class GeoAreasWriter (RDFModel):
       "South Dublin" : {
         "prefLabel" : "Dublin",
         "type" : "TraditionalCounty",
+        "city plus suburbs" : {
+          "prefLabel" : "Dublin City and Suburbs",
+          "type" : "city plus suburbs",
+        },
       },
       "Fingal" : {
         "prefLabel" : "Dublin",
         "type" : "TraditionalCounty",
+        "city plus suburbs" : {
+          "prefLabel" : "Dublin City and Suburbs",
+          "type" : "city plus suburbs",
+        },
       },
       "Dún Laoghaire-Rathdown" : {
         "prefLabel" : "Dublin",
         "type" : "TraditionalCounty",
+        "city plus suburbs" : {
+          "prefLabel" : "Dublin City and Suburbs",
+          "type" : "city plus suburbs",
+        },
       },
       "Cork City and Suburbs" : {
         "prefLabel" : "Cork",
@@ -97,6 +109,10 @@ class GeoAreasWriter (RDFModel):
       "Cork Suburbs" : {
         "prefLabel" : "Cork",
         "type" : "TraditionalCounty",
+        "city plus suburbs" : {
+          "prefLabel" : "Cork City and Suburbs",
+          "type" : "city plus suburbs",
+        },
       },
       "Limerick City and Suburbs" : { # it contains areas both in Limerick and Clare which are both in Munster
         "prefLabel" : "Munster",
@@ -111,6 +127,10 @@ class GeoAreasWriter (RDFModel):
           "prefLabel" : "Munster",
           "type" : "Province",
         },
+        "city plus suburbs" : {
+          "prefLabel" : "Limerick City and Suburbs",
+          "type" : "city plus suburbs",
+        },
         "EnumerationArea" : {
           "prefLabel" : "Limerick",
           "type" : "TraditionalCounty",
@@ -119,6 +139,10 @@ class GeoAreasWriter (RDFModel):
       "Limerick Suburbs in Clare" : {
         "prefLabel" : "Clare",
         "type" : "TraditionalCounty",
+        "city plus suburbs" : {
+          "prefLabel" : "Limerick City and Suburbs",
+          "type" : "city plus suburbs",
+        },
       },
       "Waterford City and Suburbs" : { # it contains areas both in Munster (Waterford) and Leinster (Kilkenny)
         "prefLabel" : "Republic of Ireland",
@@ -130,17 +154,25 @@ class GeoAreasWriter (RDFModel):
       },
       "Waterford Suburbs" : {
         "suburbs" : {
-          "prefLabel" : "Republic of Ireland",
-          "type" : "State",
+          "prefLabel" : "Kilkenny",
+          "type" : "TraditionalCounty",
         },
         "EnumerationArea" : {
           "prefLabel" : "Waterford",
           "type" : "TraditionalCounty",
         },
+        "city plus suburbs" : {
+          "prefLabel" : "Waterford City and Suburbs",
+          "type" : "city plus suburbs",
+        },
       },
       "Waterford Suburbs in Kilkenny" : {
         "prefLabel" : "Kilkenny",
         "type" : "TraditionalCounty",
+        "city plus suburbs" : {
+          "prefLabel" : "Waterford City and Suburbs",
+          "type" : "city plus suburbs",
+        },
       },
       "Galway City" : {
         "prefLabel" : "Galway",
@@ -654,24 +686,78 @@ class GeoAreasWriter (RDFModel):
                 doNotAppend = True
               )
             )
-            self.buffers["broader"].append(self.getConcept(
+            self.buffers["broader"].insert(0, self.getConcept(
               conceptType = conceptType,
               name = name
             ))
-          elif conceptType in ["AdministrativeCounty", "City", "city plus suburbs", "suburbs"]:
+          elif conceptType == "City":
+            self.buffers["broader"].append(
+              self.getConcept(
+                conceptType = conceptType,
+                name =  name
+              )
+            )
+            self.buffers["broader"] = [self.buffers["broader"].pop()]
+          elif conceptType == "AdministrativeCounty":
+            self.buffers["broader"] = []
             broader = self.toBroader[name]
-            if conceptType == "suburbs" and broader.has_key("suburbs"):
-              broader = broader["suburbs"]
-            self.buffers["broader"].append(self.getConcept(
-              conceptType = broader["type"],
-              name = broader["prefLabel"],
-              doNotAppend = True
-            ))
-            self.buffers["broader"].append(self.getConcept(
-              conceptType = conceptType,
-              name = name
-            ))
-            self.buffers["broader"] = [self.buffers["broader"][-1]]
+            if broader.has_key("city plus suburbs"):
+              self.buffers["broader"].append(
+                self.getConcept(
+                  conceptType = broader["city plus suburbs"]["type"],
+                  name = broader["city plus suburbs"]["prefLabel"],
+                  doNotAppend = True
+                )
+              )
+            self.buffers["broader"].append(
+              self.getConcept(
+                conceptType = broader["type"],
+                name = broader["prefLabel"],
+                doNotAppend = True
+              )
+            )
+            self.buffers["broader"].append(
+              self.getConcept(
+                conceptType = conceptType,
+                name = name
+              )
+            )
+            self.buffers["broader"] = [self.buffers["broader"].pop()]
+          elif conceptType == "suburbs":
+            self.buffers["broader"] = []
+            broader = self.toBroader[name]
+            if broader.has_key("city plus suburbs"):
+              self.buffers["broader"].append(
+                self.getConcept(
+                  conceptType = broader["city plus suburbs"]["type"],
+                  name = broader["city plus suburbs"]["prefLabel"],
+                  doNotAppend = True
+                )
+              )
+            if broader.has_key("suburbs"):
+              self.buffers["broader"].append(
+                self.getConcept(
+                  conceptType = broader["suburbs"]["type"],
+                  name = broader["suburbs"]["prefLabel"],
+                  doNotAppend = True
+                )
+              )
+            else:
+              self.buffers["broader"].append(
+                self.getConcept(
+                  conceptType = broader["type"],
+                  name = broader["prefLabel"],
+                  doNotAppend = True
+                )
+              )
+            self.buffers["broader"].insert(-1,
+              self.getConcept(
+                conceptType = conceptType,
+                name = name
+              )
+            )
+            if len(self.buffers["broader"]) > 2:
+              self.buffers["broader"] = self.buffers["broader"][-2:]
           elif conceptType == "EnumerationArea":
             broader = self.toBroader[name]
             if broader.has_key("EnumerationArea"):
@@ -703,7 +789,7 @@ class GeoAreasWriter (RDFModel):
               name = name,
               code = c2
             )
-            self.buffers["broader"] = self.buffers["broader"][1:]
+            self.buffers["broader"] = [self.buffers["broader"].pop()]
           else:
             raise Exception("Unknown concept type: {0}".format(conceptType))
         else:
