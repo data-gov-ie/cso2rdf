@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 #-*- coding:utf-8 -*-
 
-import RDF, re, unicodedata
+import ataxit, os, random, RDF, re, unicodedata
 
 
 class RDFModel (object):
@@ -11,7 +11,14 @@ class RDFModel (object):
   
   def __init__(self, namespaces = {}):
     # Initialize variables
-    self.db = RDF.MemoryStorage()
+    name = "db-{0!s}".format(
+      random.randint(1, 999999)
+    )
+    self.db = RDF.Storage(
+      storage_name = "hashes",
+      name = name,
+      options_string = "hash-type='bdb'"
+    )
     self.model = RDF.Model(self.db)
     self.serializer = RDF.Serializer(name="turtle")
     self.ns = {}
@@ -24,7 +31,13 @@ class RDFModel (object):
     # Extend basic namespaces with those provided in parameters
     basicNamespaces.update(namespaces)
     self.addNamespaces(basicNamespaces)
-  
+    ataxit.register(self.clearTempFiles)
+    
+  def clearTempFiles(self):
+    for file in os.listdir(os.curdir):
+      if bool(re.match("db-\d+\.db$", file)):
+        os.remove(os.path.join(os.curdir, file))
+    
   def addNamespaces(self, namespaces):
     for namespace in namespaces:
       if not self.ns.has_key(namespace):

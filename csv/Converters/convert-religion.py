@@ -28,7 +28,6 @@
 #    Redland.librdf_query_results_next(self._results)
 #RDF.RedlandError: 'digest MD5 already registered'
 
-
 import csv, os, RDF, re, sys
 sys.path.append(os.path.join("..", "..", "RDFModel"))
 from RDFModel import RDFModel
@@ -463,9 +462,11 @@ class ConvertReligion (RDFModel):
     )
   
   def computeAggregates(self):
+    print "[INFO] Computing aggregates"
     m = RDFModel()
     m.bootstrap(TOP_LEVEL_GEO)
     
+    print "[INFO] Getting hierarchy data"
     query = """PREFIX geo: <http://geo.govdata.ie/>
       PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
 
@@ -484,6 +485,10 @@ class ConvertReligion (RDFModel):
         "exactMatch" : str(result["match"].uri),
         "notation" : str(result["notation"]),
       }
+      print "[INFO] Got exact match between {0} and {1}".format(
+        result["trad"],
+        output[result["trad"]]["exactMatch"]
+      )
 
     query = """PREFIX geo: <http://geo.govdata.ie/>
       PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
@@ -506,12 +511,23 @@ class ConvertReligion (RDFModel):
         narrowers[result["trad"]]["narrower"] = [result["narrower"]]
       else:
         narrowers[result["trad"]]["narrower"].append(result["narrower"])
+      print "[INFO] Got narrower match between {0} and {1}".format(
+        result["trad"],
+        result["narrower"],
+      )
           
     output.update(narrowers)
     
+    print "[INFO] Getting values to aggregate"
     for traditionalCounty in output:
+      print "[INFO] Computing aggregates for traditional county {0}".format(
+        traditionalCounty
+      )
       if output[traditionalCounty].has_key("exactMatch"):
         administrativeCounty = output[traditionalCounty]["exactMatch"]
+        print "[INFO] Getting data for the exact match <{0}>".format(
+          administrativeCounty
+        )
         query = """PREFIX prop: <http://stats.govdata.ie/property/>
           PREFIX sdmx: <http://purl.org/linked-data/sdmx#>
 
@@ -520,6 +536,9 @@ class ConvertReligion (RDFModel):
            ?observation prop:geoArea <{0}> .
           }}
         """.format(administrativeCounty)
+        print "[INFO] Issuing SPARQL query: {0}".format(
+          query
+        )
         for observation in self.sparql(query):
           dimensions = [
             {
@@ -531,6 +550,9 @@ class ConvertReligion (RDFModel):
             },
           ]
           observation = str(observation["observation"].uri)
+          print "[INFO] Getting data for the observation <{0}>".format(
+            observation
+          )
           query = """PREFIX prop: <http://stats.govdata.ie/property/>
             SELECT ?religion ?population WHERE {{
             <{0}> prop:religion ?religion .
@@ -539,13 +561,18 @@ class ConvertReligion (RDFModel):
           for statement in self.sparql(query):
             religion = str(statement["religion"].uri)
             population = str(statement["population"].literal_value["string"])
+            print "[INFO] Got religion {0} and population {1}".format(
+              religion,
+              population
+            )
             dimensions.append({
               "notation" : re.search("(?<=\/)([^\/]+)$", religion).group(),
               "uri" : religion,
             })
           self.appendObservation(dimensions, population)
           
-      elif output[traditionalCounty].has_key("narrower"):
+      elif output[traditionalCounty].has_key("narrower") and False: # just to make sure computing works for exact matches
+        print "[INFO] Getting data for narrower"
         dimensions = [
           {
             "notation" : "2006",
@@ -556,8 +583,10 @@ class ConvertReligion (RDFModel):
           },
         ]
         narrowers = output[traditionalCounty]["narrower"]
+        print "[INFO] The narrowers are {0}".format(", ".join(["<{0}>".format(narrower) for narrower in narrowers]))
         for religion in self.religionIndexToConcept:
           religion = religion["uri"].uri
+          print "[INFO] Starting with religion {0}".format(religion)
           religionStr = str(religion)
           query = """PREFIX prop: <http://stats.govdata.ie/property/>
             PREFIX sdmx: <http://purl.org/linked-data/sdmx#>
@@ -574,8 +603,12 @@ class ConvertReligion (RDFModel):
                 ["?geo = <{0}>".format(narrower) for narrower in narrowers]
               )
             )
+          print "[INFO] SPARQL query: {0}".format(query)
           populationTotal = 0
           for populationPart in self.sparql(query):
+            print "[INFO] Got population count {0}".format(
+              populationPart["population"]
+            )
             populationTotal += int(
               populationPart["population"].literal_value["string"]
             )
@@ -599,8 +632,8 @@ class ConvertReligion (RDFModel):
         
   def write(self):
     RDFModel.write(self, os.path.join("..", "Datasets", "{0}.ttl".format(self.datasetID)))
-    
-     
+
+
 if __name__ == "__main__":
   cr = ConvertReligion(DSD = DSD, title = "Number of persons by religion, 2006")
   cr.main()
