@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 #-*- coding:utf-8 -*-
 
-import ataxit, os, random, RDF, re, unicodedata
+import atexit, os, random, RDF, re, unicodedata
 
 
 class RDFModel (object):
@@ -31,12 +31,12 @@ class RDFModel (object):
     # Extend basic namespaces with those provided in parameters
     basicNamespaces.update(namespaces)
     self.addNamespaces(basicNamespaces)
-    ataxit.register(self.clearTempFiles)
+    atexit.register(self.clearTempFiles)
     
   def clearTempFiles(self):
     for file in os.listdir(os.curdir):
-      if bool(re.match("db-\d+\.db$", file)):
-        os.remove(os.path.join(os.curdir, file))
+      if bool(re.match("db-.+\.db$", file)):
+        os.remove(os.path.join(os.path.realpath(os.curdir), file))
     
   def addNamespaces(self, namespaces):
     for namespace in namespaces:
