@@ -21,7 +21,7 @@ dsd:persons-by-gender-and-age a qb:DataStructureDefinition;
             qb:order "1"^^xsd:int
         ], [
             a qb:ComponentSpecification;
-            qb:dimension sdmx-dimension:refArea;
+            qb:dimension prop:geoArea;
             qb:order "2"^^xsd:int
         ], [
             a qb:ComponentSpecification;
@@ -29,7 +29,7 @@ dsd:persons-by-gender-and-age a qb:DataStructureDefinition;
             qb:order "3"^^xsd:int
         ], [
             a qb:ComponentSpecification;
-            qb:dimension prop:age2;
+            qb:dimension prop:age1;
             qb:order "4"^^xsd:int
         ], [
             a qb:ComponentSpecification;

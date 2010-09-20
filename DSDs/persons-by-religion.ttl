@@ -19,7 +19,7 @@ dsd:persons-by-religion a qb:DataStructureDefinition;
             qb:order "1"^^xsd:int
         ], [
             a qb:ComponentSpecification;
-            qb:dimension sdmx-dimension:refArea;
+            qb:dimension prop:geoArea;
             qb:order "2"^^xsd:int
         ], [
             a qb:ComponentSpecification;
