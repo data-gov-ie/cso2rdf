@@ -1,33 +1,6 @@
 #!/usr/bin/env python
 #-*- coding:utf-8 -*-
 
-# TODO:
-# For computing aggregates, the MemoryStorage is not enough due to the volume of data.
-# Stack trace:
-#librdf error - digest SHA1 already registered
-#librdf error - hash bdb already registered
-#librdf error - hash memory already registered
-#librdf error - model storage already registered
-#librdf error - storage hashes already registered
-#librdf error - storage trees already registered
-#librdf error - storage memory already registered
-#librdf error - storage file already registered
-#librdf error - storage uri already registered
-#librdf error - query language triples already registered
-#librdf error - query language laqrs already registered
-#librdf error - query language rdql already registered
-#librdf error - query language sparql already registered
-#Traceback (most recent call last):
-#  File "./convert-religion.py", line 582, in <module>
-#    cr.main()
-#  File "./convert-religion.py", line 574, in main
-#    self.computeAggregates()
-#  File "./convert-religion.py", line 554, in computeAggregates
-#    for populationPart in self.sparql(query):
-#  File "/usr/lib/python2.6/dist-packages/RDF.py", line 2020, in next
-#    Redland.librdf_query_results_next(self._results)
-#RDF.RedlandError: 'digest MD5 already registered'
-
 import csv, os, RDF, re, sys
 sys.path.append(os.path.join("..", "..", "RDFModel"))
 from RDFModel import RDFModel
@@ -469,10 +442,10 @@ class ConvertReligion (RDFModel):
       PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
 
       SELECT ?trad ?notation ?match WHERE {
-        ?trad a geo:TraditionalCounty .
         ?match a geo:AdministrativeCounty .
-        ?trad skos:exactMatch ?match .
-        ?trad skos:notation ?notation .
+        ?trad a geo:TraditionalCounty ;
+          skos:exactMatch ?match ;
+          skos:notation ?notation .
       }
     """
 
@@ -488,9 +461,9 @@ class ConvertReligion (RDFModel):
       PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
 
       SELECT ?trad ?notation ?narrower WHERE {
-        ?trad a geo:TraditionalCounty .
-        ?trad skos:narrower ?narrower .
-        ?trad skos:notation ?notation .
+        ?trad a geo:TraditionalCounty ;
+          skos:narrower ?narrower ;
+          skos:notation ?notation .
       }
     """
     narrowers = {}
@@ -515,8 +488,8 @@ class ConvertReligion (RDFModel):
           PREFIX sdmx: <http://purl.org/linked-data/sdmx#>
 
           SELECT ?observation WHERE {{
-           ?observation a sdmx:Observation .
-           ?observation prop:geoArea ?geo .
+           ?observation a sdmx:Observation ;
+             prop:geoArea ?geo .
            FILTER (?geo = <{0}>)
           }}
         """.format(administrativeCounty)
@@ -533,8 +506,8 @@ class ConvertReligion (RDFModel):
           observation = str(observation["observation"].uri)
           query = """PREFIX prop: <http://stats.govdata.ie/property/>
             SELECT ?religion ?population WHERE {{
-            <{0}> prop:religion ?religion .
-            <{0}> prop:population ?population .
+              <{0}> prop:religion ?religion ;
+                prop:population ?population .
           }}""".format(observation)
           for statement in self.sparql(query):
             religion = str(statement["religion"].uri)
@@ -563,10 +536,10 @@ class ConvertReligion (RDFModel):
             PREFIX sdmx: <http://purl.org/linked-data/sdmx#>
 
             SELECT ?population WHERE {{
-              ?observation a sdmx:Observation .
-              ?observation prop:geoArea ?geo .
-              ?observation prop:religion ?religion .
-              ?observation prop:population ?population .
+              ?observation a sdmx:Observation ;
+                prop:geoArea ?geo ;
+                prop:religion ?religion ;
+                prop:population ?population .
               FILTER (?religion = <{0}>)
               FILTER ({1})
             }}""".format(
