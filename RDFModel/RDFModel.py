@@ -72,14 +72,7 @@ class RDFModel (object):
   
   def appendToSubject(self, subject, statements):
     for statement in statements:
-      try:
-        self.model.append(RDF.Statement(subject, statement[0], statement[1]))
-      except RDF.RedlandError:
-        print "RDF.RedlandError\ns: {0}\np: {1}\no: {2}".format(
-          subject,
-          statement[0],
-          statement[1]
-        )
+      self.model.append(RDF.Statement(subject, statement[0], statement[1]))
     return self
         
   def write(self, filename):
