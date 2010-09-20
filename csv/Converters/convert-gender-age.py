@@ -42,6 +42,7 @@ class ConvertGenderAge (Converter):
     ]
    
   def getAge(self, age):
+    age = str(age)
     if age == "19+":
       concept = {
         "notation" : "19-and-more",
@@ -75,7 +76,6 @@ class ConvertGenderAge (Converter):
       )
     
   def computeAggregates(self):
-    pass # Remove after finished
     output = self.getTraditionalCountiesMapping()
     
     for traditionalCounty in output:

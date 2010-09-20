@@ -543,11 +543,11 @@ class ConvertReligion (RDFModel):
               FILTER (?religion = <{0}>)
               FILTER ({1})
             }}""".format(
-              religionStr,
-              " || ".join(
-                ["?geo = <{0}>".format(narrower) for narrower in narrowers]
-              )
+            religionStr,
+            " || ".join(
+              ["?geo = <{0}>".format(narrower) for narrower in narrowers]
             )
+          )
           populationTotal = 0
           for populationPart in self.sparql(query):
             populationTotal += int(
@@ -574,10 +574,16 @@ class ConvertReligion (RDFModel):
     self.computeAggregates()
         
   def write(self):
-    RDFModel.write(self, os.path.join("..", "Datasets", "{0}.ttl".format(self.datasetID)))
+    RDFModel.write(
+      self,
+      os.path.join("..", "Datasets", "{0}.ttl".format(self.datasetID))
+    )
 
 
 if __name__ == "__main__":
-  cr = ConvertReligion(DSD = DSD, title = "Number of persons by religion, 2006")
+  cr = ConvertReligion(
+    DSD = DSD,
+    title = "Number of persons by religion, 2006"
+  )
   cr.main()
   cr.write()
