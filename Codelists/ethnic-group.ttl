@@ -5,88 +5,88 @@
 # --- Own namespaces ------------------------
 
 @prefix code:               <http://stats.govdata.ie/codelist/> .
-@prefix code-ethnicgroup:    <http://stats.govdata.ie/codelist/ethnic-group/> .
+@prefix code-ethnic-group:    <http://stats.govdata.ie/codelist/ethnic-group/> .
 
 # --- Code lists ----------------------------
   
 code:ethnic-group a sdmx:CodeList;
     skos:prefLabel "Code list for ethnic groups"@en;
-    skos:hasTopConcept code-ethnicgroup:white-irish, 
-      code-ethnicgroup:white-irish-traveller, 
-      code-ethnicgroup:other-white, 
-      code-ethnicgroup:black, 
-      code-ethnicgroup:asian,
-      code-ethnicgroup:other, 
-      code-ethnicgroup:not-stated,
-      code-ethnicgroup:total
+    skos:hasTopConcept code-ethnic-group:white-irish, 
+      code-ethnic-group:white-irish-traveller, 
+      code-ethnic-group:other-white, 
+      code-ethnic-group:black, 
+      code-ethnic-group:asian,
+      code-ethnic-group:other, 
+      code-ethnic-group:not-stated,
+      code-ethnic-group:total
     .
     
-code-ethnicgroup:white-irish a skos:Concept;
+code-ethnic-group:white-irish a skos:Concept;
     skos:inScheme code:ethnic-group;
     skos:topConceptOf code:ethnic-group;
     skos:prefLabel "White Irish"@en;
     skos:notation "white-irish";
-    skos:broader code-ethnicgroup:total
+    skos:broader code-ethnic-group:total
     .
     
-code-ethnicgroup:white-irish-traveller a skos:Concept;
+code-ethnic-group:white-irish-traveller a skos:Concept;
     skos:inScheme code:ethnic-group;
     skos:topConceptOf code:ethnic-group;
     skos:prefLabel "White Irish Traveller"@en;
     skos:notation "white-irish-traveller";
-    skos:broader code-ethnicgroup:total
+    skos:broader code-ethnic-group:total
     .
     
-code-ethnicgroup:other-white a skos:Concept;
+code-ethnic-group:other-white a skos:Concept;
     skos:inScheme code:ethnic-group;
     skos:topConceptOf code:ethnic-group;
     skos:prefLabel "Any other White background"@en;
     skos:notation "other-white";
-    skos:broader code-ethnicgroup:total
+    skos:broader code-ethnic-group:total
     .
     
-code-ethnicgroup:black a skos:Concept;
+code-ethnic-group:black a skos:Concept;
     skos:inScheme code:ethnic-group;
     skos:topConceptOf code:ethnic-group;
     skos:prefLabel "Black or Black Irish"@en;
     skos:notation "black";
-    skos:broader code-ethnicgroup:total
+    skos:broader code-ethnic-group:total
     .
     
-code-ethnicgroup:asian a skos:Concept;
+code-ethnic-group:asian a skos:Concept;
     skos:inScheme code:ethnic-group;
     skos:topConceptOf code:ethnic-group;
     skos:prefLabel "Asian or Asian Irish"@en;
     skos:notation "asian";
-    skos:broader code-ethnicgroup:total
+    skos:broader code-ethnic-group:total
     .
     
-code-ethnicgroup:other a skos:Concept;
+code-ethnic-group:other a skos:Concept;
     skos:inScheme code:ethnic-group;
     skos:topConceptOf code:ethnic-group;
     skos:prefLabel "Other"@en;
     skos:notation "other";
-    skos:broader code-ethnicgroup:total
+    skos:broader code-ethnic-group:total
     .
     
-code-ethnicgroup:not-stated a skos:Concept;
+code-ethnic-group:not-stated a skos:Concept;
     skos:inScheme code:ethnic-group;
     skos:topConceptOf code:ethnic-group;
     skos:prefLabel "Not stated"@en;
     skos:notation "not-stated";
-    skos:broader code-ethnicgroup:total
+    skos:broader code-ethnic-group:total
     .
 
-code-ethnicgroup:total a skos:Concept;
+code-ethnic-group:total a skos:Concept;
     skos:inScheme code:ethnic-group;
     skos:topConceptOf code:ethnic-group;
     skos:prefLabel "Total"@en;
     skos:notation "total";
-    skos:narrower code-ethnicgroup:white-irish,
-      code-ethnicgroup:white-irish-traveller,
-      code-ethnicgroup:other-white,
-      code-ethnicgroup:black,
-      code-ethnicgroup:asian,
-      code-ethnicgroup:other,
-      code-ethnicgroup:not-stated
+    skos:narrower code-ethnic-group:white-irish,
+      code-ethnic-group:white-irish-traveller,
+      code-ethnic-group:other-white,
+      code-ethnic-group:black,
+      code-ethnic-group:asian,
+      code-ethnic-group:other,
+      code-ethnic-group:not-stated
     .

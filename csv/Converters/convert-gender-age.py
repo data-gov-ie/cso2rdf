@@ -12,7 +12,7 @@ EA_FILE = os.path.join("..", "Datasources", "ea", "gender-age.csv")
 
 class ConvertGenderAge (Converter):
   
-  def __init__(self, DSD, title):
+  def __init__(self, title):
     namespaces = {
       "sdmx-code" : "http://purl.org/linked-data/sdmx/2009/code#",
       # Our namespaces
@@ -68,7 +68,6 @@ class ConvertGenderAge (Converter):
 
 if __name__ == "__main__":
   cr = ConvertGenderAge(
-    DSD = DSD,
     title = "Persons aged 18 and under by sex and single year of age and persons aged 19 and over by sex, 2006",
   )
   cr.main()

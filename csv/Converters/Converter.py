@@ -516,7 +516,7 @@ class Converter (RDFModel):
     self._fileEAs.close()
     self._fileEDs.close()
     self.computeAggregates()
-    self.write()
+    self.write() # Flush the rest of the triplestore
     
   def mkdir(self, dirname):
     """ Based on <http://code.activestate.com/recipes/82465-a-friendly-mkdir/> """

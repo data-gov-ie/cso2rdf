@@ -1,0 +1,156 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix code: <http://stats.govdata.ie/codelist/> .
+@prefix year: <http://reference.data.gov.uk/id/year/> .
+@prefix data: <http://stats.govdata.ie/data/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix qb: <http://purl.org/linked-data/cube#> .
+@prefix sdmx-metadata: <http://purl.org/linked-data/sdmx/2009/metadata#> .
+@prefix code-ethnic-group: <http://stats.govdata.ie/codelist/ethnic-group/> .
+@prefix geo: <http://geo.govdata.ie/> .
+@prefix prop: <http://stats.govdata.ie/property/> .
+@prefix sdmx: <http://purl.org/linked-data/sdmx#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix sdmx-dimension: <http://purl.org/linked-data/sdmx/2009/dimension#> .
+@prefix dsd: <http://stats.govdata.ie/dsd/> .
+@prefix code-geo: <http://stats.govdata.ie/codelist/geo/> .
+
+<http://stats.govdata.ie/data/persons-by-ethnic-background/2006/monaghan-ed069/asian>
+    sdmx-dimension:refPeriod <http://reference.data.gov.uk/id/year/2006> ;
+    prop:ethnicGroup code-ethnic-group:asian ;
+    prop:geoArea <http://geo.govdata.ie/county/monaghan/ed/069> ;
+    prop:population "10"^^xsd:unsignedLong ;
+    a sdmx:Observation .
+
+<http://stats.govdata.ie/data/persons-by-ethnic-background/2006/monaghan-ed069/not-stated>
+    sdmx-dimension:refPeriod <http://reference.data.gov.uk/id/year/2006> ;
+    prop:ethnicGroup code-ethnic-group:not-stated ;
+    prop:geoArea <http://geo.govdata.ie/county/monaghan/ed/069> ;
+    prop:population "5"^^xsd:unsignedLong ;
+    a sdmx:Observation .
+
+<http://stats.govdata.ie/data/persons-by-ethnic-background/2006/monaghan-ed069/other>
+    sdmx-dimension:refPeriod <http://reference.data.gov.uk/id/year/2006> ;
+    prop:ethnicGroup code-ethnic-group:other ;
+    prop:geoArea <http://geo.govdata.ie/county/monaghan/ed/069> ;
+    prop:population "5"^^xsd:unsignedLong ;
+    a sdmx:Observation .
+
+<http://stats.govdata.ie/data/persons-by-ethnic-background/2006/monaghan-ed069/total>
+    sdmx-dimension:refPeriod <http://reference.data.gov.uk/id/year/2006> ;
+    prop:ethnicGroup code-ethnic-group:total ;
+    prop:geoArea <http://geo.govdata.ie/county/monaghan/ed/069> ;
+    prop:population "899"^^xsd:unsignedLong ;
+    a sdmx:Observation .
+
+<http://stats.govdata.ie/data/persons-by-ethnic-background/2006/monaghan-ed070/asian>
+    sdmx-dimension:refPeriod <http://reference.data.gov.uk/id/year/2006> ;
+    prop:ethnicGroup code-ethnic-group:asian ;
+    prop:geoArea <http://geo.govdata.ie/county/monaghan/ed/070> ;
+    prop:population "0"^^xsd:unsignedLong ;
+    a sdmx:Observation .
+
+<http://stats.govdata.ie/data/persons-by-ethnic-background/2006/monaghan-ed070/black>
+    sdmx-dimension:refPeriod <http://reference.data.gov.uk/id/year/2006> ;
+    prop:ethnicGroup code-ethnic-group:black ;
+    prop:geoArea <http://geo.govdata.ie/county/monaghan/ed/070> ;
+    prop:population "1"^^xsd:unsignedLong ;
+    a sdmx:Observation .
+
+<http://stats.govdata.ie/data/persons-by-ethnic-background/2006/monaghan-ed070/not-stated>
+    sdmx-dimension:refPeriod <http://reference.data.gov.uk/id/year/2006> ;
+    prop:ethnicGroup code-ethnic-group:not-stated ;
+    prop:geoArea <http://geo.govdata.ie/county/monaghan/ed/070> ;
+    prop:population "1"^^xsd:unsignedLong ;
+    a sdmx:Observation .
+
+<http://stats.govdata.ie/data/persons-by-ethnic-background/2006/monaghan-ed070/other>
+    sdmx-dimension:refPeriod <http://reference.data.gov.uk/id/year/2006> ;
+    prop:ethnicGroup code-ethnic-group:other ;
+    prop:geoArea <http://geo.govdata.ie/county/monaghan/ed/070> ;
+    prop:population "0"^^xsd:unsignedLong ;
+    a sdmx:Observation .
+
+<http://stats.govdata.ie/data/persons-by-ethnic-background/2006/monaghan-ed070/other-white>
+    sdmx-dimension:refPeriod <http://reference.data.gov.uk/id/year/2006> ;
+    prop:ethnicGroup code-ethnic-group:other-white ;
+    prop:geoArea <http://geo.govdata.ie/county/monaghan/ed/070> ;
+    prop:population "10"^^xsd:unsignedLong ;
+    a sdmx:Observation .
+
+<http://stats.govdata.ie/data/persons-by-ethnic-background/2006/monaghan-ed070/total>
+    sdmx-dimension:refPeriod <http://reference.data.gov.uk/id/year/2006> ;
+    prop:ethnicGroup code-ethnic-group:total ;
+    prop:geoArea <http://geo.govdata.ie/county/monaghan/ed/070> ;
+    prop:population "635"^^xsd:unsignedLong ;
+    a sdmx:Observation .
+
+<http://stats.govdata.ie/data/persons-by-ethnic-background/2006/monaghan-ed070/white-irish>
+    sdmx-dimension:refPeriod <http://reference.data.gov.uk/id/year/2006> ;
+    prop:ethnicGroup code-ethnic-group:white-irish ;
+    prop:geoArea <http://geo.govdata.ie/county/monaghan/ed/070> ;
+    prop:population "622"^^xsd:unsignedLong ;
+    a sdmx:Observation .
+
+<http://stats.govdata.ie/data/persons-by-ethnic-background/2006/monaghan-ed070/white-irish-traveller>
+    sdmx-dimension:refPeriod <http://reference.data.gov.uk/id/year/2006> ;
+    prop:ethnicGroup code-ethnic-group:white-irish-traveller ;
+    prop:geoArea <http://geo.govdata.ie/county/monaghan/ed/070> ;
+    prop:population "1"^^xsd:unsignedLong ;
+    a sdmx:Observation .
+
+<http://stats.govdata.ie/data/persons-by-ethnic-background/2006/roi/asian>
+    sdmx-dimension:refPeriod <http://reference.data.gov.uk/id/year/2006> ;
+    prop:ethnicGroup code-ethnic-group:asian ;
+    prop:geoArea geo:roi ;
+    prop:population "52345"^^xsd:unsignedLong ;
+    a sdmx:Observation .
+
+<http://stats.govdata.ie/data/persons-by-ethnic-background/2006/roi/black>
+    sdmx-dimension:refPeriod <http://reference.data.gov.uk/id/year/2006> ;
+    prop:ethnicGroup code-ethnic-group:black ;
+    prop:geoArea geo:roi ;
+    prop:population "44318"^^xsd:unsignedLong ;
+    a sdmx:Observation .
+
+<http://stats.govdata.ie/data/persons-by-ethnic-background/2006/roi/not-stated>
+    sdmx-dimension:refPeriod <http://reference.data.gov.uk/id/year/2006> ;
+    prop:ethnicGroup code-ethnic-group:not-stated ;
+    prop:geoArea geo:roi ;
+    prop:population "72303"^^xsd:unsignedLong ;
+    a sdmx:Observation .
+
+<http://stats.govdata.ie/data/persons-by-ethnic-background/2006/roi/other>
+    sdmx-dimension:refPeriod <http://reference.data.gov.uk/id/year/2006> ;
+    prop:ethnicGroup code-ethnic-group:other ;
+    prop:geoArea geo:roi ;
+    prop:population "46438"^^xsd:unsignedLong ;
+    a sdmx:Observation .
+
+<http://stats.govdata.ie/data/persons-by-ethnic-background/2006/roi/other-white>
+    sdmx-dimension:refPeriod <http://reference.data.gov.uk/id/year/2006> ;
+    prop:ethnicGroup code-ethnic-group:other-white ;
+    prop:geoArea geo:roi ;
+    prop:population "289041"^^xsd:unsignedLong ;
+    a sdmx:Observation .
+
+<http://stats.govdata.ie/data/persons-by-ethnic-background/2006/roi/total>
+    sdmx-dimension:refPeriod <http://reference.data.gov.uk/id/year/2006> ;
+    prop:ethnicGroup code-ethnic-group:total ;
+    prop:geoArea geo:roi ;
+    prop:population "4172013"^^xsd:unsignedLong ;
+    a sdmx:Observation .
+
+<http://stats.govdata.ie/data/persons-by-ethnic-background/2006/roi/white-irish>
+    sdmx-dimension:refPeriod <http://reference.data.gov.uk/id/year/2006> ;
+    prop:ethnicGroup code-ethnic-group:white-irish ;
+    prop:geoArea geo:roi ;
+    prop:population "3645199"^^xsd:unsignedLong ;
+    a sdmx:Observation .
+
+<http://stats.govdata.ie/data/persons-by-ethnic-background/2006/roi/white-irish-traveller>
+    sdmx-dimension:refPeriod <http://reference.data.gov.uk/id/year/2006> ;
+    prop:ethnicGroup code-ethnic-group:white-irish-traveller ;
+    prop:geoArea geo:roi ;
+    prop:population "22369"^^xsd:unsignedLong ;
+    a sdmx:Observation .
+

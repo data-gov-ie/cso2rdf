@@ -30,6 +30,6 @@ dsd:persons-by-birthplace a qb:DataStructureDefinition;
       ], [
         a qb:ComponentSpecification;
         qb:measure prop:population;
-        qb:order "3"^^xsd:int
+        qb:order "4"^^xsd:int
       ]
     .

@@ -12,7 +12,7 @@ EA_FILE = os.path.join("..", "Datasources", "ea", "birthplace.csv")
 
 class ConvertBirthplace (Converter):
   
-  def __init__(self, DSD, title):
+  def __init__(self, title):
     namespaces = {
       # own namespaces
       "code-birthplace" : "http://stats.govdata.ie/codelist/birthplace/",
@@ -63,7 +63,6 @@ class ConvertBirthplace (Converter):
 
 if __name__ == "__main__":
   cb = ConvertBirthplace(
-    DSD = DSD,
     title = "Persons usually resident and present in the State on Census Night, classified by place of birth, 2006"
   )
   cb.main()

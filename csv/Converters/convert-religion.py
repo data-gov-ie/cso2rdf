@@ -12,7 +12,7 @@ EA_FILE = os.path.join("..", "Datasources", "ea", "religion.csv")
 
 class ConvertReligion (Converter):
   
-  def __init__(self, DSD, title):
+  def __init__(self, title):
     namespaces = {
       # own namespaces
       "code-religion" : "http://stats.govdata.ie/codelist/religion/",
@@ -55,7 +55,6 @@ class ConvertReligion (Converter):
 
 if __name__ == "__main__":
   cr = ConvertReligion(
-    DSD = DSD,
     title = "Number of persons by religion, 2006"
   )
   cr.main()
