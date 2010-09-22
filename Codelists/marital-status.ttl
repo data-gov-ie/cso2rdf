@@ -5,46 +5,63 @@
 # --- Own namespaces ------------------------
 
 @prefix code:           <http://stats.govdata.ie/codelist/> .
-@prefix code-marital:  <http://stats.govdata.ie/codelist/marital-status/> .
+@prefix code-marital:   <http://stats.govdata.ie/codelist/marital-status/> .
 
 # --- Code lists ----------------------------
   
 code:marital-status a sdmx:CodeList;
     skos:prefLabel "Code list for marital statuses"@en;
-    skos:hasTopConcept code-marital:single, code-marital:married, code-marital:separated, code-marital:divorced, code:marital:widowed
+    skos:hasTopConcept code-marital:single, code-marital:married,
+      code-marital:separated, code-marital:divorced,
+      code:marital:widowed, code-marital:total
     .
     
 code-marital:single a skos:Concept;
     skos:inScheme code:marital-status;
     skos:topConceptOf code:marital-status;
     skos:prefLabel "Single"@en;
-    skos:notation "single"
+    skos:notation "single";
+    skos:broader code-marital:total
     .
     
 code-marital:married a skos:Concept;
     skos:inScheme code:marital-status;
     skos:topConceptOf code:marital-status;
     skos:prefLabel "Married"@en;
-    skos:notation "married"
+    skos:notation "married";
+    skos:broader code-marital:total
     .
     
 code-marital:separated a skos:Concept;
     skos:inScheme code:marital-status;
     skos:topConceptOf code:marital-status;
     skos:prefLabel "Separated"@en;
-    skos:notation "separated"
+    skos:notation "separated";
+    skos:broader code-marital:total
     .
     
 code-marital:divorced a skos:Concept;
     skos:inScheme code:marital-status;
     skos:topConceptOf code:marital-status;
     skos:prefLabel "Divorced"@en;
-    skos:notation "divorced"
+    skos:notation "divorced";
+    skos:broader code-marital:total
     .
     
 code-marital:widowed a skos:Concept;
     skos:inScheme code:marital-status;
     skos:topConceptOf code:marital-status;
     skos:prefLabel "Widowed"@en;
-    skos:notation "widowed"
+    skos:notation "widowed";
+    skos:broader code-marital:total
+    .
+
+code-marital:total a skos:Concept;
+    skos:inScheme code:marital-status;
+    skos:topConceptOf code:marital-status;
+    skos:prefLabel "Total"@en;
+    skos:notation "total";
+    skos:narrower code-marital:single, code-marital:married,
+      code-marital:separated, code-marital:divorced,
+      code-marital:widowed
     .
