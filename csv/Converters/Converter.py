@@ -18,9 +18,11 @@ class Converter (RDFModel):
       "(.+)(?=\.\D+)",
       os.path.basename(DSD)
     ).group()
+    
     self.writePath = self.mkdir(
       os.path.join("..", "Datasets", self.datasetID)
     )
+    
     self.title = title
     namespaces = {
       "qb" : "http://purl.org/linked-data/cube#",
@@ -528,14 +530,18 @@ class Converter (RDFModel):
         self.mkdir(head)
       else:
         os.mkdir(dirname)
-      return dirname
+    return dirname
   
   def write(self):
     RDFModel.write(
       self,
       os.path.join(
         self.writePath,
-        "{0}.ttl".format(str(int(time.time())))
+        "{0}.ttl".format(
+          str(
+            int(time.time())
+          )
+        )
       )
     )
 
