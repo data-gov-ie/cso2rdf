@@ -52,6 +52,12 @@ prop:maritalStatus a qb:DimensionProperty;
     qb:concept concept:marital-status;
     qb:codeList code:marital-status
     .
+  
+prop:nationality a qb:DimensionProperty;
+    rdfs:label "Nationality"@en;
+    qb:concept concept:nationality;
+    qb:codeList code:nationality
+    .
     
 prop:population a qb:MeasureProperty;
     rdfs:label "Population"@en;
@@ -64,4 +70,10 @@ prop:religion a qb:DimensionProperty;
     rdfs:label "Religion"@en;
     qb:concept concept:religion;
     qb:codeList code:religion
+    .
+
+prop:usualResidence a qb:DimensionProperty;
+    rdfs:label "Usual residence"@en;
+    qb:concept concept:usual-residence;
+    qb:codeList code:usual-residence
     .

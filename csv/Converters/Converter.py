@@ -520,6 +520,7 @@ class Converter (RDFModel):
     
   def mkdir(self, dirname):
     """ Based on <http://code.activestate.com/recipes/82465-a-friendly-mkdir/> """
+    print "[INFO] Creating directory {0}".format(dirname)
     if os.path.exists(dirname):
       pass
     elif os.path.isfile(dirname):
