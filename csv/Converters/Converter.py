@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 #-*- coding:utf-8 -*-
 
-import csv, os, RDF, re, sys
+import csv, os, RDF, re, sys, time
 sys.path.append(os.path.join("..", "..", "RDFModel"))
 from RDFModel import RDFModel
 
@@ -14,7 +14,13 @@ class Converter (RDFModel):
   """
   
   def __init__(self, DSD, title, addedNamespaces, ED_FILE, EA_FILE):
-    self.datasetID = re.search("(.+)(?=\.\D+)", os.path.basename(DSD)).group()
+    self.datasetID = re.search(
+      "(.+)(?=\.\D+)",
+      os.path.basename(DSD)
+    ).group()
+    self.writePath = self.mkdir(
+      os.path.join("..", "Datasets", self.datasetID)
+    )
     self.title = title
     namespaces = {
       "qb" : "http://purl.org/linked-data/cube#",
@@ -51,7 +57,13 @@ class Converter (RDFModel):
         "(?<=\/)([^\/]+)$"
       ),
     }
-    self.provinces = ["Connacht", "Leinster", "Munster", "Ulster"]
+    self.provinces = [
+      "Connacht",
+      "Leinster",
+      "Munster",
+      "Ulster",
+      "Ulster (part of)",
+    ]
     self.cityNames = [
       "Dublin City",
       "Cork City",
@@ -73,6 +85,7 @@ class Converter (RDFModel):
       "geo" : {
       },
     }
+    self.counter = 0
     
   def getGeo(self, conceptType, **kwargs):
     ## Output template
@@ -335,12 +348,18 @@ class Converter (RDFModel):
         [
           self.ns["prop"]["population"],
           RDF.Node(
-            literal = obsValue,
+            literal = str(obsValue),
             datatype = self.ns["xsd"]["unsignedLong"].uri
           ),
         ],
       ]
     )
+    self.counter += 1
+    if self.counter > 10000:
+      print "[INFO] Flushing the store..."
+      self.write()
+      self.reset()
+      self.counter = 0
     
   def addFromEDs(self):
     for line in self.fileEDs:
@@ -357,7 +376,7 @@ class Converter (RDFModel):
           if conceptType == "State":
             geo = self.getGeo(conceptType)
           elif conceptType == "Province":
-            geo = self.getGeo(conceptType, name = name1)
+            geo = self.getGeo(conceptType, name = self.clean("\s*(part of)\s*", name1))
           elif conceptType == "City":
             geo = self.getGeo(conceptType, name = name1)
           elif conceptType == "AdministrativeCounty":
@@ -367,11 +386,12 @@ class Converter (RDFModel):
           elif conceptType == "paired ed":
             geo = self.getGeo(conceptType, name = name1, code1 = code1, code2 = code2)
           self.buffers["geo"] = geo
-          
+        
+        # Initiate dimensions  
         dimensions = [{"notation" : "2006"},]
         dimensions.append(self.buffers["geo"])
         # Call the callback method defined by the subclass
-        self.callbackED(dimensions, line[1:])
+        self.callback(dimensions, line[1:])
             
   def addFromEAs(self):
     for line in self.fileEAs:
@@ -398,14 +418,16 @@ class Converter (RDFModel):
           elif conceptType == "paired ea":
             geo = self.getGeo(conceptType, name1 = name, code1 = c1_part2, code2 = c2)
           
+          # Initiate dimensions
           dimensions = [{"notation" : "2006"}]
           dimensions.append(geo)
           # Call the callback method defined by the subclass
-          self.callbackEA(dimensions, line[1:])
+          self.callback(dimensions, line[1:])
           
         else:
-          print geoArea
-          raise SystemExit
+          raise Exception(
+            "Geographic area {0} cannot be matched.".format(geoArea)
+          )
   
   def initiateDataset(self):
     self.appendToSubject(
@@ -492,7 +514,28 @@ class Converter (RDFModel):
     self._fileEAs.close()
     self._fileEDs.close()
     self.computeAggregates()
-        
+    self.write()
+    
+  def mkdir(self, dirname):
+    """ Based on <http://code.activestate.com/recipes/82465-a-friendly-mkdir/> """
+    if os.path.exists(dirname):
+      pass
+    elif os.path.isfile(dirname):
+      raise OSError("A file with the same name {0} already exists.".format(dirname))
+    else:
+      head, tail = os.path.split(dirname)
+      if head and not os.path.isdir(head):
+        self.mkdir(head)
+      else:
+        os.mkdir(dirname)
+      return dirname
+  
   def write(self):
-    RDFModel.write(self, os.path.join("..", "Datasets", "{0}.ttl".format(self.datasetID)))
+    RDFModel.write(
+      self,
+      os.path.join(
+        self.writePath,
+        "{0}.ttl".format(str(int(time.time())))
+      )
+    )
 
