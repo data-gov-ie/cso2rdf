@@ -1,0 +1,43 @@
+@prefix qb:             <http://purl.org/linked-data/cube#> .
+@prefix rdf:            <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:           <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sdmx-dimension: <http://purl.org/linked-data/sdmx/2009/dimension#> .
+@prefix xsd:            <http://www.w3.org/2001/XMLSchema#> .
+
+# --- Own namespaces ------------------------
+
+@prefix dsd:            <http://stats.govdata.ie/dsd/> .
+@prefix prop:           <http://stats.govdata.ie/property/> .
+@prefix code:           <http://stats.govdata.ie/codelist/> .
+@prefix concept:        <http://stats.govdata.ie/concept/> .
+
+# --- Data structure definition -------------
+
+dsd:persons-by-gender-age-and-marital-status a qb:DataStructureDefinition;
+    qb:component [
+        a qb:ComponentSpecification;
+        rdfs:label "Year"@en;
+        qb:dimension sdmx-dimension:refPeriod;
+        qb:order "1"^^xsd:int
+      ], [
+        a qb:ComponentSpecification;
+        qb:dimension prop:geoArea;
+        qb:order "2"^^xsd:int
+      ], [
+        a qb:ComponentSpecification;
+        qb:dimension sdmx-dimension:sex;
+        qb:order "3"^^xsd:int
+      ], [
+        a qb:ComponentSpecification;
+        qb:dimension prop:maritalStatus;
+        qb:order "4"^^xsd:int
+      ], [
+        a qb:ComponentSpecification;
+        qb:dimension prop:age2;
+        qb:order "5"^^xsd:int
+      ], [
+        a qb:ComponentSpecification;
+        qb:measure prop:population;
+        qb:order "6"^^xsd:int
+      ]
+    .
