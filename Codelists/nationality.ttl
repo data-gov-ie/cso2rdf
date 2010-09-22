@@ -9,47 +9,81 @@
 
 # --- Code lists ----------------------------
   
-code:nationality a sdmx:CodeList;
+code:nationality a skos:ConceptScheme;
     skos:prefLabel "Code list for nationalities"@en;
-    skos:hasTopConcept code-nationality:irish, code-nationality:uk, code-nationality:polish, code-nationality:lithuanian, code-nationality:other-eu-25, code-nationality:rest
+    skos:hasTopConcept code-nationality:irish, code-nationality:uk,
+      code-nationality:polish, code-nationality:lithuanian,
+      code-nationality:other-eu-25, code-nationality:rest,
+      code-nationality:not-stated, code-nationality:total
     .
     
-code-nationality:irish a sdmx:Concept;
+code-nationality:irish a skos:Concept;
+    skos:inScheme code:nationality;
     skos:topConceptOf code:nationality;
     skos:prefLabel "Irish"@en;
     skos:closeMatch <http://dbpedia.org/resource/Irish_people>;
-    skos:notation "irish"
+    skos:notation "irish";
+    skos:broader code-nationality:total
     .
     
-code-nationality:uk a sdmx:Concept;
+code-nationality:uk a skos:Concept;
+    skos:inScheme code:nationality;
     skos:topConceptOf code:nationality;
     skos:prefLabel "UK"@en;
     skos:closeMatch <http://dbpedia.org/resource/British_people>;
-    skos:notation "uk"
+    skos:notation "uk";
+    skos:broader code-nationality:total
     .
     
-code-nationality:polish a sdmx:Concept;
+code-nationality:polish a skos:Concept;
+    skos:inScheme code:nationality;
     skos:topConceptOf code:nationality;
     skos:prefLabel "Polish"@en;
     skos:closeMatch <http://dbpedia.org/resource/Poles>;
-    skos:notation "polish"
+    skos:notation "polish";
+    skos:broader code-nationality:total
     .
     
-code-nationality:lithuanian a sdmx:Concept;
+code-nationality:lithuanian a skos:Concept;
+    skos:inScheme code:nationality;
     skos:topConceptOf code:nationality;
     skos:prefLabel "Lithuanian"@en;
     skos:closeMatch <http://dbpedia.org/resource/Lithuanian_people>;
-    skos:notation "lithuanian"
+    skos:notation "lithuanian";
+    skos:broader code-nationality:total
     .
     
-code-nationality:other-eu-25 a sdmx:Concept;
+code-nationality:other-eu-25 a skos:Concept;
+    skos:inScheme code:nationality;
     skos:topConceptOf code:nationality;
     skos:prefLabel "Other EU25"@en;
-    skos:notation "other-eu-25"
+    skos:notation "other-eu-25";
+    skos:broader code-nationality:total
     .
     
-code-nationality:rest a sdmx:Concept;
+code-nationality:rest a skos:Concept;
+    skos:inScheme code:nationality;
     skos:topConceptOf code:nationality;
     skos:prefLabel "Rest of World"@en;
-    skos:notation "rest"
+    skos:notation "rest";
+    skos:broader code-nationality:total
+    .
+
+code-nationality:not-stated a skos:Concept;
+    skos:inScheme code:nationality;
+    skos:topConceptOf code:nationality;
+    skos:prefLabel "Not stated"@en;
+    skos:notation "not-stated";
+    skos:broader code-nationality:total
+    .
+    
+code-nationality:total a skos:Concept;
+    skos:inScheme code:nationality;
+    skos:topConceptOf code:nationality;
+    skos:prefLabel "Total"@en;
+    skos:notation "total";
+    skos:narrower code-nationality:irish, code-nationality:uk,
+      code-nationality:polish, code-nationality:lithuanian,
+      code-nationality:other-eu-25, code-nationality:rest,
+      code-nationality:not-stated
     .

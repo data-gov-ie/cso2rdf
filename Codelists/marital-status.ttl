@@ -1,5 +1,4 @@
 @prefix rdf:            <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-@prefix sdmx:           <http://purl.org/linked-data/sdmx#> .
 @prefix skos:           <http://www.w3.org/2004/02/skos/core#> .
 
 # --- Own namespaces ------------------------
@@ -7,9 +6,9 @@
 @prefix code:           <http://stats.govdata.ie/codelist/> .
 @prefix code-marital:   <http://stats.govdata.ie/codelist/marital-status/> .
 
-# --- Code lists ----------------------------
+# --- Code list -----------------------------
   
-code:marital-status a sdmx:CodeList;
+code:marital-status a skos:ConceptScheme;
     skos:prefLabel "Code list for marital statuses"@en;
     skos:hasTopConcept code-marital:single, code-marital:married,
       code-marital:separated, code-marital:divorced,

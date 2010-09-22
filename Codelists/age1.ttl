@@ -10,7 +10,7 @@
 
 # --- Code lists ----------------------------
   
-code:age1 a sdmx:CodeList;
+code:age1 a skos:ConceptScheme;
     skos:prefLabel "Code list for years of age"@en;
     skos:hasTopConcept code-age1:0, code-age1:1,
       code-age1:2, code-age1:3, code-age1:4, code-age1:5,

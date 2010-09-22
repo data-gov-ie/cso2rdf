@@ -9,7 +9,7 @@
 
 # --- Code lists ----------------------------
   
-code:religion a sdmx:CodeList;
+code:religion a skos:ConceptScheme;
     skos:prefLabel "Code list for religions"@en;
     skos:hasTopConcept code-religion:1, code-religion:2, code-religion:3, code-religion:4, code-religion:5
     .
