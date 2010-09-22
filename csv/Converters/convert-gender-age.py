@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 #-*- coding:utf-8 -*-
 
-import csv, itertools, os, RDF, re, sys
+import os
 from Converter import Converter
 
 # Definition of the paths
@@ -11,9 +11,6 @@ EA_FILE = os.path.join("..", "Datasources", "ea", "gender-age.csv")
 
 
 class ConvertGenderAge (Converter):
-  """
-    Class for converting CSO datasets about religion
-  """
   
   def __init__(self, DSD, title):
     namespaces = {
@@ -60,126 +57,18 @@ class ConvertGenderAge (Converter):
       }
       
     return concept
-    
-  def callbackEA(self, dimensions, line):
+  
+  def callback(self, dimensions, line):
     for key, obsValue in enumerate(line[1:]):
       self.appendObservation(
         dimensions + [self.sexIndexToConcept[key]] + [self.getAge(str(line[0]))],
-        str(obsValue)
+        obsValue
       )
-    
-  def callbackED(self, dimensions, line):
-    for key, obsValue in enumerate(line[1:]):
-      self.appendObservation(
-        dimensions + [self.sexIndexToConcept[key]] + [self.getAge(str(line[0]))],
-        str(obsValue)
-      )
-    
-  def computeAggregates(self):
-    output = self.getTraditionalCountiesMapping()
-    
-    for traditionalCounty in output:
-      if output[traditionalCounty].has_key("exactMatch"):
-        administrativeCounty = output[traditionalCounty]["exactMatch"]
-        query = """PREFIX prop: <http://stats.govdata.ie/property/>
-          PREFIX sdmx: <http://purl.org/linked-data/sdmx#>
 
-          SELECT ?observation WHERE {{
-           ?observation a sdmx:Observation ;
-             prop:geoArea ?geo .
-           FILTER (?geo = <{0}>)
-          }}
-        """.format(administrativeCounty)
-        for observation in self.sparql(query):
-          dimensions = [
-            {
-              "notation" : "2006",
-            },
-            {
-              "notation" : output[traditionalCounty]["notation"],
-              "uri" : traditionalCounty,
-            },
-          ]
-          observation = str(observation["observation"].uri)
-          query = """PREFIX prop: <http://stats.govdata.ie/property/>
-            PREFIX sdmx-dimension: <http://purl.org/linked-data/sdmx/2009/dimension#>
-            
-            SELECT ?sex ?age ?population WHERE {{
-              <{0}> sdmx-dimension:sex ?sex ;
-                prop:age1 ?age ;
-                prop:population ?population .
-          }}""".format(observation)
-          for statement in self.sparql(query):
-            sex = str(statement["sex"].uri)
-            age = str(statement["age"].uri)
-            population = str(statement["population"].literal_value["string"])
-            dimensions += [
-              {
-                "notation" : self.getLastPartOfUri(sex),
-                "uri" : sex,
-              },
-              {
-                "notation" : self.getLastPartOfUri(age),
-                "uri" : age,
-              },
-            ]
-          self.appendObservation(dimensions, population)
-          
-      elif output[traditionalCounty].has_key("narrower"):
-        dimensions = [
-          {
-            "notation" : "2006",
-          },
-          {
-            "notation" : output[traditionalCounty]["notation"],
-            "uri" : traditionalCounty,
-          },
-        ]
-        narrowers = output[traditionalCounty]["narrower"]
-        
-        sexes = self.sexIndexToConcept
-        ages = [self.getAge(age) for age in range(0, 19) + ["19+", "Total"]]
-        products = [element for element in itertools.product(sexes, ages)]
-        for product in products:
-          sex = product[0]
-          age = product[1]
-          query = """PREFIX prop: <http://stats.govdata.ie/property/>
-            PREFIX sdmx: <http://purl.org/linked-data/sdmx#>
-            PREFIX sdmx-dimension: <http://purl.org/linked-data/sdmx/2009/dimension#>
 
-            SELECT ?population WHERE {{
-              ?observation a sdmx:Observation ;
-                prop:geoArea ?geo ;
-                sdmx-dimension:sex ?sex ;
-                prop:age1 ?age ;
-                prop:population ?population .
-              FILTER (?sex = <{0}>)
-              FILTER (?age = <{1}>)
-              FILTER ({2})
-            }}""".format(
-            str(sex["uri"].uri),
-            str(age["uri"].uri),
-            " || ".join(
-              ["?geo = <{0}>".format(narrower) for narrower in narrowers]
-            )
-          )
-          populationTotal = 0
-          for populationPart in self.sparql(query):
-            populationTotal += int(
-              populationPart["population"].literal_value["string"]
-            )
-          
-          populationTotal = str(populationTotal)
-          self.appendObservation(
-            dimensions + [sex, age],
-            populationTotal
-          )
-          
-     
 if __name__ == "__main__":
   cr = ConvertGenderAge(
     DSD = DSD,
     title = "Persons aged 18 and under by sex and single year of age and persons aged 19 and over by sex, 2006",
   )
   cr.main()
-  cr.write()

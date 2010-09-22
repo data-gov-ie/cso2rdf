@@ -35,7 +35,7 @@ class RDFModel (object):
     
   def clearTempFiles(self):
     for file in os.listdir(os.curdir):
-      if bool(re.match("db-.+\.db$", file)):
+      if os.path.exists(file) and os.path.isfile(file) and bool(re.match("db-.+\.db$", file)):
         os.remove(os.path.join(os.path.realpath(os.curdir), file))
     
   def addNamespaces(self, namespaces):
@@ -43,13 +43,19 @@ class RDFModel (object):
       if not self.ns.has_key(namespace):
         if type(namespaces[namespace]) == RDF.Uri:
           namespaces[namespace] = str(namespaces[namespace])
+        if isinstance(namespaces[namespace], RDF.NS):
+          namespaces[namespace] = namespaces[namespace]._prefix
         self.ns[namespace] = RDF.NS(namespaces[namespace])
         self.serializer.set_namespace(namespace, namespaces[namespace])
   
   def bootstrap(self, filename):
     file = open(filename, "r")
     parser = RDF.Parser(name="turtle")
-    status = parser.parse_string_into_model(self.model, file.read(), "http://example.com/bootstrap")
+    status = parser.parse_string_into_model(
+      self.model,
+      file.read(),
+      "http://example.com/bootstrap"
+    )
     file.close()
     if not status:
       raise RDF.RedlandError("Error parsing bootstrapping file.")
@@ -61,7 +67,9 @@ class RDFModel (object):
   def append(self, statements):
     for statement in statements: 
       try:
-        self.model.append(RDF.Statement(statement[0], statement[1], statement[2]))
+        self.model.append(
+          RDF.Statement(statement[0], statement[1], statement[2])
+        )
       except RDF.RedlandError:
         print "RDF.RedlandError\ns: {0}\np: {1}\no: {2}".format(
           subject,
@@ -72,7 +80,9 @@ class RDFModel (object):
   
   def appendToSubject(self, subject, statements):
     for statement in statements:
-      self.model.append(RDF.Statement(subject, statement[0], statement[1]))
+      self.model.append(
+        RDF.Statement(subject, statement[0], statement[1])
+      )
     return self
         
   def write(self, filename):
@@ -87,14 +97,31 @@ class RDFModel (object):
   def stringForUri(self, text):
     # Normalize accents
     text = unicode(text, "utf-8")
-    text = "".join((c for c in unicodedata.normalize("NFD", text) if unicodedata.category(c) != "Mn"))
+    text = "".join(
+      (c for c in unicodedata.normalize("NFD", text) if unicodedata.category(c) != "Mn")
+    )
     # Clean unwanted characters
-    return unicode.encode(re.sub("\s", "-", text.lower()), "utf-8")
+    return unicode.encode(
+      re.sub("\s", "-", text.lower()),
+      "utf-8"
+    )
     
   def clean(self, what, where):
-    return re.compile("\s*{0}\s*".format(what), flags = re.IGNORECASE).sub("", where).strip()
+    return re.compile(
+      "\s*{0}\s*".format(what),
+      flags = re.IGNORECASE
+    ).sub(
+      "",
+      where
+    ).strip()
   
   def sparql(self, query):
     query = RDF.SPARQLQuery(query)
     results = query.execute(self.model)
     return results
+
+  def reset(self):
+    del self.model
+    self.clearTempFiles()
+    RDFModel.__init__(self, self.ns)
+    
