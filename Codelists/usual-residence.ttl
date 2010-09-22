@@ -1,0 +1,56 @@
+@prefix rdf:                <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos:               <http://www.w3.org/2004/02/skos/core#> .
+
+# --- Own namespaces ------------------------
+
+@prefix code:               <http://stats.govdata.ie/codelist/> .
+@prefix code-residence:     <http://stats.govdata.ie/codelist/usual-residence/> .
+
+# --- Code list -----------------------------
+
+code:usual-residence a skos:ConceptScheme;
+    skos:prefLabel "Code list for usual residences"@en;
+    skos:hasTopConcept code-residence:same-address,
+      code-residence:elsewhere-in-county,
+      code-residence:elsewhere-in-ireland,
+      code-residence:outside-ireland,
+      code-residence:total
+    .
+
+code-residence:same-address a skos:Concept;
+    skos:inScheme code:usual-residence;
+    skos:topConceptOf code:usual-residence;
+    skos:prefLabel "Same address"@en;
+    skos:broader code-residence:total
+    .
+
+code-residence:elsewhere-in-county a skos:Concept;
+    skos:inScheme code:usual-residence;
+    skos:topConceptOf code:usual-residence;
+    skos:prefLabel "Elsewhere in County"@en;
+    skos:broader code-residence:total
+    .
+
+code-residence:elsewhere-in-ireland a skos:Concept;
+    skos:inScheme code:usual-residence;
+    skos:topConceptOf code:usual-residence;
+    skos:prefLabel "Elsewhere in Ireland"@en;
+    skos:broader code-residence:total
+    .
+
+code-residence:outside-ireland a skos:Concept;
+    skos:inScheme code:usual-residence;
+    skos:topConceptOf code:usual-residence;
+    skos:prefLabel "Outside Ireland"@en;
+    skos:broader code-residence:total
+    .
+
+code-residence:total a skos:Concept;
+    skos:inScheme code:usual-residence;
+    skos:topConceptOf code:usual-residence;
+    skos:prefLabel "Total"@en;
+    skos:narrower code-residence:same-address,
+      code-residence:elsewhere-in-county,
+      code-residence:elsewhere-in-ireland,
+      code-residence:outside-ireland
+    .
