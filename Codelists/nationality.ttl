@@ -57,6 +57,7 @@ code-nationality:other-eu-25 a skos:Concept;
     skos:inScheme code:nationality;
     skos:topConceptOf code:nationality;
     skos:prefLabel "Other EU25"@en;
+    rdfs:comment "This includes nations from Belgium, France, Germany, Italy, Luxembourg, Netherlands, Denmark, Greece, Portugal, Spain, Austria, Finland, Sweden, Cyprus, Czech Republic, Estonia, Hungary, Latvia, Malta, Slovakia and Slovenia."@en;
     skos:notation "other-eu-25";
     skos:broader code-nationality:total
     .
@@ -65,6 +66,7 @@ code-nationality:rest a skos:Concept;
     skos:inScheme code:nationality;
     skos:topConceptOf code:nationality;
     skos:prefLabel "Rest of World"@en;
+    rdfs:comment "This means the nations from the World without Irish, British, Polish, Lithuanian, and the nations from the other EU 25 countries."@en;
     skos:notation "rest";
     skos:broader code-nationality:total
     .
