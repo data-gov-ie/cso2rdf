@@ -21,6 +21,7 @@ code-residence:same-address a skos:Concept;
     skos:inScheme code:usual-residence;
     skos:topConceptOf code:usual-residence;
     skos:prefLabel "Same address"@en;
+    skos:definition "The person is usually resident in the same geographic area where the statistical data was collected."@en;
     skos:broader code-residence:total
     .
 
@@ -28,6 +29,7 @@ code-residence:elsewhere-in-county a skos:Concept;
     skos:inScheme code:usual-residence;
     skos:topConceptOf code:usual-residence;
     skos:prefLabel "Elsewhere in County"@en;
+    skos:definition "The person has usual residence in other part of the county than the part for which the statistical data was collected."@en;
     skos:broader code-residence:total
     .
 
@@ -35,6 +37,7 @@ code-residence:elsewhere-in-ireland a skos:Concept;
     skos:inScheme code:usual-residence;
     skos:topConceptOf code:usual-residence;
     skos:prefLabel "Elsewhere in Ireland"@en;
+    skos:definition "The person has usual residence in other part of Ireland than the part for which the statistical data was collected."@en;
     skos:broader code-residence:total
     .
 
@@ -42,6 +45,7 @@ code-residence:outside-ireland a skos:Concept;
     skos:inScheme code:usual-residence;
     skos:topConceptOf code:usual-residence;
     skos:prefLabel "Outside Ireland"@en;
+    skos:definition "The person's usual residence is outside of Ireland."@en;
     skos:broader code-residence:total
     .
 
