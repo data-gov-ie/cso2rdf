@@ -39,4 +39,4 @@ Bugs:
 
 * Script generates smdx:Observation in a number of turtle files under they persons-by-* directory and gender-age-aggregates.ttl. The smdx prefix is used for http://purl.org/linked-data/sdmx, however the Observation class belongs in http://purl.org/linked-data/cube. It should be qb:Observation instead.
 
-* Some of the object resources are outputted as literals as opposed to resources with <>s. This occurs in gender-age-aggregates.ttl (e.g., prop:geoArea "http://geo.govdata.ie/traditional-county/tipperary") and persons-by-religion/persons-by-religion.ttl (prop:religion "http://stats.govdata.ie/codelist/religion/catholic").
+* Some of the object resources are outputted as literals as opposed to IRIs. This occurs in gender-age-aggregates.ttl (e.g., prop:geoArea "http://geo.govdata.ie/traditional-county/tipperary") and persons-by-religion/persons-by-religion.ttl (prop:religion "http://stats.govdata.ie/codelist/religion/catholic").
