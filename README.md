@@ -37,6 +37,4 @@ Bugs:
 * Need to review URI patterns
   * e.g., /City and /city/galway: This can raise two (or more) issues. If want to move up one level on /city/galway, we get /city, expecting a collection of cities, however that URI doesn't exist due to case sensitivity. In contrast, /City is used for class definition.
 
-* Script generates smdx:Observation in a number of turtle files under they persons-by-* directory and gender-age-aggregates.ttl. The smdx prefix is used for http://purl.org/linked-data/sdmx, however the Observation class belongs in http://purl.org/linked-data/cube. It should be qb:Observation instead.
-
 * Some of the object resources are outputted as literals as opposed to IRIs. This occurs in gender-age-aggregates.ttl (e.g., prop:geoArea "http://geo.govdata.ie/traditional-county/tipperary") and persons-by-religion/persons-by-religion.ttl (prop:religion "http://stats.govdata.ie/codelist/religion/catholic").
