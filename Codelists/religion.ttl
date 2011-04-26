@@ -11,7 +11,7 @@
   
 code:religion a skos:ConceptScheme;
     skos:prefLabel "Code list for religions"@en;
-    skos:hasTopConcept code-religion:1, code-religion:2, code-religion:3, code-religion:4, code-religion:5
+    skos:hasTopConcept <http://stats.govdata.ie/codelist/religion/1>, <http://stats.govdata.ie/codelist/religion/2>, <http://stats.govdata.ie/codelist/religion/3>, <http://stats.govdata.ie/codelist/religion/4>, <http://stats.govdata.ie/codelist/religion/5>
     .
     
 code-religion:catholic a skos:Concept;

@@ -12,7 +12,7 @@ code:marital-status a skos:ConceptScheme;
     skos:prefLabel "Code list for marital statuses"@en;
     skos:hasTopConcept code-marital:single, code-marital:married,
       code-marital:separated, code-marital:divorced,
-      code:marital:widowed, code-marital:total
+      code-marital:widowed, code-marital:total
     .
     
 code-marital:single a skos:Concept;
