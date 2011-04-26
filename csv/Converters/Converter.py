@@ -334,7 +334,7 @@ class Converter (RDFModel):
       [
         [
           self.ns["rdf"]["type"],
-          self.ns["sdmx"]["Observation"],
+          self.ns["qb"]["Observation"],
         ],
         [
           self.ns["sdmx-dimension"]["refPeriod"],
