@@ -337,6 +337,10 @@ class Converter (RDFModel):
           self.ns["qb"]["Observation"],
         ],
         [
+          self.ns["qb"]["dataSet"],
+          self.ns["data"][self.datasetID]
+        ],
+        [
           self.ns["sdmx-dimension"]["refPeriod"],
           self.ns["year"][dimensions[0]["notation"]],
         ],
