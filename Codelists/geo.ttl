@@ -3,14 +3,14 @@
 
 # --- Code lists ----------------
 
-<http://stats.govdata.ie/codelist/geo/census-2006> a skos:ConceptScheme;
+<http://stats.data-gov.ie/codelist/geo/census-2006> a skos:ConceptScheme;
     skos:prefLabel "Code list for geographical areas in the Republic of Ireland as they are used in the CSO's Census 2006 data."@en
     .
     
-<http://stats.govdata.ie/codelist/geo/top-level> a skos:ConceptScheme;
+<http://stats.data-gov.ie/codelist/geo/top-level> a skos:ConceptScheme;
     skos:prefLabel "Code list for top-level geographical areas in the Republic of Ireland, which contains Republic of Ireland, traditional counties, administrative counties, and cities."@en
     .
     
-<http://stats.govdata.ie/codelist/geo/roi> a skos:ConceptScheme;
+<http://stats.data-gov.ie/codelist/geo/roi> a skos:ConceptScheme;
     skos:prefLabel "Code list for geographical areas in the Republic of Ireland including the top-level areas, enumeration areas and electoral divisions."@en
     .

@@ -16,8 +16,8 @@ class ConvertGenderAgeMaritalStatus (Converter):
     namespaces = {
       "sdmx-code" : "http://purl.org/linked-data/sdmx/2009/code#",
       # own namespaces
-      "code-marital" : "http://stats.govdata.ie/codelist/marital-status/",
-      "code-age2" : "http://stats.govdata.ie/codelist/age2/",
+      "code-marital" : "http://stats.data-gov.ie/codelist/marital-status/",
+      "code-age2" : "http://stats.data-gov.ie/codelist/age2/",
     }
     Converter.__init__(self, DSD, title, namespaces, ED_FILE, EA_FILE)
     

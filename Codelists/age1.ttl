@@ -4,223 +4,223 @@
 
 # --- Own namespaces ------------------------
 
-@prefix code:               <http://stats.govdata.ie/codelist/> .
-@prefix code-age1:          <http://stats.govdata.ie/codelist/age1/> .
-@prefix code-age2:          <http://stats.govdata.ie/codelist/age2/> .
+@prefix code:               <http://stats.data-gov.ie/codelist/> .
+@prefix code-age1:          <http://stats.data-gov.ie/codelist/age1/> .
+@prefix code-age2:          <http://stats.data-gov.ie/codelist/age2/> .
 
 # --- Code lists ----------------------------
   
-<http://stats.govdata.ie/codelist/age1/> a skos:ConceptScheme;
+<http://stats.data-gov.ie/codelist/age1/> a skos:ConceptScheme;
     skos:prefLabel "Code list for years of age"@en;
-    skos:hasTopConcept <http://stats.govdata.ie/codelist/age1/0>, <http://stats.govdata.ie/codelist/age1/1>,
-      <http://stats.govdata.ie/codelist/age1/2>, <http://stats.govdata.ie/codelist/age1/3>, <http://stats.govdata.ie/codelist/age1/4>, <http://stats.govdata.ie/codelist/age1/5>,
-      <http://stats.govdata.ie/codelist/age1/6>, <http://stats.govdata.ie/codelist/age1/7>, <http://stats.govdata.ie/codelist/age1/8>, <http://stats.govdata.ie/codelist/age1/9>,
-      <http://stats.govdata.ie/codelist/age1/10>, <http://stats.govdata.ie/codelist/age1/11>, <http://stats.govdata.ie/codelist/age1/12>, <http://stats.govdata.ie/codelist/age1/13>,
-      <http://stats.govdata.ie/codelist/age1/14>, <http://stats.govdata.ie/codelist/age1/15>, <http://stats.govdata.ie/codelist/age1/16>, <http://stats.govdata.ie/codelist/age1/17>,
-      <http://stats.govdata.ie/codelist/age1/18>, <http://stats.govdata.ie/codelist/age1/19-and-more>, <http://stats.govdata.ie/codelist/age1/total>
+    skos:hasTopConcept <http://stats.data-gov.ie/codelist/age1/0>, <http://stats.data-gov.ie/codelist/age1/1>,
+      <http://stats.data-gov.ie/codelist/age1/2>, <http://stats.data-gov.ie/codelist/age1/3>, <http://stats.data-gov.ie/codelist/age1/4>, <http://stats.data-gov.ie/codelist/age1/5>,
+      <http://stats.data-gov.ie/codelist/age1/6>, <http://stats.data-gov.ie/codelist/age1/7>, <http://stats.data-gov.ie/codelist/age1/8>, <http://stats.data-gov.ie/codelist/age1/9>,
+      <http://stats.data-gov.ie/codelist/age1/10>, <http://stats.data-gov.ie/codelist/age1/11>, <http://stats.data-gov.ie/codelist/age1/12>, <http://stats.data-gov.ie/codelist/age1/13>,
+      <http://stats.data-gov.ie/codelist/age1/14>, <http://stats.data-gov.ie/codelist/age1/15>, <http://stats.data-gov.ie/codelist/age1/16>, <http://stats.data-gov.ie/codelist/age1/17>,
+      <http://stats.data-gov.ie/codelist/age1/18>, <http://stats.data-gov.ie/codelist/age1/19-and-more>, <http://stats.data-gov.ie/codelist/age1/total>
     .
     
-<http://stats.govdata.ie/codelist/age1/0> a skos:Concept;
-    skos:inScheme <http://stats.govdata.ie/codelist/age1>;
-    skos:topConceptOf <http://stats.govdata.ie/codelist/age1>;
+<http://stats.data-gov.ie/codelist/age1/0> a skos:Concept;
+    skos:inScheme <http://stats.data-gov.ie/codelist/age1>;
+    skos:topConceptOf <http://stats.data-gov.ie/codelist/age1>;
     skos:prefLabel "0";
     skos:notation "0";
-    skos:broader <http://stats.govdata.ie/codelist/age2/0-4>,
-      <http://stats.govdata.ie/codelist/age1/total>, <http://stats.govdata.ie/codelist/age2/total>
+    skos:broader <http://stats.data-gov.ie/codelist/age2/0-4>,
+      <http://stats.data-gov.ie/codelist/age1/total>, <http://stats.data-gov.ie/codelist/age2/total>
     .
     
-<http://stats.govdata.ie/codelist/age1/1> a skos:Concept;
-    skos:inScheme <http://stats.govdata.ie/codelist/age1>;
-    skos:topConceptOf <http://stats.govdata.ie/codelist/age1>;
+<http://stats.data-gov.ie/codelist/age1/1> a skos:Concept;
+    skos:inScheme <http://stats.data-gov.ie/codelist/age1>;
+    skos:topConceptOf <http://stats.data-gov.ie/codelist/age1>;
     skos:prefLabel "1";
     skos:notation "1";
-    skos:broader <http://stats.govdata.ie/codelist/age2/0-4>,
-      <http://stats.govdata.ie/codelist/age1/total>, <http://stats.govdata.ie/codelist/age2/total>
+    skos:broader <http://stats.data-gov.ie/codelist/age2/0-4>,
+      <http://stats.data-gov.ie/codelist/age1/total>, <http://stats.data-gov.ie/codelist/age2/total>
     .
     
-<http://stats.govdata.ie/codelist/age1/2> a skos:Concept;
-    skos:inScheme <http://stats.govdata.ie/codelist/age1>;
-    skos:topConceptOf <http://stats.govdata.ie/codelist/age1>;
+<http://stats.data-gov.ie/codelist/age1/2> a skos:Concept;
+    skos:inScheme <http://stats.data-gov.ie/codelist/age1>;
+    skos:topConceptOf <http://stats.data-gov.ie/codelist/age1>;
     skos:prefLabel "2";
     skos:notation "2";
-    skos:broader <http://stats.govdata.ie/codelist/age2/0-4>,
-      <http://stats.govdata.ie/codelist/age1/total>, <http://stats.govdata.ie/codelist/age2/total>
+    skos:broader <http://stats.data-gov.ie/codelist/age2/0-4>,
+      <http://stats.data-gov.ie/codelist/age1/total>, <http://stats.data-gov.ie/codelist/age2/total>
     .
     
-<http://stats.govdata.ie/codelist/age1/3> a skos:Concept;
-    skos:inScheme <http://stats.govdata.ie/codelist/age1>;
-    skos:topConceptOf <http://stats.govdata.ie/codelist/age1>;
+<http://stats.data-gov.ie/codelist/age1/3> a skos:Concept;
+    skos:inScheme <http://stats.data-gov.ie/codelist/age1>;
+    skos:topConceptOf <http://stats.data-gov.ie/codelist/age1>;
     skos:prefLabel "3";
     skos:notation "3";
-    skos:broader <http://stats.govdata.ie/codelist/age2/0-4>,
-      <http://stats.govdata.ie/codelist/age1/total>, <http://stats.govdata.ie/codelist/age2/total>
+    skos:broader <http://stats.data-gov.ie/codelist/age2/0-4>,
+      <http://stats.data-gov.ie/codelist/age1/total>, <http://stats.data-gov.ie/codelist/age2/total>
     .
     
-<http://stats.govdata.ie/codelist/age1/4> a skos:Concept;
-    skos:inScheme <http://stats.govdata.ie/codelist/age1>;
-    skos:topConceptOf <http://stats.govdata.ie/codelist/age1>;
+<http://stats.data-gov.ie/codelist/age1/4> a skos:Concept;
+    skos:inScheme <http://stats.data-gov.ie/codelist/age1>;
+    skos:topConceptOf <http://stats.data-gov.ie/codelist/age1>;
     skos:prefLabel "4";
     skos:notation "4";
-    skos:broader <http://stats.govdata.ie/codelist/age2/0-4>,
-      <http://stats.govdata.ie/codelist/age1/total>, <http://stats.govdata.ie/codelist/age2/total>
+    skos:broader <http://stats.data-gov.ie/codelist/age2/0-4>,
+      <http://stats.data-gov.ie/codelist/age1/total>, <http://stats.data-gov.ie/codelist/age2/total>
     .
     
-<http://stats.govdata.ie/codelist/age1/5> a skos:Concept;
-    skos:inScheme <http://stats.govdata.ie/codelist/age1>;
-    skos:topConceptOf <http://stats.govdata.ie/codelist/age1>;
+<http://stats.data-gov.ie/codelist/age1/5> a skos:Concept;
+    skos:inScheme <http://stats.data-gov.ie/codelist/age1>;
+    skos:topConceptOf <http://stats.data-gov.ie/codelist/age1>;
     skos:prefLabel "5";
     skos:notation "5";
-    skos:broader <http://stats.govdata.ie/codelist/age2/5-9>,
-      <http://stats.govdata.ie/codelist/age1/total>, <http://stats.govdata.ie/codelist/age2/total>
+    skos:broader <http://stats.data-gov.ie/codelist/age2/5-9>,
+      <http://stats.data-gov.ie/codelist/age1/total>, <http://stats.data-gov.ie/codelist/age2/total>
     .
     
-<http://stats.govdata.ie/codelist/age1/6> a skos:Concept;
-    skos:inScheme <http://stats.govdata.ie/codelist/age1>;
-    skos:topConceptOf <http://stats.govdata.ie/codelist/age1>;
+<http://stats.data-gov.ie/codelist/age1/6> a skos:Concept;
+    skos:inScheme <http://stats.data-gov.ie/codelist/age1>;
+    skos:topConceptOf <http://stats.data-gov.ie/codelist/age1>;
     skos:prefLabel "6";
     skos:notation "6";
-    skos:broader <http://stats.govdata.ie/codelist/age2/5-9>,
-      <http://stats.govdata.ie/codelist/age1/total>, <http://stats.govdata.ie/codelist/age2/total>
+    skos:broader <http://stats.data-gov.ie/codelist/age2/5-9>,
+      <http://stats.data-gov.ie/codelist/age1/total>, <http://stats.data-gov.ie/codelist/age2/total>
     .
     
-<http://stats.govdata.ie/codelist/age1/7> a skos:Concept;
-    skos:inScheme <http://stats.govdata.ie/codelist/age1>;
-    skos:topConceptOf <http://stats.govdata.ie/codelist/age1>;
+<http://stats.data-gov.ie/codelist/age1/7> a skos:Concept;
+    skos:inScheme <http://stats.data-gov.ie/codelist/age1>;
+    skos:topConceptOf <http://stats.data-gov.ie/codelist/age1>;
     skos:prefLabel "7";
     skos:notation "7";
-    skos:broader <http://stats.govdata.ie/codelist/age2/5-9>,
-      <http://stats.govdata.ie/codelist/age1/total>, <http://stats.govdata.ie/codelist/age2/total>
+    skos:broader <http://stats.data-gov.ie/codelist/age2/5-9>,
+      <http://stats.data-gov.ie/codelist/age1/total>, <http://stats.data-gov.ie/codelist/age2/total>
     .
     
-<http://stats.govdata.ie/codelist/age1/8> a skos:Concept;
-    skos:inScheme <http://stats.govdata.ie/codelist/age1>;
-    skos:topConceptOf <http://stats.govdata.ie/codelist/age1>;
+<http://stats.data-gov.ie/codelist/age1/8> a skos:Concept;
+    skos:inScheme <http://stats.data-gov.ie/codelist/age1>;
+    skos:topConceptOf <http://stats.data-gov.ie/codelist/age1>;
     skos:prefLabel "8";
     skos:notation "8";
-    skos:broader <http://stats.govdata.ie/codelist/age2/5-9>,
-      <http://stats.govdata.ie/codelist/age1/total>, <http://stats.govdata.ie/codelist/age2/total>
+    skos:broader <http://stats.data-gov.ie/codelist/age2/5-9>,
+      <http://stats.data-gov.ie/codelist/age1/total>, <http://stats.data-gov.ie/codelist/age2/total>
     .
     
-<http://stats.govdata.ie/codelist/age1/9> a skos:Concept;
-    skos:inScheme <http://stats.govdata.ie/codelist/age1>;
-    skos:topConceptOf <http://stats.govdata.ie/codelist/age1>;
+<http://stats.data-gov.ie/codelist/age1/9> a skos:Concept;
+    skos:inScheme <http://stats.data-gov.ie/codelist/age1>;
+    skos:topConceptOf <http://stats.data-gov.ie/codelist/age1>;
     skos:prefLabel "9";
     skos:notation "9";
-    skos:broader <http://stats.govdata.ie/codelist/age2/5-9>,
-      <http://stats.govdata.ie/codelist/age1/total>, <http://stats.govdata.ie/codelist/age2/total>
+    skos:broader <http://stats.data-gov.ie/codelist/age2/5-9>,
+      <http://stats.data-gov.ie/codelist/age1/total>, <http://stats.data-gov.ie/codelist/age2/total>
     .
 
-<http://stats.govdata.ie/codelist/age1/10> a skos:Concept;
-    skos:inScheme <http://stats.govdata.ie/codelist/age1>;
-    skos:topConceptOf <http://stats.govdata.ie/codelist/age1>;
+<http://stats.data-gov.ie/codelist/age1/10> a skos:Concept;
+    skos:inScheme <http://stats.data-gov.ie/codelist/age1>;
+    skos:topConceptOf <http://stats.data-gov.ie/codelist/age1>;
     skos:prefLabel "10";
     skos:notation "10";
-    skos:broader <http://stats.govdata.ie/codelist/age2/10-14>,
-      <http://stats.govdata.ie/codelist/age1/total>, <http://stats.govdata.ie/codelist/age2/total>
+    skos:broader <http://stats.data-gov.ie/codelist/age2/10-14>,
+      <http://stats.data-gov.ie/codelist/age1/total>, <http://stats.data-gov.ie/codelist/age2/total>
     .
 
-<http://stats.govdata.ie/codelist/age1/11> a skos:Concept;
-    skos:inScheme <http://stats.govdata.ie/codelist/age1>;
-    skos:topConceptOf <http://stats.govdata.ie/codelist/age1>;
+<http://stats.data-gov.ie/codelist/age1/11> a skos:Concept;
+    skos:inScheme <http://stats.data-gov.ie/codelist/age1>;
+    skos:topConceptOf <http://stats.data-gov.ie/codelist/age1>;
     skos:prefLabel "11";
     skos:notation "11";
-    skos:broader <http://stats.govdata.ie/codelist/age2/10-14>,
-      <http://stats.govdata.ie/codelist/age1/total>, <http://stats.govdata.ie/codelist/age2/total>
+    skos:broader <http://stats.data-gov.ie/codelist/age2/10-14>,
+      <http://stats.data-gov.ie/codelist/age1/total>, <http://stats.data-gov.ie/codelist/age2/total>
     .
 
-<http://stats.govdata.ie/codelist/age1/12> a skos:Concept;
-    skos:inScheme <http://stats.govdata.ie/codelist/age1>;
-    skos:topConceptOf <http://stats.govdata.ie/codelist/age1>;
+<http://stats.data-gov.ie/codelist/age1/12> a skos:Concept;
+    skos:inScheme <http://stats.data-gov.ie/codelist/age1>;
+    skos:topConceptOf <http://stats.data-gov.ie/codelist/age1>;
     skos:prefLabel "12";
     skos:notation "12";
-    skos:narrower <http://stats.govdata.ie/codelist/age2/10-14>,
-      <http://stats.govdata.ie/codelist/age1/total>, <http://stats.govdata.ie/codelist/age2/total>
+    skos:narrower <http://stats.data-gov.ie/codelist/age2/10-14>,
+      <http://stats.data-gov.ie/codelist/age1/total>, <http://stats.data-gov.ie/codelist/age2/total>
     .
 
-<http://stats.govdata.ie/codelist/age1/13> a skos:Concept;
-    skos:inScheme <http://stats.govdata.ie/codelist/age1>;
-    skos:topConceptOf <http://stats.govdata.ie/codelist/age1>;
+<http://stats.data-gov.ie/codelist/age1/13> a skos:Concept;
+    skos:inScheme <http://stats.data-gov.ie/codelist/age1>;
+    skos:topConceptOf <http://stats.data-gov.ie/codelist/age1>;
     skos:prefLabel "13";
     skos:notation "13";
-    skos:narrower <http://stats.govdata.ie/codelist/age2/10-14>,
-      <http://stats.govdata.ie/codelist/age1/total>, <http://stats.govdata.ie/codelist/age2/total>
+    skos:narrower <http://stats.data-gov.ie/codelist/age2/10-14>,
+      <http://stats.data-gov.ie/codelist/age1/total>, <http://stats.data-gov.ie/codelist/age2/total>
     .
 
-<http://stats.govdata.ie/codelist/age1/14> a skos:Concept;
-    skos:inScheme <http://stats.govdata.ie/codelist/age1>;
-    skos:topConceptOf <http://stats.govdata.ie/codelist/age1>;
+<http://stats.data-gov.ie/codelist/age1/14> a skos:Concept;
+    skos:inScheme <http://stats.data-gov.ie/codelist/age1>;
+    skos:topConceptOf <http://stats.data-gov.ie/codelist/age1>;
     skos:prefLabel "14";
     skos:notation "14";
-    skos:narrower <http://stats.govdata.ie/codelist/age2/10-14>,
-      <http://stats.govdata.ie/codelist/age1/total>, <http://stats.govdata.ie/codelist/age2/total>
+    skos:narrower <http://stats.data-gov.ie/codelist/age2/10-14>,
+      <http://stats.data-gov.ie/codelist/age1/total>, <http://stats.data-gov.ie/codelist/age2/total>
     .
 
-<http://stats.govdata.ie/codelist/age1/15> a skos:Concept;
-    skos:inScheme <http://stats.govdata.ie/codelist/age1>;
-    skos:topConceptOf <http://stats.govdata.ie/codelist/age1>;
+<http://stats.data-gov.ie/codelist/age1/15> a skos:Concept;
+    skos:inScheme <http://stats.data-gov.ie/codelist/age1>;
+    skos:topConceptOf <http://stats.data-gov.ie/codelist/age1>;
     skos:prefLabel "15";
     skos:notation "15";
-    skos:broader <http://stats.govdata.ie/codelist/age2/15-19>,
-      <http://stats.govdata.ie/codelist/age1/total>, <http://stats.govdata.ie/codelist/age2/total>
+    skos:broader <http://stats.data-gov.ie/codelist/age2/15-19>,
+      <http://stats.data-gov.ie/codelist/age1/total>, <http://stats.data-gov.ie/codelist/age2/total>
     .
 
-<http://stats.govdata.ie/codelist/age1/16> a skos:Concept;
-    skos:inScheme <http://stats.govdata.ie/codelist/age1>;
-    skos:topConceptOf <http://stats.govdata.ie/codelist/age1>;
+<http://stats.data-gov.ie/codelist/age1/16> a skos:Concept;
+    skos:inScheme <http://stats.data-gov.ie/codelist/age1>;
+    skos:topConceptOf <http://stats.data-gov.ie/codelist/age1>;
     skos:prefLabel "16";
     skos:notation "16";
-    skos:broader <http://stats.govdata.ie/codelist/age2/15-19>,
-      <http://stats.govdata.ie/codelist/age1/total>, <http://stats.govdata.ie/codelist/age2/total>
+    skos:broader <http://stats.data-gov.ie/codelist/age2/15-19>,
+      <http://stats.data-gov.ie/codelist/age1/total>, <http://stats.data-gov.ie/codelist/age2/total>
     .
 
-<http://stats.govdata.ie/codelist/age1/17> a skos:Concept;
-    skos:inScheme <http://stats.govdata.ie/codelist/age1>;
-    skos:topConceptOf <http://stats.govdata.ie/codelist/age1>;
+<http://stats.data-gov.ie/codelist/age1/17> a skos:Concept;
+    skos:inScheme <http://stats.data-gov.ie/codelist/age1>;
+    skos:topConceptOf <http://stats.data-gov.ie/codelist/age1>;
     skos:prefLabel "17";
     skos:notation "17";
-    skos:broader <http://stats.govdata.ie/codelist/age2/15-19>,
-      <http://stats.govdata.ie/codelist/age1/total>, <http://stats.govdata.ie/codelist/age2/total>
+    skos:broader <http://stats.data-gov.ie/codelist/age2/15-19>,
+      <http://stats.data-gov.ie/codelist/age1/total>, <http://stats.data-gov.ie/codelist/age2/total>
     .
 
-<http://stats.govdata.ie/codelist/age1/18> a skos:Concept;
-    skos:inScheme <http://stats.govdata.ie/codelist/age1>;
-    skos:topConceptOf <http://stats.govdata.ie/codelist/age1>;
+<http://stats.data-gov.ie/codelist/age1/18> a skos:Concept;
+    skos:inScheme <http://stats.data-gov.ie/codelist/age1>;
+    skos:topConceptOf <http://stats.data-gov.ie/codelist/age1>;
     skos:prefLabel "18";
     skos:notation "18";
-    skos:broader <http://stats.govdata.ie/codelist/age2/15-19>,
-      <http://stats.govdata.ie/codelist/age1/total>, <http://stats.govdata.ie/codelist/age2/total>
+    skos:broader <http://stats.data-gov.ie/codelist/age2/15-19>,
+      <http://stats.data-gov.ie/codelist/age1/total>, <http://stats.data-gov.ie/codelist/age2/total>
     .
 
-<http://stats.govdata.ie/codelist/age1/19-and-more> a skos:Concept;
-    skos:inScheme <http://stats.govdata.ie/codelist/age1>;
-    skos:topConceptOf <http://stats.govdata.ie/codelist/age1>;
+<http://stats.data-gov.ie/codelist/age1/19-and-more> a skos:Concept;
+    skos:inScheme <http://stats.data-gov.ie/codelist/age1>;
+    skos:topConceptOf <http://stats.data-gov.ie/codelist/age1>;
     skos:prefLabel "19+";
     skos:notation "19-and-more";
-    skos:narrower <http://stats.govdata.ie/codelist/age2/20-24>, <http://stats.govdata.ie/codelist/age2/25-29>,
-      <http://stats.govdata.ie/codelist/age2/30-34>, <http://stats.govdata.ie/codelist/age2/35-39>, <http://stats.govdata.ie/codelist/age2/40-44>,
-      <http://stats.govdata.ie/codelist/age2/45-49>, <http://stats.govdata.ie/codelist/age2/50-54>, <http://stats.govdata.ie/codelist/age2/55-59>,
-      <http://stats.govdata.ie/codelist/age2/60-64>, <http://stats.govdata.ie/codelist/age2/65-69>, <http://stats.govdata.ie/codelist/age2/70-74>,
-      <http://stats.govdata.ie/codelist/age2/75-79>, <http://stats.govdata.ie/codelist/age2/80-84>, <http://stats.govdata.ie/codelist/age2/85-and-more>;
-    skos:broader <http://stats.govdata.ie/codelist/age1/total>, <http://stats.govdata.ie/codelist/age2/total>
+    skos:narrower <http://stats.data-gov.ie/codelist/age2/20-24>, <http://stats.data-gov.ie/codelist/age2/25-29>,
+      <http://stats.data-gov.ie/codelist/age2/30-34>, <http://stats.data-gov.ie/codelist/age2/35-39>, <http://stats.data-gov.ie/codelist/age2/40-44>,
+      <http://stats.data-gov.ie/codelist/age2/45-49>, <http://stats.data-gov.ie/codelist/age2/50-54>, <http://stats.data-gov.ie/codelist/age2/55-59>,
+      <http://stats.data-gov.ie/codelist/age2/60-64>, <http://stats.data-gov.ie/codelist/age2/65-69>, <http://stats.data-gov.ie/codelist/age2/70-74>,
+      <http://stats.data-gov.ie/codelist/age2/75-79>, <http://stats.data-gov.ie/codelist/age2/80-84>, <http://stats.data-gov.ie/codelist/age2/85-and-more>;
+    skos:broader <http://stats.data-gov.ie/codelist/age1/total>, <http://stats.data-gov.ie/codelist/age2/total>
     .
 
-<http://stats.govdata.ie/codelist/age1/total> a skos:Concept;
-    skos:inScheme <http://stats.govdata.ie/codelist/age1>;
-    skos:topConceptOf <http://stats.govdata.ie/codelist/age1>;
+<http://stats.data-gov.ie/codelist/age1/total> a skos:Concept;
+    skos:inScheme <http://stats.data-gov.ie/codelist/age1>;
+    skos:topConceptOf <http://stats.data-gov.ie/codelist/age1>;
     skos:prefLabel "Total"@en;
     skos:notation "total";
-    skos:narrower <http://stats.govdata.ie/codelist/age1/0>, <http://stats.govdata.ie/codelist/age1/1>,
-      <http://stats.govdata.ie/codelist/age1/2>, <http://stats.govdata.ie/codelist/age1/3>, <http://stats.govdata.ie/codelist/age1/4>,
-      <http://stats.govdata.ie/codelist/age1/5>, <http://stats.govdata.ie/codelist/age1/6>, <http://stats.govdata.ie/codelist/age1/7>,
-      <http://stats.govdata.ie/codelist/age1/8>, <http://stats.govdata.ie/codelist/age1/9>, <http://stats.govdata.ie/codelist/age1/10>,
-      <http://stats.govdata.ie/codelist/age1/11>, <http://stats.govdata.ie/codelist/age1/12>, <http://stats.govdata.ie/codelist/age1/13>,
-      <http://stats.govdata.ie/codelist/age1/14>, <http://stats.govdata.ie/codelist/age1/15>, <http://stats.govdata.ie/codelist/age1/16>,
-      <http://stats.govdata.ie/codelist/age1/17>, <http://stats.govdata.ie/codelist/age1/18>, <http://stats.govdata.ie/codelist/age1/19-and-more>,
-      <http://stats.govdata.ie/codelist/age2/0-4>, <http://stats.govdata.ie/codelist/age2/5-9>, <http://stats.govdata.ie/codelist/age2/10-14>,
-      <http://stats.govdata.ie/codelist/age2/15-19>, <http://stats.govdata.ie/codelist/age2/20-24>, <http://stats.govdata.ie/codelist/age2/25-29>,
-      <http://stats.govdata.ie/codelist/age2/30-34>, <http://stats.govdata.ie/codelist/age2/35-39>, <http://stats.govdata.ie/codelist/age2/40-44>,
-      <http://stats.govdata.ie/codelist/age2/45-49>, <http://stats.govdata.ie/codelist/age2/50-54>, <http://stats.govdata.ie/codelist/age2/55-59>,
-      <http://stats.govdata.ie/codelist/age2/60-64>, <http://stats.govdata.ie/codelist/age2/65-69>, <http://stats.govdata.ie/codelist/age2/70-74>,
-      <http://stats.govdata.ie/codelist/age2/75-79>, <http://stats.govdata.ie/codelist/age2/80-84>, <http://stats.govdata.ie/codelist/age2/85-and-more>;
-    skos:exactMatch <http://stats.govdata.ie/codelist/age2/total>
+    skos:narrower <http://stats.data-gov.ie/codelist/age1/0>, <http://stats.data-gov.ie/codelist/age1/1>,
+      <http://stats.data-gov.ie/codelist/age1/2>, <http://stats.data-gov.ie/codelist/age1/3>, <http://stats.data-gov.ie/codelist/age1/4>,
+      <http://stats.data-gov.ie/codelist/age1/5>, <http://stats.data-gov.ie/codelist/age1/6>, <http://stats.data-gov.ie/codelist/age1/7>,
+      <http://stats.data-gov.ie/codelist/age1/8>, <http://stats.data-gov.ie/codelist/age1/9>, <http://stats.data-gov.ie/codelist/age1/10>,
+      <http://stats.data-gov.ie/codelist/age1/11>, <http://stats.data-gov.ie/codelist/age1/12>, <http://stats.data-gov.ie/codelist/age1/13>,
+      <http://stats.data-gov.ie/codelist/age1/14>, <http://stats.data-gov.ie/codelist/age1/15>, <http://stats.data-gov.ie/codelist/age1/16>,
+      <http://stats.data-gov.ie/codelist/age1/17>, <http://stats.data-gov.ie/codelist/age1/18>, <http://stats.data-gov.ie/codelist/age1/19-and-more>,
+      <http://stats.data-gov.ie/codelist/age2/0-4>, <http://stats.data-gov.ie/codelist/age2/5-9>, <http://stats.data-gov.ie/codelist/age2/10-14>,
+      <http://stats.data-gov.ie/codelist/age2/15-19>, <http://stats.data-gov.ie/codelist/age2/20-24>, <http://stats.data-gov.ie/codelist/age2/25-29>,
+      <http://stats.data-gov.ie/codelist/age2/30-34>, <http://stats.data-gov.ie/codelist/age2/35-39>, <http://stats.data-gov.ie/codelist/age2/40-44>,
+      <http://stats.data-gov.ie/codelist/age2/45-49>, <http://stats.data-gov.ie/codelist/age2/50-54>, <http://stats.data-gov.ie/codelist/age2/55-59>,
+      <http://stats.data-gov.ie/codelist/age2/60-64>, <http://stats.data-gov.ie/codelist/age2/65-69>, <http://stats.data-gov.ie/codelist/age2/70-74>,
+      <http://stats.data-gov.ie/codelist/age2/75-79>, <http://stats.data-gov.ie/codelist/age2/80-84>, <http://stats.data-gov.ie/codelist/age2/85-and-more>;
+    skos:exactMatch <http://stats.data-gov.ie/codelist/age2/total>
     .

@@ -4,7 +4,7 @@
 
 # --- Own namespaces -------------
 
-@prefix geo:            <http://geo.govdata.ie/> .
+@prefix geo:            <http://geo.data-gov.ie/> .
 
 # --- Classes --------------------
 

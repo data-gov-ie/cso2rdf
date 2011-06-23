@@ -15,7 +15,7 @@ class ConvertBirthplace (Converter):
   def __init__(self, title):
     namespaces = {
       # own namespaces
-      "code-birthplace" : "http://stats.govdata.ie/codelist/birthplace/",
+      "code-birthplace" : "http://stats.data-gov.ie/codelist/birthplace/",
     }
     Converter.__init__(self, DSD, title, namespaces, ED_FILE, EA_FILE)
     

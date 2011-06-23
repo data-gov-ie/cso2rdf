@@ -15,7 +15,7 @@ class ConvertUsualResidence (Converter):
   def __init__(self, title):
     namespaces = {
       # own namespaces
-      "code-residence" : "http://stats.govdata.ie/codelist/usual-residence/",
+      "code-residence" : "http://stats.data-gov.ie/codelist/usual-residence/",
     }
     Converter.__init__(self, DSD, title, namespaces, ED_FILE, EA_FILE)
     

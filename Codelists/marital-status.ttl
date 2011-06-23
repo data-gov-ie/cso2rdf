@@ -3,8 +3,8 @@
 
 # --- Own namespaces ------------------------
 
-@prefix code:           <http://stats.govdata.ie/codelist/> .
-@prefix code-marital:   <http://stats.govdata.ie/codelist/marital-status/> .
+@prefix code:           <http://stats.data-gov.ie/codelist/> .
+@prefix code-marital:   <http://stats.data-gov.ie/codelist/marital-status/> .
 
 # --- Code list -----------------------------
   

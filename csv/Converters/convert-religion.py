@@ -15,7 +15,7 @@ class ConvertReligion (Converter):
   def __init__(self, title):
     namespaces = {
       # own namespaces
-      "code-religion" : "http://stats.govdata.ie/codelist/religion/",
+      "code-religion" : "http://stats.data-gov.ie/codelist/religion/",
     }
     Converter.__init__(self, DSD, title, namespaces, ED_FILE, EA_FILE)
     self.setAppendedDimensions([

@@ -15,7 +15,7 @@ class ConvertNationality (Converter):
   def __init__(self, title):
     namespaces = {
       # own namespaces
-      "code-nationality" : "http://stats.govdata.ie/codelist/nationality/",
+      "code-nationality" : "http://stats.data-gov.ie/codelist/nationality/",
     }
     Converter.__init__(self, DSD, title, namespaces, ED_FILE, EA_FILE)
     

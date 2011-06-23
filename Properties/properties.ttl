@@ -7,9 +7,9 @@
 
 # --- Own namespaces ------------------------
 
-@prefix code:           <http://stats.govdata.ie/codelist/> .
-@prefix concept:        <http://stats.govdata.ie/concept/> .
-@prefix prop:           <http://stats.govdata.ie/property/> .
+@prefix code:           <http://stats.data-gov.ie/codelist/> .
+@prefix concept:        <http://stats.data-gov.ie/concept/> .
+@prefix prop:           <http://stats.data-gov.ie/property/> .
 
 # --- Property specifications ---------------
 

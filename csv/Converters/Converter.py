@@ -32,12 +32,12 @@ class Converter (RDFModel):
       "skos" : "http://www.w3.org/2004/02/skos/core#",
       "year" : "http://reference.data.gov.uk/id/year/",
       # own namespaces
-      "code" : "http://stats.govdata.ie/codelist/",
-      "code-geo" : "http://stats.govdata.ie/codelist/geo/",
-      "data" : "http://stats.govdata.ie/data/",
-      "dsd" : "http://stats.govdata.ie/dsd/",
-      "geo" : "http://geo.govdata.ie/",
-      "prop" : "http://stats.govdata.ie/property/",
+      "code" : "http://stats.data-gov.ie/codelist/",
+      "code-geo" : "http://stats.data-gov.ie/codelist/geo/",
+      "data" : "http://stats.data-gov.ie/data/",
+      "dsd" : "http://stats.data-gov.ie/dsd/",
+      "geo" : "http://geo.data-gov.ie/",
+      "prop" : "http://stats.data-gov.ie/property/",
     }
     namespaces.update(addedNamespaces)
     RDFModel.__init__(self, namespaces)
@@ -464,7 +464,7 @@ class Converter (RDFModel):
     m = RDFModel()
     m.bootstrap(TOP_LEVEL_GEO)
     
-    query = """PREFIX geo: <http://geo.govdata.ie/>
+    query = """PREFIX geo: <http://geo.data-gov.ie/>
       PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
 
       SELECT ?trad ?notation ?match WHERE {
@@ -483,7 +483,7 @@ class Converter (RDFModel):
         "notation" : str(result["notation"]),
       }
 
-    query = """PREFIX geo: <http://geo.govdata.ie/>
+    query = """PREFIX geo: <http://geo.data-gov.ie/>
       PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
 
       SELECT ?trad ?notation ?narrower WHERE {

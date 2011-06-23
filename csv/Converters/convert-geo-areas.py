@@ -25,8 +25,8 @@ class GeoAreasWriter (RDFModel):
     namespaces = {
       "skos" : "http://www.w3.org/2004/02/skos/core#",
       ## Custom namespaces
-      "geo" : "http://geo.govdata.ie/",
-      "code-geo" : "http://stats.govdata.ie/codelist/geo/",
+      "geo" : "http://geo.data-gov.ie/",
+      "code-geo" : "http://stats.data-gov.ie/codelist/geo/",
     }
     RDFModel.__init__(self, namespaces)
     ## Initiating RDF models used

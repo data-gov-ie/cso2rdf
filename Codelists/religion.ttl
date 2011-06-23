@@ -4,14 +4,14 @@
 
 # --- Own namespaces ------------------------
 
-@prefix code:           <http://stats.govdata.ie/codelist/> .
-@prefix code-religion:  <http://stats.govdata.ie/codelist/religion/> .
+@prefix code:           <http://stats.data-gov.ie/codelist/> .
+@prefix code-religion:  <http://stats.data-gov.ie/codelist/religion/> .
 
 # --- Code lists ----------------------------
   
 code:religion a skos:ConceptScheme;
     skos:prefLabel "Code list for religions"@en;
-    skos:hasTopConcept <http://stats.govdata.ie/codelist/religion/1>, <http://stats.govdata.ie/codelist/religion/2>, <http://stats.govdata.ie/codelist/religion/3>, <http://stats.govdata.ie/codelist/religion/4>, <http://stats.govdata.ie/codelist/religion/5>
+    skos:hasTopConcept <http://stats.data-gov.ie/codelist/religion/1>, <http://stats.data-gov.ie/codelist/religion/2>, <http://stats.data-gov.ie/codelist/religion/3>, <http://stats.data-gov.ie/codelist/religion/4>, <http://stats.data-gov.ie/codelist/religion/5>
     .
     
 code-religion:catholic a skos:Concept;

@@ -4,8 +4,8 @@
 
 # --- Own namespaces ------------------------
 
-@prefix code:               <http://stats.govdata.ie/codelist/> .
-@prefix code-ethnic-group:    <http://stats.govdata.ie/codelist/ethnic-group/> .
+@prefix code:               <http://stats.data-gov.ie/codelist/> .
+@prefix code-ethnic-group:    <http://stats.data-gov.ie/codelist/ethnic-group/> .
 
 # --- Code lists ----------------------------
   

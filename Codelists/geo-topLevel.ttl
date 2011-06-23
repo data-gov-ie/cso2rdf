@@ -1,533 +1,533 @@
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
-@prefix geo: <http://geo.govdata.ie/> .
+@prefix geo: <http://geo.data-gov.ie/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
-@prefix code-geo: <http://stats.govdata.ie/codelist/geo/> .
+@prefix code-geo: <http://stats.data-gov.ie/codelist/geo/> .
 
-<http://geo.govdata.ie/city/cork>
+<http://geo.data-gov.ie/city/cork>
     a geo:City, skos:Concept ;
-    skos:broader <http://geo.govdata.ie/traditional-county/cork> ;
+    skos:broader <http://geo.data-gov.ie/traditional-county/cork> ;
     skos:inScheme code-geo:census-2006, code-geo:roi, code-geo:top-level ;
-    skos:narrower <http://geo.govdata.ie/county/cork> ;
+    skos:narrower <http://geo.data-gov.ie/county/cork> ;
     skos:notation "cork-city" ;
     skos:prefLabel "Cork City"@en .
 
-<http://geo.govdata.ie/city/dublin>
+<http://geo.data-gov.ie/city/dublin>
     a geo:City, skos:Concept ;
-    skos:broader <http://geo.govdata.ie/traditional-county/dublin> ;
+    skos:broader <http://geo.data-gov.ie/traditional-county/dublin> ;
     skos:inScheme code-geo:census-2006, code-geo:roi, code-geo:top-level ;
     skos:notation "dublin-city" ;
     skos:prefLabel "Dublin City"@en .
 
-<http://geo.govdata.ie/city/galway>
+<http://geo.data-gov.ie/city/galway>
     a geo:City, skos:Concept ;
-    skos:broader <http://geo.govdata.ie/traditional-county/galway> ;
+    skos:broader <http://geo.data-gov.ie/traditional-county/galway> ;
     skos:inScheme code-geo:census-2006, code-geo:roi, code-geo:top-level ;
-    skos:narrower <http://geo.govdata.ie/county/galway> ;
+    skos:narrower <http://geo.data-gov.ie/county/galway> ;
     skos:notation "galway-city" ;
     skos:prefLabel "Galway City"@en .
 
-<http://geo.govdata.ie/city/limerick>
+<http://geo.data-gov.ie/city/limerick>
     a geo:City, skos:Concept ;
-    skos:broader <http://geo.govdata.ie/traditional-county/limerick> ;
+    skos:broader <http://geo.data-gov.ie/traditional-county/limerick> ;
     skos:inScheme code-geo:census-2006, code-geo:roi, code-geo:top-level ;
-    skos:narrower <http://geo.govdata.ie/county/limerick> ;
+    skos:narrower <http://geo.data-gov.ie/county/limerick> ;
     skos:notation "limerick-city" ;
     skos:prefLabel "Limerick City"@en .
 
-<http://geo.govdata.ie/city/waterford>
+<http://geo.data-gov.ie/city/waterford>
     a geo:City, skos:Concept ;
-    skos:broader <http://geo.govdata.ie/traditional-county/waterford> ;
+    skos:broader <http://geo.data-gov.ie/traditional-county/waterford> ;
     skos:inScheme code-geo:census-2006, code-geo:roi, code-geo:top-level ;
-    skos:narrower <http://geo.govdata.ie/county/waterford> ;
+    skos:narrower <http://geo.data-gov.ie/county/waterford> ;
     skos:notation "waterford-city" ;
     skos:prefLabel "Waterford City"@en .
 
-<http://geo.govdata.ie/county/carlow>
+<http://geo.data-gov.ie/county/carlow>
     a geo:AdministrativeCounty, skos:Concept ;
-    skos:broader <http://geo.govdata.ie/province/leinster> ;
-    skos:exactMatch <http://geo.govdata.ie/traditional-county/carlow> ;
+    skos:broader <http://geo.data-gov.ie/province/leinster> ;
+    skos:exactMatch <http://geo.data-gov.ie/traditional-county/carlow> ;
     skos:inScheme code-geo:census-2006, code-geo:roi, code-geo:top-level ;
     skos:notation "carlow" ;
     skos:prefLabel "County Carlow (administrative)"@en .
 
-<http://geo.govdata.ie/county/cavan>
+<http://geo.data-gov.ie/county/cavan>
     a geo:AdministrativeCounty, skos:Concept ;
-    skos:broader <http://geo.govdata.ie/province/ulster> ;
-    skos:exactMatch <http://geo.govdata.ie/traditional-county/cavan> ;
+    skos:broader <http://geo.data-gov.ie/province/ulster> ;
+    skos:exactMatch <http://geo.data-gov.ie/traditional-county/cavan> ;
     skos:inScheme code-geo:census-2006, code-geo:roi, code-geo:top-level ;
-    skos:narrower <http://geo.govdata.ie/county/donegal> ;
+    skos:narrower <http://geo.data-gov.ie/county/donegal> ;
     skos:notation "cavan" ;
     skos:prefLabel "County Cavan (administrative)"@en .
 
-<http://geo.govdata.ie/county/clare>
+<http://geo.data-gov.ie/county/clare>
     a geo:AdministrativeCounty, skos:Concept ;
-    skos:broader <http://geo.govdata.ie/province/munster> ;
-    skos:exactMatch <http://geo.govdata.ie/traditional-county/clare> ;
+    skos:broader <http://geo.data-gov.ie/province/munster> ;
+    skos:exactMatch <http://geo.data-gov.ie/traditional-county/clare> ;
     skos:inScheme code-geo:census-2006, code-geo:roi, code-geo:top-level ;
     skos:notation "clare" ;
     skos:prefLabel "County Clare (administrative)"@en .
 
-<http://geo.govdata.ie/county/cork>
+<http://geo.data-gov.ie/county/cork>
     a geo:AdministrativeCounty, skos:Concept ;
-    skos:broader <http://geo.govdata.ie/city/cork> ;
+    skos:broader <http://geo.data-gov.ie/city/cork> ;
     skos:inScheme code-geo:census-2006, code-geo:roi, code-geo:top-level ;
-    skos:narrower <http://geo.govdata.ie/county/kerry> ;
+    skos:narrower <http://geo.data-gov.ie/county/kerry> ;
     skos:notation "cork" ;
     skos:prefLabel "County Cork (administrative)"@en .
 
-<http://geo.govdata.ie/county/donegal>
+<http://geo.data-gov.ie/county/donegal>
     a geo:AdministrativeCounty, skos:Concept ;
-    skos:broader <http://geo.govdata.ie/county/cavan> ;
-    skos:exactMatch <http://geo.govdata.ie/traditional-county/donegal> ;
+    skos:broader <http://geo.data-gov.ie/county/cavan> ;
+    skos:exactMatch <http://geo.data-gov.ie/traditional-county/donegal> ;
     skos:inScheme code-geo:census-2006, code-geo:roi, code-geo:top-level ;
-    skos:narrower <http://geo.govdata.ie/county/monaghan> ;
+    skos:narrower <http://geo.data-gov.ie/county/monaghan> ;
     skos:notation "donegal" ;
     skos:prefLabel "County Donegal (administrative)"@en .
 
-<http://geo.govdata.ie/county/dun-laoghaire-rathdown>
+<http://geo.data-gov.ie/county/dun-laoghaire-rathdown>
     a geo:AdministrativeCounty, skos:Concept ;
-    skos:broader <http://geo.govdata.ie/traditional-county/dublin> ;
+    skos:broader <http://geo.data-gov.ie/traditional-county/dublin> ;
     skos:inScheme code-geo:census-2006, code-geo:roi, code-geo:top-level ;
     skos:notation "dun-laoghaire-rathdown" ;
     skos:prefLabel "County Dún Laoghaire-Rathdown (administrative)"@en .
 
-<http://geo.govdata.ie/county/fingal>
+<http://geo.data-gov.ie/county/fingal>
     a geo:AdministrativeCounty, skos:Concept ;
-    skos:broader <http://geo.govdata.ie/traditional-county/dublin> ;
+    skos:broader <http://geo.data-gov.ie/traditional-county/dublin> ;
     skos:inScheme code-geo:census-2006, code-geo:roi, code-geo:top-level ;
     skos:notation "fingal" ;
     skos:prefLabel "County Fingal (administrative)"@en .
 
-<http://geo.govdata.ie/county/galway>
+<http://geo.data-gov.ie/county/galway>
     a geo:AdministrativeCounty, skos:Concept ;
-    skos:broader <http://geo.govdata.ie/city/galway> ;
+    skos:broader <http://geo.data-gov.ie/city/galway> ;
     skos:inScheme code-geo:census-2006, code-geo:roi, code-geo:top-level ;
-    skos:narrower <http://geo.govdata.ie/county/leitrim> ;
+    skos:narrower <http://geo.data-gov.ie/county/leitrim> ;
     skos:notation "galway" ;
     skos:prefLabel "County Galway (administrative)"@en .
 
-<http://geo.govdata.ie/county/kerry>
+<http://geo.data-gov.ie/county/kerry>
     a geo:AdministrativeCounty, skos:Concept ;
-    skos:broader <http://geo.govdata.ie/county/cork> ;
-    skos:exactMatch <http://geo.govdata.ie/traditional-county/kerry> ;
+    skos:broader <http://geo.data-gov.ie/county/cork> ;
+    skos:exactMatch <http://geo.data-gov.ie/traditional-county/kerry> ;
     skos:inScheme code-geo:census-2006, code-geo:roi, code-geo:top-level ;
     skos:notation "kerry" ;
     skos:prefLabel "County Kerry (administrative)"@en .
 
-<http://geo.govdata.ie/county/kildare>
+<http://geo.data-gov.ie/county/kildare>
     a geo:AdministrativeCounty, skos:Concept ;
-    skos:broader <http://geo.govdata.ie/county/south-dublin> ;
-    skos:exactMatch <http://geo.govdata.ie/traditional-county/kildare> ;
+    skos:broader <http://geo.data-gov.ie/county/south-dublin> ;
+    skos:exactMatch <http://geo.data-gov.ie/traditional-county/kildare> ;
     skos:inScheme code-geo:census-2006, code-geo:roi, code-geo:top-level ;
-    skos:narrower <http://geo.govdata.ie/county/kilkenny> ;
+    skos:narrower <http://geo.data-gov.ie/county/kilkenny> ;
     skos:notation "kildare" ;
     skos:prefLabel "County Kildare (administrative)"@en .
 
-<http://geo.govdata.ie/county/kilkenny>
+<http://geo.data-gov.ie/county/kilkenny>
     a geo:AdministrativeCounty, skos:Concept ;
-    skos:broader <http://geo.govdata.ie/county/kildare> ;
-    skos:exactMatch <http://geo.govdata.ie/traditional-county/kilkenny> ;
+    skos:broader <http://geo.data-gov.ie/county/kildare> ;
+    skos:exactMatch <http://geo.data-gov.ie/traditional-county/kilkenny> ;
     skos:inScheme code-geo:census-2006, code-geo:roi, code-geo:top-level ;
-    skos:narrower <http://geo.govdata.ie/county/laoighis> ;
+    skos:narrower <http://geo.data-gov.ie/county/laoighis> ;
     skos:notation "kilkenny" ;
     skos:prefLabel "County Kilkenny (administrative)"@en .
 
-<http://geo.govdata.ie/county/laoighis>
+<http://geo.data-gov.ie/county/laoighis>
     a geo:AdministrativeCounty, skos:Concept ;
-    skos:broader <http://geo.govdata.ie/county/kilkenny> ;
+    skos:broader <http://geo.data-gov.ie/county/kilkenny> ;
     skos:inScheme code-geo:census-2006, code-geo:roi, code-geo:top-level ;
-    skos:narrower <http://geo.govdata.ie/county/longford> ;
+    skos:narrower <http://geo.data-gov.ie/county/longford> ;
     skos:notation "laoighis" ;
     skos:prefLabel "County Laoighis (administrative)"@en .
 
-<http://geo.govdata.ie/county/laois>
-    skos:exactMatch <http://geo.govdata.ie/traditional-county/laois> .
+<http://geo.data-gov.ie/county/laois>
+    skos:exactMatch <http://geo.data-gov.ie/traditional-county/laois> .
 
-<http://geo.govdata.ie/county/leitrim>
+<http://geo.data-gov.ie/county/leitrim>
     a geo:AdministrativeCounty, skos:Concept ;
-    skos:broader <http://geo.govdata.ie/county/galway> ;
-    skos:exactMatch <http://geo.govdata.ie/traditional-county/leitrim> ;
+    skos:broader <http://geo.data-gov.ie/county/galway> ;
+    skos:exactMatch <http://geo.data-gov.ie/traditional-county/leitrim> ;
     skos:inScheme code-geo:census-2006, code-geo:roi, code-geo:top-level ;
-    skos:narrower <http://geo.govdata.ie/county/mayo> ;
+    skos:narrower <http://geo.data-gov.ie/county/mayo> ;
     skos:notation "leitrim" ;
     skos:prefLabel "County Leitrim (administrative)"@en .
 
-<http://geo.govdata.ie/county/limerick>
+<http://geo.data-gov.ie/county/limerick>
     a geo:AdministrativeCounty, skos:Concept ;
-    skos:broader <http://geo.govdata.ie/city/limerick> ;
+    skos:broader <http://geo.data-gov.ie/city/limerick> ;
     skos:inScheme code-geo:census-2006, code-geo:roi, code-geo:top-level ;
     skos:notation "limerick" ;
     skos:prefLabel "County Limerick (administrative)"@en .
 
-<http://geo.govdata.ie/county/longford>
+<http://geo.data-gov.ie/county/longford>
     a geo:AdministrativeCounty, skos:Concept ;
-    skos:broader <http://geo.govdata.ie/county/laoighis> ;
-    skos:exactMatch <http://geo.govdata.ie/traditional-county/longford> ;
+    skos:broader <http://geo.data-gov.ie/county/laoighis> ;
+    skos:exactMatch <http://geo.data-gov.ie/traditional-county/longford> ;
     skos:inScheme code-geo:census-2006, code-geo:roi, code-geo:top-level ;
-    skos:narrower <http://geo.govdata.ie/county/louth> ;
+    skos:narrower <http://geo.data-gov.ie/county/louth> ;
     skos:notation "longford" ;
     skos:prefLabel "County Longford (administrative)"@en .
 
-<http://geo.govdata.ie/county/louth>
+<http://geo.data-gov.ie/county/louth>
     a geo:AdministrativeCounty, skos:Concept ;
-    skos:broader <http://geo.govdata.ie/county/longford> ;
-    skos:exactMatch <http://geo.govdata.ie/traditional-county/louth> ;
+    skos:broader <http://geo.data-gov.ie/county/longford> ;
+    skos:exactMatch <http://geo.data-gov.ie/traditional-county/louth> ;
     skos:inScheme code-geo:census-2006, code-geo:roi, code-geo:top-level ;
-    skos:narrower <http://geo.govdata.ie/county/meath> ;
+    skos:narrower <http://geo.data-gov.ie/county/meath> ;
     skos:notation "louth" ;
     skos:prefLabel "County Louth (administrative)"@en .
 
-<http://geo.govdata.ie/county/mayo>
+<http://geo.data-gov.ie/county/mayo>
     a geo:AdministrativeCounty, skos:Concept ;
-    skos:broader <http://geo.govdata.ie/county/leitrim> ;
-    skos:exactMatch <http://geo.govdata.ie/traditional-county/mayo> ;
+    skos:broader <http://geo.data-gov.ie/county/leitrim> ;
+    skos:exactMatch <http://geo.data-gov.ie/traditional-county/mayo> ;
     skos:inScheme code-geo:census-2006, code-geo:roi, code-geo:top-level ;
-    skos:narrower <http://geo.govdata.ie/county/roscommon> ;
+    skos:narrower <http://geo.data-gov.ie/county/roscommon> ;
     skos:notation "mayo" ;
     skos:prefLabel "County Mayo (administrative)"@en .
 
-<http://geo.govdata.ie/county/meath>
+<http://geo.data-gov.ie/county/meath>
     a geo:AdministrativeCounty, skos:Concept ;
-    skos:broader <http://geo.govdata.ie/county/louth> ;
-    skos:exactMatch <http://geo.govdata.ie/traditional-county/meath> ;
+    skos:broader <http://geo.data-gov.ie/county/louth> ;
+    skos:exactMatch <http://geo.data-gov.ie/traditional-county/meath> ;
     skos:inScheme code-geo:census-2006, code-geo:roi, code-geo:top-level ;
-    skos:narrower <http://geo.govdata.ie/county/offaly> ;
+    skos:narrower <http://geo.data-gov.ie/county/offaly> ;
     skos:notation "meath" ;
     skos:prefLabel "County Meath (administrative)"@en .
 
-<http://geo.govdata.ie/county/monaghan>
+<http://geo.data-gov.ie/county/monaghan>
     a geo:AdministrativeCounty, skos:Concept ;
-    skos:broader <http://geo.govdata.ie/county/donegal> ;
-    skos:exactMatch <http://geo.govdata.ie/traditional-county/monaghan> ;
+    skos:broader <http://geo.data-gov.ie/county/donegal> ;
+    skos:exactMatch <http://geo.data-gov.ie/traditional-county/monaghan> ;
     skos:inScheme code-geo:census-2006, code-geo:roi, code-geo:top-level ;
     skos:notation "monaghan" ;
     skos:prefLabel "County Monaghan (administrative)"@en .
 
-<http://geo.govdata.ie/county/north-tipperary>
+<http://geo.data-gov.ie/county/north-tipperary>
     a geo:AdministrativeCounty, skos:Concept ;
-    skos:broader <http://geo.govdata.ie/traditional-county/tipperary> ;
+    skos:broader <http://geo.data-gov.ie/traditional-county/tipperary> ;
     skos:inScheme code-geo:census-2006, code-geo:roi, code-geo:top-level ;
     skos:notation "north-tipperary" ;
     skos:prefLabel "County North Tipperary (administrative)"@en .
 
-<http://geo.govdata.ie/county/offaly>
+<http://geo.data-gov.ie/county/offaly>
     a geo:AdministrativeCounty, skos:Concept ;
-    skos:broader <http://geo.govdata.ie/county/meath> ;
-    skos:exactMatch <http://geo.govdata.ie/traditional-county/offaly> ;
+    skos:broader <http://geo.data-gov.ie/county/meath> ;
+    skos:exactMatch <http://geo.data-gov.ie/traditional-county/offaly> ;
     skos:inScheme code-geo:census-2006, code-geo:roi, code-geo:top-level ;
-    skos:narrower <http://geo.govdata.ie/county/westmeath> ;
+    skos:narrower <http://geo.data-gov.ie/county/westmeath> ;
     skos:notation "offaly" ;
     skos:prefLabel "County Offaly (administrative)"@en .
 
-<http://geo.govdata.ie/county/roscommon>
+<http://geo.data-gov.ie/county/roscommon>
     a geo:AdministrativeCounty, skos:Concept ;
-    skos:broader <http://geo.govdata.ie/county/mayo> ;
-    skos:exactMatch <http://geo.govdata.ie/traditional-county/roscommon> ;
+    skos:broader <http://geo.data-gov.ie/county/mayo> ;
+    skos:exactMatch <http://geo.data-gov.ie/traditional-county/roscommon> ;
     skos:inScheme code-geo:census-2006, code-geo:roi, code-geo:top-level ;
-    skos:narrower <http://geo.govdata.ie/county/sligo> ;
+    skos:narrower <http://geo.data-gov.ie/county/sligo> ;
     skos:notation "roscommon" ;
     skos:prefLabel "County Roscommon (administrative)"@en .
 
-<http://geo.govdata.ie/county/sligo>
+<http://geo.data-gov.ie/county/sligo>
     a geo:AdministrativeCounty, skos:Concept ;
-    skos:broader <http://geo.govdata.ie/county/roscommon> ;
-    skos:exactMatch <http://geo.govdata.ie/traditional-county/sligo> ;
+    skos:broader <http://geo.data-gov.ie/county/roscommon> ;
+    skos:exactMatch <http://geo.data-gov.ie/traditional-county/sligo> ;
     skos:inScheme code-geo:census-2006, code-geo:roi, code-geo:top-level ;
     skos:notation "sligo" ;
     skos:prefLabel "County Sligo (administrative)"@en .
 
-<http://geo.govdata.ie/county/south-dublin>
+<http://geo.data-gov.ie/county/south-dublin>
     a geo:AdministrativeCounty, skos:Concept ;
-    skos:broader <http://geo.govdata.ie/traditional-county/dublin> ;
+    skos:broader <http://geo.data-gov.ie/traditional-county/dublin> ;
     skos:inScheme code-geo:census-2006, code-geo:roi, code-geo:top-level ;
-    skos:narrower <http://geo.govdata.ie/county/kildare> ;
+    skos:narrower <http://geo.data-gov.ie/county/kildare> ;
     skos:notation "south-dublin" ;
     skos:prefLabel "County South Dublin (administrative)"@en .
 
-<http://geo.govdata.ie/county/south-tipperary>
+<http://geo.data-gov.ie/county/south-tipperary>
     a geo:AdministrativeCounty, skos:Concept ;
-    skos:broader <http://geo.govdata.ie/traditional-county/tipperary> ;
+    skos:broader <http://geo.data-gov.ie/traditional-county/tipperary> ;
     skos:inScheme code-geo:census-2006, code-geo:roi, code-geo:top-level ;
     skos:notation "south-tipperary" ;
     skos:prefLabel "County South Tipperary (administrative)"@en .
 
-<http://geo.govdata.ie/county/waterford>
+<http://geo.data-gov.ie/county/waterford>
     a geo:AdministrativeCounty, skos:Concept ;
-    skos:broader <http://geo.govdata.ie/city/waterford> ;
+    skos:broader <http://geo.data-gov.ie/city/waterford> ;
     skos:inScheme code-geo:census-2006, code-geo:roi, code-geo:top-level ;
     skos:notation "waterford" ;
     skos:prefLabel "County Waterford (administrative)"@en .
 
-<http://geo.govdata.ie/county/westmeath>
+<http://geo.data-gov.ie/county/westmeath>
     a geo:AdministrativeCounty, skos:Concept ;
-    skos:broader <http://geo.govdata.ie/county/offaly> ;
-    skos:exactMatch <http://geo.govdata.ie/traditional-county/westmeath> ;
+    skos:broader <http://geo.data-gov.ie/county/offaly> ;
+    skos:exactMatch <http://geo.data-gov.ie/traditional-county/westmeath> ;
     skos:inScheme code-geo:census-2006, code-geo:roi, code-geo:top-level ;
-    skos:narrower <http://geo.govdata.ie/county/wexford> ;
+    skos:narrower <http://geo.data-gov.ie/county/wexford> ;
     skos:notation "westmeath" ;
     skos:prefLabel "County Westmeath (administrative)"@en .
 
-<http://geo.govdata.ie/county/wexford>
+<http://geo.data-gov.ie/county/wexford>
     a geo:AdministrativeCounty, skos:Concept ;
-    skos:broader <http://geo.govdata.ie/county/westmeath> ;
-    skos:exactMatch <http://geo.govdata.ie/traditional-county/wexford> ;
+    skos:broader <http://geo.data-gov.ie/county/westmeath> ;
+    skos:exactMatch <http://geo.data-gov.ie/traditional-county/wexford> ;
     skos:inScheme code-geo:census-2006, code-geo:roi, code-geo:top-level ;
-    skos:narrower <http://geo.govdata.ie/county/wicklow> ;
+    skos:narrower <http://geo.data-gov.ie/county/wicklow> ;
     skos:notation "wexford" ;
     skos:prefLabel "County Wexford (administrative)"@en .
 
-<http://geo.govdata.ie/county/wicklow>
+<http://geo.data-gov.ie/county/wicklow>
     a geo:AdministrativeCounty, skos:Concept ;
-    skos:broader <http://geo.govdata.ie/county/wexford> ;
-    skos:exactMatch <http://geo.govdata.ie/traditional-county/wicklow> ;
+    skos:broader <http://geo.data-gov.ie/county/wexford> ;
+    skos:exactMatch <http://geo.data-gov.ie/traditional-county/wicklow> ;
     skos:inScheme code-geo:census-2006, code-geo:roi, code-geo:top-level ;
     skos:notation "wicklow" ;
     skos:prefLabel "County Wicklow (administrative)"@en .
 
-<http://geo.govdata.ie/province/connacht>
+<http://geo.data-gov.ie/province/connacht>
     a geo:Province, skos:Concept ;
     skos:broader geo:roi ;
     skos:inScheme code-geo:census-2006, code-geo:top-level ;
     skos:notation "connacht" ;
     skos:prefLabel "Connacht"@en, "Cúige Chonnacht"@ga .
 
-<http://geo.govdata.ie/province/leinster>
+<http://geo.data-gov.ie/province/leinster>
     a geo:Province, skos:Concept ;
     skos:broader geo:roi ;
     skos:inScheme code-geo:census-2006, code-geo:top-level ;
-    skos:narrower <http://geo.govdata.ie/county/carlow> ;
+    skos:narrower <http://geo.data-gov.ie/county/carlow> ;
     skos:notation "leinster" ;
     skos:prefLabel "Cúige Laighean"@ga, "Leinster"@en .
 
-<http://geo.govdata.ie/province/munster>
+<http://geo.data-gov.ie/province/munster>
     a geo:Province, skos:Concept ;
     skos:broader geo:roi ;
     skos:inScheme code-geo:census-2006, code-geo:top-level ;
-    skos:narrower <http://geo.govdata.ie/county/clare>, <http://geo.govdata.ie/county/tipperary> ;
+    skos:narrower <http://geo.data-gov.ie/county/clare>, <http://geo.data-gov.ie/county/tipperary> ;
     skos:notation "munster" ;
     skos:prefLabel "Cúige Mumhan"@ga, "Munster"@en .
 
-<http://geo.govdata.ie/province/ulster>
+<http://geo.data-gov.ie/province/ulster>
     a geo:Province, skos:Concept ;
     skos:broader geo:roi ;
     skos:inScheme code-geo:census-2006, code-geo:top-level ;
-    skos:narrower <http://geo.govdata.ie/county/cavan> ;
+    skos:narrower <http://geo.data-gov.ie/county/cavan> ;
     skos:notation "ulster" ;
     skos:prefLabel "Cúige Uladh (Poblacht na hÉireann)"@ga, "Ulster (ROI)"@en .
 
 geo:roi
     a geo:State, skos:Concept ;
     skos:inScheme code-geo:census-2006, code-geo:top-level ;
-    skos:narrower <http://geo.govdata.ie/province/connacht>, <http://geo.govdata.ie/province/leinster>, <http://geo.govdata.ie/province/munster>, <http://geo.govdata.ie/province/ulster> ;
+    skos:narrower <http://geo.data-gov.ie/province/connacht>, <http://geo.data-gov.ie/province/leinster>, <http://geo.data-gov.ie/province/munster>, <http://geo.data-gov.ie/province/ulster> ;
     skos:notation "ROI" ;
     skos:prefLabel "Poblacht na hÉireann"@ga, "Republic of Ireland"@en ;
     skos:topConceptOf code-geo:census-2006, code-geo:top-level .
 
-<http://geo.govdata.ie/traditional-county/carlow>
+<http://geo.data-gov.ie/traditional-county/carlow>
     a geo:TraditionalCounty, skos:Concept ;
-    skos:broader <http://geo.govdata.ie/province/leinster> ;
-    skos:exactMatch <http://geo.govdata.ie/county/carlow> ;
+    skos:broader <http://geo.data-gov.ie/province/leinster> ;
+    skos:exactMatch <http://geo.data-gov.ie/county/carlow> ;
     skos:inScheme code-geo:census-2006, code-geo:top-level ;
     skos:notation "carlow-traditional" ;
     skos:prefLabel "County Carlow (traditional)"@en .
 
-<http://geo.govdata.ie/traditional-county/cavan>
+<http://geo.data-gov.ie/traditional-county/cavan>
     a geo:TraditionalCounty, skos:Concept ;
-    skos:broader <http://geo.govdata.ie/province/ulster> ;
-    skos:exactMatch <http://geo.govdata.ie/county/cavan> ;
+    skos:broader <http://geo.data-gov.ie/province/ulster> ;
+    skos:exactMatch <http://geo.data-gov.ie/county/cavan> ;
     skos:inScheme code-geo:census-2006, code-geo:top-level ;
     skos:notation "cavan-traditional" ;
     skos:prefLabel "County Cavan (traditional)"@en .
 
-<http://geo.govdata.ie/traditional-county/clare>
+<http://geo.data-gov.ie/traditional-county/clare>
     a geo:TraditionalCounty, skos:Concept ;
-    skos:broader <http://geo.govdata.ie/province/munster> ;
-    skos:exactMatch <http://geo.govdata.ie/county/clare> ;
+    skos:broader <http://geo.data-gov.ie/province/munster> ;
+    skos:exactMatch <http://geo.data-gov.ie/county/clare> ;
     skos:inScheme code-geo:census-2006, code-geo:top-level ;
     skos:notation "clare-traditional" ;
     skos:prefLabel "County Clare (traditional)"@en .
 
-<http://geo.govdata.ie/traditional-county/cork>
+<http://geo.data-gov.ie/traditional-county/cork>
     a geo:TraditionalCounty, skos:Concept ;
-    skos:broader <http://geo.govdata.ie/province/munster> ;
+    skos:broader <http://geo.data-gov.ie/province/munster> ;
     skos:inScheme code-geo:census-2006, code-geo:top-level ;
-    skos:narrower <http://geo.govdata.ie/city/cork>, <http://geo.govdata.ie/county/cork> ;
+    skos:narrower <http://geo.data-gov.ie/city/cork>, <http://geo.data-gov.ie/county/cork> ;
     skos:notation "cork-traditional" ;
     skos:prefLabel "County Cork (traditional)"@en .
 
-<http://geo.govdata.ie/traditional-county/donegal>
+<http://geo.data-gov.ie/traditional-county/donegal>
     a geo:TraditionalCounty, skos:Concept ;
-    skos:broader <http://geo.govdata.ie/province/ulster> ;
-    skos:exactMatch <http://geo.govdata.ie/county/donegal> ;
+    skos:broader <http://geo.data-gov.ie/province/ulster> ;
+    skos:exactMatch <http://geo.data-gov.ie/county/donegal> ;
     skos:inScheme code-geo:census-2006, code-geo:top-level ;
     skos:notation "donegal-traditional" ;
     skos:prefLabel "County Donegal (traditional)"@en .
 
-<http://geo.govdata.ie/traditional-county/dublin>
+<http://geo.data-gov.ie/traditional-county/dublin>
     a geo:TraditionalCounty, skos:Concept ;
-    skos:broader <http://geo.govdata.ie/province/leinster> ;
+    skos:broader <http://geo.data-gov.ie/province/leinster> ;
     skos:inScheme code-geo:census-2006, code-geo:top-level ;
-    skos:narrower <http://geo.govdata.ie/city/dublin>, <http://geo.govdata.ie/county/dun-laoghaire-rathdown>, <http://geo.govdata.ie/county/fingal>, <http://geo.govdata.ie/county/south-dublin> ;
+    skos:narrower <http://geo.data-gov.ie/city/dublin>, <http://geo.data-gov.ie/county/dun-laoghaire-rathdown>, <http://geo.data-gov.ie/county/fingal>, <http://geo.data-gov.ie/county/south-dublin> ;
     skos:notation "dublin-traditional" ;
     skos:prefLabel "County Dublin (traditional)"@en .
 
-<http://geo.govdata.ie/traditional-county/galway>
+<http://geo.data-gov.ie/traditional-county/galway>
     a geo:TraditionalCounty, skos:Concept ;
-    skos:broader <http://geo.govdata.ie/province/connacht> ;
+    skos:broader <http://geo.data-gov.ie/province/connacht> ;
     skos:inScheme code-geo:census-2006, code-geo:top-level ;
-    skos:narrower <http://geo.govdata.ie/city/galway>, <http://geo.govdata.ie/county/galway> ;
+    skos:narrower <http://geo.data-gov.ie/city/galway>, <http://geo.data-gov.ie/county/galway> ;
     skos:notation "galway-traditional" ;
     skos:prefLabel "County Galway (traditional)"@en .
 
-<http://geo.govdata.ie/traditional-county/kerry>
+<http://geo.data-gov.ie/traditional-county/kerry>
     a geo:TraditionalCounty, skos:Concept ;
-    skos:broader <http://geo.govdata.ie/province/munster> ;
-    skos:exactMatch <http://geo.govdata.ie/county/kerry> ;
+    skos:broader <http://geo.data-gov.ie/province/munster> ;
+    skos:exactMatch <http://geo.data-gov.ie/county/kerry> ;
     skos:inScheme code-geo:census-2006, code-geo:top-level ;
     skos:notation "kerry-traditional" ;
     skos:prefLabel "County Kerry (traditional)"@en .
 
-<http://geo.govdata.ie/traditional-county/kildare>
+<http://geo.data-gov.ie/traditional-county/kildare>
     a geo:TraditionalCounty, skos:Concept ;
-    skos:broader <http://geo.govdata.ie/province/leinster> ;
-    skos:exactMatch <http://geo.govdata.ie/county/kildare> ;
+    skos:broader <http://geo.data-gov.ie/province/leinster> ;
+    skos:exactMatch <http://geo.data-gov.ie/county/kildare> ;
     skos:inScheme code-geo:census-2006, code-geo:top-level ;
     skos:notation "kildare-traditional" ;
     skos:prefLabel "County Kildare (traditional)"@en .
 
-<http://geo.govdata.ie/traditional-county/kilkenny>
+<http://geo.data-gov.ie/traditional-county/kilkenny>
     a geo:TraditionalCounty, skos:Concept ;
-    skos:broader <http://geo.govdata.ie/province/leinster> ;
-    skos:exactMatch <http://geo.govdata.ie/county/kilkenny> ;
+    skos:broader <http://geo.data-gov.ie/province/leinster> ;
+    skos:exactMatch <http://geo.data-gov.ie/county/kilkenny> ;
     skos:inScheme code-geo:census-2006, code-geo:top-level ;
     skos:notation "kilkenny-traditional" ;
     skos:prefLabel "County Kilkenny (traditional)"@en .
 
-<http://geo.govdata.ie/traditional-county/laois>
+<http://geo.data-gov.ie/traditional-county/laois>
     a geo:TraditionalCounty, skos:Concept ;
-    skos:broader <http://geo.govdata.ie/province/leinster> ;
-    skos:exactMatch <http://geo.govdata.ie/county/laois> ;
+    skos:broader <http://geo.data-gov.ie/province/leinster> ;
+    skos:exactMatch <http://geo.data-gov.ie/county/laois> ;
     skos:inScheme code-geo:census-2006, code-geo:top-level ;
     skos:notation "laois-traditional" ;
     skos:prefLabel "County Laois (traditional)"@en .
 
-<http://geo.govdata.ie/traditional-county/leitrim>
+<http://geo.data-gov.ie/traditional-county/leitrim>
     a geo:TraditionalCounty, skos:Concept ;
-    skos:broader <http://geo.govdata.ie/province/connacht> ;
-    skos:exactMatch <http://geo.govdata.ie/county/leitrim> ;
+    skos:broader <http://geo.data-gov.ie/province/connacht> ;
+    skos:exactMatch <http://geo.data-gov.ie/county/leitrim> ;
     skos:inScheme code-geo:census-2006, code-geo:top-level ;
     skos:notation "leitrim-traditional" ;
     skos:prefLabel "County Leitrim (traditional)"@en .
 
-<http://geo.govdata.ie/traditional-county/limerick>
+<http://geo.data-gov.ie/traditional-county/limerick>
     a geo:TraditionalCounty, skos:Concept ;
-    skos:broader <http://geo.govdata.ie/province/munster> ;
+    skos:broader <http://geo.data-gov.ie/province/munster> ;
     skos:inScheme code-geo:census-2006, code-geo:top-level ;
-    skos:narrower <http://geo.govdata.ie/city/limerick>, <http://geo.govdata.ie/county/limerick> ;
+    skos:narrower <http://geo.data-gov.ie/city/limerick>, <http://geo.data-gov.ie/county/limerick> ;
     skos:notation "limerick-traditional" ;
     skos:prefLabel "County Limerick (traditional)"@en .
 
-<http://geo.govdata.ie/traditional-county/longford>
+<http://geo.data-gov.ie/traditional-county/longford>
     a geo:TraditionalCounty, skos:Concept ;
-    skos:broader <http://geo.govdata.ie/province/leinster> ;
-    skos:exactMatch <http://geo.govdata.ie/county/longford> ;
+    skos:broader <http://geo.data-gov.ie/province/leinster> ;
+    skos:exactMatch <http://geo.data-gov.ie/county/longford> ;
     skos:inScheme code-geo:census-2006, code-geo:top-level ;
     skos:notation "longford-traditional" ;
     skos:prefLabel "County Longford (traditional)"@en .
 
-<http://geo.govdata.ie/traditional-county/louth>
+<http://geo.data-gov.ie/traditional-county/louth>
     a geo:TraditionalCounty, skos:Concept ;
-    skos:broader <http://geo.govdata.ie/province/leinster> ;
-    skos:exactMatch <http://geo.govdata.ie/county/louth> ;
+    skos:broader <http://geo.data-gov.ie/province/leinster> ;
+    skos:exactMatch <http://geo.data-gov.ie/county/louth> ;
     skos:inScheme code-geo:census-2006, code-geo:top-level ;
     skos:notation "louth-traditional" ;
     skos:prefLabel "County Louth (traditional)"@en .
 
-<http://geo.govdata.ie/traditional-county/mayo>
+<http://geo.data-gov.ie/traditional-county/mayo>
     a geo:TraditionalCounty, skos:Concept ;
-    skos:broader <http://geo.govdata.ie/province/connacht> ;
-    skos:exactMatch <http://geo.govdata.ie/county/mayo> ;
+    skos:broader <http://geo.data-gov.ie/province/connacht> ;
+    skos:exactMatch <http://geo.data-gov.ie/county/mayo> ;
     skos:inScheme code-geo:census-2006, code-geo:top-level ;
     skos:notation "mayo-traditional" ;
     skos:prefLabel "County Mayo (traditional)"@en .
 
-<http://geo.govdata.ie/traditional-county/meath>
+<http://geo.data-gov.ie/traditional-county/meath>
     a geo:TraditionalCounty, skos:Concept ;
-    skos:broader <http://geo.govdata.ie/province/leinster> ;
-    skos:exactMatch <http://geo.govdata.ie/county/meath> ;
+    skos:broader <http://geo.data-gov.ie/province/leinster> ;
+    skos:exactMatch <http://geo.data-gov.ie/county/meath> ;
     skos:inScheme code-geo:census-2006, code-geo:top-level ;
     skos:notation "meath-traditional" ;
     skos:prefLabel "County Meath (traditional)"@en .
 
-<http://geo.govdata.ie/traditional-county/monaghan>
+<http://geo.data-gov.ie/traditional-county/monaghan>
     a geo:TraditionalCounty, skos:Concept ;
-    skos:broader <http://geo.govdata.ie/province/ulster> ;
-    skos:exactMatch <http://geo.govdata.ie/county/monaghan> ;
+    skos:broader <http://geo.data-gov.ie/province/ulster> ;
+    skos:exactMatch <http://geo.data-gov.ie/county/monaghan> ;
     skos:inScheme code-geo:census-2006, code-geo:top-level ;
     skos:notation "monaghan-traditional" ;
     skos:prefLabel "County Monaghan (traditional)"@en .
 
-<http://geo.govdata.ie/traditional-county/offaly>
+<http://geo.data-gov.ie/traditional-county/offaly>
     a geo:TraditionalCounty, skos:Concept ;
-    skos:broader <http://geo.govdata.ie/province/leinster> ;
-    skos:exactMatch <http://geo.govdata.ie/county/offaly> ;
+    skos:broader <http://geo.data-gov.ie/province/leinster> ;
+    skos:exactMatch <http://geo.data-gov.ie/county/offaly> ;
     skos:inScheme code-geo:census-2006, code-geo:top-level ;
     skos:notation "offaly-traditional" ;
     skos:prefLabel "County Offaly (traditional)"@en .
 
-<http://geo.govdata.ie/traditional-county/roscommon>
+<http://geo.data-gov.ie/traditional-county/roscommon>
     a geo:TraditionalCounty, skos:Concept ;
-    skos:broader <http://geo.govdata.ie/province/connacht> ;
-    skos:exactMatch <http://geo.govdata.ie/county/roscommon> ;
+    skos:broader <http://geo.data-gov.ie/province/connacht> ;
+    skos:exactMatch <http://geo.data-gov.ie/county/roscommon> ;
     skos:inScheme code-geo:census-2006, code-geo:top-level ;
     skos:notation "roscommon-traditional" ;
     skos:prefLabel "County Roscommon (traditional)"@en .
 
-<http://geo.govdata.ie/traditional-county/sligo>
+<http://geo.data-gov.ie/traditional-county/sligo>
     a geo:TraditionalCounty, skos:Concept ;
-    skos:broader <http://geo.govdata.ie/province/connacht> ;
-    skos:exactMatch <http://geo.govdata.ie/county/sligo> ;
+    skos:broader <http://geo.data-gov.ie/province/connacht> ;
+    skos:exactMatch <http://geo.data-gov.ie/county/sligo> ;
     skos:inScheme code-geo:census-2006, code-geo:top-level ;
     skos:notation "sligo-traditional" ;
     skos:prefLabel "County Sligo (traditional)"@en .
 
-<http://geo.govdata.ie/traditional-county/tipperary>
+<http://geo.data-gov.ie/traditional-county/tipperary>
     a geo:TraditionalCounty, skos:Concept ;
-    skos:broader <http://geo.govdata.ie/province/munster> ;
+    skos:broader <http://geo.data-gov.ie/province/munster> ;
     skos:inScheme code-geo:census-2006, code-geo:top-level ;
-    skos:narrower <http://geo.govdata.ie/county/north-tipperary>, <http://geo.govdata.ie/county/south-tipperary> ;
+    skos:narrower <http://geo.data-gov.ie/county/north-tipperary>, <http://geo.data-gov.ie/county/south-tipperary> ;
     skos:notation "tipperary-traditional" ;
     skos:prefLabel "County Tipperary (traditional)"@en .
 
-<http://geo.govdata.ie/traditional-county/waterford>
+<http://geo.data-gov.ie/traditional-county/waterford>
     a geo:TraditionalCounty, skos:Concept ;
-    skos:broader <http://geo.govdata.ie/province/munster> ;
+    skos:broader <http://geo.data-gov.ie/province/munster> ;
     skos:inScheme code-geo:census-2006, code-geo:top-level ;
-    skos:narrower <http://geo.govdata.ie/city/waterford>, <http://geo.govdata.ie/county/waterford> ;
+    skos:narrower <http://geo.data-gov.ie/city/waterford>, <http://geo.data-gov.ie/county/waterford> ;
     skos:notation "waterford-traditional" ;
     skos:prefLabel "County Waterford (traditional)"@en .
 
-<http://geo.govdata.ie/traditional-county/westmeath>
+<http://geo.data-gov.ie/traditional-county/westmeath>
     a geo:TraditionalCounty, skos:Concept ;
-    skos:broader <http://geo.govdata.ie/province/leinster> ;
-    skos:exactMatch <http://geo.govdata.ie/county/westmeath> ;
+    skos:broader <http://geo.data-gov.ie/province/leinster> ;
+    skos:exactMatch <http://geo.data-gov.ie/county/westmeath> ;
     skos:inScheme code-geo:census-2006, code-geo:top-level ;
     skos:notation "westmeath-traditional" ;
     skos:prefLabel "County Westmeath (traditional)"@en .
 
-<http://geo.govdata.ie/traditional-county/wexford>
+<http://geo.data-gov.ie/traditional-county/wexford>
     a geo:TraditionalCounty, skos:Concept ;
-    skos:broader <http://geo.govdata.ie/province/leinster> ;
-    skos:exactMatch <http://geo.govdata.ie/county/wexford> ;
+    skos:broader <http://geo.data-gov.ie/province/leinster> ;
+    skos:exactMatch <http://geo.data-gov.ie/county/wexford> ;
     skos:inScheme code-geo:census-2006, code-geo:top-level ;
     skos:notation "wexford-traditional" ;
     skos:prefLabel "County Wexford (traditional)"@en .
 
-<http://geo.govdata.ie/traditional-county/wicklow>
+<http://geo.data-gov.ie/traditional-county/wicklow>
     a geo:TraditionalCounty, skos:Concept ;
-    skos:broader <http://geo.govdata.ie/province/leinster> ;
-    skos:exactMatch <http://geo.govdata.ie/county/wicklow> ;
+    skos:broader <http://geo.data-gov.ie/province/leinster> ;
+    skos:exactMatch <http://geo.data-gov.ie/county/wicklow> ;
     skos:inScheme code-geo:census-2006, code-geo:top-level ;
     skos:notation "wicklow-traditional" ;
     skos:prefLabel "County Wicklow (traditional)"@en .

@@ -15,7 +15,7 @@ class ConvertEthnicBackground (Converter):
   def __init__(self, title):
     namespaces = {
       # own namespaces
-      "code-ethnic-group" : "http://stats.govdata.ie/codelist/ethnic-group/",
+      "code-ethnic-group" : "http://stats.data-gov.ie/codelist/ethnic-group/",
     }
     Converter.__init__(self, DSD, title, namespaces, ED_FILE, EA_FILE)
     

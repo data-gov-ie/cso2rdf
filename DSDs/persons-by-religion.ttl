@@ -6,8 +6,8 @@
 
 # --- Own namespaces ------------------------
 
-@prefix dsd:            <http://stats.govdata.ie/dsd/> .
-@prefix prop:           <http://stats.govdata.ie/property/> .
+@prefix dsd:            <http://stats.data-gov.ie/dsd/> .
+@prefix prop:           <http://stats.data-gov.ie/property/> .
 
 # --- Data structure definition -------------
 

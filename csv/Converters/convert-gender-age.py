@@ -16,7 +16,7 @@ class ConvertGenderAge (Converter):
     namespaces = {
       "sdmx-code" : "http://purl.org/linked-data/sdmx/2009/code#",
       # Our namespaces
-      "code-age1" : "http://stats.govdata.ie/codelist/age1/",
+      "code-age1" : "http://stats.data-gov.ie/codelist/age1/",
     }
     Converter.__init__(self, DSD, title, namespaces, ED_FILE, EA_FILE)
     self.setAppendedDimensions([

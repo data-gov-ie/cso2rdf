@@ -5,8 +5,8 @@
 
 # --- Own namespaces ------------------------
 
-@prefix code:               <http://stats.govdata.ie/codelist/> .
-@prefix code-birthplace:    <http://stats.govdata.ie/codelist/birthplace/> .
+@prefix code:               <http://stats.data-gov.ie/codelist/> .
+@prefix code-birthplace:    <http://stats.data-gov.ie/codelist/birthplace/> .
 
 # --- Code lists ----------------------------
   

@@ -5,7 +5,7 @@
 
 # --- Own namespaces ------------------------
 
-@prefix concept:        <http://stats.govdata.ie/concept/> .
+@prefix concept:        <http://stats.data-gov.ie/concept/> .
 
 # --- Concepts ----------------------------  
 
