@@ -28,6 +28,8 @@ Requirements:
 Bugs:
 
 * Need to review URI patterns
-  * e.g., /City and /city/galway: This can raise two (or more) issues. If want to move up one level on /city/galway, we get /city, expecting a collection of cities, however that URI doesn't exist due to case sensitivity. In contrast, /City is used for class definition.
+  * e.g., /City and /city/galway: This can raise two (or more) issues. If want to move up one level on /city/galway, we get /city, possibly expecting a collection of cities, however that URI doesn't exist due to case sensitivity. In contrast, /City is used for class definition.
 
 * Some of the object resources are outputted as literals as opposed to IRIs. This occurs in gender-age-aggregates.ttl (e.g., prop:geoArea "http://geo.govdata.ie/traditional-county/tipperary") and persons-by-religion/persons-by-religion.ttl (prop:religion "http://stats.govdata.ie/codelist/religion/catholic").
+
+* Replace URIs like http://stats.data-gov.ie/codelist/census-2006/city/galway/ea/041-039 with http://stats.data-gov.ie/codelist/census-2006/city/geo/galway/ea/041-039 in observations.
